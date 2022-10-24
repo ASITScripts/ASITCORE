@@ -1,5 +1,5 @@
 $InstallationFolderPath = "C:\Downloads"
-$DeployTrendInstaller = "https://github.com/ASIT-LB/DeployTrend/raw/main/WFBS-SVC_Downloader.exe"
+$DeployTrendInstaller = "https://github.com/ASITScripts/ASITCORE/raw/TrendInstallation/WFBS-SVC_Downloader.exe"
 
 #Creates new path directory for C:\Downloads (or whatever is above for $InstallationFolderPath)
 New-Item -Path $InstallationFolderPath  -ItemType directory
