@@ -108,6 +108,7 @@ $PUBCOHEADOFFICE = "HeadOffice (Pubco)_Windows_OS_ITSPlatform_TKNf3c7f9a0-55f2-4
 $PUBCOJUNCTION = "Junction Hotel (Pubco)_Windows_OS_ITSPlatform_TKN24e7f95e-b451-4c7e-8b7e-21411b4417bc.msi"
 $PUBCOKNOX = "Knox Tavern (Pubco)_Windows_OS_ITSPlatform_TKNc0246030-92be-4fba-96d1-0300e67c487b.msi"
 $PUBCOLYGON = "Players on Lygon (Pubco)_Windows_OS_ITSPlatform_TKN227af785-6972-4b07-8df1-145ec4df163e.msi"
+$PUBCOMACS = "Macs Hotel (Pubco)_Windows_OS_ITSPlatform_TKNbba3d607-8baf-4f4d-a95a-7279524b63af.msi"
 $PUBCOMORNINGTON = "Mornington on Tanti (Pubco)_Windows_OS_ITSPlatform_TKNea0b9452-6da4-40a0-a66f-627841cb0a42.msi"
 $PUBCONEPEAN = "Nepean Cellars (Pubco)_Windows_OS_ITSPlatform_TKN42951e30-ea18-45a0-b120-39d8f0d3c902.msi"
 $PUBCOPOWELL = "Powell Hotel (Pubco)_Windows_OS_ITSPlatform_TKN2532da6d-bcaf-4b1c-9b78-11a6fb08f2f7.msi"
@@ -314,7 +315,8 @@ $TopMenu = (
 	'74 - WINENET',
 	'75 - YARRA YERRING',
 	'76 - YMBF',
-	'77 - No RMM Client required')
+	'77 - PUBCO MACS WARRNAMBOOL',
+    '78 - No RMM Client required')
 
 # $Choice = Get-MenuChoice $TopMenu
 $Choice = Get-MenuChoice -MenuItems $TopMenu -MenuTitle 'Which client / site is this device for?' -MenuPrompt 'Please select a site for RMM installation / SC client installation'
@@ -398,7 +400,8 @@ switch ($Choice)
 	'74' {$Selection = $WINENET}
 	'75' {$Selection = $YARRAYERRING}
 	'76' {$Selection = $YMBF}
-    '77' {$Selection = "NORMM"}
+    '77' {$Selection = $PUBCOMACS}
+    '78' {$Selection = "NORMM"}
     }
 
 # End selection
@@ -1997,5 +2000,7 @@ catch {
 
 }
 Write-Host -ForegroundColor Green "All done, goodbye"
+
+Remove-Item $script:MyInvocation.MyCommand.Path -Force
 
 Stop-Transcript
