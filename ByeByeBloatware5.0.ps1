@@ -289,7 +289,7 @@ $TopMenu = (
 	'48 - PUBCO BAYNBRIDGE',
 	'49 - PUBCO BROWNS',
 	'50 - PUBCO CROWN',
-	'51 - PUBCO DUKEDuke',
+	'51 - PUBCO DUKE',
 	'52 - PUBCO HEADOFFICE',
 	'53 - PUBCO JUNCTION',
 	'54 - PUBCO KNOX',
@@ -374,7 +374,7 @@ switch ($Choice)
 	'48' {$Selection = $PUBCOBAYNBRIDGE}
 	'49' {$Selection = $PUBCOBROWNS}
 	'50' {$Selection = $PUBCOCROWN}
-	'51' {$Selection = $PUBCODUKEDuke}
+	'51' {$Selection = $PUBCODUKE}
 	'52' {$Selection = $PUBCOHEADOFFICE}
 	'53' {$Selection = $PUBCOJUNCTION}
 	'54' {$Selection = $PUBCOKNOX}
