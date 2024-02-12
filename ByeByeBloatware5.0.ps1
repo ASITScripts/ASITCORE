@@ -415,7 +415,7 @@ if ($Selection -match "NORMM")
         Invoke-WebRequest $source -OutFile $destination
 
     # Start the installation when download is finished - Devices will be placed in SC group called AA - Automated Installs - Move Me
-        Start-Process -FilePath "$ScreenConnectFolder\ScreenConnect.ClientSetup.msi" -ArgumentList "/sAll /rs /rps /msi /norestart /quiet EULA_ACCEPT=YES"
+        Start-Process -FilePath "$ScreenConnectFolder\ScreenConnect.ClientSetup.msi" -ArgumentList "/msi /norestart /quiet EULA_ACCEPT=YES"
 }
 else {
     # Downloads the RMM installer
