@@ -303,7 +303,7 @@ $TopMenu = (
 	'62 - ROSEBUD HOTEL',
 	'63 - ROSSTOWN HOTEL',
 	'64 - SIW',
-	'65 - SLEE PSERVICES',
+	'65 - SLEEP SERVICES',
 	'66 - TFB BERLIN',
 	'67 - TFB MELBOURNE',
 	'68 - TPC',
@@ -474,7 +474,6 @@ New-ItemProperty  -path "HKLM:\SYSTEM\CurrentControlSet\Services\PolicyAgent" -n
 New-ItemProperty  -path "HKLM:\SYSTEM\CurrentControlSet\Services\RasMan\Parameters" -name "ProhibitIpSec" -value "0"  -PropertyType "Dword"
 Write-Host -ForegroundColor Green ("[$Time]`t" + 'VPN Regfix added')
 
-
 ############################################################################################################
 #                                        Remove AppX Packages                                              #
 #                                                                                                          #
@@ -482,7 +481,7 @@ Write-Host -ForegroundColor Green ("[$Time]`t" + 'VPN Regfix added')
 
     #Removes AppxPackages
     $WhitelistedApps = 'Microsoft.WindowsNotepad|Microsoft.CompanyPortal|Microsoft.ScreenSketch|Microsoft.Paint3D|Microsoft.WindowsCalculator|Microsoft.WindowsStore|Microsoft.Windows.Photos|CanonicalGroupLimited.UbuntuonWindows|`
-    |Microsoft.MicrosoftStickyNotes|Microsoft.MSPaint|Microsoft.WindowsCamera|.NET|Framework|`
+    |Microsoft.MicrosoftStickyNotes|Microsoft.MSPaint|Microsoft.WindowsCamera|.NET|Framework|AD2F1837.HPAutoLockAndAwake`
     Microsoft.HEIFImageExtension|Microsoft.ScreenSketch|Microsoft.StorePurchaseApp|Microsoft.VP9VideoExtensions|Microsoft.WebMediaExtensions|Microsoft.WebpImageExtension|Microsoft.DesktopAppInstaller|WindSynthBerry|MIDIBerry|Slack'
     #NonRemovable Apps that where getting attempted and the system would reject the uninstall, speeds up debloat and prevents 'initalizing' overlay when removing apps
     $NonRemovable = '1527c705-839a-4832-9118-54d4Bd6a0c89|c5e2524a-ea46-4f67-841f-6a9465d9d515|E2A4F912-2574-4A75-9BB0-0D023378592B|F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE|InputApp|Microsoft.AAD.BrokerPlugin|Microsoft.AccountsControl|`
@@ -928,6 +927,22 @@ Get-AppxPackage - allusers Microsoft.549981C3F5F10 | Remove AppxPackage
     ##Stop-Service "DiagTrack"
     ##Set-Service "DiagTrack" -StartupType Disabled
 
+    Function StopDisableService($name) {
+        if (Get-Service -Name $name -ea SilentlyContinue) {
+            Stop-Service -Name $name -Force -Confirm:$False
+            Set-Service -Name $name -StartupType Disabled
+        }
+    }
+    StopDisableService -name "HPAppHelperCap"
+    StopDisableService -name "HP Comm Recover" #This causes disconnection issues
+    #StopDisableService -name "HPDiagsCap" - Just for diagnosing
+    #StopDisableService -name "HotKeyServiceUWP" - This disables FN keys for HP devices - SOMETIMES you can disable this if needed if it's causing issues for some reason
+    StopDisableService -name "LanWlanWwanSwitchgingServiceUWP" # Not sure if we need to stop this or not - if someone can find out that'd be cool
+    StopDisableService -name "HPNetworkCap"
+    StopDisableService -name "HPSysInfoCap"
+    StopDisableService -name "HP TechPulse Core"
+    StopDisableService -name "IntelCstService"
+    StopDisableService -name "IntelCstSupportService"
 
 ############################################################################################################
 #                                        Windows 11 Specific                                               #
