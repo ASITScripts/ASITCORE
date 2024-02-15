@@ -1231,16 +1231,6 @@ New-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies
 Remove-Item C:\Windows\Temp\SetACL.exe -recurse
 
 ############################################################################################################
-#                                        Disable Edge Surf Game                                            #
-#                                                                                                          #
-############################################################################################################
-$surf = "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge"
-If (!(Test-Path $surf)) {
-    New-Item $surf
-}
-New-ItemProperty -Path $surf -Name 'AllowSurfGame' -Value 0 -PropertyType DWord
-
-############################################################################################################
 #                                       Grab all Uninstall Strings                                         #
 #                                                                                                          #
 ############################################################################################################
