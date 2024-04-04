@@ -90,6 +90,7 @@ $JAMWESTEND = "Main (JAMWestend)_Windows_OS_ITSPlatform_TKNa5d71202-1a6d-475a-a6
 $JBP = "Main (JBP)_Windows_OS_ITSPlatform_TKN8720ec15-db6c-4fa4-b018-f7b681f0bafc.msi"
 $KEATING =  "Main (Keating)_Windows_OS_ITSPlatform_TKN9e1120f4-49e5-4cf4-bafa-e5ca651eb69a.msi"
 $LEITZMELBOURNE = "Melbourne (Leitz)_Windows_OS_ITSPlatform_TKN6be0ba71-fd14-4ab6-9a28-6b22fd990377.msi"
+$LEXLAB = "Lexlab-Lexlab_Windows_OS_ITSPlatform_TKN3ea8820f-f32e-4c2c-abe6-d54c71065afc.msi"
 $MEDIAREPUBLIC = "Main (MediaRepublic)_Windows_OS_ITSPlatform_TKNff6d6011-9654-446b-8f72-f0887723b6e9.msi"
 $NEWCO = "Main (Newco)_Windows_OS_ITSPlatform_TKN0804e443-52c8-4625-bcf4-f27c137f2e11.msi"
 $NEXUS = "Main (Nexus)_Windows_OS_ITSPlatform_TKNde88ac51-40be-42a5-8100-990a76db49b4.msi"
@@ -316,7 +317,8 @@ $TopMenu = (
 	'75 - YARRA YERRING',
 	'76 - YMBF',
 	'77 - PUBCO MACS WARRNAMBOOL',
-    '78 - No RMM Client required')
+    '78 - LEXLAB',
+    '0 - No RMM Client required')
 
 # $Choice = Get-MenuChoice $TopMenu
 $Choice = Get-MenuChoice -MenuItems $TopMenu -MenuTitle 'Which client / site is this device for?' -MenuPrompt 'Please select a site for RMM installation / SC client installation'
@@ -401,7 +403,8 @@ switch ($Choice)
 	'75' {$Selection = $YARRAYERRING}
 	'76' {$Selection = $YMBF}
     '77' {$Selection = $PUBCOMACS}
-    '78' {$Selection = "NORMM"}
+    '78' {$Selection = $LEXLABS}
+    '0' {$Selection = "NORMM"}
     }
 
 # End selection
