@@ -317,8 +317,8 @@ $TopMenu = (
 	'75 - YARRA YERRING',
 	'76 - YMBF',
 	'77 - PUBCO MACS WARRNAMBOOL',
-    '78 - LEXLAB',
-    '0 - No RMM Client required')
+	'78 - LEXLAB',
+	'0 - No RMM Client required')
 
 # $Choice = Get-MenuChoice $TopMenu
 $Choice = Get-MenuChoice -MenuItems $TopMenu -MenuTitle 'Which client / site is this device for?' -MenuPrompt 'Please select a site for RMM installation / SC client installation'
@@ -326,9 +326,9 @@ $Choice = Get-MenuChoice -MenuItems $TopMenu -MenuTitle 'Which client / site is 
 Write-Output ''
 switch ($Choice)
     {
-    '1' {$Selection = $AMCL}
-    '2' {$Selection = $AQUACORPADELAIDE}
-    '3' {$Selection = $AQUACORPBRISBANE}
+	'1' {$Selection = $AMCL}
+	'2' {$Selection = $AQUACORPADELAIDE}
+	'3' {$Selection = $AQUACORPBRISBANE}
 	'4' {$Selection = $ASIT}
 	'5' {$Selection = $BARCRUSHER}
 	'6' {$Selection = $BATMANS}
@@ -402,9 +402,9 @@ switch ($Choice)
 	'74' {$Selection = $WINENET}
 	'75' {$Selection = $YARRAYERRING}
 	'76' {$Selection = $YMBF}
-    '77' {$Selection = $PUBCOMACS}
-    '78' {$Selection = $LEXLAB}
-    '0' {$Selection = "NORMM"}
+	'77' {$Selection = $PUBCOMACS}
+	'78' {$Selection = $LEXLAB}
+	'0' {$Selection = "NORMM"}
     }
 
 # End selection
