@@ -403,7 +403,7 @@ switch ($Choice)
 	'75' {$Selection = $YARRAYERRING}
 	'76' {$Selection = $YMBF}
     '77' {$Selection = $PUBCOMACS}
-    '78' {$Selection = $LEXLABS}
+    '78' {$Selection = $LEXLAB}
     '0' {$Selection = "NORMM"}
     }
 
