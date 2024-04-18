@@ -91,6 +91,7 @@ $JBP = "Main (JBP)_Windows_OS_ITSPlatform_TKN8720ec15-db6c-4fa4-b018-f7b681f0baf
 $KEATING =  "Main (Keating)_Windows_OS_ITSPlatform_TKN9e1120f4-49e5-4cf4-bafa-e5ca651eb69a.msi"
 $LEITZMELBOURNE = "Melbourne (Leitz)_Windows_OS_ITSPlatform_TKN6be0ba71-fd14-4ab6-9a28-6b22fd990377.msi"
 $LEXLAB = "Lexlab-Lexlab_Windows_OS_ITSPlatform_TKN3ea8820f-f32e-4c2c-abe6-d54c71065afc.msi"
+$LINCOLN = "Lincoln_Pearce-Lincoln_Pearce_Windows_OS_ITSPlatform_TKNf56fe394-4177-4a13-b921-e120815b54d8.msi"
 $MEDIAREPUBLIC = "Main (MediaRepublic)_Windows_OS_ITSPlatform_TKNff6d6011-9654-446b-8f72-f0887723b6e9.msi"
 $NEWCO = "Main (Newco)_Windows_OS_ITSPlatform_TKN0804e443-52c8-4625-bcf4-f27c137f2e11.msi"
 $NEXUS = "Main (Nexus)_Windows_OS_ITSPlatform_TKNde88ac51-40be-42a5-8100-990a76db49b4.msi"
@@ -318,6 +319,7 @@ $TopMenu = (
 	'76 - YMBF',
 	'77 - PUBCO MACS WARRNAMBOOL',
 	'78 - LEXLAB',
+ 	'79 - LINCOLN PEARCE',
 	'0 - No RMM Client required')
 
 # $Choice = Get-MenuChoice $TopMenu
@@ -404,6 +406,7 @@ switch ($Choice)
 	'76' {$Selection = $YMBF}
 	'77' {$Selection = $PUBCOMACS}
 	'78' {$Selection = $LEXLAB}
+ 	'79' {$Selection = $LINCOLN}
 	'0' {$Selection = "NORMM"}
     }
 
