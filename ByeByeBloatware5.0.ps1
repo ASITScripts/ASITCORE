@@ -70,6 +70,8 @@ $CASTELLOGISBOURNE = "Victoria Tavern Gisbourne (Castellos)_Windows_OS_ITSPlatfo
 $CASTELLOHEADOFFICE = "HeadOffice (Castellos)_Windows_OS_ITSPlatform_TKNa1439105-5c5c-41c6-8c36-b2ae4ca4a856.msi"
 $CASTELLOLONGBEACH = "Longbeach Hotel (Castellos)_Windows_OS_ITSPlatform_TKN6824eb16-83c2-4c23-ad4a-37aaa967af33.msi"
 $CASTELLOPAKENHAM = "Pakenham Hotel (Castellos)_Windows_OS_ITSPlatform_TKN81e2b043-57dc-45b2-a3c9-a52673f6793a.msi"
+$CASTELLOOLIVETREE = "Olive_Tree_Hotel-Castello_Group_Pty_Ltd_Windows_OS_ITSPlatform_TKNa8a34b89-d785-4d5c-affc-b13dce7080c6.msi"
+$CASTELLODERRIMUT = "Derrimut_Hotel-Castello_Group_Pty_Ltd_Windows_OS_ITSPlatform_TKN38f28a1d-d34d-46f7-b50a-1c2a46df2912.msi"
 $CDIT = "main (CDIT)_Windows_OS_ITSPlatform_TKN4c718ae0-eb16-47c9-a5c6-1bb2d26169de.msi"
 $CHALMERS = "Main (Chalmers)_Windows_OS_ITSPlatform_TKN0cfc05cd-3682-489f-a3e7-765faf555f23.msi"
 $CONSTRUCTIONZONE = "Office (ConstructionZone)_Windows_OS_ITSPlatform_TKNabd44469-8b39-4e6a-93d9-6e075fb484b1.msi"
@@ -320,6 +322,8 @@ $TopMenu = (
 	'77 - PUBCO MACS WARRNAMBOOL',
 	'78 - LEXLAB',
  	'79 - LINCOLN PEARCE',
+  	'80 - CASTELLO OLIVE TREE',
+   	'81 - CASTELLO DERRIMUT',
 	'0 - No RMM Client required')
 
 # $Choice = Get-MenuChoice $TopMenu
@@ -407,6 +411,8 @@ switch ($Choice)
 	'77' {$Selection = $PUBCOMACS}
 	'78' {$Selection = $LEXLAB}
  	'79' {$Selection = $LINCOLN}
+  	'80' {$Selection = $CASTELLOOLIVETREE}
+   	'81' {$Selection = CASTELLODERRIMUT}
 	'0' {$Selection = "NORMM"}
     }
 
