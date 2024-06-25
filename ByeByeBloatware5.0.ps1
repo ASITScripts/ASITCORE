@@ -412,7 +412,7 @@ switch ($Choice)
 	'78' {$Selection = $LEXLAB}
  	'79' {$Selection = $LINCOLN}
   	'80' {$Selection = $CASTELLOOLIVETREE}
-   	'81' {$Selection = CASTELLODERRIMUT}
+   	'81' {$Selection = $CASTELLODERRIMUT}
 	'0' {$Selection = "NORMM"}
     }
 
