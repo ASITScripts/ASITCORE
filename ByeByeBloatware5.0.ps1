@@ -2003,20 +2003,42 @@ Start-sleep -s 5
 #Restarts device after windows updates are installed
 #This section will run Windows Updates and install them
 try {
-    If(-not(Get-InstalledModule PSWindowsUpdate -ErrorAction silentlycontinue))
-    {
-        Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
-        Set-PSRepository PSGallery -InstallationPolicy Trusted
-        Install-Module PSWindowsUpdate -Confirm:$False -Force
+    # Check if PSWindowsUpdate module is installed, if not, install it
+    if (-not (Get-Module -ListAvailable -Name PSWindowsUpdate)) {
+        Write-Host "Installing PSWindowsUpdate module..."
+        
+        # Ensure NuGet provider is installed and trusted
+        if (-not (Get-PackageProvider -Name NuGet -ErrorAction SilentlyContinue)) {
+            Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
+        }
+        
+        # Set the PSGallery repository to trusted to avoid prompts
+        Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
+        
+        # Install PSWindowsUpdate module
+        Install-Module -Name PSWindowsUpdate -Confirm:$False -Force
+    } else {
+        Write-Host "PSWindowsUpdate module already installed."
     }
-    Get-WindowsUpdate
-    Install-WindowsUpdate -AcceptAll -AutoReboot
+
+    # Import the PSWindowsUpdate module if not already imported
+    Import-Module PSWindowsUpdate -ErrorAction Stop
+
+    # Run Windows update check and install updates automatically
+    Write-Host "Checking for and installing Windows updates..."
+    Get-WindowsUpdate -Install -AcceptAll -IgnoreReboot -ErrorAction Stop
+
+    # Automatically reboot the system if necessary
+    if (Get-WindowsUpdateRebootStatus) {
+        Write-Host "Rebooting system as updates require it..."
+        Restart-Computer -Force
+    } else {
+        Write-Host "No reboot required."
+    }
 }
 catch {
-    Write-Warning -Message "Some updates failed to install - please restart then manually check for updates either with PS or Windows Update"
-
+    Write-Warning "Some updates failed to install. Please manually check for updates after restarting."
 }
-Write-Host -ForegroundColor Green "All done, goodbye"
 
 Remove-Item $script:MyInvocation.MyCommand.Path -Force
 
