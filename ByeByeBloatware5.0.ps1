@@ -2026,7 +2026,7 @@ try {
 
     # Run Windows update check and install updates automatically
     Write-Host "Checking for and installing Windows updates..."
-    Get-WindowsUpdate -Install -AcceptAll -IgnoreReboot -ErrorAction Stop
+    Get-WindowsUpdate -Install -AcceptAll -AutoReboot -ErrorAction Stop
 
     # Automatically reboot the system if necessary
     if (Get-WindowsUpdateRebootStatus) {
