@@ -4,85 +4,46 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\AddressBook]
 
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Cisco AnyConnect Secure Mobility Client]
+"Language"=dword:00000409
+"DisplayName"="Cisco AnyConnect Secure Mobility Client "
+"NoRepair"=dword:00000001
+"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,77,00,77,00,77,00,\
+  2e,00,63,00,69,00,73,00,63,00,6f,00,2e,00,63,00,6f,00,6d,00,2f,00,54,00,41,\
+  00,43,00,2f,00,00,00
+"HelpTelephone"="(800) 553-2447"
+"Brand"="Cisco"
+"DisplayVersion"="4.10.05085"
+"Comments"="A SmartNET contract is required for support - Cisco AnyConnect Secure Mobility Client."
+"DisplayIcon"="C:\\Program Files (x86)\\Cisco\\Cisco AnyConnect Secure Mobility Client\\InstallHelper.exe"
+"EstimatedSize"=dword:00001770
+"NoModify"=dword:00000001
+"Publisher"="Cisco Systems, Inc."
+"URLInfoAbout"="http://www.cisco.com"
+"UninstallString"=hex(2):43,00,3a,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,\
+  6d,00,20,00,46,00,69,00,6c,00,65,00,73,00,20,00,28,00,78,00,38,00,36,00,29,\
+  00,5c,00,43,00,69,00,73,00,63,00,6f,00,5c,00,43,00,69,00,73,00,63,00,6f,00,\
+  20,00,41,00,6e,00,79,00,43,00,6f,00,6e,00,6e,00,65,00,63,00,74,00,20,00,53,\
+  00,65,00,63,00,75,00,72,00,65,00,20,00,4d,00,6f,00,62,00,69,00,6c,00,69,00,\
+  74,00,79,00,20,00,43,00,6c,00,69,00,65,00,6e,00,74,00,5c,00,55,00,6e,00,69,\
+  00,6e,00,73,00,74,00,61,00,6c,00,6c,00,2e,00,65,00,78,00,65,00,20,00,2d,00,\
+  72,00,65,00,6d,00,6f,00,76,00,65,00,00,00
+
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Connection Manager]
 "SystemComponent"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\DirectDrawEx]
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Dropbox]
-"UninstallString"=hex(2):22,00,43,00,3a,00,5c,00,50,00,72,00,6f,00,67,00,72,00,\
-  61,00,6d,00,20,00,46,00,69,00,6c,00,65,00,73,00,20,00,28,00,78,00,38,00,36,\
-  00,29,00,5c,00,44,00,72,00,6f,00,70,00,62,00,6f,00,78,00,5c,00,43,00,6c,00,\
-  69,00,65,00,6e,00,74,00,5c,00,44,00,72,00,6f,00,70,00,62,00,6f,00,78,00,55,\
-  00,6e,00,69,00,6e,00,73,00,74,00,61,00,6c,00,6c,00,65,00,72,00,2e,00,65,00,\
-  78,00,65,00,22,00,20,00,2f,00,49,00,6e,00,73,00,74,00,61,00,6c,00,6c,00,54,\
-  00,79,00,70,00,65,00,3a,00,4d,00,41,00,43,00,48,00,49,00,4e,00,45,00,00,00
-"InstallLocation"=hex(2):43,00,3a,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,\
-  6d,00,20,00,46,00,69,00,6c,00,65,00,73,00,20,00,28,00,78,00,38,00,36,00,29,\
-  00,5c,00,44,00,72,00,6f,00,70,00,62,00,6f,00,78,00,5c,00,43,00,6c,00,69,00,\
-  65,00,6e,00,74,00,00,00
-"DisplayName"="Dropbox"
-"UninstallPath"=hex(2):43,00,3a,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,\
-  6d,00,20,00,46,00,69,00,6c,00,65,00,73,00,20,00,28,00,78,00,38,00,36,00,29,\
-  00,5c,00,44,00,72,00,6f,00,70,00,62,00,6f,00,78,00,5c,00,43,00,6c,00,69,00,\
-  65,00,6e,00,74,00,5c,00,44,00,72,00,6f,00,70,00,62,00,6f,00,78,00,55,00,6e,\
-  00,69,00,6e,00,73,00,74,00,61,00,6c,00,6c,00,65,00,72,00,2e,00,65,00,78,00,\
-  65,00,00,00
-"Publisher"="Dropbox, Inc."
-"VersionMajor"=dword:000000db
-"VersionMinor"=dword:00000004
-"DisplayIcon"="C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe,0"
-"DisplayVersion"="219.4.4463"
-"URLInfoAbout"="https://www.dropbox.com"
-"HelpLink"="https://www.dropbox.com"
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\DXM_Runtime]
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\DYMO Connect Web Service]
-"DisplayName"="DYMO Connect Web Service"
-"UninstallString"="\"C:\\Program Files (x86)\\DYMO\\DYMO Connect\\Uninstall.exe\""
-"QuietUninstallString"="\"C:\\Program Files (x86)\\DYMO\\DYMO Connect\\Uninstall.exe\" /S"
-"Publisher"="DYMO"
-"InstallLocation"="\"C:\\Program Files (x86)\\DYMO\\DYMO Connect\""
-"DisplayIcon"="\"C:\\Program Files (x86)\\DYMO\\DYMO Connect\\Uninstall.exe\""
-"DisplayVersion"="1.4.8.3"
-"EstimatedSize"=dword:000188f0
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Fontcore]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Genie_1740_is1]
-"Inno Setup: Setup Version"="5.5.6 (a)"
-"Inno Setup: App Path"="C:\\Genie"
-"InstallLocation"="C:\\Genie\\"
-"Inno Setup: Icon Group"="Genie"
-"Inno Setup: User"="User"
-"Inno Setup: Setup Type"="client"
-"Inno Setup: Selected Components"="client"
-"Inno Setup: Deselected Components"="update,full,full\\solo,full\\server,full\\data,full\\mimspres,full\\mbs,full\\dva,full\\fund,full\\workcover,full\\icpc,full\\icd10,full\\radar,full\\pils,full\\manual"
-"Inno Setup: Language"="default"
-"DisplayName"="Genie version 9.4.7"
-"UninstallString"="\"C:\\Genie\\Uninst\\unins000.exe\""
-"QuietUninstallString"="\"C:\\Genie\\Uninst\\unins000.exe\" /SILENT"
-"DisplayVersion"="9.4.7"
-"Publisher"="Genie Solutions Pty Ltd"
-"URLInfoAbout"="http://www.geniesolutions.com.au"
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"InstallDate"="20230621"
-"MajorVersion"=dword:00000009
-"MinorVersion"=dword:00000004
-"EstimatedSize"=dword:000284c6
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\HostedAgent]
 "DisplayIcon"="C:\\Program Files (x86)\\Trend Micro\\Client Server Security Agent\\PCCNtMon.exe"
 "InstallLocation"="C:\\Program Files (x86)\\Trend Micro\\Client Server Security Agent"
 "VersionMinor"=dword:00000000
 "VersionMajor"=dword:00000001
-"DisplayVersion"="6.7.3902"
+"DisplayVersion"="6.7.3897"
 "Publisher"="Trend Micro Inc."
 "UninstallString"="msiexec /x {BED0B8A2-2986-49F8-90D6-FA008D37A3D2} /qf /l+* \"C:\\Windows\\temp\\wofie_uninstall.log\""
 "DisplayName"="Trend Micro Security Agent"
@@ -108,7 +69,7 @@ Windows Registry Editor Version 5.00
 "DisplayIcon"="C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\134.0.3124.72\\msedge.exe,0"
 "NoRepair"=dword:00000001
 "Publisher"="Microsoft Corporation"
-"InstallDate"="20250316"
+"InstallDate"="20250317"
 "VersionMajor"=dword:00000c34
 "VersionMinor"=dword:00000048
 
@@ -123,14 +84,14 @@ Windows Registry Editor Version 5.00
 "UninstallString"="\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\133.0.3065.92\\Installer\\setup.exe\" --uninstall --msedgewebview --system-level --verbose-logging"
 "InstallLocation"="C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application"
 "DisplayIcon"="C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\133.0.3065.92\\msedgewebview2.exe,0"
+"NoRemove"=dword:00000001
 "NoRepair"=dword:00000001
 "Publisher"="Microsoft Corporation"
 "Version"="133.0.3065.92"
 "DisplayVersion"="133.0.3065.92"
-"InstallDate"="20250303"
+"InstallDate"="20250304"
 "VersionMajor"=dword:00000bf9
 "VersionMinor"=dword:0000005c
-"NoRemove"=dword:00000001
 "SystemComponent"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\MobileOptionPack]
@@ -139,142 +100,63 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\SAAZOD]
 "Publisher"="ITSupport247"
-"DisplayIcon"="C:\\Program Files (x86)\\SAAZOD\\desktop.ico,0"
-"EstimatedSize"=dword:000127e7
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\SchedulingAgent]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\TeamViewer]
+"DisplayName"="TeamViewer Host"
+"DisplayIcon"="C:\\Program Files (x86)\\TeamViewer\\TeamViewer.exe"
+"Publisher"="TeamViewer"
+"HelpLink"="https://www.teamviewer.com"
+"UninstallString"="\"C:\\Program Files (x86)\\TeamViewer\\uninstall.exe\""
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"VersionMajor"=dword:0000000f
+"VersionMinor"=dword:0000003f
+"InstallLocation"="C:\\Program Files (x86)\\TeamViewer"
+"DisplayVersion"="15.63.4"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\WIC]
 "NoRemove"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{01EE03A6-28E3-420C-95D6-A11F9CD259CC}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="1.6.5996"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20240419"
-"InstallLocation"="C:\\Program Files (x86)\\Canon Electronics\\Scan2App\\"
-"InstallSource"="C:\\Users\\User\\AppData\\Local\\Downloaded Installations\\{A5B5F2CC-AE0C-497A-BDCF-5B6CD7D88B9D}\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,30,00,31,00,45,00,45,00,30,00,33,00,41,00,\
-  36,00,2d,00,32,00,38,00,45,00,33,00,2d,00,34,00,32,00,30,00,43,00,2d,00,39,\
-  00,35,00,44,00,36,00,2d,00,41,00,31,00,31,00,46,00,39,00,43,00,44,00,32,00,\
-  35,00,39,00,43,00,43,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="Canon Electronics Inc."
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00000da5
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,30,00,31,00,45,00,45,00,30,00,33,00,41,\
-  00,36,00,2d,00,32,00,38,00,45,00,33,00,2d,00,34,00,32,00,30,00,43,00,2d,00,\
-  39,00,35,00,44,00,36,00,2d,00,41,00,31,00,31,00,46,00,39,00,43,00,44,00,32,\
-  00,35,00,39,00,43,00,43,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000001
-"VersionMinor"=dword:00000006
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0106176c
-"Language"=dword:00000000
-"DisplayName"="CaptureOnTouch plug-in for Application"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{023EEEB7-D29E-489F-A714-9D421667E584}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="1.4.6030"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20240419"
-"InstallLocation"="C:\\Program Files (x86)\\Canon Electronics\\PluginForOneDrive\\"
-"InstallSource"="C:\\Users\\User\\AppData\\Local\\Downloaded Installations\\{68D4468F-A8DF-43FB-86CC-32F8395A2887}\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,30,00,32,00,33,00,45,00,45,00,45,00,42,00,\
-  37,00,2d,00,44,00,32,00,39,00,45,00,2d,00,34,00,38,00,39,00,46,00,2d,00,41,\
-  00,37,00,31,00,34,00,2d,00,39,00,44,00,34,00,32,00,31,00,36,00,36,00,37,00,\
-  45,00,35,00,38,00,34,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="Canon Electronics Inc."
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00000c25
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,30,00,32,00,33,00,45,00,45,00,45,00,42,\
-  00,37,00,2d,00,44,00,32,00,39,00,45,00,2d,00,34,00,38,00,39,00,46,00,2d,00,\
-  41,00,37,00,31,00,34,00,2d,00,39,00,44,00,34,00,32,00,31,00,36,00,36,00,37,\
-  00,45,00,35,00,38,00,34,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000001
-"VersionMinor"=dword:00000004
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0104178e
-"Language"=dword:00000000
-"DisplayName"="CaptureOnTouch plug-in for Microsoft OneDrive"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{042d26ef-3dbe-4c25-95d3-4c1b11b235a7}]
-"BundleCachePath"="C:\\ProgramData\\Package Cache\\{042d26ef-3dbe-4c25-95d3-4c1b11b235a7}\\vcredist_x64.exe"
-"BundleUpgradeCode"=hex(7):7b,00,34,00,30,00,42,00,37,00,35,00,30,00,30,00,42,\
-  00,2d,00,37,00,36,00,42,00,43,00,2d,00,33,00,39,00,33,00,32,00,2d,00,39,00,\
-  35,00,33,00,37,00,2d,00,36,00,39,00,30,00,34,00,38,00,31,00,33,00,45,00,37,\
-  00,35,00,39,00,41,00,7d,00,00,00,00,00
-"BundleAddonCode"=hex(7):
-"BundleDetectCode"=hex(7):
-"BundlePatchCode"=hex(7):
-"BundleVersion"="12.0.40664.0"
-"BundleProviderKey"="{042d26ef-3dbe-4c25-95d3-4c1b11b235a7}"
-"BundleTag"=""
-"EngineVersion"="3.7.3424.0"
-"DisplayIcon"="C:\\ProgramData\\Package Cache\\{042d26ef-3dbe-4c25-95d3-4c1b11b235a7}\\vcredist_x64.exe,0"
-"DisplayName"="Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.40664"
-"DisplayVersion"="12.0.40664.0"
-"Publisher"="Microsoft Corporation"
-"ModifyPath"="\"C:\\ProgramData\\Package Cache\\{042d26ef-3dbe-4c25-95d3-4c1b11b235a7}\\vcredist_x64.exe\" /modify"
-"NoElevateOnModify"=dword:00000001
-"QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{042d26ef-3dbe-4c25-95d3-4c1b11b235a7}\\vcredist_x64.exe\" /uninstall /quiet"
-"UninstallString"="\"C:\\ProgramData\\Package Cache\\{042d26ef-3dbe-4c25-95d3-4c1b11b235a7}\\vcredist_x64.exe\"  /uninstall"
-"EstimatedSize"=dword:00005246
-"Resume"=dword:00000003
-"Installed"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{099218A5-A723-43DC-8DB5-6173656A1E94}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="1.3.983.1"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20250124"
-"InstallLocation"=""
-"InstallSource"="C:\\Program Files (x86)\\Dropbox\\Update\\1.3.983.1\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,30,00,39,00,39,00,32,00,31,00,38,00,41,00,\
-  35,00,2d,00,41,00,37,00,32,00,33,00,2d,00,34,00,33,00,44,00,43,00,2d,00,38,\
-  00,44,00,42,00,35,00,2d,00,36,00,31,00,37,00,33,00,36,00,35,00,36,00,41,00,\
-  31,00,45,00,39,00,34,00,7d,00,00,00
-"Publisher"="Dropbox, Inc."
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:0000001d
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{07AD1142-2132-4BAC-9680-EDB89C85BDBA}]
 "SystemComponent"=dword:00000001
+"ParentKeyName"="Cisco AnyConnect Secure Mobility Client"
+"AuthorizedCDFPrefix"=""
+"Comments"="A SmartNET contract is required for support - Cisco AnyConnect Secure Mobility Client."
+"Contact"=""
+"DisplayVersion"="4.10.05085"
+"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,77,00,77,00,77,00,\
+  2e,00,63,00,69,00,73,00,63,00,6f,00,2e,00,63,00,6f,00,6d,00,2f,00,54,00,41,\
+  00,43,00,2f,00,00,00
+"HelpTelephone"="(800) 553-2447"
+"InstallDate"="20241112"
+"InstallLocation"="C:\\Program Files (x86)\\Cisco\\Cisco AnyConnect Secure Mobility Client\\"
+"InstallSource"="\\\\2k12v-dc01\\Workstations\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,30,00,37,00,41,00,44,00,31,00,31,00,34,00,\
+  32,00,2d,00,32,00,31,00,33,00,32,00,2d,00,34,00,42,00,41,00,43,00,2d,00,39,\
+  00,36,00,38,00,30,00,2d,00,45,00,44,00,42,00,38,00,39,00,43,00,38,00,35,00,\
+  42,00,44,00,42,00,41,00,7d,00,00,00
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"Publisher"="Cisco Systems, Inc."
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:00006aa4
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,30,00,39,00,39,00,32,00,31,00,38,00,41,\
-  00,35,00,2d,00,41,00,37,00,32,00,33,00,2d,00,34,00,33,00,44,00,43,00,2d,00,\
-  38,00,44,00,42,00,35,00,2d,00,36,00,31,00,37,00,33,00,36,00,35,00,36,00,41,\
-  00,31,00,45,00,39,00,34,00,7d,00,00,00
-"URLInfoAbout"=""
+  78,00,65,00,20,00,2f,00,58,00,7b,00,30,00,37,00,41,00,44,00,31,00,31,00,34,\
+  00,32,00,2d,00,32,00,31,00,33,00,32,00,2d,00,34,00,42,00,41,00,43,00,2d,00,\
+  39,00,36,00,38,00,30,00,2d,00,45,00,44,00,42,00,38,00,39,00,43,00,38,00,35,\
+  00,42,00,44,00,42,00,41,00,7d,00,00,00
+"URLInfoAbout"="http://www.cisco.com"
 "URLUpdateInfo"=""
-"VersionMajor"=dword:00000001
-"VersionMinor"=dword:00000003
+"VersionMajor"=dword:00000004
+"VersionMinor"=dword:0000000a
 "WindowsInstaller"=dword:00000001
-"Version"=dword:010303d7
+"Version"=dword:040a13dd
 "Language"=dword:00000409
-"DisplayName"="Dropbox Update Helper"
+"DisplayName"="Cisco AnyConnect Secure Mobility Client"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{0C3457A0-3DCE-4A33-BEF0-9B528C557771}]
 "AuthorizedCDFPrefix"=""
@@ -310,21 +192,29 @@ Windows Registry Editor Version 5.00
 "Language"=dword:00000409
 "DisplayName"="Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.40.33810"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{18f39771-f9d8-4cfd-9654-f6c67c8ad9f4}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{115DF11E-4B4C-4EA9-9A79-00DB0C7EF02D}]
+"Publisher"="Microsoft Corporation"
+"DisplayName"="Windows 11 Installation Assistant"
+"DisplayIcon"="\"C:\\Program Files (x86)\\WindowsInstallationAssistant\\Windows10UpgraderApp.exe\""
+"DisplayVersion"="1.4.19041.3630"
+"UninstallString"="\"C:\\Program Files (x86)\\WindowsInstallationAssistant\\Windows10UpgraderApp.exe\" /SunValley /ForceUninstall"
+"EstimatedSize"=dword:00001400
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{18F39771-F9D8-4CFD-9654-F6C67C8AD9F4}]
 "AuthorizedCDFPrefix"=""
 "Comments"="Version: 3.1.2.2578"
 "Contact"=""
 "DisplayVersion"="3.2.4"
 "HelpLink"=""
 "HelpTelephone"=""
-"InstallDate"="20231219"
+"InstallDate"="20240117"
 "InstallLocation"="C:\\Program Files (x86)\\"
-"InstallSource"="C:\\ASITScripts\\RMM\\"
+"InstallSource"="\\\\2k12V-DC01\\NETLOGON\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,31,00,38,00,66,00,33,00,39,00,37,00,37,00,\
-  31,00,2d,00,66,00,39,00,64,00,38,00,2d,00,34,00,63,00,66,00,64,00,2d,00,39,\
-  00,36,00,35,00,34,00,2d,00,66,00,36,00,63,00,36,00,37,00,63,00,38,00,61,00,\
-  64,00,39,00,66,00,34,00,7d,00,00,00
+  00,65,00,20,00,2f,00,49,00,7b,00,31,00,38,00,46,00,33,00,39,00,37,00,37,00,\
+  31,00,2d,00,46,00,39,00,44,00,38,00,2d,00,34,00,43,00,46,00,44,00,2d,00,39,\
+  00,36,00,35,00,34,00,2d,00,46,00,36,00,43,00,36,00,37,00,43,00,38,00,41,00,\
+  44,00,39,00,46,00,34,00,7d,00,00,00
 "Publisher"=hex(2):49,00,54,00,53,00,75,00,70,00,70,00,6f,00,72,00,74,00,32,00,\
   34,00,37,00,00,00
 "Readme"=""
@@ -345,100 +235,38 @@ Windows Registry Editor Version 5.00
 "DisplayName"="ITSPlatform"
 "SystemComponent"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{1A666E5B-40EA-4651-8C1A-8192416BB12C}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{30659E08-0001-4A6D-B881-54EE6E0D5B2A}]
 "AuthorizedCDFPrefix"=""
 "Comments"=""
 "Contact"=""
-"DisplayVersion"="1.4.6030"
+"DisplayVersion"="7.1.236.43424"
 "HelpLink"=""
 "HelpTelephone"=""
-"InstallDate"="20240419"
-"InstallLocation"="C:\\Program Files (x86)\\Canon Electronics\\PluginForSugarSync\\"
-"InstallSource"="C:\\Users\\User\\AppData\\Local\\Downloaded Installations\\{6698E981-52B9-4E47-B6D3-C612217B2674}\\"
+"InstallDate"="20240805"
+"InstallLocation"=""
+"InstallSource"="C:\\Users\\jchick\\Downloads\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,31,00,41,00,36,00,36,00,36,00,45,00,35,00,\
-  42,00,2d,00,34,00,30,00,45,00,41,00,2d,00,34,00,36,00,35,00,31,00,2d,00,38,\
-  00,43,00,31,00,41,00,2d,00,38,00,31,00,39,00,32,00,34,00,31,00,36,00,42,00,\
-  42,00,31,00,32,00,43,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="Canon Electronics Inc."
+  00,65,00,20,00,2f,00,49,00,7b,00,33,00,30,00,36,00,35,00,39,00,45,00,30,00,\
+  38,00,2d,00,30,00,30,00,30,00,31,00,2d,00,34,00,41,00,36,00,44,00,2d,00,42,\
+  00,38,00,38,00,31,00,2d,00,35,00,34,00,45,00,45,00,36,00,45,00,30,00,44,00,\
+  35,00,42,00,32,00,41,00,7d,00,00,00
+"Publisher"="Velixo"
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:00000c7d
+"EstimatedSize"=dword:0000aa9c
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,31,00,41,00,36,00,36,00,36,00,45,00,35,\
-  00,42,00,2d,00,34,00,30,00,45,00,41,00,2d,00,34,00,36,00,35,00,31,00,2d,00,\
-  38,00,43,00,31,00,41,00,2d,00,38,00,31,00,39,00,32,00,34,00,31,00,36,00,42,\
-  00,42,00,31,00,32,00,43,00,7d,00,00,00
+  78,00,65,00,20,00,2f,00,49,00,7b,00,33,00,30,00,36,00,35,00,39,00,45,00,30,\
+  00,38,00,2d,00,30,00,30,00,30,00,31,00,2d,00,34,00,41,00,36,00,44,00,2d,00,\
+  42,00,38,00,38,00,31,00,2d,00,35,00,34,00,45,00,45,00,36,00,45,00,30,00,44,\
+  00,35,00,42,00,32,00,41,00,7d,00,00,00
 "URLInfoAbout"=""
 "URLUpdateInfo"=""
-"VersionMajor"=dword:00000001
-"VersionMinor"=dword:00000004
+"VersionMajor"=dword:00000007
+"VersionMinor"=dword:00000001
 "WindowsInstaller"=dword:00000001
-"Version"=dword:0104178e
-"Language"=dword:00000000
-"DisplayName"="CaptureOnTouch plug-in for SugarSync"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{1C19657F-60F9-4E54-BB38-EA89EED22F33}]
-"AuthorizedCDFPrefix"=""
-"Comments"="LogTag Analyzer"
-"Contact"=""
-"DisplayVersion"="3.2.5.2"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20241227"
-"InstallLocation"="\\\\siwgenie\\COMMON\\Natalie\\Fridge data\\Log Tag Data\\"
-"InstallSource"="C:\\Users\\User\\AppData\\Roaming\\LogTag\\LogTag Analyzer 3.2.5.2\\install\\ED22F33\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,31,00,43,00,31,00,39,00,36,00,35,00,37,00,\
-  46,00,2d,00,36,00,30,00,46,00,39,00,2d,00,34,00,45,00,35,00,34,00,2d,00,42,\
-  00,42,00,33,00,38,00,2d,00,45,00,41,00,38,00,39,00,45,00,45,00,44,00,32,00,\
-  32,00,46,00,33,00,33,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="LogTag"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00022efd
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,31,00,43,00,31,00,39,00,36,00,35,00,37,\
-  00,46,00,2d,00,36,00,30,00,46,00,39,00,2d,00,34,00,45,00,35,00,34,00,2d,00,\
-  42,00,42,00,33,00,38,00,2d,00,45,00,41,00,38,00,39,00,45,00,45,00,44,00,32,\
-  00,32,00,46,00,33,00,33,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000003
-"VersionMinor"=dword:00000002
-"WindowsInstaller"=dword:00000001
-"Version"=dword:03020005
+"Version"=dword:070100ec
 "Language"=dword:00000409
-"DisplayName"="LogTag Analyzer"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}]
-"BundleCachePath"="C:\\ProgramData\\Package Cache\\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}\\vcredist_x86.exe"
-"BundleUpgradeCode"=hex(7):7b,00,30,00,42,00,36,00,35,00,46,00,32,00,46,00,33,\
-  00,2d,00,41,00,38,00,34,00,35,00,2d,00,33,00,36,00,42,00,42,00,2d,00,38,00,\
-  34,00,38,00,41,00,2d,00,35,00,44,00,39,00,33,00,39,00,38,00,32,00,36,00,45,\
-  00,42,00,45,00,34,00,7d,00,00,00,00,00
-"BundleAddonCode"=hex(7):
-"BundleDetectCode"=hex(7):
-"BundlePatchCode"=hex(7):
-"BundleVersion"="11.0.61030.0"
-"BundleProviderKey"="{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}"
-"BundleTag"=""
-"EngineVersion"="3.6.3542.0"
-"DisplayIcon"="C:\\ProgramData\\Package Cache\\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}\\vcredist_x86.exe,0"
-"DisplayName"="Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.61030"
-"DisplayVersion"="11.0.61030.0"
-"Publisher"="Microsoft Corporation"
-"ModifyPath"="\"C:\\ProgramData\\Package Cache\\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}\\vcredist_x86.exe\" /modify"
-"NoElevateOnModify"=dword:00000001
-"QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}\\vcredist_x86.exe\" /uninstall /quiet"
-"UninstallString"="\"C:\\ProgramData\\Package Cache\\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}\\vcredist_x86.exe\"  /uninstall"
-"EstimatedSize"=dword:00004588
-"Resume"=dword:00000003
-"Installed"=dword:00000001
+"DisplayName"="Velixo 7.1.236.43424"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{35b83883-40fa-423c-ae73-2aff7e1ea820}]
 "BundleCachePath"="C:\\ProgramData\\Package Cache\\{35b83883-40fa-423c-ae73-2aff7e1ea820}\\vcredist_x86.exe"
@@ -461,78 +289,9 @@ Windows Registry Editor Version 5.00
 "NoElevateOnModify"=dword:00000001
 "QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{35b83883-40fa-423c-ae73-2aff7e1ea820}\\vcredist_x86.exe\" /uninstall /quiet"
 "UninstallString"="\"C:\\ProgramData\\Package Cache\\{35b83883-40fa-423c-ae73-2aff7e1ea820}\\vcredist_x86.exe\"  /uninstall"
+"EstimatedSize"=dword:000044c1
 "Resume"=dword:00000003
 "Installed"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{3B70F88D-B55B-40D3-AE56-8AA4BB6105BC}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="2.4.6030"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20240419"
-"InstallLocation"="C:\\Program Files (x86)\\Canon Electronics\\PluginForGoogleDrive\\"
-"InstallSource"="C:\\Users\\User\\AppData\\Local\\Downloaded Installations\\{CEBAD2DC-B4CB-4C2E-A1BB-9F71CAB0E1D8}\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,33,00,42,00,37,00,30,00,46,00,38,00,38,00,\
-  44,00,2d,00,42,00,35,00,35,00,42,00,2d,00,34,00,30,00,44,00,33,00,2d,00,41,\
-  00,45,00,35,00,36,00,2d,00,38,00,41,00,41,00,34,00,42,00,42,00,36,00,31,00,\
-  30,00,35,00,42,00,43,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="Canon Electronics Inc."
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00000c31
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,33,00,42,00,37,00,30,00,46,00,38,00,38,\
-  00,44,00,2d,00,42,00,35,00,35,00,42,00,2d,00,34,00,30,00,44,00,33,00,2d,00,\
-  41,00,45,00,35,00,36,00,2d,00,38,00,41,00,41,00,34,00,42,00,42,00,36,00,31,\
-  00,30,00,35,00,42,00,43,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000002
-"VersionMinor"=dword:00000004
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0204178e
-"Language"=dword:00000000
-"DisplayName"="CaptureOnTouch plug-in for Google Drive"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{42A9A445-BB27-4D49-85CD-1ACB2D2F8BB1}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="2.4.8228"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20240419"
-"InstallLocation"="C:\\Program Files (x86)\\Canon Electronics\\Scan2SP\\"
-"InstallSource"="C:\\Users\\User\\AppData\\Local\\Temp\\{034BA5C8-0604-4382-8801-ECFC24320982}\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,34,00,32,00,41,00,39,00,41,00,34,00,34,00,\
-  35,00,2d,00,42,00,42,00,32,00,37,00,2d,00,34,00,44,00,34,00,39,00,2d,00,38,\
-  00,35,00,43,00,44,00,2d,00,31,00,41,00,43,00,42,00,32,00,44,00,32,00,46,00,\
-  38,00,42,00,42,00,31,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="Canon Electronics Inc."
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00001744
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,34,00,32,00,41,00,39,00,41,00,34,00,34,\
-  00,35,00,2d,00,42,00,42,00,32,00,37,00,2d,00,34,00,44,00,34,00,39,00,2d,00,\
-  38,00,35,00,43,00,44,00,2d,00,31,00,41,00,43,00,42,00,32,00,44,00,32,00,46,\
-  00,38,00,42,00,42,00,31,00,7d,00,00,00
-"URLInfoAbout"="Canon Electronics Inc."
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000002
-"VersionMinor"=dword:00000004
-"WindowsInstaller"=dword:00000001
-"Version"=dword:02042024
-"Language"=dword:00000000
-"DisplayName"="CaptureOnTouch plug-in for Microsoft SharePoint"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{47109d57-d746-4f8b-9618-ed6a17cc922b}]
 "BundleCachePath"="C:\\ProgramData\\Package Cache\\{47109d57-d746-4f8b-9618-ed6a17cc922b}\\VC_redist.x86.exe"
@@ -605,6 +364,7 @@ Windows Registry Editor Version 5.00
 "NoElevateOnModify"=dword:00000001
 "QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{5d0723d3-cff7-4e07-8d0b-ada737deb5e6}\\vcredist_x64.exe\" /uninstall /quiet"
 "UninstallString"="\"C:\\ProgramData\\Package Cache\\{5d0723d3-cff7-4e07-8d0b-ada737deb5e6}\\vcredist_x64.exe\"  /uninstall"
+"EstimatedSize"=dword:00005247
 "Resume"=dword:00000003
 "Installed"=dword:00000001
 
@@ -649,9 +409,9 @@ Windows Registry Editor Version 5.00
 "DisplayVersion"="25.1.10.9197"
 "HelpLink"=""
 "HelpTelephone"=""
-"InstallDate"="20250314"
+"InstallDate"="20250317"
 "InstallLocation"=""
-"InstallSource"="C:\\Windows\\SystemTemp\\ScreenConnect\\25.1.10.9197\\385a4ea3ca5447c4\\"
+"InstallSource"="C:\\WINDOWS\\SystemTemp\\ScreenConnect\\25.1.10.9197\\385a4ea3ca5447c4\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
   00,65,00,20,00,2f,00,58,00,7b,00,35,00,45,00,42,00,31,00,45,00,32,00,30,00,\
   31,00,2d,00,43,00,34,00,31,00,37,00,2d,00,42,00,31,00,44,00,33,00,2d,00,32,\
@@ -677,496 +437,54 @@ Windows Registry Editor Version 5.00
 "Language"=dword:00000409
 "DisplayName"="ScreenConnect Client (385a4ea3ca5447c4)"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{5EC7FE44-48F1-4945-B114-A1AEF30856AF}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="1.3.6030"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20240419"
-"InstallLocation"="C:\\Program Files (x86)\\Canon Electronics\\PluginForDropbox\\"
-"InstallSource"="C:\\Users\\User\\AppData\\Local\\Downloaded Installations\\{E7CFD780-AB56-4A44-9647-35B369126563}\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,35,00,45,00,43,00,37,00,46,00,45,00,34,00,\
-  34,00,2d,00,34,00,38,00,46,00,31,00,2d,00,34,00,39,00,34,00,35,00,2d,00,42,\
-  00,31,00,31,00,34,00,2d,00,41,00,31,00,41,00,45,00,46,00,33,00,30,00,38,00,\
-  35,00,36,00,41,00,46,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="Canon Electronics Inc."
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00000ca9
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,35,00,45,00,43,00,37,00,46,00,45,00,34,\
-  00,34,00,2d,00,34,00,38,00,46,00,31,00,2d,00,34,00,39,00,34,00,35,00,2d,00,\
-  42,00,31,00,31,00,34,00,2d,00,41,00,31,00,41,00,45,00,46,00,33,00,30,00,38,\
-  00,35,00,36,00,41,00,46,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000001
-"VersionMinor"=dword:00000003
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0103178e
-"Language"=dword:00000000
-"DisplayName"="CaptureOnTouch plug-in for Dropbox"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{6E742FD6-5983-48B8-8BD1-3D48B8A630F9}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="1.4.8.3"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20250303"
-"InstallLocation"="C:\\Program Files (x86)\\DYMO\\DYMO Connect\\"
-"InstallSource"="C:\\Users\\User\\AppData\\Local\\Downloaded Installations\\{1BD94778-BF88-4B20-96EC-0194887531DE}\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,36,00,45,00,37,00,34,00,32,00,46,00,44,00,\
-  36,00,2d,00,35,00,39,00,38,00,33,00,2d,00,34,00,38,00,42,00,38,00,2d,00,38,\
-  00,42,00,44,00,31,00,2d,00,33,00,44,00,34,00,38,00,42,00,38,00,41,00,36,00,\
-  33,00,30,00,46,00,39,00,7d,00,00,00
-"Publisher"="DYMO"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00053fe4
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,36,00,45,00,37,00,34,00,32,00,46,00,44,\
-  00,36,00,2d,00,35,00,39,00,38,00,33,00,2d,00,34,00,38,00,42,00,38,00,2d,00,\
-  38,00,42,00,44,00,31,00,2d,00,33,00,44,00,34,00,38,00,42,00,38,00,41,00,36,\
-  00,33,00,30,00,46,00,39,00,7d,00,00,00
-"URLInfoAbout"="http://www.DYMO.com"
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000001
-"VersionMinor"=dword:00000004
-"WindowsInstaller"=dword:00000001
-"Version"=dword:01040008
-"Language"=dword:00000000
-"DisplayName"="DYMO Connect"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{6FB7DAEC-5DAD-491E-9951-4684423F291C}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="83.1.61210"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,77,00,77,00,77,00,\
-  2e,00,73,00,6f,00,6e,00,6f,00,73,00,2e,00,63,00,6f,00,6d,00,2f,00,73,00,75,\
-  00,70,00,70,00,6f,00,72,00,74,00,00,00
-"HelpTelephone"=""
-"InstallDate"="20250210"
-"InstallLocation"="C:\\Program Files (x86)\\SonosV2\\"
-"InstallSource"="C:\\Users\\User\\AppData\\Local\\Downloaded Installations\\{D60BBDF1-5734-460A-8389-D193508D1919}\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,36,00,46,00,42,00,37,00,44,00,41,00,45,00,\
-  43,00,2d,00,35,00,44,00,41,00,44,00,2d,00,34,00,39,00,31,00,45,00,2d,00,39,\
-  00,39,00,35,00,31,00,2d,00,34,00,36,00,38,00,34,00,34,00,32,00,33,00,46,00,\
-  32,00,39,00,31,00,43,00,7d,00,00,00
-"NoModify"=dword:00000001
-"Publisher"="Sonos, Inc."
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:0001c317
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,36,00,46,00,42,00,37,00,44,00,41,00,45,\
-  00,43,00,2d,00,35,00,44,00,41,00,44,00,2d,00,34,00,39,00,31,00,45,00,2d,00,\
-  39,00,39,00,35,00,31,00,2d,00,34,00,36,00,38,00,34,00,34,00,32,00,33,00,46,\
-  00,32,00,39,00,31,00,43,00,7d,00,00,00
-"URLInfoAbout"="http://www.sonos.com"
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000053
-"VersionMinor"=dword:00000001
-"WindowsInstaller"=dword:00000001
-"Version"=dword:5301ef1a
-"Language"=dword:00000000
-"DisplayName"="Sonos"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{731F6BAA-A986-45A4-8936-7C3AAAAA760B}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="1.5.0.30767"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20230615"
-"InstallLocation"=""
-"InstallSource"="C:\\Program Files\\Microsoft Office\\root\\integration\\Addons\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,37,00,33,00,31,00,46,00,36,00,42,00,41,00,\
-  41,00,2d,00,41,00,39,00,38,00,36,00,2d,00,34,00,35,00,41,00,34,00,2d,00,38,\
-  00,39,00,33,00,36,00,2d,00,37,00,43,00,33,00,41,00,41,00,41,00,41,00,41,00,\
-  37,00,36,00,30,00,42,00,7d,00,00,00
-"Publisher"="Microsoft Corporation"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00020f30
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,37,00,33,00,31,00,46,00,36,00,42,00,41,\
-  00,41,00,2d,00,41,00,39,00,38,00,36,00,2d,00,34,00,35,00,41,00,34,00,2d,00,\
-  38,00,39,00,33,00,36,00,2d,00,37,00,43,00,33,00,41,00,41,00,41,00,41,00,41,\
-  00,37,00,36,00,30,00,42,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000001
-"VersionMinor"=dword:00000005
-"WindowsInstaller"=dword:00000001
-"Version"=dword:01050000
-"Language"=dword:00000409
-"DisplayName"="Teams Machine-Wide Installer"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{76E3F0FD-E768-460E-B87F-F32426EA7E73}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="1.5.6235"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20240419"
-"InstallLocation"="C:\\Program Files (x86)\\Canon Electronics\\PluginForMail\\"
-"InstallSource"="C:\\Users\\User\\AppData\\Local\\Downloaded Installations\\{357CF958-4057-4E32-B034-17D9423F3BF5}\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,37,00,36,00,45,00,33,00,46,00,30,00,46,00,\
-  44,00,2d,00,45,00,37,00,36,00,38,00,2d,00,34,00,36,00,30,00,45,00,2d,00,42,\
-  00,38,00,37,00,46,00,2d,00,46,00,33,00,32,00,34,00,32,00,36,00,45,00,41,00,\
-  37,00,45,00,37,00,33,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="Canon Electronics Inc."
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00000bf1
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,37,00,36,00,45,00,33,00,46,00,30,00,46,\
-  00,44,00,2d,00,45,00,37,00,36,00,38,00,2d,00,34,00,36,00,30,00,45,00,2d,00,\
-  42,00,38,00,37,00,46,00,2d,00,46,00,33,00,32,00,34,00,32,00,36,00,45,00,41,\
-  00,37,00,45,00,37,00,33,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000001
-"VersionMinor"=dword:00000005
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0105185b
-"Language"=dword:00000000
-"DisplayName"="CaptureOnTouch plug-in for Mail"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{8122DAB1-ED4D-3676-BB0A-CA368196543E}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{A8589745-51BC-3963-B4E9-201CF8693538}]
 "AuthorizedCDFPrefix"=""
 "Comments"="Caution. Removing this product might prevent some applications from running."
 "Contact"=""
-"DisplayVersion"="12.0.40664"
+"DisplayVersion"="12.0.40649"
 "HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,67,00,6f,00,2e,00,\
   6d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,63,00,6f,00,6d,\
   00,2f,00,66,00,77,00,6c,00,69,00,6e,00,6b,00,2f,00,3f,00,4c,00,69,00,6e,00,\
   6b,00,49,00,64,00,3d,00,31,00,33,00,33,00,34,00,30,00,35,00,00,00
 "HelpTelephone"=""
-"InstallDate"="20230615"
+"InstallDate"="20240130"
 "InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\Package Cache\\{8122DAB1-ED4D-3676-BB0A-CA368196543E}v12.0.40664\\packages\\vcRuntimeMinimum_x86\\"
+"InstallSource"="C:\\ProgramData\\Package Cache\\{A8589745-51BC-3963-B4E9-201CF8693538}v12.0.40649\\packages\\vcRuntimeAdditional_x86\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,38,00,31,00,32,00,32,00,44,00,41,00,42,00,\
-  31,00,2d,00,45,00,44,00,34,00,44,00,2d,00,33,00,36,00,37,00,36,00,2d,00,42,\
-  00,42,00,30,00,41,00,2d,00,43,00,41,00,33,00,36,00,38,00,31,00,39,00,36,00,\
-  35,00,34,00,33,00,45,00,7d,00,00,00
+  00,65,00,20,00,2f,00,58,00,7b,00,41,00,38,00,35,00,38,00,39,00,37,00,34,00,\
+  35,00,2d,00,35,00,31,00,42,00,43,00,2d,00,33,00,39,00,36,00,33,00,2d,00,42,\
+  00,34,00,45,00,39,00,2d,00,32,00,30,00,31,00,43,00,46,00,38,00,36,00,39,00,\
+  33,00,35,00,33,00,38,00,7d,00,00,00
 "NoModify"=dword:00000001
 "Publisher"="Microsoft Corporation"
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:0000081c
+"EstimatedSize"=dword:000024f0
 "SystemComponent"=dword:00000001
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,38,00,31,00,32,00,32,00,44,00,41,00,42,\
-  00,31,00,2d,00,45,00,44,00,34,00,44,00,2d,00,33,00,36,00,37,00,36,00,2d,00,\
-  42,00,42,00,30,00,41,00,2d,00,43,00,41,00,33,00,36,00,38,00,31,00,39,00,36,\
-  00,35,00,34,00,33,00,45,00,7d,00,00,00
+  78,00,65,00,20,00,2f,00,58,00,7b,00,41,00,38,00,35,00,38,00,39,00,37,00,34,\
+  00,35,00,2d,00,35,00,31,00,42,00,43,00,2d,00,33,00,39,00,36,00,33,00,2d,00,\
+  42,00,34,00,45,00,39,00,2d,00,32,00,30,00,31,00,43,00,46,00,38,00,36,00,39,\
+  00,33,00,35,00,33,00,38,00,7d,00,00,00
 "URLInfoAbout"=""
 "URLUpdateInfo"=""
 "VersionMajor"=dword:0000000c
 "VersionMinor"=dword:00000000
 "WindowsInstaller"=dword:00000001
-"Version"=dword:0c009ed8
+"Version"=dword:0c009ec9
 "Language"=dword:00000409
-"DisplayName"="Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.40664"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{9A25302D-30C0-39D9-BD6F-21E6EC160475}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="9.0.30729"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20230807"
-"InstallLocation"=""
-"InstallSource"="C:\\123e7b544939499199a03d\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,39,00,41,00,32,00,35,00,33,00,30,00,32,00,\
-  44,00,2d,00,33,00,30,00,43,00,30,00,2d,00,33,00,39,00,44,00,39,00,2d,00,42,\
-  00,44,00,36,00,46,00,2d,00,32,00,31,00,45,00,36,00,45,00,43,00,31,00,36,00,\
-  30,00,34,00,37,00,35,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="Microsoft Corporation"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00002918
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,39,00,41,00,32,00,35,00,33,00,30,00,32,\
-  00,44,00,2d,00,33,00,30,00,43,00,30,00,2d,00,33,00,39,00,44,00,39,00,2d,00,\
-  42,00,44,00,36,00,46,00,2d,00,32,00,31,00,45,00,36,00,45,00,43,00,31,00,36,\
-  00,30,00,34,00,37,00,35,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000009
-"VersionMinor"=dword:00000000
-"WindowsInstaller"=dword:00000001
-"Version"=dword:09007809
-"Language"=dword:00000409
-"DisplayName"="Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.17"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{9BE518E6-ECC6-35A9-88E4-87755C07200F}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="9.0.30729.6161"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20230818"
-"InstallLocation"=""
-"InstallSource"="c:\\de6c67a66003ffbe12e19173074dc4\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,39,00,42,00,45,00,35,00,31,00,38,00,45,00,\
-  36,00,2d,00,45,00,43,00,43,00,36,00,2d,00,33,00,35,00,41,00,39,00,2d,00,38,\
-  00,38,00,45,00,34,00,2d,00,38,00,37,00,37,00,35,00,35,00,43,00,30,00,37,00,\
-  32,00,30,00,30,00,46,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="Microsoft Corporation"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:000028c8
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,39,00,42,00,45,00,35,00,31,00,38,00,45,\
-  00,36,00,2d,00,45,00,43,00,43,00,36,00,2d,00,33,00,35,00,41,00,39,00,2d,00,\
-  38,00,38,00,45,00,34,00,2d,00,38,00,37,00,37,00,35,00,35,00,43,00,30,00,37,\
-  00,32,00,30,00,30,00,46,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000009
-"VersionMinor"=dword:00000000
-"WindowsInstaller"=dword:00000001
-"Version"=dword:09007809
-"Language"=dword:00000409
-"DisplayName"="Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{9dff3540-fc85-4ed5-ac84-9e3c7fd8bece}]
-"BundleCachePath"="C:\\ProgramData\\Package Cache\\{9dff3540-fc85-4ed5-ac84-9e3c7fd8bece}\\vcredist_x86.exe"
-"BundleUpgradeCode"=hex(7):7b,00,46,00,33,00,35,00,38,00,34,00,35,00,36,00,44,\
-  00,2d,00,37,00,41,00,34,00,45,00,2d,00,33,00,36,00,35,00,34,00,2d,00,41,00,\
-  39,00,31,00,45,00,2d,00,43,00,32,00,38,00,36,00,30,00,42,00,34,00,37,00,32,\
-  00,43,00,35,00,32,00,7d,00,00,00,00,00
-"BundleAddonCode"=hex(7):
-"BundleDetectCode"=hex(7):
-"BundlePatchCode"=hex(7):
-"BundleVersion"="12.0.40664.0"
-"BundleProviderKey"="{9dff3540-fc85-4ed5-ac84-9e3c7fd8bece}"
-"BundleTag"=""
-"EngineVersion"="3.7.3424.0"
-"DisplayIcon"="C:\\ProgramData\\Package Cache\\{9dff3540-fc85-4ed5-ac84-9e3c7fd8bece}\\vcredist_x86.exe,0"
-"DisplayName"="Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.40664"
-"DisplayVersion"="12.0.40664.0"
-"Publisher"="Microsoft Corporation"
-"ModifyPath"="\"C:\\ProgramData\\Package Cache\\{9dff3540-fc85-4ed5-ac84-9e3c7fd8bece}\\vcredist_x86.exe\" /modify"
-"NoElevateOnModify"=dword:00000001
-"QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{9dff3540-fc85-4ed5-ac84-9e3c7fd8bece}\\vcredist_x86.exe\" /uninstall /quiet"
-"UninstallString"="\"C:\\ProgramData\\Package Cache\\{9dff3540-fc85-4ed5-ac84-9e3c7fd8bece}\\vcredist_x86.exe\"  /uninstall"
-"EstimatedSize"=dword:000044c2
-"Resume"=dword:00000003
-"Installed"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{AC76BA86-0804-1033-1959-018244601108}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"="Customer Support"
-"DisplayVersion"="1.8.0"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,77,00,77,00,77,00,\
-  2e,00,61,00,64,00,6f,00,62,00,65,00,2e,00,63,00,6f,00,6d,00,2f,00,73,00,75,\
-  00,70,00,70,00,6f,00,72,00,74,00,2f,00,6d,00,61,00,69,00,6e,00,2e,00,68,00,\
-  74,00,6d,00,6c,00,00,00
-"HelpTelephone"=""
-"InstallDate"="20250128"
-"InstallLocation"="C:\\Program Files (x86)\\Common Files\\Adobe\\ARM\\1.0\\"
-"InstallSource"="C:\\Program Files (x86)\\Common Files\\Adobe\\ARM\\1.0\\Cache\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,41,00,43,00,37,00,36,00,42,00,41,00,38,00,\
-  36,00,2d,00,30,00,38,00,30,00,34,00,2d,00,31,00,30,00,33,00,33,00,2d,00,31,\
-  00,39,00,35,00,39,00,2d,00,30,00,31,00,38,00,32,00,34,00,34,00,36,00,30,00,\
-  31,00,31,00,30,00,38,00,7d,00,00,00
-"Publisher"="Adobe Systems Incorporated"
-"Readme"=hex(2):52,00,65,00,61,00,64,00,6d,00,65,00,2e,00,68,00,74,00,6d,00,00,\
-  00
-"Size"=""
-"EstimatedSize"=dword:0000080c
-"SystemComponent"=dword:00000001
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,41,00,43,00,37,00,36,00,42,00,41,00,38,\
-  00,36,00,2d,00,30,00,38,00,30,00,34,00,2d,00,31,00,30,00,33,00,33,00,2d,00,\
-  31,00,39,00,35,00,39,00,2d,00,30,00,31,00,38,00,32,00,34,00,34,00,36,00,30,\
-  00,31,00,31,00,30,00,38,00,7d,00,00,00
-"URLInfoAbout"="http://www.adobe.com"
-"URLUpdateInfo"="http://www.adobe.com/products/acrobat/readstep.html"
-"VersionMajor"=dword:00000001
-"VersionMinor"=dword:00000008
-"WindowsInstaller"=dword:00000001
-"Version"=dword:01080000
-"Language"=dword:00000409
-"DisplayName"="Adobe Refresh Manager"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{AC76BA86-7AD7-1033-7B44-AC0F074E4100}]
-"AuthorizedCDFPrefix"=""
-"Comments"="
-			"
-"Contact"="Customer Support"
-"DisplayVersion"="25.001.20432"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,77,00,77,00,77,00,\
-  2e,00,61,00,64,00,6f,00,62,00,65,00,2e,00,63,00,6f,00,6d,00,2f,00,73,00,75,\
-  00,70,00,70,00,6f,00,72,00,74,00,2f,00,6d,00,61,00,69,00,6e,00,2e,00,68,00,\
-  74,00,6d,00,6c,00,00,00
-"HelpTelephone"=""
-"InstallDate"="20250312"
-"InstallLocation"="C:\\Program Files (x86)\\Adobe\\Acrobat Reader DC\\"
-"InstallSource"="C:\\Program Files (x86)\\Common Files\\Adobe\\Acrobat\\Setup\\{AC76BA86-7AD7-1033-7B44-AC0F074E4100}\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,41,00,43,00,37,00,36,00,42,00,41,00,38,00,\
-  36,00,2d,00,37,00,41,00,44,00,37,00,2d,00,31,00,30,00,33,00,33,00,2d,00,37,\
-  00,42,00,34,00,34,00,2d,00,41,00,43,00,30,00,46,00,30,00,37,00,34,00,45,00,\
-  34,00,31,00,30,00,30,00,7d,00,00,00
-"NoRepair"=dword:00000001
-"Publisher"="Adobe Systems Incorporated"
-"Readme"=hex(2):43,00,3a,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,20,\
-  00,46,00,69,00,6c,00,65,00,73,00,20,00,28,00,78,00,38,00,36,00,29,00,5c,00,\
-  41,00,64,00,6f,00,62,00,65,00,5c,00,41,00,63,00,72,00,6f,00,62,00,61,00,74,\
-  00,20,00,52,00,65,00,61,00,64,00,65,00,72,00,20,00,44,00,43,00,5c,00,52,00,\
-  65,00,61,00,64,00,6d,00,65,00,2e,00,68,00,74,00,6d,00,00,00
-"Size"=""
-"EstimatedSize"=dword:000a91d7
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,41,00,43,00,37,00,36,00,42,00,41,00,38,\
-  00,36,00,2d,00,37,00,41,00,44,00,37,00,2d,00,31,00,30,00,33,00,33,00,2d,00,\
-  37,00,42,00,34,00,34,00,2d,00,41,00,43,00,30,00,46,00,30,00,37,00,34,00,45,\
-  00,34,00,31,00,30,00,30,00,7d,00,00,00
-"URLInfoAbout"="http://www.adobe.com"
-"URLUpdateInfo"="http://helpx.adobe.com/reader.html"
-"VersionMajor"=dword:00000019
-"VersionMinor"=dword:00000001
-"WindowsInstaller"=dword:00000001
-"Version"=dword:19014fd0
-"Language"=dword:00000409
-"DisplayName"="Adobe Acrobat Reader"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{B175520C-86A2-35A7-8619-86DC379688B9}]
-"AuthorizedCDFPrefix"=""
-"Comments"="Caution. Removing this product might prevent some applications from running."
-"Contact"=""
-"DisplayVersion"="11.0.61030"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,67,00,6f,00,2e,00,\
-  6d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,63,00,6f,00,6d,\
-  00,2f,00,66,00,77,00,6c,00,69,00,6e,00,6b,00,2f,00,3f,00,4c,00,69,00,6e,00,\
-  6b,00,49,00,64,00,3d,00,31,00,33,00,33,00,34,00,30,00,35,00,00,00
-"HelpTelephone"=""
-"InstallDate"="20230615"
-"InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\Package Cache\\{B175520C-86A2-35A7-8619-86DC379688B9}v11.0.61030\\packages\\vcRuntimeAdditional_x86\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,42,00,31,00,37,00,35,00,35,00,32,00,30,00,\
-  43,00,2d,00,38,00,36,00,41,00,32,00,2d,00,33,00,35,00,41,00,37,00,2d,00,38,\
-  00,36,00,31,00,39,00,2d,00,38,00,36,00,44,00,43,00,33,00,37,00,39,00,36,00,\
-  38,00,38,00,42,00,39,00,7d,00,00,00
-"NoModify"=dword:00000001
-"Publisher"="Microsoft Corporation"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:000026ac
-"SystemComponent"=dword:00000001
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,42,00,31,00,37,00,35,00,35,00,32,00,30,\
-  00,43,00,2d,00,38,00,36,00,41,00,32,00,2d,00,33,00,35,00,41,00,37,00,2d,00,\
-  38,00,36,00,31,00,39,00,2d,00,38,00,36,00,44,00,43,00,33,00,37,00,39,00,36,\
-  00,38,00,38,00,42,00,39,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:0000000b
-"VersionMinor"=dword:00000000
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0b00ee66
-"Language"=dword:00000409
-"DisplayName"="Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.61030"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{B50FBD3F-5716-42E6-ACB2-C4E7DE582E8C}]
-"ModifyPath"="\"C:\\Program Files (x86)\\InstallShield Installation Information\\{B50FBD3F-5716-42E6-ACB2-C4E7DE582E8C}\\setup.exe\" -runfromtemp -l0x0409 "
-"NoRepair"=dword:00000001
-"UninstallString"="\"C:\\Program Files (x86)\\InstallShield Installation Information\\{B50FBD3F-5716-42E6-ACB2-C4E7DE582E8C}\\setup.exe\" -runfromtemp -l0x0409  -removeonly"
-"LogFile"="C:\\Program Files (x86)\\InstallShield Installation Information\\{B50FBD3F-5716-42E6-ACB2-C4E7DE582E8C}\\setup.ilg"
-"InstallLocation"="C:\\Program Files (x86)\\Canon Electronics\\Manual"
-"ProductGuid"="{B50FBD3F-5716-42E6-ACB2-C4E7DE582E8C}"
-"InstallSource"="C:\\Winprogs\\Canon Scanner\\DR-C225II_Installer\\Manuals\\"
-"DisplayName"="DR-C225 II UserManual"
-"Publisher"="Canon Electronics Inc."
-"RegOwner"="asit"
-"InstallDate"="20240419"
-"Language"=dword:00000409
-"DisplayVersion"="2.0.0022.1028"
-"Version"=dword:02000016
-"VersionMajor"=dword:00000002
-"VersionMinor"=dword:00000000
-"LogMode"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{BD95A8CD-1D9F-35AD-981A-3E7925026EBB}]
-"AuthorizedCDFPrefix"=""
-"Comments"="Caution. Removing this product might prevent some applications from running."
-"Contact"=""
-"DisplayVersion"="11.0.61030"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,67,00,6f,00,2e,00,\
-  6d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,63,00,6f,00,6d,\
-  00,2f,00,66,00,77,00,6c,00,69,00,6e,00,6b,00,2f,00,3f,00,4c,00,69,00,6e,00,\
-  6b,00,49,00,64,00,3d,00,31,00,33,00,33,00,34,00,30,00,35,00,00,00
-"HelpTelephone"=""
-"InstallDate"="20230615"
-"InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\Package Cache\\{BD95A8CD-1D9F-35AD-981A-3E7925026EBB}v11.0.61030\\packages\\vcRuntimeMinimum_x86\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,42,00,44,00,39,00,35,00,41,00,38,00,43,00,\
-  44,00,2d,00,31,00,44,00,39,00,46,00,2d,00,33,00,35,00,41,00,44,00,2d,00,39,\
-  00,38,00,31,00,41,00,2d,00,33,00,45,00,37,00,39,00,32,00,35,00,30,00,32,00,\
-  36,00,45,00,42,00,42,00,7d,00,00,00
-"NoModify"=dword:00000001
-"Publisher"="Microsoft Corporation"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:000006ec
-"SystemComponent"=dword:00000001
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,42,00,44,00,39,00,35,00,41,00,38,00,43,\
-  00,44,00,2d,00,31,00,44,00,39,00,46,00,2d,00,33,00,35,00,41,00,44,00,2d,00,\
-  39,00,38,00,31,00,41,00,2d,00,33,00,45,00,37,00,39,00,32,00,35,00,30,00,32,\
-  00,36,00,45,00,42,00,42,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:0000000b
-"VersionMinor"=dword:00000000
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0b00ee66
-"Language"=dword:00000409
-"DisplayName"="Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.61030"
+"DisplayName"="Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.40649"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{BED0B8A2-2986-49F8-90D6-FA008D37A3D2}]
 "AuthorizedCDFPrefix"=""
 "Comments"=""
 "Contact"=""
-"DisplayVersion"="6.7.3902"
+"DisplayVersion"="6.7.3897"
 "HelpLink"=""
 "HelpTelephone"=""
-"InstallDate"="20230615"
+"InstallDate"="20240117"
 "InstallLocation"=""
-"InstallSource"="C:\\Users\\User\\AppData\\Local\\Temp\\"
+"InstallSource"="\\\\2k12v-dc01\\Workstations\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
   00,65,00,20,00,2f,00,49,00,7b,00,42,00,45,00,44,00,30,00,42,00,38,00,41,00,\
   32,00,2d,00,32,00,39,00,38,00,36,00,2d,00,34,00,39,00,46,00,38,00,2d,00,39,\
@@ -1175,7 +493,7 @@ Windows Registry Editor Version 5.00
 "Publisher"="Trend Micro Inc."
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:0000148b
+"EstimatedSize"=dword:0000223b
 "SystemComponent"=dword:00000001
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
   78,00,65,00,20,00,2f,00,49,00,7b,00,42,00,45,00,44,00,30,00,42,00,38,00,41,\
@@ -1185,191 +503,47 @@ Windows Registry Editor Version 5.00
 "URLInfoAbout"=""
 "URLUpdateInfo"=""
 "VersionMajor"=dword:00000006
-"VersionMinor"=dword:00000007
+"VersionMinor"=dword:00000006
 "WindowsInstaller"=dword:00000001
-"Version"=dword:06070dd5
+"Version"=dword:060609b3
 "Language"=dword:00000409
 "DisplayName"="Trend Micro Security Agent"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{C67FF523-F257-4A3F-AE4D-08671E727A0E}]
-"UninstallString"="RunDll32 C:\\PROGRA~2\\COMMON~1\\INSTAL~1\\PROFES~1\\RunTime\\10\\01\\Intel32\\Ctor.dll,LaunchSetup \"C:\\Program Files (x86)\\InstallShield Installation Information\\{C67FF523-F257-4A3F-AE4D-08671E727A0E}\\setup.exe\" -l0x9  -uninst  -removeonly"
-"LogFile"="C:\\Program Files (x86)\\InstallShield Installation Information\\{C67FF523-F257-4A3F-AE4D-08671E727A0E}\\setup.ilg"
-"InstallLocation"="C:\\Program Files (x86)\\Canon Electronics\\DRC125"
-"InstallSource"="C:\\Winprogs\\DR-C125 CaptureOnTouch V2.8 for WIndows\\"
-"ProductGuid"="{C67FF523-F257-4A3F-AE4D-08671E727A0E}"
-"DisplayName"="DR-C125 CaptureOnTouch"
-"Publisher"="Canon Electronics Inc."
-"RegOwner"="asit"
-"NoModify"=dword:00000001
-"NoRemove"=dword:00000000
-"NoRepair"=dword:00000001
-"InstallDate"="20230621"
-"Language"=dword:00000009
-"DisplayVersion"="2.8.413.818"
-"Version"=dword:0208019d
-"MajorVersion"=dword:00000002
-"MinorVersion"=dword:00000008
-"LogMode"=dword:00000001
-"DisplayIcon"="C:\\Program Files (x86)\\Canon Electronics\\DRC125\\TouchDR.exe,0"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{ca67548a-5ebe-413a-b50c-4b9ceb6d66c6}]
-"BundleCachePath"="C:\\ProgramData\\Package Cache\\{ca67548a-5ebe-413a-b50c-4b9ceb6d66c6}\\vcredist_x64.exe"
-"BundleUpgradeCode"=hex(7):7b,00,35,00,41,00,38,00,37,00,33,00,30,00,38,00,32,\
-  00,2d,00,46,00,35,00,41,00,37,00,2d,00,33,00,39,00,45,00,33,00,2d,00,39,00,\
-  38,00,45,00,46,00,2d,00,32,00,42,00,45,00,45,00,35,00,38,00,30,00,43,00,44,\
-  00,36,00,39,00,38,00,7d,00,00,00,00,00
-"BundleAddonCode"=hex(7):
-"BundleDetectCode"=hex(7):
-"BundlePatchCode"=hex(7):
-"BundleVersion"="11.0.61030.0"
-"BundleProviderKey"="{ca67548a-5ebe-413a-b50c-4b9ceb6d66c6}"
-"BundleTag"=""
-"EngineVersion"="3.6.3542.0"
-"DisplayIcon"="C:\\ProgramData\\Package Cache\\{ca67548a-5ebe-413a-b50c-4b9ceb6d66c6}\\vcredist_x64.exe,0"
-"DisplayName"="Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.61030"
-"DisplayVersion"="11.0.61030.0"
-"Publisher"="Microsoft Corporation"
-"ModifyPath"="\"C:\\ProgramData\\Package Cache\\{ca67548a-5ebe-413a-b50c-4b9ceb6d66c6}\\vcredist_x64.exe\" /modify"
-"NoElevateOnModify"=dword:00000001
-"QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{ca67548a-5ebe-413a-b50c-4b9ceb6d66c6}\\vcredist_x64.exe\" /uninstall /quiet"
-"UninstallString"="\"C:\\ProgramData\\Package Cache\\{ca67548a-5ebe-413a-b50c-4b9ceb6d66c6}\\vcredist_x64.exe\"  /uninstall"
-"EstimatedSize"=dword:00005216
-"Resume"=dword:00000003
-"Installed"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{CE27CA2B-7663-4F6B-8E61-A455390AC71F}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="1.3.41466"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20230621"
-"InstallLocation"="C:\\Program Files (x86)\\Canon Electronics\\Scan2EN\\"
-"InstallSource"="C:\\Users\\User\\AppData\\Local\\Temp\\{C2B84969-68C1-47F9-A60B-26BB759D0EDD}\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,43,00,45,00,32,00,37,00,43,00,41,00,32,00,\
-  42,00,2d,00,37,00,36,00,36,00,33,00,2d,00,34,00,46,00,36,00,42,00,2d,00,38,\
-  00,45,00,36,00,31,00,2d,00,41,00,34,00,35,00,35,00,33,00,39,00,30,00,41,00,\
-  43,00,37,00,31,00,46,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="Canon Electronics Inc."
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:0000073d
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,43,00,45,00,32,00,37,00,43,00,41,00,32,\
-  00,42,00,2d,00,37,00,36,00,36,00,33,00,2d,00,34,00,46,00,36,00,42,00,2d,00,\
-  38,00,45,00,36,00,31,00,2d,00,41,00,34,00,35,00,35,00,33,00,39,00,30,00,41,\
-  00,43,00,37,00,31,00,46,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000001
-"VersionMinor"=dword:00000003
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0103a1fa
-"Language"=dword:00000000
-"DisplayName"="CaptureOnTouch Evernote Plugin"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{D401961D-3A20-3AC7-943B-6139D5BD490A}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{DEA7F8E3-B7B9-3C3C-945B-7F8CE9041748}]
 "AuthorizedCDFPrefix"=""
 "Comments"="Caution. Removing this product might prevent some applications from running."
 "Contact"=""
-"DisplayVersion"="12.0.40664"
+"DisplayVersion"="12.0.40649"
 "HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,67,00,6f,00,2e,00,\
   6d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,63,00,6f,00,6d,\
   00,2f,00,66,00,77,00,6c,00,69,00,6e,00,6b,00,2f,00,3f,00,4c,00,69,00,6e,00,\
   6b,00,49,00,64,00,3d,00,31,00,33,00,33,00,34,00,30,00,35,00,00,00
 "HelpTelephone"=""
-"InstallDate"="20230615"
+"InstallDate"="20240130"
 "InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\Package Cache\\{D401961D-3A20-3AC7-943B-6139D5BD490A}v12.0.40664\\packages\\vcRuntimeAdditional_x86\\"
+"InstallSource"="C:\\ProgramData\\Package Cache\\{DEA7F8E3-B7B9-3C3C-945B-7F8CE9041748}v12.0.40649\\packages\\vcRuntimeMinimum_x86\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,44,00,34,00,30,00,31,00,39,00,36,00,31,00,\
-  44,00,2d,00,33,00,41,00,32,00,30,00,2d,00,33,00,41,00,43,00,37,00,2d,00,39,\
-  00,34,00,33,00,42,00,2d,00,36,00,31,00,33,00,39,00,44,00,35,00,42,00,44,00,\
-  34,00,39,00,30,00,41,00,7d,00,00,00
+  00,65,00,20,00,2f,00,58,00,7b,00,44,00,45,00,41,00,37,00,46,00,38,00,45,00,\
+  33,00,2d,00,42,00,37,00,42,00,39,00,2d,00,33,00,43,00,33,00,43,00,2d,00,39,\
+  00,34,00,35,00,42,00,2d,00,37,00,46,00,38,00,43,00,45,00,39,00,30,00,34,00,\
+  31,00,37,00,34,00,38,00,7d,00,00,00
 "NoModify"=dword:00000001
 "Publisher"="Microsoft Corporation"
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:000024f0
+"EstimatedSize"=dword:0000081c
 "SystemComponent"=dword:00000001
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,44,00,34,00,30,00,31,00,39,00,36,00,31,\
-  00,44,00,2d,00,33,00,41,00,32,00,30,00,2d,00,33,00,41,00,43,00,37,00,2d,00,\
-  39,00,34,00,33,00,42,00,2d,00,36,00,31,00,33,00,39,00,44,00,35,00,42,00,44,\
-  00,34,00,39,00,30,00,41,00,7d,00,00,00
+  78,00,65,00,20,00,2f,00,58,00,7b,00,44,00,45,00,41,00,37,00,46,00,38,00,45,\
+  00,33,00,2d,00,42,00,37,00,42,00,39,00,2d,00,33,00,43,00,33,00,43,00,2d,00,\
+  39,00,34,00,35,00,42,00,2d,00,37,00,46,00,38,00,43,00,45,00,39,00,30,00,34,\
+  00,31,00,37,00,34,00,38,00,7d,00,00,00
 "URLInfoAbout"=""
 "URLUpdateInfo"=""
 "VersionMajor"=dword:0000000c
 "VersionMinor"=dword:00000000
 "WindowsInstaller"=dword:00000001
-"Version"=dword:0c009ed8
+"Version"=dword:0c009ec9
 "Language"=dword:00000409
-"DisplayName"="Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.40664"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{e882eb81-b18c-4676-88f0-9a6ea9db6090}]
-"BundleCachePath"="C:\\ProgramData\\Package Cache\\{e882eb81-b18c-4676-88f0-9a6ea9db6090}\\windowsdesktop-runtime-8.0.13-win-x64.exe"
-"BundleUpgradeCode"=hex(7):7b,00,37,00,46,00,35,00,46,00,32,00,39,00,39,00,46,\
-  00,2d,00,35,00,45,00,42,00,31,00,2d,00,36,00,46,00,43,00,30,00,2d,00,36,00,\
-  44,00,38,00,36,00,2d,00,46,00,42,00,37,00,39,00,33,00,31,00,45,00,33,00,33,\
-  00,43,00,36,00,38,00,7d,00,00,00,00,00
-"BundleAddonCode"=hex(7):
-"BundleDetectCode"=hex(7):
-"BundlePatchCode"=hex(7):
-"BundleVersion"="8.0.13.34517"
-"VersionMajor"=dword:00000008
-"VersionMinor"=dword:00000000
-"BundleProviderKey"="{e882eb81-b18c-4676-88f0-9a6ea9db6090}"
-"BundleTag"=""
-"EngineVersion"="3.14.1.9323"
-"DisplayIcon"="C:\\ProgramData\\Package Cache\\{e882eb81-b18c-4676-88f0-9a6ea9db6090}\\windowsdesktop-runtime-8.0.13-win-x64.exe,0"
-"DisplayName"="Microsoft Windows Desktop Runtime - 8.0.13 (x64)"
-"DisplayVersion"="8.0.13.34517"
-"Publisher"="Microsoft Corporation"
-"URLInfoAbout"="https://dot.net/core"
-"ModifyPath"="\"C:\\ProgramData\\Package Cache\\{e882eb81-b18c-4676-88f0-9a6ea9db6090}\\windowsdesktop-runtime-8.0.13-win-x64.exe\" /modify"
-"NoElevateOnModify"=dword:00000001
-"QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{e882eb81-b18c-4676-88f0-9a6ea9db6090}\\windowsdesktop-runtime-8.0.13-win-x64.exe\" /uninstall /quiet"
-"UninstallString"="\"C:\\ProgramData\\Package Cache\\{e882eb81-b18c-4676-88f0-9a6ea9db6090}\\windowsdesktop-runtime-8.0.13-win-x64.exe\"  /uninstall"
-"EstimatedSize"=dword:000363ae
-"Resume"=dword:00000003
-"Installed"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{FA5AB7CE-F85A-4717-A73A-4E0BD73D8496}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="1.3.6050"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20240419"
-"InstallLocation"="C:\\Program Files (x86)\\Canon Electronics\\PluginForPrinter\\"
-"InstallSource"="C:\\Users\\User\\AppData\\Local\\Downloaded Installations\\{F93C8F6A-BB74-416E-9FF7-29EDB6A310A3}\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,46,00,41,00,35,00,41,00,42,00,37,00,43,00,\
-  45,00,2d,00,46,00,38,00,35,00,41,00,2d,00,34,00,37,00,31,00,37,00,2d,00,41,\
-  00,37,00,33,00,41,00,2d,00,34,00,45,00,30,00,42,00,44,00,37,00,33,00,44,00,\
-  38,00,34,00,39,00,36,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="Canon Electronics Inc."
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00000af5
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,46,00,41,00,35,00,41,00,42,00,37,00,43,\
-  00,45,00,2d,00,46,00,38,00,35,00,41,00,2d,00,34,00,37,00,31,00,37,00,2d,00,\
-  41,00,37,00,33,00,41,00,2d,00,34,00,45,00,30,00,42,00,44,00,37,00,33,00,44,\
-  00,38,00,34,00,39,00,36,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000001
-"VersionMinor"=dword:00000003
-"WindowsInstaller"=dword:00000001
-"Version"=dword:010317a2
-"Language"=dword:00000000
-"DisplayName"="CaptureOnTouch plug-in for Printer"
+"DisplayName"="Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.40649"
 
