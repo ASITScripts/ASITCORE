@@ -1,730 +1,609 @@
 Windows Registry Editor Version 5.00
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall]
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall]
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\7-Zip]
-"DisplayName"="7-Zip 23.01 (x64)"
-"DisplayVersion"="23.01"
-"DisplayIcon"="C:\\Program Files\\7-Zip\\7zFM.exe"
-"InstallLocation"="C:\\Program Files\\7-Zip\\"
-"UninstallString"="\"C:\\Program Files\\7-Zip\\Uninstall.exe\""
-"QuietUninstallString"="\"C:\\Program Files\\7-Zip\\Uninstall.exe\" /S"
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"EstimatedSize"=dword:00001616
-"VersionMajor"=dword:00000017
-"VersionMinor"=dword:00000001
-"Publisher"="Igor Pavlov"
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\AddressBook]
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\AddressBook]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\CNXT_AUDIO_HDA]
-"DisplayName"="Synaptics HD Audio"
-"DisplayVersion"="8.65.321.20"
-"VersionMajor"="8"
-"VersionMinor"="0"
-"Publisher"="Synaptics"
-"DisplayIcon"="C:\\Program Files\\CONEXANT\\CNXT_AUDIO_HDA\\HPlogo.ico"
-"UninstallString"="C:\\Program Files\\CONEXANT\\CNXT_AUDIO_HDA\\UIU64a.exe -U -G -Ichdrt.inf"
-"EstimatedSize"=dword:000240bb
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Connection Manager]
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Connection Manager]
 "SystemComponent"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\DirectDrawEx]
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\DirectDrawEx]
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\DXM_Runtime]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Flow]
-"DisplayVersion"="1.3.173.0"
-"Publisher"="Conexant Systems"
-"DisplayIcon"="C:\\Program Files\\Conexant\\Flow\\Flow.exe"
-"UninstallString"="C:\\Program Files\\Conexant\\Flow\\Setup64.exe -U -IFlowSetup -SRM=Flow.exe,UtilStatus,4"
-"EstimatedSize"=dword:00007a3a
-"CorrespondingDevice"="{4d36e96c-e325-11ce-bfc1-08002be10318}\\0001"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Fontcore]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\HomeBusinessRetail - en-us]
-"UninstallString"="\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" scenario=install scenariosubtype=ARP sourcetype=None productstoremove=HomeBusinessRetail.16_en-us_x-none culture=en-us version.16=16.0"
-"ModifyPath"="\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" scenario=repair platform=x86 culture=en-us"
-"NoRepair"=dword:00000000
-"NoRemove"=dword:00000000
-"NoModify"=dword:00000000
-"DisplayIcon"="C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe"
-"DisplayName"="Microsoft Office Home and Business 2016 - en-us"
-"DisplayVersion"="16.0.18526.20168"
-"Publisher"="Microsoft Corporation"
-"InstallLocation"="C:\\Program Files (x86)\\Microsoft Office"
-"ClickToRunComponent"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\HP-NB-AIO]
-"DisplayIcon"="C:\\Program Files\\Conexant\\SA3\\HP-NB-AIO\\SADefaultIcon.ico"
-"DisplayVersion"="4.0.136.0"
-"MajorVersion"="4"
-"VersionMajor"="4"
-"MinorVersion"="0"
-"VersionMinor"="0"
-"Publisher"="Conexant Systems"
-"InstallLocation"="C:\\Program Files\\Conexant\\SA3\\HP-NB-AIO"
-"UninstallString"="C:\\Program Files\\Conexant\\SA3\\HP-NB-AIO\\SETUP64.EXE -U -ISA3 -SWTM=\"HDAudioAPI-D9A3021B-9BCE-458C-B667-9029C4EF4050,1801\""
-"EstimatedSize"=dword:0000bfbc
-"CorrespondingDevice"="{4d36e96c-e325-11ce-bfc1-08002be10318}\\0001"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\IE40]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\IE4Data]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\IE5BAKEX]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\IEData]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\MicTray]
-"DisplayVersion"="1.6.0.1"
-"VersionMajor"="1"
-"VersionMinor"="0"
-"Publisher"="Conexant Systems"
-"InstallLocation"="C:\\Program Files\\Conexant\\MicTray"
-"UninstallString"="C:\\Program Files\\Conexant\\MicTray\\SETUP64.EXE -U -IMicTray"
-"EstimatedSize"=dword:00005147
-"CorrespondingDevice"="{4d36e96c-e325-11ce-bfc1-08002be10318}\\0001"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\MobileOptionPack]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Mozilla Firefox 136.0.1 (x64 en-US)]
-"Comments"="Mozilla Firefox 136.0.1 (x64 en-US)"
-"DisplayIcon"="C:\\Program Files\\Mozilla Firefox\\firefox.exe,0"
-"DisplayName"="Mozilla Firefox (x64 en-US)"
-"DisplayVersion"="136.0.1"
-"HelpLink"="https://support.mozilla.org"
-"InstallLocation"="C:\\Program Files\\Mozilla Firefox"
-"Publisher"="Mozilla"
-"UninstallString"="\"C:\\Program Files\\Mozilla Firefox\\uninstall\\helper.exe\""
-"URLUpdateInfo"="https://www.mozilla.org/firefox/136.0.1/releasenotes"
-"URLInfoAbout"="https://www.mozilla.org"
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Dropbox]
+"UninstallString"=hex(2):22,00,43,00,3a,00,5c,00,50,00,72,00,6f,00,67,00,72,00,\
+  61,00,6d,00,20,00,46,00,69,00,6c,00,65,00,73,00,20,00,28,00,78,00,38,00,36,\
+  00,29,00,5c,00,44,00,72,00,6f,00,70,00,62,00,6f,00,78,00,5c,00,43,00,6c,00,\
+  69,00,65,00,6e,00,74,00,5c,00,44,00,72,00,6f,00,70,00,62,00,6f,00,78,00,55,\
+  00,6e,00,69,00,6e,00,73,00,74,00,61,00,6c,00,6c,00,65,00,72,00,2e,00,65,00,\
+  78,00,65,00,22,00,20,00,2f,00,49,00,6e,00,73,00,74,00,61,00,6c,00,6c,00,54,\
+  00,79,00,70,00,65,00,3a,00,4d,00,41,00,43,00,48,00,49,00,4e,00,45,00,00,00
+"InstallLocation"=hex(2):43,00,3a,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,\
+  6d,00,20,00,46,00,69,00,6c,00,65,00,73,00,20,00,28,00,78,00,38,00,36,00,29,\
+  00,5c,00,44,00,72,00,6f,00,70,00,62,00,6f,00,78,00,5c,00,43,00,6c,00,69,00,\
+  65,00,6e,00,74,00,00,00
+"DisplayName"="Dropbox"
+"UninstallPath"=hex(2):43,00,3a,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,\
+  6d,00,20,00,46,00,69,00,6c,00,65,00,73,00,20,00,28,00,78,00,38,00,36,00,29,\
+  00,5c,00,44,00,72,00,6f,00,70,00,62,00,6f,00,78,00,5c,00,43,00,6c,00,69,00,\
+  65,00,6e,00,74,00,5c,00,44,00,72,00,6f,00,70,00,62,00,6f,00,78,00,55,00,6e,\
+  00,69,00,6e,00,73,00,74,00,61,00,6c,00,6c,00,65,00,72,00,2e,00,65,00,78,00,\
+  65,00,00,00
+"Publisher"="Dropbox, Inc."
+"VersionMajor"=dword:000000db
+"VersionMinor"=dword:00000004
+"DisplayIcon"="C:\\Program Files (x86)\\Dropbox\\Client\\Dropbox.exe,0"
+"DisplayVersion"="219.4.4463"
+"URLInfoAbout"="https://www.dropbox.com"
+"HelpLink"="https://www.dropbox.com"
 "NoModify"=dword:00000001
 "NoRepair"=dword:00000001
-"EstimatedSize"=dword:00040d86
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\MozillaMaintenanceService]
-"DisplayName"="Mozilla Maintenance Service"
-"UninstallString"="\"C:\\Program Files (x86)\\Mozilla Maintenance Service\\uninstall.exe\""
-"DisplayIcon"="C:\\Program Files (x86)\\Mozilla Maintenance Service\\Uninstall.exe,0"
-"DisplayVersion"="136.0.1"
-"Publisher"="Mozilla"
-"Comments"="Mozilla Maintenance Service"
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\DXM_Runtime]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Fontcore]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\HostedAgent]
+"DisplayIcon"="C:\\Program Files (x86)\\Trend Micro\\Client Server Security Agent\\PCCNtMon.exe"
+"InstallLocation"="C:\\Program Files (x86)\\Trend Micro\\Client Server Security Agent"
+"VersionMinor"=dword:00000000
+"VersionMajor"=dword:00000001
+"DisplayVersion"="6.7.3902"
+"Publisher"="Trend Micro Inc."
+"UninstallString"="msiexec /x {BED0B8A2-2986-49F8-90D6-FA008D37A3D2} /qf /l+* \"C:\\WINDOWS\\temp\\wofie_uninstall.log\""
+"DisplayName"="Trend Micro Security Agent"
 "NoModify"=dword:00000001
-"EstimatedSize"=dword:00000287
+"EstimatedSize"=dword:0001c564
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\MPlayer2]
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\IE40]
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\mspaint-b330ad9e-f80b-4c96-9949-4b4228be9a6e]
-"DisplayIcon"=hex(2):43,00,3a,00,5c,00,57,00,49,00,4e,00,44,00,4f,00,57,00,53,\
-  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,73,00,\
-  70,00,61,00,69,00,6e,00,74,00,2e,00,65,00,78,00,65,00,00,00
-"DisplayName_Localized"=hex(2):40,00,43,00,3a,00,5c,00,57,00,49,00,4e,00,44,00,\
-  4f,00,57,00,53,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
-  00,6d,00,73,00,70,00,61,00,69,00,6e,00,74,00,2e,00,65,00,78,00,65,00,2c,00,\
-  2d,00,35,00,37,00,33,00,34,00,34,00,00,00
-"InstallLocation"=hex(2):43,00,3a,00,5c,00,57,00,49,00,4e,00,44,00,4f,00,57,00,\
-  53,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,00,00
-"NoModify"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\IE4Data]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\IE5BAKEX]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\IEData]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\InstallShield Uninstall Information]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge]
+"DisplayName"="Microsoft Edge"
+"ModifyPath"="\"C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe\" /install appguid={56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}&appname=Microsoft%20Edge&needsadmin=true&repairtype=windowsonlinerepair /installsource windowsupdate"
+"UninstallString"="\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\134.0.3124.72\\Installer\\setup.exe\" --uninstall --msedge --channel=stable --system-level --verbose-logging"
+"InstallLocation"="C:\\Program Files (x86)\\Microsoft\\Edge\\Application"
+"DisplayIcon"="C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\134.0.3124.72\\msedge.exe,0"
+"NoRepair"=dword:00000001
 "Publisher"="Microsoft Corporation"
-"UninstallString"=hex(2):22,00,43,00,3a,00,5c,00,57,00,49,00,4e,00,44,00,4f,00,\
-  57,00,53,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,\
-  00,73,00,70,00,61,00,69,00,6e,00,74,00,2e,00,65,00,78,00,65,00,22,00,20,00,\
-  2f,00,75,00,6e,00,69,00,6e,00,73,00,74,00,61,00,6c,00,6c,00,00,00
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\mstsc-4b0a31aa-df6a-4307-9b47-d5cc50009643]
-"DisplayIcon"=hex(2):43,00,3a,00,5c,00,57,00,49,00,4e,00,44,00,4f,00,57,00,53,\
-  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,73,00,\
-  74,00,73,00,63,00,2e,00,65,00,78,00,65,00,00,00
-"DisplayName_Localized"=hex(2):40,00,43,00,3a,00,5c,00,57,00,49,00,4e,00,44,00,\
-  4f,00,57,00,53,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
-  00,6d,00,73,00,74,00,73,00,63,00,2e,00,65,00,78,00,65,00,2c,00,2d,00,34,00,\
-  30,00,30,00,30,00,00,00
-"InstallLocation"=hex(2):43,00,3a,00,5c,00,57,00,49,00,4e,00,44,00,4f,00,57,00,\
-  53,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,00,00
-"NoModify"=dword:00000001
-"Publisher"="Microsoft Corporation"
-"UninstallString"=hex(2):22,00,43,00,3a,00,5c,00,57,00,49,00,4e,00,44,00,4f,00,\
-  57,00,53,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,\
-  00,73,00,74,00,73,00,63,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,00,75,00,\
-  6e,00,69,00,6e,00,73,00,74,00,61,00,6c,00,6c,00,00,00
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\SchedulingAgent]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\SFPreset]
-"DisplayVersion"="1.1.0.15"
-"VersionMajor"="1"
-"VersionMinor"="0"
-"Publisher"="Conexant Systems"
-"InstallLocation"="C:\\Program Files\\Conexant\\SFPreset"
-"UninstallString"="C:\\Program Files\\Conexant\\SFPreset\\SETUP64.EXE -U -ISFPreset"
-"EstimatedSize"=dword:00003ffc
-"CorrespondingDevice"="{4d36e96c-e325-11ce-bfc1-08002be10318}\\0001"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\SnippingTool-ee6eb196-db28-4d99-816d-fa9a63b4a377]
-"DisplayIcon"=hex(2):43,00,3a,00,5c,00,57,00,49,00,4e,00,44,00,4f,00,57,00,53,\
-  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,53,00,6e,00,\
-  69,00,70,00,70,00,69,00,6e,00,67,00,54,00,6f,00,6f,00,6c,00,2e,00,65,00,78,\
-  00,65,00,00,00
-"DisplayName_Localized"=hex(2):40,00,43,00,3a,00,5c,00,57,00,49,00,4e,00,44,00,\
-  4f,00,57,00,53,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
-  00,53,00,6e,00,69,00,70,00,70,00,69,00,6e,00,67,00,54,00,6f,00,6f,00,6c,00,\
-  2e,00,65,00,78,00,65,00,2c,00,2d,00,31,00,35,00,30,00,35,00,31,00,00,00
-"InstallLocation"=hex(2):43,00,3a,00,5c,00,57,00,49,00,4e,00,44,00,4f,00,57,00,\
-  53,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,00,00
-"NoModify"=dword:00000001
-"Publisher"="Microsoft Corporation"
-"UninstallString"=hex(2):22,00,43,00,3a,00,5c,00,57,00,49,00,4e,00,44,00,4f,00,\
-  57,00,53,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,53,\
-  00,6e,00,69,00,70,00,70,00,69,00,6e,00,67,00,54,00,6f,00,6f,00,6c,00,2e,00,\
-  65,00,78,00,65,00,22,00,20,00,2f,00,75,00,6e,00,69,00,6e,00,73,00,74,00,61,\
-  00,6c,00,6c,00,00,00
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\SSPConfig]
-"DisplayVersion"="1.1.0.1"
-"VersionMajor"="1"
-"VersionMinor"="0"
-"Publisher"="Conexant Systems"
-"InstallLocation"="C:\\Program Files\\Conexant\\SSPConfig"
-"UninstallString"="C:\\Program Files\\Conexant\\SSPConfig\\SETUP64.EXE -U -ISSPConfig"
-"EstimatedSize"=dword:00004361
-"CorrespondingDevice"="{4d36e96c-e325-11ce-bfc1-08002be10318}\\0001"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\WIC]
+"Version"="134.0.3124.72"
+"DisplayVersion"="134.0.3124.72"
+"InstallDate"="20250317"
+"VersionMajor"=dword:00000c34
+"VersionMinor"=dword:00000048
 "NoRemove"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{18C34E51-25DA-479F-87CD-E4C56E640F48}]
-"AuthorizedCDFPrefix"=""
-"Comments"="Create, convert and edit PDF documents by using Nitro Pro."
-"Contact"="Technical Support"
-"DisplayVersion"="12.0.0.112"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,6e,00,69,00,74,00,\
-  72,00,6f,00,70,00,64,00,66,00,2e,00,7a,00,65,00,6e,00,64,00,65,00,73,00,6b,\
-  00,2e,00,63,00,6f,00,6d,00,2f,00,66,00,6f,00,72,00,75,00,6d,00,73,00,00,00
-"HelpTelephone"=""
-"InstallDate"="20190301"
-"InstallLocation"="C:\\Program Files\\Nitro\\Pro\\12"
-"InstallSource"="C:\\ProgramData\\Package Cache\\{18C34E51-25DA-479F-87CD-E4C56E640F48}v12.0.0.112\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,31,00,38,00,43,00,33,00,34,00,45,00,35,00,\
-  31,00,2d,00,32,00,35,00,44,00,41,00,2d,00,34,00,37,00,39,00,46,00,2d,00,38,\
-  00,37,00,43,00,44,00,2d,00,45,00,34,00,43,00,35,00,36,00,45,00,36,00,34,00,\
-  30,00,46,00,34,00,38,00,7d,00,00,00
-"NoModify"=dword:00000001
-"Publisher"="Nitro"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:0006a1ac
-"SystemComponent"=dword:00000001
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,31,00,38,00,43,00,33,00,34,00,45,00,35,\
-  00,31,00,2d,00,32,00,35,00,44,00,41,00,2d,00,34,00,37,00,39,00,46,00,2d,00,\
-  38,00,37,00,43,00,44,00,2d,00,45,00,34,00,43,00,35,00,36,00,45,00,36,00,34,\
-  00,30,00,46,00,34,00,38,00,7d,00,00,00
-"URLInfoAbout"="https://www.gonitro.com/support/nitro-pro"
-"URLUpdateInfo"="https://www.gonitro.com/support/downloads"
-"VersionMajor"=dword:0000000c
-"VersionMinor"=dword:00000000
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0c000000
-"Language"=dword:00000409
-"DisplayName"="Nitro Pro"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{1CEAC85D-2590-4760-800F-8DE5E91F3700}]
-"EstimatedSize"=dword:00010aec
-"DisplayName"="Intel(R) Management Engine Components"
-"DisplayName_Localized"="@C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\Lang\\Resource.dll,-20000"
-"UninstallString"="\"C:\\ProgramData\\Intel\\Package Cache\\{1CEAC85D-2590-4760-800F-8DE5E91F3700}\\Setup.exe\" -uninstall"
-"Publisher"="Intel Corporation"
-"DisplayVersion"="11.7.0.1050"
-"InstallLocation"="C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components"
-"DisplayIcon"="C:\\ProgramData\\Intel\\Package Cache\\{1CEAC85D-2590-4760-800F-8DE5E91F3700}\\Setup.exe,0"
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge Update]
 "NoModify"=dword:00000001
 "NoRepair"=dword:00000001
+"DisplayVersion"="1.3.195.45"
+"Version"="1.3.195.45"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{1D8E6291-B0D5-35EC-8441-6616F567A0F7}]
-"AuthorizedCDFPrefix"=""
-"Comments"="Caution. Removing this product might prevent some applications from running."
-"Contact"=""
-"DisplayVersion"="10.0.40219"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,67,00,6f,00,2e,00,\
-  6d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,63,00,6f,00,6d,\
-  00,2f,00,66,00,77,00,6c,00,69,00,6e,00,6b,00,2f,00,3f,00,4c,00,69,00,6e,00,\
-  6b,00,49,00,64,00,3d,00,31,00,34,00,36,00,30,00,30,00,38,00,00,00
-"HelpTelephone"=""
-"InstallDate"="20171121"
-"InstallLocation"=""
-"InstallSource"="e:\\04967f7b736a185c85fabbee55\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,31,00,44,00,38,00,45,00,36,00,32,00,39,00,\
-  31,00,2d,00,42,00,30,00,44,00,35,00,2d,00,33,00,35,00,45,00,43,00,2d,00,38,\
-  00,34,00,34,00,31,00,2d,00,36,00,36,00,31,00,36,00,46,00,35,00,36,00,37,00,\
-  41,00,30,00,46,00,37,00,7d,00,00,00
-"NoModify"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView]
+"DisplayName"="Microsoft Edge WebView2 Runtime"
+"ModifyPath"="\"C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe\" /install appguid={F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}&appname=Microsoft%20Edge%20WebView&needsadmin=true&repairtype=windowsonlinerepair /installsource windowsonlinerepair"
+"UninstallString"="\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\133.0.3065.92\\Installer\\setup.exe\" --uninstall --msedgewebview --system-level --verbose-logging"
+"InstallLocation"="C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application"
+"DisplayIcon"="C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\133.0.3065.92\\msedgewebview2.exe,0"
 "NoRepair"=dword:00000001
 "Publisher"="Microsoft Corporation"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00003777
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,31,00,44,00,38,00,45,00,36,00,32,00,39,\
-  00,31,00,2d,00,42,00,30,00,44,00,35,00,2d,00,33,00,35,00,45,00,43,00,2d,00,\
-  38,00,34,00,34,00,31,00,2d,00,36,00,36,00,31,00,36,00,46,00,35,00,36,00,37,\
-  00,41,00,30,00,46,00,37,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:0000000a
-"VersionMinor"=dword:00000000
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0a009d1b
-"Language"=dword:00000000
-"DisplayName"="Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219"
+"Version"="133.0.3065.92"
+"DisplayVersion"="133.0.3065.92"
+"InstallDate"="20250301"
+"VersionMajor"=dword:00000bf9
+"VersionMinor"=dword:0000005c
+"NoRemove"=dword:00000001
+"SystemComponent"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{1FC1A6C2-576E-489A-9B4A-92D21F542136}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\MobileOptionPack]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\MPlayer2]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\NirSoft BlueScreenView]
+"UninstallString"=hex(2):22,00,43,00,3a,00,5c,00,50,00,72,00,6f,00,67,00,72,00,\
+  61,00,6d,00,20,00,46,00,69,00,6c,00,65,00,73,00,20,00,28,00,78,00,38,00,36,\
+  00,29,00,5c,00,4e,00,69,00,72,00,53,00,6f,00,66,00,74,00,5c,00,42,00,6c,00,\
+  75,00,65,00,53,00,63,00,72,00,65,00,65,00,6e,00,56,00,69,00,65,00,77,00,5c,\
+  00,75,00,6e,00,69,00,6e,00,73,00,74,00,2e,00,65,00,78,00,65,00,22,00,00,00
+"InstallLocation"=hex(2):43,00,3a,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,\
+  6d,00,20,00,46,00,69,00,6c,00,65,00,73,00,20,00,28,00,78,00,38,00,36,00,29,\
+  00,5c,00,4e,00,69,00,72,00,53,00,6f,00,66,00,74,00,5c,00,42,00,6c,00,75,00,\
+  65,00,53,00,63,00,72,00,65,00,65,00,6e,00,56,00,69,00,65,00,77,00,00,00
+"DisplayName"="NirSoft BlueScreenView"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\SAAZOD]
+"Publisher"="ITSupport247"
+"DisplayIcon"="C:\\Program Files (x86)\\SAAZOD\\desktop.ico,0"
+"EstimatedSize"=dword:0001301c
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\SchedulingAgent]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\ShadowProtect]
+"Contact"="StorageCraft Technology Corporation (STC)"
+"HelpLink"="http://StorageCraft.com"
+"URLInfoAbout"="http://StorageCraft.com"
+"DisplayName"="StorageCraft ShadowProtect"
+"Publisher"="StorageCraft Technology Corporation (STC)"
+"DisplayVersion"="5.2.7.38915"
+"VersionMajor"="5"
+"VersionMinor"="2.7.38915"
+"MajorVersion"="5"
+"MinorVersion"="2.7.38915"
+"InstallLocation"="C:\\Program Files (x86)\\StorageCraft\\ShadowProtect"
+"InstallDir"="C:\\Program Files (x86)\\StorageCraft\\ShadowProtect"
+"TargetDir"="C:\\Program Files (x86)\\StorageCraft\\ShadowProtect"
+"UninstallString"="C:\\Program Files (x86)\\StorageCraft\\ShadowProtect\\Uninstall.exe"
+"DisplayIcon"="C:\\Program Files (x86)\\StorageCraft\\ShadowProtect\\Shield.ico"
+"InstallString"="'ShadowProtect' 'Install' 'LANG=en' 'TARGET=C:\\Program Files (x86)\\StorageCraft\\ShadowProtect' "
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\TeamViewer]
+"DisplayName"="TeamViewer"
+"DisplayIcon"="C:\\Program Files (x86)\\TeamViewer\\TeamViewer.exe"
+"Publisher"="TeamViewer"
+"HelpLink"="https://www.teamviewer.com"
+"UninstallString"="\"C:\\Program Files (x86)\\TeamViewer\\uninstall.exe\""
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"VersionMajor"=dword:0000000f
+"VersionMinor"=dword:0000003c
+"InstallLocation"="C:\\Program Files (x86)\\TeamViewer"
+"DisplayVersion"="15.60.3"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Wage Easy Payroll HR version 6.0.0.7814_is1]
+"Inno Setup: Setup Version"="5.4.3 (a)"
+"Inno Setup: App Path"="C:\\Program Files (x86)\\Wage Easy Payroll"
+"InstallLocation"="C:\\Program Files (x86)\\Wage Easy Payroll\\"
+"Inno Setup: Icon Group"="Wage Easy Payroll"
+"Inno Setup: User"="General"
+"Inno Setup: Setup Type"="complete"
+"Inno Setup: Selected Components"="main,alchemex"
+"Inno Setup: Deselected Components"=""
+"Inno Setup: Language"="default"
+"DisplayName"="Wage Easy Payroll HR version 6.0.0.7814"
+"UninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins000.exe\""
+"QuietUninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins000.exe\" /SILENT"
+"Publisher"="Wage Easy Software"
+"URLInfoAbout"="http://www.sage.com/au/wageeasy"
+"HelpLink"="http://www.sage.com/au/wageeasy"
+"URLUpdateInfo"="http://www.sage.com/au/wageeasy"
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"InstallDate"="20180516"
+"EstimatedSize"=dword:00045b53
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Wage Easy Payroll HR version 6.0.0.7879_is1]
+"Inno Setup: Setup Version"="5.4.3 (a)"
+"Inno Setup: App Path"="C:\\Program Files (x86)\\Wage Easy Payroll"
+"InstallLocation"="C:\\Program Files (x86)\\Wage Easy Payroll\\"
+"Inno Setup: Icon Group"="Wage Easy Payroll"
+"Inno Setup: User"="General"
+"Inno Setup: Setup Type"="complete"
+"Inno Setup: Selected Components"="main,alchemex"
+"Inno Setup: Deselected Components"=""
+"Inno Setup: Language"="default"
+"DisplayName"="Wage Easy Payroll HR version 6.0.0.7879"
+"UninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins001.exe\""
+"QuietUninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins001.exe\" /SILENT"
+"Publisher"="Wage Easy Software"
+"URLInfoAbout"="http://www.sage.com/au/wageeasy"
+"HelpLink"="http://www.sage.com/au/wageeasy"
+"URLUpdateInfo"="http://www.sage.com/au/wageeasy"
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"InstallDate"="20180621"
+"EstimatedSize"=dword:000464fb
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Wage Easy Payroll HR version 6.0.1.7917_is1]
+"Inno Setup: Setup Version"="5.4.3 (a)"
+"Inno Setup: App Path"="C:\\Program Files (x86)\\Wage Easy Payroll"
+"InstallLocation"="C:\\Program Files (x86)\\Wage Easy Payroll\\"
+"Inno Setup: Icon Group"="Wage Easy Payroll"
+"Inno Setup: User"="General"
+"Inno Setup: Setup Type"="complete"
+"Inno Setup: Selected Components"="main,alchemex"
+"Inno Setup: Deselected Components"=""
+"Inno Setup: Language"="default"
+"DisplayName"="Wage Easy Payroll HR version 6.0.1.7917"
+"UninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins002.exe\""
+"QuietUninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins002.exe\" /SILENT"
+"Publisher"="Wage Easy Software"
+"URLInfoAbout"="http://www.sage.com/au/wageeasy"
+"HelpLink"="http://www.sage.com/au/wageeasy"
+"URLUpdateInfo"="http://www.sage.com/au/wageeasy"
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"InstallDate"="20181009"
+"EstimatedSize"=dword:0004872c
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Wage Easy Payroll HR version 7.1.0.8091_is1]
+"Inno Setup: Setup Version"="5.4.3 (a)"
+"Inno Setup: App Path"="C:\\Program Files (x86)\\Wage Easy Payroll"
+"InstallLocation"="C:\\Program Files (x86)\\Wage Easy Payroll\\"
+"Inno Setup: Icon Group"="Wage Easy Payroll"
+"Inno Setup: User"="General"
+"Inno Setup: Setup Type"="complete"
+"Inno Setup: Selected Components"="main,alchemex"
+"Inno Setup: Deselected Components"=""
+"Inno Setup: Language"="default"
+"DisplayName"="Wage Easy Payroll HR version 7.1.0.8091"
+"UninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins003.exe\""
+"QuietUninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins003.exe\" /SILENT"
+"Publisher"="Wage Easy Software"
+"URLInfoAbout"="http://www.sage.com/au/wageeasy"
+"HelpLink"="http://www.sage.com/au/wageeasy"
+"URLUpdateInfo"="http://www.sage.com/au/wageeasy"
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"InstallDate"="20190620"
+"EstimatedSize"=dword:0004a0bf
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Wage Easy Payroll HR version 7.2.0.8154_is1]
+"Inno Setup: Setup Version"="5.4.3 (a)"
+"Inno Setup: App Path"="C:\\Program Files (x86)\\Wage Easy Payroll"
+"InstallLocation"="C:\\Program Files (x86)\\Wage Easy Payroll\\"
+"Inno Setup: Icon Group"="Wage Easy Payroll"
+"Inno Setup: User"="General"
+"Inno Setup: Setup Type"="complete"
+"Inno Setup: Selected Components"="main,alchemex"
+"Inno Setup: Deselected Components"=""
+"Inno Setup: Language"="default"
+"DisplayName"="Wage Easy Payroll HR version 7.2.0.8154"
+"UninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins004.exe\""
+"QuietUninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins004.exe\" /SILENT"
+"Publisher"="Wage Easy Software"
+"URLInfoAbout"="http://www.sage.com/au/wageeasy"
+"HelpLink"="http://www.sage.com/au/wageeasy"
+"URLUpdateInfo"="http://www.sage.com/au/wageeasy"
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"InstallDate"="20200130"
+"EstimatedSize"=dword:0004ad23
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Wage Easy Payroll HR version 7.2.1.8185_is1]
+"Inno Setup: Setup Version"="5.4.3 (a)"
+"Inno Setup: App Path"="C:\\Program Files (x86)\\Wage Easy Payroll"
+"InstallLocation"="C:\\Program Files (x86)\\Wage Easy Payroll\\"
+"Inno Setup: Icon Group"="Wage Easy Payroll"
+"Inno Setup: User"="General"
+"Inno Setup: Setup Type"="complete"
+"Inno Setup: Selected Components"="main,alchemex"
+"Inno Setup: Deselected Components"=""
+"Inno Setup: Language"="default"
+"DisplayName"="Wage Easy Payroll HR version 7.2.1.8185"
+"UninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins005.exe\""
+"QuietUninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins005.exe\" /SILENT"
+"Publisher"="Wage Easy Software"
+"URLInfoAbout"="http://www.sage.com/au/wageeasy"
+"HelpLink"="http://www.sage.com/au/wageeasy"
+"URLUpdateInfo"="http://www.sage.com/au/wageeasy"
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"InstallDate"="20200319"
+"EstimatedSize"=dword:0004d43f
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Wage Easy Payroll HR version 7.3.0.8217_is1]
+"Inno Setup: Setup Version"="5.4.3 (a)"
+"Inno Setup: App Path"="C:\\Program Files (x86)\\Wage Easy Payroll"
+"InstallLocation"="C:\\Program Files (x86)\\Wage Easy Payroll\\"
+"Inno Setup: Icon Group"="Wage Easy Payroll"
+"Inno Setup: User"="General"
+"Inno Setup: Setup Type"="complete"
+"Inno Setup: Selected Components"="main,alchemex"
+"Inno Setup: Deselected Components"=""
+"Inno Setup: Language"="default"
+"DisplayName"="Wage Easy Payroll HR version 7.3.0.8217"
+"UninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins006.exe\""
+"QuietUninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins006.exe\" /SILENT"
+"Publisher"="Wage Easy Software"
+"URLInfoAbout"="http://www.sage.com/au/wageeasy"
+"HelpLink"="http://www.sage.com/au/wageeasy"
+"URLUpdateInfo"="http://www.sage.com/au/wageeasy"
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"InstallDate"="20200626"
+"EstimatedSize"=dword:0004d645
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Wage Easy Payroll HR version 7.4.0.8267_is1]
+"Inno Setup: Setup Version"="5.4.3 (a)"
+"Inno Setup: App Path"="C:\\Program Files (x86)\\Wage Easy Payroll"
+"InstallLocation"="C:\\Program Files (x86)\\Wage Easy Payroll\\"
+"Inno Setup: Icon Group"="Wage Easy Payroll"
+"Inno Setup: User"="General"
+"Inno Setup: Setup Type"="complete"
+"Inno Setup: Selected Components"="main,alchemex"
+"Inno Setup: Deselected Components"=""
+"Inno Setup: Language"="default"
+"DisplayName"="Wage Easy Payroll HR version 7.4.0.8267"
+"UninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins007.exe\""
+"QuietUninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins007.exe\" /SILENT"
+"Publisher"="Wage Easy Software"
+"URLInfoAbout"="http://www.sage.com/au/wageeasy"
+"HelpLink"="http://www.sage.com/au/wageeasy"
+"URLUpdateInfo"="http://www.sage.com/au/wageeasy"
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"InstallDate"="20201120"
+"EstimatedSize"=dword:00054046
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Wage Easy Payroll HR version 7.6.0.8326_is1]
+"Inno Setup: Setup Version"="5.4.3 (a)"
+"Inno Setup: App Path"="C:\\Program Files (x86)\\Wage Easy Payroll"
+"InstallLocation"="C:\\Program Files (x86)\\Wage Easy Payroll\\"
+"Inno Setup: Icon Group"="Wage Easy Payroll"
+"Inno Setup: User"="General"
+"Inno Setup: Setup Type"="complete"
+"Inno Setup: Selected Components"="main,alchemex"
+"Inno Setup: Deselected Components"=""
+"Inno Setup: Language"="default"
+"DisplayName"="Wage Easy Payroll HR version 7.6.0.8326"
+"UninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins008.exe\""
+"QuietUninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins008.exe\" /SILENT"
+"Publisher"="Wage Easy Software"
+"URLInfoAbout"="http://www.sage.com/au/wageeasy"
+"HelpLink"="http://www.sage.com/au/wageeasy"
+"URLUpdateInfo"="http://www.sage.com/au/wageeasy"
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"InstallDate"="20210623"
+"EstimatedSize"=dword:0006483a
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Wage Easy Payroll HR version 7.8.0.8369_is1]
+"Inno Setup: Setup Version"="5.4.3 (a)"
+"Inno Setup: App Path"="C:\\Program Files (x86)\\Wage Easy Payroll"
+"InstallLocation"="C:\\Program Files (x86)\\Wage Easy Payroll\\"
+"Inno Setup: Icon Group"="Wage Easy Payroll"
+"Inno Setup: User"="General"
+"Inno Setup: Setup Type"="complete"
+"Inno Setup: Selected Components"="main,alchemex"
+"Inno Setup: Deselected Components"=""
+"Inno Setup: Language"="default"
+"DisplayName"="Wage Easy Payroll HR version 7.8.0.8369"
+"UninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins009.exe\""
+"QuietUninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins009.exe\" /SILENT"
+"Publisher"="Wage Easy Software"
+"URLInfoAbout"="http://www.sage.com/au/wageeasy"
+"HelpLink"="http://www.sage.com/au/wageeasy"
+"URLUpdateInfo"="http://www.sage.com/au/wageeasy"
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"InstallDate"="20220617"
+"EstimatedSize"=dword:0006a7c3
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Wage Easy Payroll HR version 7.8.1.8383_is1]
+"Inno Setup: Setup Version"="5.4.3 (a)"
+"Inno Setup: App Path"="C:\\Program Files (x86)\\Wage Easy Payroll"
+"InstallLocation"="C:\\Program Files (x86)\\Wage Easy Payroll\\"
+"Inno Setup: Icon Group"="Wage Easy Payroll"
+"Inno Setup: User"="General"
+"Inno Setup: Setup Type"="complete"
+"Inno Setup: Selected Components"="main,alchemex"
+"Inno Setup: Deselected Components"=""
+"Inno Setup: Language"="default"
+"DisplayName"="Wage Easy Payroll HR version 7.8.1.8383"
+"UninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins010.exe\""
+"QuietUninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins010.exe\" /SILENT"
+"Publisher"="Wage Easy Software"
+"URLInfoAbout"="http://www.sage.com/au/wageeasy"
+"HelpLink"="http://www.sage.com/au/wageeasy"
+"URLUpdateInfo"="http://www.sage.com/au/wageeasy"
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"InstallDate"="20220930"
+"EstimatedSize"=dword:0006b230
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Wage Easy Payroll HR version 8.0.0.8621_is1]
+"Inno Setup: Setup Version"="5.4.3 (a)"
+"Inno Setup: App Path"="C:\\Program Files (x86)\\Wage Easy Payroll"
+"InstallLocation"="C:\\Program Files (x86)\\Wage Easy Payroll\\"
+"Inno Setup: Icon Group"="Wage Easy Payroll"
+"Inno Setup: User"="General"
+"Inno Setup: Setup Type"="complete"
+"Inno Setup: Selected Components"="main,alchemex"
+"Inno Setup: Deselected Components"=""
+"Inno Setup: Language"="default"
+"DisplayName"="Wage Easy Payroll HR version 8.0.0.8621"
+"UninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins011.exe\""
+"QuietUninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins011.exe\" /SILENT"
+"Publisher"="Wage Easy Software"
+"URLInfoAbout"="http://www.sage.com/au/wageeasy"
+"HelpLink"="http://www.sage.com/au/wageeasy"
+"URLUpdateInfo"="http://www.sage.com/au/wageeasy"
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"InstallDate"="20230822"
+"EstimatedSize"=dword:0006b7bb
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Wage Easy Payroll HR version 8.0.2.8649_is1]
+"Inno Setup: Setup Version"="5.4.3 (a)"
+"Inno Setup: App Path"="C:\\Program Files (x86)\\Wage Easy Payroll"
+"InstallLocation"="C:\\Program Files (x86)\\Wage Easy Payroll\\"
+"Inno Setup: Icon Group"="Wage Easy Payroll"
+"Inno Setup: User"="General"
+"Inno Setup: Setup Type"="complete"
+"Inno Setup: Selected Components"="main,alchemex"
+"Inno Setup: Deselected Components"=""
+"Inno Setup: Language"="default"
+"DisplayName"="Wage Easy Payroll HR version 8.0.2.8649"
+"UninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins012.exe\""
+"QuietUninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins012.exe\" /SILENT"
+"Publisher"="Wage Easy Software"
+"URLInfoAbout"="http://www.sage.com/au/wageeasy"
+"HelpLink"="http://www.sage.com/au/wageeasy"
+"URLUpdateInfo"="http://www.sage.com/au/wageeasy"
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"InstallDate"="20231214"
+"EstimatedSize"=dword:0006b86f
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Wage Easy Payroll HR version 8.0.4.8669_is1]
+"Inno Setup: Setup Version"="5.4.3 (a)"
+"Inno Setup: App Path"="C:\\Program Files (x86)\\Wage Easy Payroll"
+"InstallLocation"="C:\\Program Files (x86)\\Wage Easy Payroll\\"
+"Inno Setup: Icon Group"="Wage Easy Payroll"
+"Inno Setup: User"="General"
+"Inno Setup: Setup Type"="complete"
+"Inno Setup: Selected Components"="main,alchemex"
+"Inno Setup: Deselected Components"=""
+"Inno Setup: Language"="default"
+"DisplayName"="Wage Easy Payroll HR version 8.0.4.8669"
+"UninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins013.exe\""
+"QuietUninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins013.exe\" /SILENT"
+"Publisher"="Wage Easy Software"
+"URLInfoAbout"="http://www.sage.com/au/wageeasy"
+"HelpLink"="http://www.sage.com/au/wageeasy"
+"URLUpdateInfo"="http://www.sage.com/au/wageeasy"
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"InstallDate"="20240531"
+"EstimatedSize"=dword:0006c97e
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Wage Easy Payroll HR version 8.0.5.8726_is1]
+"Inno Setup: Setup Version"="5.4.3 (a)"
+"Inno Setup: App Path"="C:\\Program Files (x86)\\Wage Easy Payroll"
+"InstallLocation"="C:\\Program Files (x86)\\Wage Easy Payroll\\"
+"Inno Setup: Icon Group"="Wage Easy Payroll"
+"Inno Setup: User"="General"
+"Inno Setup: Setup Type"="complete"
+"Inno Setup: Selected Components"="main,alchemex"
+"Inno Setup: Deselected Components"=""
+"Inno Setup: Language"="default"
+"DisplayName"="Wage Easy Payroll HR version 8.0.5.8726"
+"UninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins014.exe\""
+"QuietUninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins014.exe\" /SILENT"
+"Publisher"="Wage Easy Software"
+"URLInfoAbout"="http://www.sage.com/au/wageeasy"
+"HelpLink"="http://www.sage.com/au/wageeasy"
+"URLUpdateInfo"="http://www.sage.com/au/wageeasy"
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"InstallDate"="20240702"
+"EstimatedSize"=dword:0006c980
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Wage Easy Payroll HR version 8.0.6.8733_is1]
+"Inno Setup: Setup Version"="5.4.3 (a)"
+"Inno Setup: App Path"="C:\\Program Files (x86)\\Wage Easy Payroll"
+"InstallLocation"="C:\\Program Files (x86)\\Wage Easy Payroll\\"
+"Inno Setup: Icon Group"="Wage Easy Payroll"
+"Inno Setup: User"="General"
+"Inno Setup: Setup Type"="complete"
+"Inno Setup: Selected Components"="main,alchemex"
+"Inno Setup: Deselected Components"=""
+"Inno Setup: Language"="default"
+"DisplayName"="Wage Easy Payroll HR version 8.0.6.8733"
+"UninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins015.exe\""
+"QuietUninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins015.exe\" /SILENT"
+"Publisher"="Wage Easy Software"
+"URLInfoAbout"="http://www.sage.com/au/wageeasy"
+"HelpLink"="http://www.sage.com/au/wageeasy"
+"URLUpdateInfo"="http://www.sage.com/au/wageeasy"
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"InstallDate"="20240712"
+"EstimatedSize"=dword:0006c980
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Wage Easy Payroll HR version 8.1.0.8767_is1]
+"Inno Setup: Setup Version"="5.4.3 (a)"
+"Inno Setup: App Path"="C:\\Program Files (x86)\\Wage Easy Payroll"
+"InstallLocation"="C:\\Program Files (x86)\\Wage Easy Payroll\\"
+"Inno Setup: Icon Group"="Wage Easy Payroll"
+"Inno Setup: User"="General"
+"Inno Setup: Setup Type"="complete"
+"Inno Setup: Selected Components"="main,alchemex"
+"Inno Setup: Deselected Components"=""
+"Inno Setup: Language"="default"
+"DisplayName"="Wage Easy Payroll HR version 8.1.0.8767"
+"UninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins016.exe\""
+"QuietUninstallString"="\"C:\\Program Files (x86)\\Wage Easy Payroll\\unins016.exe\" /SILENT"
+"Publisher"="Wage Easy Software"
+"URLInfoAbout"="http://www.sage.com/au/wageeasy"
+"HelpLink"="http://www.sage.com/au/wageeasy"
+"URLUpdateInfo"="http://www.sage.com/au/wageeasy"
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"InstallDate"="20240925"
+"EstimatedSize"=dword:00067152
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\WIC]
+"NoRemove"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{050d4fc8-5d48-4b8f-8972-47c82c46020f}]
+"BundleCachePath"="C:\\ProgramData\\Package Cache\\{050d4fc8-5d48-4b8f-8972-47c82c46020f}\\vcredist_x64.exe"
+"BundleUpgradeCode"=hex(7):7b,00,31,00,44,00,31,00,44,00,42,00,35,00,45,00,36,\
+  00,2d,00,45,00,30,00,44,00,38,00,2d,00,33,00,31,00,30,00,33,00,2d,00,38,00,\
+  35,00,37,00,30,00,2d,00,33,00,36,00,39,00,41,00,38,00,32,00,41,00,39,00,42,\
+  00,46,00,33,00,33,00,7d,00,00,00,00,00
+"BundleAddonCode"=hex(7):
+"BundleDetectCode"=hex(7):
+"BundlePatchCode"=hex(7):
+"BundleVersion"="12.0.30501.0"
+"BundleProviderKey"="{050d4fc8-5d48-4b8f-8972-47c82c46020f}"
+"BundleTag"=""
+"EngineVersion"="3.7.2829.0"
+"DisplayIcon"="C:\\ProgramData\\Package Cache\\{050d4fc8-5d48-4b8f-8972-47c82c46020f}\\vcredist_x64.exe,0"
+"DisplayName"="Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.30501"
+"DisplayVersion"="12.0.30501.0"
+"Publisher"="Microsoft Corporation"
+"ModifyPath"="\"C:\\ProgramData\\Package Cache\\{050d4fc8-5d48-4b8f-8972-47c82c46020f}\\vcredist_x64.exe\" /modify"
+"NoElevateOnModify"=dword:00000001
+"QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{050d4fc8-5d48-4b8f-8972-47c82c46020f}\\vcredist_x64.exe\" /uninstall /quiet"
+"UninstallString"="\"C:\\ProgramData\\Package Cache\\{050d4fc8-5d48-4b8f-8972-47c82c46020f}\\vcredist_x64.exe\"  /uninstall"
+"EstimatedSize"=dword:00005246
+"Resume"=dword:00000003
+"Installed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{05F81C27-62A5-4A0C-8519-60CB66CF87C6}]
+"LogFile"="C:\\Program Files (x86)\\InstallShield Installation Information\\{05F81C27-62A5-4A0C-8519-60CB66CF87C6}\\Setup.ilg"
+"DisplayIcon"=hex(2):43,00,3a,00,5c,00,77,00,69,00,6e,00,64,00,6f,00,77,00,73,\
+  00,5c,00,49,00,6e,00,73,00,74,00,61,00,6c,00,6c,00,65,00,72,00,5c,00,7b,00,\
+  30,00,35,00,46,00,38,00,31,00,43,00,32,00,37,00,2d,00,36,00,32,00,41,00,35,\
+  00,2d,00,34,00,41,00,30,00,43,00,2d,00,38,00,35,00,31,00,39,00,2d,00,36,00,\
+  30,00,43,00,42,00,36,00,36,00,43,00,46,00,38,00,37,00,43,00,36,00,7d,00,5c,\
+  00,41,00,52,00,50,00,50,00,52,00,4f,00,44,00,55,00,43,00,54,00,49,00,43,00,\
+  4f,00,4e,00,2e,00,65,00,78,00,65,00,00,00
+"RegOwner"="HP Inc."
+"RegCompany"="HP Inc."
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{099218A5-A723-43DC-8DB5-6173656A1E94}]
 "AuthorizedCDFPrefix"=""
 "Comments"=""
 "Contact"=""
-"DisplayVersion"="3.74.0.0"
+"DisplayVersion"="1.3.983.1"
 "HelpLink"=""
 "HelpTelephone"=""
-"InstallDate"="20231117"
+"InstallDate"="20250125"
 "InstallLocation"=""
-"InstallSource"="C:\\WINDOWS\\TEMP\\1807AE3A-82D6-428F-B1EC-484AE25147AA\\"
+"InstallSource"="C:\\Program Files (x86)\\Dropbox\\Update\\1.3.983.1\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,31,00,46,00,43,00,31,00,41,00,36,00,43,00,\
-  32,00,2d,00,35,00,37,00,36,00,45,00,2d,00,34,00,38,00,39,00,41,00,2d,00,39,\
-  00,42,00,34,00,41,00,2d,00,39,00,32,00,44,00,32,00,31,00,46,00,35,00,34,00,\
-  32,00,31,00,33,00,36,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="Microsoft Corporation"
+  00,65,00,20,00,2f,00,49,00,7b,00,30,00,39,00,39,00,32,00,31,00,38,00,41,00,\
+  35,00,2d,00,41,00,37,00,32,00,33,00,2d,00,34,00,33,00,44,00,43,00,2d,00,38,\
+  00,44,00,42,00,35,00,2d,00,36,00,31,00,37,00,33,00,36,00,35,00,36,00,41,00,\
+  31,00,45,00,39,00,34,00,7d,00,00,00
+"Publisher"="Dropbox, Inc."
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:0000041a
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,31,00,46,00,43,00,31,00,41,00,36,00,43,\
-  00,32,00,2d,00,35,00,37,00,36,00,45,00,2d,00,34,00,38,00,39,00,41,00,2d,00,\
-  39,00,42,00,34,00,41,00,2d,00,39,00,32,00,44,00,32,00,31,00,46,00,35,00,34,\
-  00,32,00,31,00,33,00,36,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000003
-"VersionMinor"=dword:0000004a
-"WindowsInstaller"=dword:00000001
-"Version"=dword:034a0000
-"Language"=dword:00000000
-"DisplayName"="Microsoft Update Health Tools"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{20C1086D-C843-36B1-B678-990089D1BD44}]
-"AuthorizedCDFPrefix"=""
-"Comments"="Caution. Removing this product might prevent some applications from running."
-"Contact"=""
-"DisplayVersion"="12.0.40649"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,67,00,6f,00,2e,00,\
-  6d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,63,00,6f,00,6d,\
-  00,2f,00,66,00,77,00,6c,00,69,00,6e,00,6b,00,2f,00,3f,00,4c,00,69,00,6e,00,\
-  6b,00,49,00,64,00,3d,00,31,00,33,00,33,00,34,00,30,00,35,00,00,00
-"HelpTelephone"=""
-"InstallDate"="20231006"
-"InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\Package Cache\\{20C1086D-C843-36B1-B678-990089D1BD44}v12.0.40649\\packages\\vcRuntimeAdditional_amd64\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,32,00,30,00,43,00,31,00,30,00,38,00,36,00,\
-  44,00,2d,00,43,00,38,00,34,00,33,00,2d,00,33,00,36,00,42,00,31,00,2d,00,42,\
-  00,36,00,37,00,38,00,2d,00,39,00,39,00,30,00,30,00,38,00,39,00,44,00,31,00,\
-  42,00,44,00,34,00,34,00,7d,00,00,00
-"NoModify"=dword:00000001
-"Publisher"="Microsoft Corporation"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00002e08
+"EstimatedSize"=dword:00000021
 "SystemComponent"=dword:00000001
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,32,00,30,00,43,00,31,00,30,00,38,00,36,\
-  00,44,00,2d,00,43,00,38,00,34,00,33,00,2d,00,33,00,36,00,42,00,31,00,2d,00,\
-  42,00,36,00,37,00,38,00,2d,00,39,00,39,00,30,00,30,00,38,00,39,00,44,00,31,\
-  00,42,00,44,00,34,00,34,00,7d,00,00,00
+  78,00,65,00,20,00,2f,00,49,00,7b,00,30,00,39,00,39,00,32,00,31,00,38,00,41,\
+  00,35,00,2d,00,41,00,37,00,32,00,33,00,2d,00,34,00,33,00,44,00,43,00,2d,00,\
+  38,00,44,00,42,00,35,00,2d,00,36,00,31,00,37,00,33,00,36,00,35,00,36,00,41,\
+  00,31,00,45,00,39,00,34,00,7d,00,00,00
 "URLInfoAbout"=""
 "URLUpdateInfo"=""
-"VersionMajor"=dword:0000000c
-"VersionMinor"=dword:00000000
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0c009ec9
-"Language"=dword:00000409
-"DisplayName"="Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40649"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{258CAF41-D27F-42ED-88F3-F04782E0F78C}]
-"AuthorizedCDFPrefix"=""
-"Comments"="6.3.11 (60501)"
-"Contact"="Zoom Communications, Inc."
-"DisplayVersion"="6.3.60501"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,73,00,3a,00,2f,00,2f,00,73,00,75,00,\
-  70,00,70,00,6f,00,72,00,74,00,2e,00,7a,00,6f,00,6f,00,6d,00,2e,00,75,00,73,\
-  00,2f,00,68,00,6f,00,6d,00,65,00,00,00
-"HelpTelephone"=""
-"InstallDate"="20250307"
-"InstallLocation"=""
-"InstallSource"="C:\\Program Files (x86)\\ITSPlatform\\agentcore\\download\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,32,00,35,00,38,00,43,00,41,00,46,00,34,00,\
-  31,00,2d,00,44,00,32,00,37,00,46,00,2d,00,34,00,32,00,45,00,44,00,2d,00,38,\
-  00,38,00,46,00,33,00,2d,00,46,00,30,00,34,00,37,00,38,00,32,00,45,00,30,00,\
-  46,00,37,00,38,00,43,00,7d,00,00,00
-"NoModify"=dword:00000001
-"Publisher"="Zoom"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:0005b4e1
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,32,00,35,00,38,00,43,00,41,00,46,00,34,\
-  00,31,00,2d,00,44,00,32,00,37,00,46,00,2d,00,34,00,32,00,45,00,44,00,2d,00,\
-  38,00,38,00,46,00,33,00,2d,00,46,00,30,00,34,00,37,00,38,00,32,00,45,00,30,\
-  00,46,00,37,00,38,00,43,00,7d,00,00,00
-"URLInfoAbout"="https://zoom.us"
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000006
+"VersionMajor"=dword:00000001
 "VersionMinor"=dword:00000003
 "WindowsInstaller"=dword:00000001
-"Version"=dword:0603ec55
+"Version"=dword:010303d7
 "Language"=dword:00000409
-"DisplayName"="Zoom Workplace (64-bit)"
+"DisplayName"="Dropbox Update Helper"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{26F74578-1285-4C09-80C0-29106C357BFD}]
-"InstallLocation"="C:\\Program Files (x86)\\StorageCraft\\ShadowProtect"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{37B8F9C7-03FB-3253-8781-2517C99D7C00}]
-"AuthorizedCDFPrefix"=""
-"Comments"="Caution. Removing this product might prevent some applications from running."
-"Contact"=""
-"DisplayVersion"="11.0.61030"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,67,00,6f,00,2e,00,\
-  6d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,63,00,6f,00,6d,\
-  00,2f,00,66,00,77,00,6c,00,69,00,6e,00,6b,00,2f,00,3f,00,4c,00,69,00,6e,00,\
-  6b,00,49,00,64,00,3d,00,31,00,33,00,33,00,34,00,30,00,35,00,00,00
-"HelpTelephone"=""
-"InstallDate"="20171121"
-"InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\Package Cache\\{37B8F9C7-03FB-3253-8781-2517C99D7C00}v11.0.61030\\packages\\vcRuntimeAdditional_amd64\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,33,00,37,00,42,00,38,00,46,00,39,00,43,00,\
-  37,00,2d,00,30,00,33,00,46,00,42,00,2d,00,33,00,32,00,35,00,33,00,2d,00,38,\
-  00,37,00,38,00,31,00,2d,00,32,00,35,00,31,00,37,00,43,00,39,00,39,00,44,00,\
-  37,00,43,00,30,00,30,00,7d,00,00,00
-"NoModify"=dword:00000001
-"Publisher"="Microsoft Corporation"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00002ff0
-"SystemComponent"=dword:00000001
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,33,00,37,00,42,00,38,00,46,00,39,00,43,\
-  00,37,00,2d,00,30,00,33,00,46,00,42,00,2d,00,33,00,32,00,35,00,33,00,2d,00,\
-  38,00,37,00,38,00,31,00,2d,00,32,00,35,00,31,00,37,00,43,00,39,00,39,00,44,\
-  00,37,00,43,00,30,00,30,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:0000000b
-"VersionMinor"=dword:00000000
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0b00ee66
-"Language"=dword:00000409
-"DisplayName"="Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{39E08562-9C5A-42B9-9583-4D3BEE17FF0B}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="1.0.0.0"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20180321"
-"InstallLocation"=""
-"InstallSource"="C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\IIF97D3.tmp\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,33,00,39,00,45,00,30,00,38,00,35,00,36,00,\
-  32,00,2d,00,39,00,43,00,35,00,41,00,2d,00,34,00,32,00,42,00,39,00,2d,00,39,\
-  00,35,00,38,00,33,00,2d,00,34,00,44,00,33,00,42,00,45,00,45,00,31,00,37,00,\
-  46,00,46,00,30,00,42,00,7d,00,00,00
-"Publisher"="Intel Corporation"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:0000597d
-"SystemComponent"=dword:00000001
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,33,00,39,00,45,00,30,00,38,00,35,00,36,\
-  00,32,00,2d,00,39,00,43,00,35,00,41,00,2d,00,34,00,32,00,42,00,39,00,2d,00,\
-  39,00,35,00,38,00,33,00,2d,00,34,00,44,00,33,00,42,00,45,00,45,00,31,00,37,\
-  00,46,00,46,00,30,00,42,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000001
-"VersionMinor"=dword:00000000
-"WindowsInstaller"=dword:00000001
-"Version"=dword:01000000
-"Language"=dword:00000409
-"DisplayName"="Intel(R) Management Engine Components"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{3BAE4496-6F6C-4330-A8AA-B93D3D346FA5}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="2.53.0.0"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,73,00,75,00,70,00,\
-  70,00,6f,00,72,00,74,00,2e,00,6d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,\
-  00,74,00,2e,00,63,00,6f,00,6d,00,2f,00,6b,00,62,00,2f,00,34,00,34,00,38,00,\
-  30,00,37,00,33,00,30,00,00,00
-"HelpTelephone"=""
-"InstallDate"="20200128"
-"InstallLocation"=""
-"InstallSource"="C:\\WINDOWS\\SoftwareDistribution\\Download\\62283e8f2c3372f990f6c258b4091686\\img\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,33,00,42,00,41,00,45,00,34,00,34,00,39,00,\
-  36,00,2d,00,36,00,46,00,36,00,43,00,2d,00,34,00,33,00,33,00,30,00,2d,00,41,\
-  00,38,00,41,00,41,00,2d,00,42,00,39,00,33,00,44,00,33,00,44,00,33,00,34,00,\
-  36,00,46,00,41,00,35,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="Microsoft Corporation"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00000174
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,33,00,42,00,41,00,45,00,34,00,34,00,39,\
-  00,36,00,2d,00,36,00,46,00,36,00,43,00,2d,00,34,00,33,00,33,00,30,00,2d,00,\
-  41,00,38,00,41,00,41,00,2d,00,42,00,39,00,33,00,44,00,33,00,44,00,33,00,34,\
-  00,36,00,46,00,41,00,35,00,7d,00,00,00
-"URLInfoAbout"="http://support.microsoft.com/kb/4480730"
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000002
-"VersionMinor"=dword:00000035
-"WindowsInstaller"=dword:00000001
-"Version"=dword:02350000
-"Language"=dword:00000000
-"DisplayName"="Update for Windows 10 for x64-based Systems (KB4480730)"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{3D57F0B3-5C71-3C2C-8795-2A150BB58C33}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="134.0.6998.89"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20250307"
-"InstallLocation"=""
-"InstallSource"="C:\\Program Files (x86)\\ITSPlatform\\agentcore\\download\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,33,00,44,00,35,00,37,00,46,00,30,00,42,00,\
-  33,00,2d,00,35,00,43,00,37,00,31,00,2d,00,33,00,43,00,32,00,43,00,2d,00,38,\
-  00,37,00,39,00,35,00,2d,00,32,00,41,00,31,00,35,00,30,00,42,00,42,00,35,00,\
-  38,00,43,00,33,00,33,00,7d,00,00,00
-"NoModify"=dword:00000001
-"Publisher"="Google LLC"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:0001f649
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,33,00,44,00,35,00,37,00,46,00,30,00,42,\
-  00,33,00,2d,00,35,00,43,00,37,00,31,00,2d,00,33,00,43,00,32,00,43,00,2d,00,\
-  38,00,37,00,39,00,35,00,2d,00,32,00,41,00,31,00,35,00,30,00,42,00,42,00,35,\
-  00,38,00,43,00,33,00,33,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000046
-"VersionMinor"=dword:000000d5
-"WindowsInstaller"=dword:00000001
-"Version"=dword:46d58024
-"Language"=dword:00000409
-"DisplayName"="Google Chrome"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{3DEB594C-9E31-4AF0-8142-8047EEBCD837}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="1.0.0.0"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20180321"
-"InstallLocation"=""
-"InstallSource"="C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\IIF97D3.tmp\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,33,00,44,00,45,00,42,00,35,00,39,00,34,00,\
-  43,00,2d,00,39,00,45,00,33,00,31,00,2d,00,34,00,41,00,46,00,30,00,2d,00,38,\
-  00,31,00,34,00,32,00,2d,00,38,00,30,00,34,00,37,00,45,00,45,00,42,00,43,00,\
-  44,00,38,00,33,00,37,00,7d,00,00,00
-"Publisher"="Intel Corporation"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:0000001d
-"SystemComponent"=dword:00000001
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,33,00,44,00,45,00,42,00,35,00,39,00,34,\
-  00,43,00,2d,00,39,00,45,00,33,00,31,00,2d,00,34,00,41,00,46,00,30,00,2d,00,\
-  38,00,31,00,34,00,32,00,2d,00,38,00,30,00,34,00,37,00,45,00,45,00,42,00,43,\
-  00,44,00,38,00,33,00,37,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000001
-"VersionMinor"=dword:00000000
-"WindowsInstaller"=dword:00000001
-"Version"=dword:01000000
-"Language"=dword:00000409
-"DisplayName"="Intel(R) Management Engine Driver"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{409CB30E-E457-4008-9B1A-ED1B9EA21140}]
-"DisplayName"="Intel(R) Rapid Storage Technology"
-"DisplayName_Localized"="@C:\\Program Files\\Intel\\Intel(R) Rapid Storage Technology\\Lang\\Resource.dll,-20000"
-"UninstallString"="\"C:\\Program Files (x86)\\Intel\\Package Cache\\{409CB30E-E457-4008-9B1A-ED1B9EA21140}\\Setup.exe\" -uninstall"
-"Publisher"="Intel Corporation"
-"EstimatedSize"=dword:00006043
-"DisplayVersion"="15.9.0.1015"
-"InstallLocation"="C:\\Program Files\\Intel\\Intel(R) Rapid Storage Technology"
-"DisplayIcon"="C:\\Program Files\\Intel\\Intel(R) Rapid Storage Technology\\IAStorUI.exe,0"
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{56DDDFB8-7F79-4480-89D5-25E1F52AB28F}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"="AppleCare Support"
-"DisplayVersion"="3.1.0.1"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,77,00,77,00,77,00,\
-  2e,00,61,00,70,00,70,00,6c,00,65,00,2e,00,63,00,6f,00,6d,00,2f,00,73,00,75,\
-  00,70,00,70,00,6f,00,72,00,74,00,2f,00,00,00
-"HelpTelephone"="1-800-275-2273"
-"InstallDate"="20221018"
-"InstallLocation"="C:\\Program Files (x86)\\Bonjour\\"
-"InstallSource"="C:\\Users\\General\\AppData\\Local\\Temp\\IXP870.TMP\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,35,00,36,00,44,00,44,00,44,00,46,00,42,00,\
-  38,00,2d,00,37,00,46,00,37,00,39,00,2d,00,34,00,34,00,38,00,30,00,2d,00,38,\
-  00,39,00,44,00,35,00,2d,00,32,00,35,00,45,00,31,00,46,00,35,00,32,00,41,00,\
-  42,00,32,00,38,00,46,00,7d,00,00,00
-"NoModify"=dword:00000001
-"Publisher"="Apple Inc."
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00000810
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,35,00,36,00,44,00,44,00,44,00,46,00,42,\
-  00,38,00,2d,00,37,00,46,00,37,00,39,00,2d,00,34,00,34,00,38,00,30,00,2d,00,\
-  38,00,39,00,44,00,35,00,2d,00,32,00,35,00,45,00,31,00,46,00,35,00,32,00,41,\
-  00,42,00,32,00,38,00,46,00,7d,00,00,00
-"URLInfoAbout"="http://www.apple.com"
-"URLUpdateInfo"="http://www.apple.com/"
-"VersionMajor"=dword:00000003
-"VersionMinor"=dword:00000001
-"WindowsInstaller"=dword:00000001
-"Version"=dword:03010000
-"Language"=dword:00000409
-"DisplayName"="Bonjour"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{586324D6-35AF-4738-9324-B44F54638797}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="1.0.0.0"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20180321"
-"InstallLocation"=""
-"InstallSource"="C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\IIF97D3.tmp\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,35,00,38,00,36,00,33,00,32,00,34,00,44,00,\
-  36,00,2d,00,33,00,35,00,41,00,46,00,2d,00,34,00,37,00,33,00,38,00,2d,00,39,\
-  00,33,00,32,00,34,00,2d,00,42,00,34,00,34,00,46,00,35,00,34,00,36,00,33,00,\
-  38,00,37,00,39,00,37,00,7d,00,00,00
-"Publisher"="Intel Corporation"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00000574
-"SystemComponent"=dword:00000001
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,35,00,38,00,36,00,33,00,32,00,34,00,44,\
-  00,36,00,2d,00,33,00,35,00,41,00,46,00,2d,00,34,00,37,00,33,00,38,00,2d,00,\
-  39,00,33,00,32,00,34,00,2d,00,42,00,34,00,34,00,46,00,35,00,34,00,36,00,33,\
-  00,38,00,37,00,39,00,37,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000001
-"VersionMinor"=dword:00000000
-"WindowsInstaller"=dword:00000001
-"Version"=dword:01000000
-"Language"=dword:00000409
-"DisplayName"="Intel(R) Management Engine Components"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{59CED48F-EBFE-480C-8A38-FC079C2BEC0F}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="14.40.33810"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20240731"
-"InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\Package Cache\\{59CED48F-EBFE-480C-8A38-FC079C2BEC0F}v14.40.33810\\packages\\vcRuntimeAdditional_amd64\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,35,00,39,00,43,00,45,00,44,00,34,00,38,00,\
-  46,00,2d,00,45,00,42,00,46,00,45,00,2d,00,34,00,38,00,30,00,43,00,2d,00,38,\
-  00,41,00,33,00,38,00,2d,00,46,00,43,00,30,00,37,00,39,00,43,00,32,00,42,00,\
-  45,00,43,00,30,00,46,00,7d,00,00,00
-"Publisher"="Microsoft Corporation"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00002e68
-"SystemComponent"=dword:00000001
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,35,00,39,00,43,00,45,00,44,00,34,00,38,\
-  00,46,00,2d,00,45,00,42,00,46,00,45,00,2d,00,34,00,38,00,30,00,43,00,2d,00,\
-  38,00,41,00,33,00,38,00,2d,00,46,00,43,00,30,00,37,00,39,00,43,00,32,00,42,\
-  00,45,00,43,00,30,00,46,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:0000000e
-"VersionMinor"=dword:00000028
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0e288412
-"Language"=dword:00000409
-"DisplayName"="Microsoft Visual C++ 2022 X64 Additional Runtime - 14.40.33810"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{5FCE6D76-F5DC-37AB-B2B8-22AB8CEDB1D4}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="9.0.30729.6161"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20171121"
-"InstallLocation"=""
-"InstallSource"="e:\\3ef0c3f26745fcff2bd5decec54e97\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,35,00,46,00,43,00,45,00,36,00,44,00,37,00,\
-  36,00,2d,00,46,00,35,00,44,00,43,00,2d,00,33,00,37,00,41,00,42,00,2d,00,42,\
-  00,32,00,42,00,38,00,2d,00,32,00,32,00,41,00,42,00,38,00,43,00,45,00,44,00,\
-  42,00,31,00,44,00,34,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="Microsoft Corporation"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:000034dc
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,35,00,46,00,43,00,45,00,36,00,44,00,37,\
-  00,36,00,2d,00,46,00,35,00,44,00,43,00,2d,00,33,00,37,00,41,00,42,00,2d,00,\
-  42,00,32,00,42,00,38,00,2d,00,32,00,32,00,41,00,42,00,38,00,43,00,45,00,44,\
-  00,42,00,31,00,44,00,34,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000009
-"VersionMinor"=dword:00000000
-"WindowsInstaller"=dword:00000001
-"Version"=dword:09007809
-"Language"=dword:00000409
-"DisplayName"="Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{604D9458-AADD-4FC8-91ED-4417258DE59F}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{0ABFD65F-A001-4804-975A-33BB2F404621}]
 "AuthorizedCDFPrefix"=""
 "Comments"=""
 "Contact"=""
@@ -735,20 +614,20 @@ Windows Registry Editor Version 5.00
 "InstallLocation"=""
 "InstallSource"="C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\IIF97D3.tmp\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,36,00,30,00,34,00,44,00,39,00,34,00,35,00,\
-  38,00,2d,00,41,00,41,00,44,00,44,00,2d,00,34,00,46,00,43,00,38,00,2d,00,39,\
-  00,31,00,45,00,44,00,2d,00,34,00,34,00,31,00,37,00,32,00,35,00,38,00,44,00,\
-  45,00,35,00,39,00,46,00,7d,00,00,00
+  00,65,00,20,00,2f,00,49,00,7b,00,30,00,41,00,42,00,46,00,44,00,36,00,35,00,\
+  46,00,2d,00,41,00,30,00,30,00,31,00,2d,00,34,00,38,00,30,00,34,00,2d,00,39,\
+  00,37,00,35,00,41,00,2d,00,33,00,33,00,42,00,42,00,32,00,46,00,34,00,30,00,\
+  34,00,36,00,32,00,31,00,7d,00,00,00
 "Publisher"="Intel Corporation"
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:00000768
+"EstimatedSize"=dword:0000063c
 "SystemComponent"=dword:00000001
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,36,00,30,00,34,00,44,00,39,00,34,00,35,\
-  00,38,00,2d,00,41,00,41,00,44,00,44,00,2d,00,34,00,46,00,43,00,38,00,2d,00,\
-  39,00,31,00,45,00,44,00,2d,00,34,00,34,00,31,00,37,00,32,00,35,00,38,00,44,\
-  00,45,00,35,00,39,00,46,00,7d,00,00,00
+  78,00,65,00,20,00,2f,00,49,00,7b,00,30,00,41,00,42,00,46,00,44,00,36,00,35,\
+  00,46,00,2d,00,41,00,30,00,30,00,31,00,2d,00,34,00,38,00,30,00,34,00,2d,00,\
+  39,00,37,00,35,00,41,00,2d,00,33,00,33,00,42,00,42,00,32,00,46,00,34,00,30,\
+  00,34,00,36,00,32,00,31,00,7d,00,00,00
 "URLInfoAbout"=""
 "URLUpdateInfo"=""
 "VersionMajor"=dword:0000000c
@@ -758,292 +637,7 @@ Windows Registry Editor Version 5.00
 "Language"=dword:00000409
 "DisplayName"="Microsoft VC++ redistributables repacked."
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{78909610-D229-459C-A936-25D92283D3FD}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="4.0.8876.1"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,67,00,6f,00,2e,00,\
-  6d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,63,00,6f,00,6d,\
-  00,2f,00,66,00,77,00,6c,00,69,00,6e,00,6b,00,2f,00,3f,00,4c,00,69,00,6e,00,\
-  6b,00,49,00,64,00,3d,00,38,00,31,00,34,00,38,00,38,00,00,00
-"HelpTelephone"=""
-"InstallDate"="20180516"
-"InstallLocation"="C:\\Program Files\\Microsoft SQL Server Compact Edition\\"
-"InstallSource"="C:\\Program Files (x86)\\Microsoft SQL Server Compact Edition\\Installer\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,37,00,38,00,39,00,30,00,39,00,36,00,31,00,\
-  30,00,2d,00,44,00,32,00,32,00,39,00,2d,00,34,00,35,00,39,00,43,00,2d,00,41,\
-  00,39,00,33,00,36,00,2d,00,32,00,35,00,44,00,39,00,32,00,32,00,38,00,33,00,\
-  44,00,33,00,46,00,44,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="Microsoft Corporation"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00005502
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,37,00,38,00,39,00,30,00,39,00,36,00,31,\
-  00,30,00,2d,00,44,00,32,00,32,00,39,00,2d,00,34,00,35,00,39,00,43,00,2d,00,\
-  41,00,39,00,33,00,36,00,2d,00,32,00,35,00,44,00,39,00,32,00,32,00,38,00,33,\
-  00,44,00,33,00,46,00,44,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000004
-"VersionMinor"=dword:00000000
-"WindowsInstaller"=dword:00000001
-"Version"=dword:040022ac
-"Language"=dword:00000409
-"DisplayName"="Microsoft SQL Server Compact 4.0 SP1 x64 ENU"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{7FB35D08-C75C-4A18-B593-1D7C3E8970AD}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="10.1.1.45"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20180321"
-"InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\Package Cache\\{7FB35D08-C75C-4A18-B593-1D7C3E8970AD}v10.1.1.45\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,37,00,46,00,42,00,33,00,35,00,44,00,30,00,\
-  38,00,2d,00,43,00,37,00,35,00,43,00,2d,00,34,00,41,00,31,00,38,00,2d,00,42,\
-  00,35,00,39,00,33,00,2d,00,31,00,44,00,37,00,43,00,33,00,45,00,38,00,39,00,\
-  37,00,30,00,41,00,44,00,7d,00,00,00
-"Publisher"="Intel Corporation"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:0000000c
-"SystemComponent"=dword:00000001
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,37,00,46,00,42,00,33,00,35,00,44,00,30,\
-  00,38,00,2d,00,43,00,37,00,35,00,43,00,2d,00,34,00,41,00,31,00,38,00,2d,00,\
-  42,00,35,00,39,00,33,00,2d,00,31,00,44,00,37,00,43,00,33,00,45,00,38,00,39,\
-  00,37,00,30,00,41,00,44,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:0000000a
-"VersionMinor"=dword:00000001
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0a010001
-"Language"=dword:00000409
-"DisplayName"="Intel(R) Chipset Device Software"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{89F4137D-6C26-4A84-BDB8-2E5A4BB71E00}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="5.1.50918.0"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,67,00,6f,00,2e,00,\
-  6d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,63,00,6f,00,6d,\
-  00,2f,00,66,00,77,00,6c,00,69,00,6e,00,6b,00,2f,00,3f,00,4c,00,69,00,6e,00,\
-  6b,00,49,00,44,00,3d,00,39,00,31,00,39,00,35,00,35,00,00,00
-"HelpTelephone"=""
-"InstallDate"="20211022"
-"InstallLocation"="c:\\Program Files\\Microsoft Silverlight\\"
-"InstallSource"="c:\\9a5e7366a4fa6e42e88bad\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,38,00,39,00,46,00,34,00,31,00,33,00,37,00,\
-  44,00,2d,00,36,00,43,00,32,00,36,00,2d,00,34,00,41,00,38,00,34,00,2d,00,42,\
-  00,44,00,42,00,38,00,2d,00,32,00,45,00,35,00,41,00,34,00,42,00,42,00,37,00,\
-  31,00,45,00,30,00,30,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="Microsoft Corporation"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:0000cafd
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,38,00,39,00,46,00,34,00,31,00,33,00,37,\
-  00,44,00,2d,00,36,00,43,00,32,00,36,00,2d,00,34,00,41,00,38,00,34,00,2d,00,\
-  42,00,44,00,42,00,38,00,2d,00,32,00,45,00,35,00,41,00,34,00,42,00,42,00,37,\
-  00,31,00,45,00,30,00,30,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000005
-"VersionMinor"=dword:00000001
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0501c6e6
-"Language"=dword:00000409
-"DisplayName"="Microsoft Silverlight"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-008F-0000-1000-0000000FF1CE}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="16.0.18526.20168"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20250314"
-"InstallLocation"=""
-"InstallSource"="c:\\program files (x86)\\microsoft office\\root\\integration\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,39,00,30,00,31,00,36,00,30,00,30,00,30,00,\
-  30,00,2d,00,30,00,30,00,38,00,46,00,2d,00,30,00,30,00,30,00,30,00,2d,00,31,\
-  00,30,00,30,00,30,00,2d,00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,46,00,\
-  46,00,31,00,43,00,45,00,7d,00,00,00
-"Publisher"="Microsoft Corporation"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00001ab0
-"SystemComponent"=dword:00000001
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,39,00,30,00,31,00,36,00,30,00,30,00,30,\
-  00,30,00,2d,00,30,00,30,00,38,00,46,00,2d,00,30,00,30,00,30,00,30,00,2d,00,\
-  31,00,30,00,30,00,30,00,2d,00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,46,\
-  00,46,00,31,00,43,00,45,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000010
-"VersionMinor"=dword:00000000
-"WindowsInstaller"=dword:00000001
-"Version"=dword:1000485e
-"Language"=dword:00000000
-"DisplayName"="Office 16 Click-to-Run Licensing Component"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-00DD-0000-1000-0000000FF1CE}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="16.0.18526.20168"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20250314"
-"InstallLocation"=""
-"InstallSource"="c:\\program files (x86)\\microsoft office\\root\\integration\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,39,00,30,00,31,00,36,00,30,00,30,00,30,00,\
-  30,00,2d,00,30,00,30,00,44,00,44,00,2d,00,30,00,30,00,30,00,30,00,2d,00,31,\
-  00,30,00,30,00,30,00,2d,00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,46,00,\
-  46,00,31,00,43,00,45,00,7d,00,00,00
-"NoModify"=dword:00000001
-"Publisher"="Microsoft Corporation"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00000214
-"SystemComponent"=dword:00000001
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,39,00,30,00,31,00,36,00,30,00,30,00,30,\
-  00,30,00,2d,00,30,00,30,00,44,00,44,00,2d,00,30,00,30,00,30,00,30,00,2d,00,\
-  31,00,30,00,30,00,30,00,2d,00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,46,\
-  00,46,00,31,00,43,00,45,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000010
-"VersionMinor"=dword:00000000
-"WindowsInstaller"=dword:00000001
-"Version"=dword:1000485e
-"Language"=dword:00000000
-"DisplayName"="Office 16 Click-to-Run Extensibility Component 64-bit Registration"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{A7AB73A3-CB10-4AA5-9D38-6AEFFBDE4C91}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"="Microsoft"
-"DisplayVersion"="1.24.31301"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20250110"
-"InstallLocation"=""
-"InstallSource"="C:\\Program Files\\WindowsApps\\MSTeams_24335.208.3315.1951_x64__8wekyb3d8bbwe\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,41,00,37,00,41,00,42,00,37,00,33,00,41,00,\
-  33,00,2d,00,43,00,42,00,31,00,30,00,2d,00,34,00,41,00,41,00,35,00,2d,00,39,\
-  00,44,00,33,00,38,00,2d,00,36,00,41,00,45,00,46,00,46,00,42,00,44,00,45,00,\
-  34,00,43,00,39,00,31,00,7d,00,00,00
-"Publisher"="Microsoft"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00007f13
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,41,00,37,00,41,00,42,00,37,00,33,00,41,\
-  00,33,00,2d,00,43,00,42,00,31,00,30,00,2d,00,34,00,41,00,41,00,35,00,2d,00,\
-  39,00,44,00,33,00,38,00,2d,00,36,00,41,00,45,00,46,00,46,00,42,00,44,00,45,\
-  00,34,00,43,00,39,00,31,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000001
-"VersionMinor"=dword:00000018
-"WindowsInstaller"=dword:00000001
-"Version"=dword:01187a45
-"Language"=dword:00000409
-"DisplayName"="Microsoft Teams Meeting Add-in for Microsoft Office"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{ABB19BB4-838D-3082-BDA4-87C6604181A2}]
-"AuthorizedCDFPrefix"=""
-"Comments"="Caution. Removing this product might prevent some applications from running."
-"Contact"=""
-"DisplayVersion"="12.0.40649"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,67,00,6f,00,2e,00,\
-  6d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,63,00,6f,00,6d,\
-  00,2f,00,66,00,77,00,6c,00,69,00,6e,00,6b,00,2f,00,3f,00,4c,00,69,00,6e,00,\
-  6b,00,49,00,64,00,3d,00,31,00,33,00,33,00,34,00,30,00,35,00,00,00
-"HelpTelephone"=""
-"InstallDate"="20231006"
-"InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\Package Cache\\{ABB19BB4-838D-3082-BDA4-87C6604181A2}v12.0.40649\\packages\\vcRuntimeMinimum_amd64\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,41,00,42,00,42,00,31,00,39,00,42,00,42,00,\
-  34,00,2d,00,38,00,33,00,38,00,44,00,2d,00,33,00,30,00,38,00,32,00,2d,00,42,\
-  00,44,00,41,00,34,00,2d,00,38,00,37,00,43,00,36,00,36,00,30,00,34,00,31,00,\
-  38,00,31,00,41,00,32,00,7d,00,00,00
-"NoModify"=dword:00000001
-"Publisher"="Microsoft Corporation"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:000009dc
-"SystemComponent"=dword:00000001
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,41,00,42,00,42,00,31,00,39,00,42,00,42,\
-  00,34,00,2d,00,38,00,33,00,38,00,44,00,2d,00,33,00,30,00,38,00,32,00,2d,00,\
-  42,00,44,00,41,00,34,00,2d,00,38,00,37,00,43,00,36,00,36,00,30,00,34,00,31,\
-  00,38,00,31,00,41,00,32,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:0000000c
-"VersionMinor"=dword:00000000
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0c009ec9
-"Language"=dword:00000409
-"DisplayName"="Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.40649"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{ad8a2fa1-06e7-4b0d-927d-6e54b3d31028}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="8.0.61000"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20171121"
-"InstallLocation"=""
-"InstallSource"="C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\IXP000.TMP\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,61,00,64,00,38,00,61,00,32,00,66,00,61,00,\
-  31,00,2d,00,30,00,36,00,65,00,37,00,2d,00,34,00,62,00,30,00,64,00,2d,00,39,\
-  00,32,00,37,00,64,00,2d,00,36,00,65,00,35,00,34,00,62,00,33,00,64,00,33,00,\
-  31,00,30,00,32,00,38,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="Microsoft Corporation"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00001b58
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,61,00,64,00,38,00,61,00,32,00,66,00,61,\
-  00,31,00,2d,00,30,00,36,00,65,00,37,00,2d,00,34,00,62,00,30,00,64,00,2d,00,\
-  39,00,32,00,37,00,64,00,2d,00,36,00,65,00,35,00,34,00,62,00,33,00,64,00,33,\
-  00,31,00,30,00,32,00,38,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000008
-"VersionMinor"=dword:00000000
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0800ee48
-"Language"=dword:00000000
-"DisplayName"="Microsoft Visual C++ 2005 Redistributable (x64)"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{B8B3BB4A-A10D-4F51-91B7-A64FFAC31EA7}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{0C3457A0-3DCE-4A33-BEF0-9B528C557771}]
 "AuthorizedCDFPrefix"=""
 "Comments"=""
 "Contact"=""
@@ -1052,22 +646,22 @@ Windows Registry Editor Version 5.00
 "HelpTelephone"=""
 "InstallDate"="20240731"
 "InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\Package Cache\\{B8B3BB4A-A10D-4F51-91B7-A64FFAC31EA7}v14.40.33810\\packages\\vcRuntimeMinimum_amd64\\"
+"InstallSource"="C:\\ProgramData\\Package Cache\\{0C3457A0-3DCE-4A33-BEF0-9B528C557771}v14.40.33810\\packages\\vcRuntimeMinimum_x86\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,42,00,38,00,42,00,33,00,42,00,42,00,34,00,\
-  41,00,2d,00,41,00,31,00,30,00,44,00,2d,00,34,00,46,00,35,00,31,00,2d,00,39,\
-  00,31,00,42,00,37,00,2d,00,41,00,36,00,34,00,46,00,46,00,41,00,43,00,33,00,\
-  31,00,45,00,41,00,37,00,7d,00,00,00
+  00,65,00,20,00,2f,00,49,00,7b,00,30,00,43,00,33,00,34,00,35,00,37,00,41,00,\
+  30,00,2d,00,33,00,44,00,43,00,45,00,2d,00,34,00,41,00,33,00,33,00,2d,00,42,\
+  00,45,00,46,00,30,00,2d,00,39,00,42,00,35,00,32,00,38,00,43,00,35,00,35,00,\
+  37,00,37,00,37,00,31,00,7d,00,00,00
 "Publisher"="Microsoft Corporation"
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:0000094c
+"EstimatedSize"=dword:000007a4
 "SystemComponent"=dword:00000001
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,42,00,38,00,42,00,33,00,42,00,42,00,34,\
-  00,41,00,2d,00,41,00,31,00,30,00,44,00,2d,00,34,00,46,00,35,00,31,00,2d,00,\
-  39,00,31,00,42,00,37,00,2d,00,41,00,36,00,34,00,46,00,46,00,41,00,43,00,33,\
-  00,31,00,45,00,41,00,37,00,7d,00,00,00
+  78,00,65,00,20,00,2f,00,49,00,7b,00,30,00,43,00,33,00,34,00,35,00,37,00,41,\
+  00,30,00,2d,00,33,00,44,00,43,00,45,00,2d,00,34,00,41,00,33,00,33,00,2d,00,\
+  42,00,45,00,46,00,30,00,2d,00,39,00,42,00,35,00,32,00,38,00,43,00,35,00,35,\
+  00,37,00,37,00,37,00,31,00,7d,00,00,00
 "URLInfoAbout"=""
 "URLUpdateInfo"=""
 "VersionMajor"=dword:0000000e
@@ -1075,81 +669,379 @@ Windows Registry Editor Version 5.00
 "WindowsInstaller"=dword:00000001
 "Version"=dword:0e288412
 "Language"=dword:00000409
-"DisplayName"="Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.40.33810"
+"DisplayName"="Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.40.33810"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{C9552825-7BF2-4344-BA91-D3CD46F4C442}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{133F4AA7-01A9-4033-825A-A2F1F6E5E2F0}]
 "AuthorizedCDFPrefix"=""
 "Comments"=""
 "Contact"=""
-"DisplayVersion"="1.47.715.0"
+"DisplayVersion"="19.1.0"
 "HelpLink"=""
 "HelpTelephone"=""
-"InstallDate"="20180321"
+"InstallDate"="20190319"
 "InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\Package Cache\\{C9552825-7BF2-4344-BA91-D3CD46F4C442}v1.47.715.0\\"
+"InstallSource"="C:\\Users\\General\\AppData\\Local\\Package Cache\\{133F4AA7-01A9-4033-825A-A2F1F6E5E2F0}v19.1.0\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,43,00,39,00,35,00,35,00,32,00,38,00,32,00,\
-  35,00,2d,00,37,00,42,00,46,00,32,00,2d,00,34,00,33,00,34,00,34,00,2d,00,42,\
-  00,41,00,39,00,31,00,2d,00,44,00,33,00,43,00,44,00,34,00,36,00,46,00,34,00,\
-  43,00,34,00,34,00,32,00,7d,00,00,00
-"Publisher"="Intel Corporation"
+  00,65,00,20,00,2f,00,49,00,7b,00,31,00,33,00,33,00,46,00,34,00,41,00,41,00,\
+  37,00,2d,00,30,00,31,00,41,00,39,00,2d,00,34,00,30,00,33,00,33,00,2d,00,38,\
+  00,32,00,35,00,41,00,2d,00,41,00,32,00,46,00,31,00,46,00,36,00,45,00,35,00,\
+  45,00,32,00,46,00,30,00,7d,00,00,00
+"Publisher"="MYOB Technology Pty. Ltd."
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:00001c50
+"EstimatedSize"=dword:00050c5c
 "SystemComponent"=dword:00000001
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,43,00,39,00,35,00,35,00,32,00,38,00,32,\
-  00,35,00,2d,00,37,00,42,00,46,00,32,00,2d,00,34,00,33,00,34,00,34,00,2d,00,\
-  42,00,41,00,39,00,31,00,2d,00,44,00,33,00,43,00,44,00,34,00,36,00,46,00,34,\
-  00,43,00,34,00,34,00,32,00,7d,00,00,00
+  78,00,65,00,20,00,2f,00,49,00,7b,00,31,00,33,00,33,00,46,00,34,00,41,00,41,\
+  00,37,00,2d,00,30,00,31,00,41,00,39,00,2d,00,34,00,30,00,33,00,33,00,2d,00,\
+  38,00,32,00,35,00,41,00,2d,00,41,00,32,00,46,00,31,00,46,00,36,00,45,00,35,\
+  00,45,00,32,00,46,00,30,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000013
+"VersionMinor"=dword:00000001
+"WindowsInstaller"=dword:00000001
+"Version"=dword:13010000
+"Language"=dword:00000409
+"DisplayName"="MYOB AccountRight 2019.1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{14D00CA8-78CE-4EB8-8FB9-70CD0B222E4D}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="1.0.28.1"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20231102"
+"InstallLocation"=""
+"InstallSource"="C:\\Users\\General\\Desktop\\ALM invoices\\Y16E_C1_ULWT_PP-inst-F3\\msi\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,49,00,7b,00,31,00,34,00,44,00,30,00,30,00,43,00,41,00,\
+  38,00,2d,00,37,00,38,00,43,00,45,00,2d,00,34,00,45,00,42,00,38,00,2d,00,38,\
+  00,46,00,42,00,39,00,2d,00,37,00,30,00,43,00,44,00,30,00,42,00,32,00,32,00,\
+  32,00,45,00,34,00,44,00,7d,00,00,00
+"Publisher"="Brother Industries Ltd."
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:00004626
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,49,00,7b,00,31,00,34,00,44,00,30,00,30,00,43,00,41,\
+  00,38,00,2d,00,37,00,38,00,43,00,45,00,2d,00,34,00,45,00,42,00,38,00,2d,00,\
+  38,00,46,00,42,00,39,00,2d,00,37,00,30,00,43,00,44,00,30,00,42,00,32,00,32,\
+  00,32,00,45,00,34,00,44,00,7d,00,00,00
 "URLInfoAbout"=""
 "URLUpdateInfo"=""
 "VersionMajor"=dword:00000001
-"VersionMinor"=dword:0000002f
+"VersionMinor"=dword:00000000
 "WindowsInstaller"=dword:00000001
-"Version"=dword:012f02cb
+"Version"=dword:0100001c
 "Language"=dword:00000409
-"DisplayName"="Intel(R) Trusted Connect Service Client x64"
+"DisplayName"="Brother Scanner Driver"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{CF2BEA3C-26EA-32F8-AA9B-331F7E34BA97}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{18f39771-f9d8-4cfd-9654-f6c67c8ad9f4}]
 "AuthorizedCDFPrefix"=""
-"Comments"="Caution. Removing this product might prevent some applications from running."
+"Comments"="Version: 3.0.8.2446"
 "Contact"=""
-"DisplayVersion"="11.0.61030"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,67,00,6f,00,2e,00,\
-  6d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,63,00,6f,00,6d,\
-  00,2f,00,66,00,77,00,6c,00,69,00,6e,00,6b,00,2f,00,3f,00,4c,00,69,00,6e,00,\
-  6b,00,49,00,64,00,3d,00,31,00,33,00,33,00,34,00,30,00,35,00,00,00
+"DisplayVersion"="3.2.4"
+"HelpLink"=""
 "HelpTelephone"=""
-"InstallDate"="20171121"
-"InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\Package Cache\\{CF2BEA3C-26EA-32F8-AA9B-331F7E34BA97}v11.0.61030\\packages\\vcRuntimeMinimum_amd64\\"
+"InstallDate"="20231006"
+"InstallLocation"="C:\\Program Files (x86)\\"
+"InstallSource"="C:\\ASITScripts\\RMM\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,43,00,46,00,32,00,42,00,45,00,41,00,33,00,\
-  43,00,2d,00,32,00,36,00,45,00,41,00,2d,00,33,00,32,00,46,00,38,00,2d,00,41,\
-  00,41,00,39,00,42,00,2d,00,33,00,33,00,31,00,46,00,37,00,45,00,33,00,34,00,\
-  42,00,41,00,39,00,37,00,7d,00,00,00
+  00,65,00,20,00,2f,00,49,00,7b,00,31,00,38,00,66,00,33,00,39,00,37,00,37,00,\
+  31,00,2d,00,66,00,39,00,64,00,38,00,2d,00,34,00,63,00,66,00,64,00,2d,00,39,\
+  00,36,00,35,00,34,00,2d,00,66,00,36,00,63,00,36,00,37,00,63,00,38,00,61,00,\
+  64,00,39,00,66,00,34,00,7d,00,00,00
+"Publisher"=hex(2):49,00,54,00,53,00,75,00,70,00,70,00,6f,00,72,00,74,00,32,00,\
+  34,00,37,00,00,00
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:0000e0da
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,31,00,38,00,66,00,33,00,39,00,37,00,37,\
+  00,31,00,2d,00,66,00,39,00,64,00,38,00,2d,00,34,00,63,00,66,00,64,00,2d,00,\
+  39,00,36,00,35,00,34,00,2d,00,66,00,36,00,63,00,36,00,37,00,63,00,38,00,61,\
+  00,64,00,39,00,66,00,34,00,7d,00,00,00
+"URLInfoAbout"="https://www.ConnectWise.com "
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000003
+"VersionMinor"=dword:00000000
+"WindowsInstaller"=dword:00000001
+"Version"=dword:03000008
+"Language"=dword:00000409
+"DisplayName"="ITSPlatform"
+"SystemComponent"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{1D8E6291-B0D5-35EC-8441-6616F567A0F7}.KB2151757]
+@="KB2151757"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{1D8E6291-B0D5-35EC-8441-6616F567A0F7}.KB2467173]
+@="KB2467173"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{1D8E6291-B0D5-35EC-8441-6616F567A0F7}.KB2524860]
+@="KB2524860"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{1D8E6291-B0D5-35EC-8441-6616F567A0F7}.KB2544655]
+@="KB2544655"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{1D8E6291-B0D5-35EC-8441-6616F567A0F7}.KB2549743]
+@="KB2549743"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{1D8E6291-B0D5-35EC-8441-6616F567A0F7}.KB2565063]
+@="KB2565063"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{1D8E6291-B0D5-35EC-8441-6616F567A0F7}.KB982573]
+@="KB982573"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{1E77794D-EE4B-4538-9946-EEB1F02B7F49}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="20.4.2"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20201212"
+"InstallLocation"=""
+"InstallSource"="C:\\Users\\General\\AppData\\Local\\Package Cache\\{1E77794D-EE4B-4538-9946-EEB1F02B7F49}v20.4.2\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,49,00,7b,00,31,00,45,00,37,00,37,00,37,00,39,00,34,00,\
+  44,00,2d,00,45,00,45,00,34,00,42,00,2d,00,34,00,35,00,33,00,38,00,2d,00,39,\
+  00,39,00,34,00,36,00,2d,00,45,00,45,00,42,00,31,00,46,00,30,00,32,00,42,00,\
+  37,00,46,00,34,00,39,00,7d,00,00,00
+"Publisher"="MYOB Technology Pty. Ltd."
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:00053b84
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,49,00,7b,00,31,00,45,00,37,00,37,00,37,00,39,00,34,\
+  00,44,00,2d,00,45,00,45,00,34,00,42,00,2d,00,34,00,35,00,33,00,38,00,2d,00,\
+  39,00,39,00,34,00,36,00,2d,00,45,00,45,00,42,00,31,00,46,00,30,00,32,00,42,\
+  00,37,00,46,00,34,00,39,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000014
+"VersionMinor"=dword:00000004
+"WindowsInstaller"=dword:00000001
+"Version"=dword:14040002
+"Language"=dword:00000409
+"DisplayName"="MYOB AccountRight 2020.4"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{1E89F75C-EF46-406C-9AAC-615B3CCC1D3D}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="4.3.2.1"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20231103"
+"InstallLocation"=""
+"InstallSource"="C:\\Users\\General\\Downloads\\Y16E_C1_ULWT_PP-inst-F3\\msi\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,31,00,45,00,38,00,39,00,46,00,37,00,35,00,\
+  43,00,2d,00,45,00,46,00,34,00,36,00,2d,00,34,00,30,00,36,00,43,00,2d,00,39,\
+  00,41,00,41,00,43,00,2d,00,36,00,31,00,35,00,42,00,33,00,43,00,43,00,43,00,\
+  31,00,44,00,33,00,44,00,7d,00,00,00
 "NoModify"=dword:00000001
+"Publisher"="Brother Insutries Ltd."
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:0003f09d
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,31,00,45,00,38,00,39,00,46,00,37,00,35,\
+  00,43,00,2d,00,45,00,46,00,34,00,36,00,2d,00,34,00,30,00,36,00,43,00,2d,00,\
+  39,00,41,00,41,00,43,00,2d,00,36,00,31,00,35,00,42,00,33,00,43,00,43,00,43,\
+  00,31,00,44,00,33,00,44,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000004
+"VersionMinor"=dword:00000003
+"WindowsInstaller"=dword:00000001
+"Version"=dword:04030002
+"Language"=dword:00000409
+"DisplayName"="ControlCenter4 CSDK"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{295BF858-4BEC-4936-9A80-D0B8B559156D}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="18.1.1"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20180516"
+"InstallLocation"=""
+"InstallSource"="C:\\Users\\General\\AppData\\Local\\Package Cache\\{295BF858-4BEC-4936-9A80-D0B8B559156D}v18.1.1\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,49,00,7b,00,32,00,39,00,35,00,42,00,46,00,38,00,35,00,\
+  38,00,2d,00,34,00,42,00,45,00,43,00,2d,00,34,00,39,00,33,00,36,00,2d,00,39,\
+  00,41,00,38,00,30,00,2d,00,44,00,30,00,42,00,38,00,42,00,35,00,35,00,39,00,\
+  31,00,35,00,36,00,44,00,7d,00,00,00
+"Publisher"="MYOB Technology Pty. Ltd."
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:0004c348
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,49,00,7b,00,32,00,39,00,35,00,42,00,46,00,38,00,35,\
+  00,38,00,2d,00,34,00,42,00,45,00,43,00,2d,00,34,00,39,00,33,00,36,00,2d,00,\
+  39,00,41,00,38,00,30,00,2d,00,44,00,30,00,42,00,38,00,42,00,35,00,35,00,39,\
+  00,31,00,35,00,36,00,44,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000012
+"VersionMinor"=dword:00000001
+"WindowsInstaller"=dword:00000001
+"Version"=dword:12010001
+"Language"=dword:00000409
+"DisplayName"="MYOB AccountRight 2018.1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{296E293F-C481-4DDE-9ED2-3F79FCF38731}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"="MS"
+"DisplayVersion"="3.1.1648.0"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20180516"
+"InstallLocation"=""
+"InstallSource"="C:\\ProgramData\\Package Cache\\{296E293F-C481-4DDE-9ED2-3F79FCF38731}v3.1.1648.0\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,49,00,7b,00,32,00,39,00,36,00,45,00,32,00,39,00,33,00,\
+  46,00,2d,00,43,00,34,00,38,00,31,00,2d,00,34,00,44,00,44,00,45,00,2d,00,39,\
+  00,45,00,44,00,32,00,2d,00,33,00,46,00,37,00,39,00,46,00,43,00,46,00,33,00,\
+  38,00,37,00,33,00,31,00,7d,00,00,00
 "Publisher"="Microsoft Corporation"
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:000007d0
-"SystemComponent"=dword:00000001
+"EstimatedSize"=dword:0000082c
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,43,00,46,00,32,00,42,00,45,00,41,00,33,\
-  00,43,00,2d,00,32,00,36,00,45,00,41,00,2d,00,33,00,32,00,46,00,38,00,2d,00,\
-  41,00,41,00,39,00,42,00,2d,00,33,00,33,00,31,00,46,00,37,00,45,00,33,00,34,\
-  00,42,00,41,00,39,00,37,00,7d,00,00,00
+  78,00,65,00,20,00,2f,00,49,00,7b,00,32,00,39,00,36,00,45,00,32,00,39,00,33,\
+  00,46,00,2d,00,43,00,34,00,38,00,31,00,2d,00,34,00,44,00,44,00,45,00,2d,00,\
+  39,00,45,00,44,00,32,00,2d,00,33,00,46,00,37,00,39,00,46,00,43,00,46,00,33,\
+  00,38,00,37,00,33,00,31,00,7d,00,00,00
 "URLInfoAbout"=""
 "URLUpdateInfo"=""
-"VersionMajor"=dword:0000000b
+"VersionMajor"=dword:00000003
+"VersionMinor"=dword:00000001
+"WindowsInstaller"=dword:00000001
+"Version"=dword:03010670
+"Language"=dword:00000409
+"DisplayName"="Microsoft Sync Framework 2.1 Database Providers (x86) ENU "
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{2b32b7d0-4f9f-47c8-adb7-807e6cb2fb75}]
+"BundleCachePath"="C:\\ProgramData\\Package Cache\\{2b32b7d0-4f9f-47c8-adb7-807e6cb2fb75}\\iclsClientInstaller.exe"
+"BundleUpgradeCode"=hex(7):7b,00,35,00,38,00,41,00,44,00,38,00,33,00,34,00,38,\
+  00,2d,00,37,00,32,00,31,00,45,00,2d,00,34,00,37,00,41,00,32,00,2d,00,39,00,\
+  33,00,33,00,43,00,2d,00,36,00,35,00,44,00,45,00,37,00,46,00,38,00,36,00,37,\
+  00,41,00,35,00,36,00,7d,00,00,00,00,00
+"BundleAddonCode"=hex(7):
+"BundleDetectCode"=hex(7):
+"BundlePatchCode"=hex(7):
+"BundleVersion"="1.47.715.0"
+"BundleProviderKey"="{2b32b7d0-4f9f-47c8-adb7-807e6cb2fb75}"
+"BundleTag"=""
+"EngineVersion"="3.10.3.3007"
+"DisplayIcon"="C:\\ProgramData\\Package Cache\\{2b32b7d0-4f9f-47c8-adb7-807e6cb2fb75}\\iclsClientInstaller.exe,0"
+"DisplayName"="Intel(R) Trusted Connect Services Client"
+"DisplayVersion"="1.47.715.0"
+"Publisher"="Intel Corporation"
+"NoModify"=dword:00000001
+"NoRemove"=dword:00000001
+"SystemComponent"=dword:00000001
+"QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{2b32b7d0-4f9f-47c8-adb7-807e6cb2fb75}\\iclsClientInstaller.exe\" /uninstall /quiet"
+"UninstallString"="\"C:\\ProgramData\\Package Cache\\{2b32b7d0-4f9f-47c8-adb7-807e6cb2fb75}\\iclsClientInstaller.exe\"  /uninstall"
+"EstimatedSize"=dword:00007501
+"Resume"=dword:00000003
+"Installed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}]
+"BundleCachePath"="C:\\ProgramData\\Package Cache\\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}\\vcredist_x86.exe"
+"BundleUpgradeCode"=hex(7):7b,00,30,00,42,00,36,00,35,00,46,00,32,00,46,00,33,\
+  00,2d,00,41,00,38,00,34,00,35,00,2d,00,33,00,36,00,42,00,42,00,2d,00,38,00,\
+  34,00,38,00,41,00,2d,00,35,00,44,00,39,00,33,00,39,00,38,00,32,00,36,00,45,\
+  00,42,00,45,00,34,00,7d,00,00,00,00,00
+"BundleAddonCode"=hex(7):
+"BundleDetectCode"=hex(7):
+"BundlePatchCode"=hex(7):
+"BundleVersion"="11.0.61030.0"
+"BundleProviderKey"="{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}"
+"BundleTag"=""
+"EngineVersion"="3.6.3542.0"
+"DisplayIcon"="C:\\ProgramData\\Package Cache\\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}\\vcredist_x86.exe,0"
+"DisplayName"="Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.61030"
+"DisplayVersion"="11.0.61030.0"
+"Publisher"="Microsoft Corporation"
+"ModifyPath"="\"C:\\ProgramData\\Package Cache\\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}\\vcredist_x86.exe\" /modify"
+"NoElevateOnModify"=dword:00000001
+"QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}\\vcredist_x86.exe\" /uninstall /quiet"
+"UninstallString"="\"C:\\ProgramData\\Package Cache\\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}\\vcredist_x86.exe\"  /uninstall"
+"EstimatedSize"=dword:00004588
+"Resume"=dword:00000003
+"Installed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{35b83883-40fa-423c-ae73-2aff7e1ea820}]
+"BundleCachePath"="C:\\ProgramData\\Package Cache\\{35b83883-40fa-423c-ae73-2aff7e1ea820}\\vcredist_x86.exe"
+"BundleUpgradeCode"=hex(7):7b,00,46,00,33,00,35,00,38,00,34,00,35,00,36,00,44,\
+  00,2d,00,37,00,41,00,34,00,45,00,2d,00,33,00,36,00,35,00,34,00,2d,00,41,00,\
+  39,00,31,00,45,00,2d,00,43,00,32,00,38,00,36,00,30,00,42,00,34,00,37,00,32,\
+  00,43,00,35,00,32,00,7d,00,00,00,00,00
+"BundleAddonCode"=hex(7):
+"BundleDetectCode"=hex(7):
+"BundlePatchCode"=hex(7):
+"BundleVersion"="12.0.40649.5"
+"BundleProviderKey"="{35b83883-40fa-423c-ae73-2aff7e1ea820}"
+"BundleTag"=""
+"EngineVersion"="3.7.3424.0"
+"DisplayIcon"="C:\\ProgramData\\Package Cache\\{35b83883-40fa-423c-ae73-2aff7e1ea820}\\vcredist_x86.exe,0"
+"DisplayName"="Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.40649"
+"DisplayVersion"="12.0.40649.5"
+"Publisher"="Microsoft Corporation"
+"ModifyPath"="\"C:\\ProgramData\\Package Cache\\{35b83883-40fa-423c-ae73-2aff7e1ea820}\\vcredist_x86.exe\" /modify"
+"NoElevateOnModify"=dword:00000001
+"QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{35b83883-40fa-423c-ae73-2aff7e1ea820}\\vcredist_x86.exe\" /uninstall /quiet"
+"UninstallString"="\"C:\\ProgramData\\Package Cache\\{35b83883-40fa-423c-ae73-2aff7e1ea820}\\vcredist_x86.exe\"  /uninstall"
+"EstimatedSize"=dword:000044c1
+"Resume"=dword:00000003
+"Installed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{36580EEB-4EDF-4880-BBD4-097E2C645ECD}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="1.0.1.0"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20231102"
+"InstallLocation"=""
+"InstallSource"="C:\\Users\\General\\Desktop\\ALM invoices\\Y16E_C1_ULWT_PP-inst-F3\\msi\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,49,00,7b,00,33,00,36,00,35,00,38,00,30,00,45,00,45,00,\
+  42,00,2d,00,34,00,45,00,44,00,46,00,2d,00,34,00,38,00,38,00,30,00,2d,00,42,\
+  00,42,00,44,00,34,00,2d,00,30,00,39,00,37,00,45,00,32,00,43,00,36,00,34,00,\
+  35,00,45,00,43,00,44,00,7d,00,00,00
+"Publisher"="Brother Industries Ltd."
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:000002a9
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,49,00,7b,00,33,00,36,00,35,00,38,00,30,00,45,00,45,\
+  00,42,00,2d,00,34,00,45,00,44,00,46,00,2d,00,34,00,38,00,38,00,30,00,2d,00,\
+  42,00,42,00,44,00,34,00,2d,00,30,00,39,00,37,00,45,00,32,00,43,00,36,00,34,\
+  00,35,00,45,00,43,00,44,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000001
 "VersionMinor"=dword:00000000
 "WindowsInstaller"=dword:00000001
-"Version"=dword:0b00ee66
+"Version"=dword:01000001
 "Language"=dword:00000409
-"DisplayName"="Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030"
+"DisplayName"="HowToGuide"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{D4AD39AD-091E-4D33-BB2B-59F6FCB8ADC3}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{3A9FC03D-C685-4831-94CF-4EDFD3749497}]
 "AuthorizedCDFPrefix"=""
 "Comments"=""
 "Contact"=""
@@ -1160,22 +1052,22 @@ Windows Registry Editor Version 5.00
   6b,00,49,00,64,00,3d,00,38,00,31,00,34,00,38,00,38,00,00,00
 "HelpTelephone"=""
 "InstallDate"="20180516"
-"InstallLocation"="C:\\Program Files\\Microsoft SQL Server Compact Edition\\"
-"InstallSource"="C:\\ProgramData\\Package Cache\\{D4AD39AD-091E-4D33-BB2B-59F6FCB8ADC3}v3.5.8080.0\\"
+"InstallLocation"="C:\\Program Files (x86)\\Microsoft SQL Server Compact Edition\\"
+"InstallSource"="C:\\ProgramData\\Package Cache\\{3A9FC03D-C685-4831-94CF-4EDFD3749497}v3.5.8080.0\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,44,00,34,00,41,00,44,00,33,00,39,00,41,00,\
-  44,00,2d,00,30,00,39,00,31,00,45,00,2d,00,34,00,44,00,33,00,33,00,2d,00,42,\
-  00,42,00,32,00,42,00,2d,00,35,00,39,00,46,00,36,00,46,00,43,00,42,00,38,00,\
-  41,00,44,00,43,00,33,00,7d,00,00,00
+  00,65,00,20,00,2f,00,49,00,7b,00,33,00,41,00,39,00,46,00,43,00,30,00,33,00,\
+  44,00,2d,00,43,00,36,00,38,00,35,00,2d,00,34,00,38,00,33,00,31,00,2d,00,39,\
+  00,34,00,43,00,46,00,2d,00,34,00,45,00,44,00,46,00,44,00,33,00,37,00,34,00,\
+  39,00,34,00,39,00,37,00,7d,00,00,00
 "Publisher"="Microsoft Corporation"
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:00001b3c
+"EstimatedSize"=dword:00001888
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,44,00,34,00,41,00,44,00,33,00,39,00,41,\
-  00,44,00,2d,00,30,00,39,00,31,00,45,00,2d,00,34,00,44,00,33,00,33,00,2d,00,\
-  42,00,42,00,32,00,42,00,2d,00,35,00,39,00,46,00,36,00,46,00,43,00,42,00,38,\
-  00,41,00,44,00,43,00,33,00,7d,00,00,00
+  78,00,65,00,20,00,2f,00,49,00,7b,00,33,00,41,00,39,00,46,00,43,00,30,00,33,\
+  00,44,00,2d,00,43,00,36,00,38,00,35,00,2d,00,34,00,38,00,33,00,31,00,2d,00,\
+  39,00,34,00,43,00,46,00,2d,00,34,00,45,00,44,00,46,00,44,00,33,00,37,00,34,\
+  00,39,00,34,00,39,00,37,00,7d,00,00,00
 "URLInfoAbout"=""
 "URLUpdateInfo"=""
 "VersionMajor"=dword:00000003
@@ -1183,111 +1075,317 @@ Windows Registry Editor Version 5.00
 "WindowsInstaller"=dword:00000001
 "Version"=dword:03051f90
 "Language"=dword:00000409
-"DisplayName"="Microsoft SQL Server Compact 3.5 SP2 x64 ENU"
+"DisplayName"="Microsoft SQL Server Compact 3.5 SP2 ENU"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{DA80A019-4C3B-4DAA-ACA1-6937D7CAAF9E}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{41101801-53DD-4065-9334-99DB4525FA7B}]
 "AuthorizedCDFPrefix"=""
 "Comments"=""
 "Contact"=""
-"DisplayVersion"="8.94.0.0"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,73,00,75,00,70,00,\
-  70,00,6f,00,72,00,74,00,2e,00,6d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,\
-  00,74,00,2e,00,63,00,6f,00,6d,00,2f,00,6b,00,62,00,2f,00,35,00,30,00,30,00,\
-  31,00,37,00,31,00,36,00,00,00
-"HelpTelephone"=""
-"InstallDate"="20241031"
-"InstallLocation"=""
-"InstallSource"="C:\\WINDOWS\\SoftwareDistribution\\Download\\f9ce4793f88f2bc595a0d9329d7afaf4\\img\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,44,00,41,00,38,00,30,00,41,00,30,00,31,00,\
-  39,00,2d,00,34,00,43,00,33,00,42,00,2d,00,34,00,44,00,41,00,41,00,2d,00,41,\
-  00,43,00,41,00,31,00,2d,00,36,00,39,00,33,00,37,00,44,00,37,00,43,00,41,00,\
-  41,00,46,00,39,00,45,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="Microsoft Corporation"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:0000035c
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,44,00,41,00,38,00,30,00,41,00,30,00,31,\
-  00,39,00,2d,00,34,00,43,00,33,00,42,00,2d,00,34,00,44,00,41,00,41,00,2d,00,\
-  41,00,43,00,41,00,31,00,2d,00,36,00,39,00,33,00,37,00,44,00,37,00,43,00,41,\
-  00,41,00,46,00,39,00,45,00,7d,00,00,00
-"URLInfoAbout"="http://support.microsoft.com/kb/5001716"
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000008
-"VersionMinor"=dword:0000005e
-"WindowsInstaller"=dword:00000001
-"Version"=dword:085e0000
-"Language"=dword:00000000
-"DisplayName"="Update for x64-based Windows Systems (KB5001716)"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{E262E6F2-0F11-49C7-A144-18FE8FE0376E}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="15.9.0.1015"
+"DisplayVersion"="18.3.0"
 "HelpLink"=""
 "HelpTelephone"=""
-"InstallDate"="20180321"
-"InstallLocation"="C:\\Program Files\\Intel\\Intel(R) Rapid Storage Technology\\"
-"InstallSource"="C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\IIF478.tmp\\"
+"InstallDate"="20180920"
+"InstallLocation"=""
+"InstallSource"="C:\\Users\\General\\AppData\\Local\\Package Cache\\{41101801-53DD-4065-9334-99DB4525FA7B}v18.3.0\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,45,00,32,00,36,00,32,00,45,00,36,00,46,00,\
-  32,00,2d,00,30,00,46,00,31,00,31,00,2d,00,34,00,39,00,43,00,37,00,2d,00,41,\
-  00,31,00,34,00,34,00,2d,00,31,00,38,00,46,00,45,00,38,00,46,00,45,00,30,00,\
-  33,00,37,00,36,00,45,00,7d,00,00,00
-"Publisher"="Intel Corporation"
+  00,65,00,20,00,2f,00,49,00,7b,00,34,00,31,00,31,00,30,00,31,00,38,00,30,00,\
+  31,00,2d,00,35,00,33,00,44,00,44,00,2d,00,34,00,30,00,36,00,35,00,2d,00,39,\
+  00,33,00,33,00,34,00,2d,00,39,00,39,00,44,00,42,00,34,00,35,00,32,00,35,00,\
+  46,00,41,00,37,00,42,00,7d,00,00,00
+"Publisher"="MYOB Technology Pty. Ltd."
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:000061f8
+"EstimatedSize"=dword:0004c8fc
 "SystemComponent"=dword:00000001
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,45,00,32,00,36,00,32,00,45,00,36,00,46,\
-  00,32,00,2d,00,30,00,46,00,31,00,31,00,2d,00,34,00,39,00,43,00,37,00,2d,00,\
-  41,00,31,00,34,00,34,00,2d,00,31,00,38,00,46,00,45,00,38,00,46,00,45,00,30,\
-  00,33,00,37,00,36,00,45,00,7d,00,00,00
+  78,00,65,00,20,00,2f,00,49,00,7b,00,34,00,31,00,31,00,30,00,31,00,38,00,30,\
+  00,31,00,2d,00,35,00,33,00,44,00,44,00,2d,00,34,00,30,00,36,00,35,00,2d,00,\
+  39,00,33,00,33,00,34,00,2d,00,39,00,39,00,44,00,42,00,34,00,35,00,32,00,35,\
+  00,46,00,41,00,37,00,42,00,7d,00,00,00
 "URLInfoAbout"=""
 "URLUpdateInfo"=""
-"VersionMajor"=dword:0000000f
-"VersionMinor"=dword:00000009
+"VersionMajor"=dword:00000012
+"VersionMinor"=dword:00000003
 "WindowsInstaller"=dword:00000001
-"Version"=dword:0f090000
+"Version"=dword:12030000
 "Language"=dword:00000409
-"DisplayName"="Intel(R) Rapid Storage Technology"
+"DisplayName"="MYOB AccountRight 2018.3"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{E9B9A1A5-6398-4C99-8FDE-10794F6505C5}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{44ded3eb-1686-46a6-9770-fd79096c29f7}]
+"BundleCachePath"="C:\\ProgramData\\Package Cache\\{44ded3eb-1686-46a6-9770-fd79096c29f7}\\SetupChipset.exe"
+"BundleUpgradeCode"=hex(7):7b,00,44,00,38,00,43,00,41,00,32,00,45,00,37,00,41,\
+  00,2d,00,35,00,37,00,36,00,33,00,2d,00,34,00,31,00,36,00,31,00,2d,00,38,00,\
+  32,00,42,00,38,00,2d,00,46,00,38,00,37,00,30,00,46,00,32,00,42,00,44,00,34,\
+  00,46,00,32,00,46,00,7d,00,00,00,00,00
+"BundleAddonCode"=hex(7):
+"BundleDetectCode"=hex(7):
+"BundlePatchCode"=hex(7):
+"BundleVersion"="10.1.1.45"
+"BundleProviderKey"="{44ded3eb-1686-46a6-9770-fd79096c29f7}"
+"BundleTag"=""
+"EngineVersion"="3.10.0.1519"
+"DisplayIcon"="C:\\ProgramData\\Package Cache\\{44ded3eb-1686-46a6-9770-fd79096c29f7}\\SetupChipset.exe,0"
+"DisplayName"="Intel(R) Chipset Device Software"
+"DisplayVersion"="10.1.1.45"
+"Publisher"="Intel(R) Corporation"
+"URLInfoAbout"="http://www.intel.com"
+"NoModify"=dword:00000001
+"NoRemove"=dword:00000001
+"SystemComponent"=dword:00000001
+"QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{44ded3eb-1686-46a6-9770-fd79096c29f7}\\SetupChipset.exe\" /uninstall /quiet"
+"UninstallString"="\"C:\\ProgramData\\Package Cache\\{44ded3eb-1686-46a6-9770-fd79096c29f7}\\SetupChipset.exe\"  /uninstall"
+"EstimatedSize"=dword:00000c84
+"Resume"=dword:00000003
+"Installed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{47109d57-d746-4f8b-9618-ed6a17cc922b}]
+"BundleCachePath"="C:\\ProgramData\\Package Cache\\{47109d57-d746-4f8b-9618-ed6a17cc922b}\\VC_redist.x86.exe"
+"BundleUpgradeCode"=hex(7):7b,00,46,00,38,00,39,00,39,00,42,00,41,00,44,00,33,\
+  00,2d,00,39,00,38,00,45,00,44,00,2d,00,33,00,30,00,38,00,45,00,2d,00,41,00,\
+  39,00,30,00,35,00,2d,00,35,00,36,00,42,00,35,00,33,00,33,00,38,00,39,00,36,\
+  00,33,00,46,00,46,00,7d,00,00,00,00,00
+"BundleAddonCode"=hex(7):
+"BundleDetectCode"=hex(7):
+"BundlePatchCode"=hex(7):
+"BundleVersion"="14.40.33810.0"
+"BundleProviderKey"="VC,redist.x86,x86,14.40,bundle"
+"BundleTag"=""
+"EngineVersion"="3.10.4.4718"
+"DisplayIcon"="C:\\ProgramData\\Package Cache\\{47109d57-d746-4f8b-9618-ed6a17cc922b}\\VC_redist.x86.exe,0"
+"DisplayName"="Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.40.33810"
+"DisplayVersion"="14.40.33810.0"
+"Publisher"="Microsoft Corporation"
+"ModifyPath"="\"C:\\ProgramData\\Package Cache\\{47109d57-d746-4f8b-9618-ed6a17cc922b}\\VC_redist.x86.exe\" /modify"
+"NoElevateOnModify"=dword:00000001
+"QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{47109d57-d746-4f8b-9618-ed6a17cc922b}\\VC_redist.x86.exe\" /uninstall /quiet"
+"UninstallString"="\"C:\\ProgramData\\Package Cache\\{47109d57-d746-4f8b-9618-ed6a17cc922b}\\VC_redist.x86.exe\"  /uninstall"
+"EstimatedSize"=dword:00004862
+"Resume"=dword:00000003
+"Installed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{4A03706F-666A-4037-7777-5F2748764D10}]
 "AuthorizedCDFPrefix"=""
 "Comments"=""
 "Contact"=""
-"DisplayVersion"="1.0.1.0"
+"DisplayVersion"="2.8.401.10"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20240121"
+"InstallLocation"=""
+"InstallSource"="C:\\Users\\General\\AppData\\LocalLow\\Oracle\\Java\\jre1.8.0_401\\"
+"NoModify"=dword:00000001
+"NoRemove"=dword:00000001
+"NoRepair"=dword:00000001
+"Publisher"="Oracle Corporation"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:0000097a
+"SystemComponent"=dword:00000001
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000002
+"VersionMinor"=dword:00000008
+"WindowsInstaller"=dword:00000001
+"Version"=dword:02080191
+"Language"=dword:00000409
+"DisplayName"="Java Auto Updater"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{4E097B06-83A0-4CDD-A9DB-22F0744FE16A}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="1.0.0.43"
 "HelpLink"=""
 "HelpTelephone"=""
 "InstallDate"="20180321"
-"InstallLocation"="C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\"
-"InstallSource"="C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\IIF97D3.tmp\\"
+"InstallLocation"=""
+"InstallSource"="c:\\SWSETUP\\APP\\PreReq2\\HP\\HPSetupIn_QQZUB2\\1.18.RS.3\\src\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,45,00,39,00,42,00,39,00,41,00,31,00,41,00,\
-  35,00,2d,00,36,00,33,00,39,00,38,00,2d,00,34,00,43,00,39,00,39,00,2d,00,38,\
-  00,46,00,44,00,45,00,2d,00,31,00,30,00,37,00,39,00,34,00,46,00,36,00,35,00,\
-  30,00,35,00,43,00,35,00,7d,00,00,00
-"Publisher"="Intel Corporation"
+  00,65,00,20,00,2f,00,58,00,7b,00,34,00,45,00,30,00,39,00,37,00,42,00,30,00,\
+  36,00,2d,00,38,00,33,00,41,00,30,00,2d,00,34,00,43,00,44,00,44,00,2d,00,41,\
+  00,39,00,44,00,42,00,2d,00,32,00,32,00,46,00,30,00,37,00,34,00,34,00,46,00,\
+  45,00,31,00,36,00,41,00,7d,00,00,00
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"Publisher"="HP Inc."
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:000001cc
+"EstimatedSize"=dword:00001a40
 "SystemComponent"=dword:00000001
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,45,00,39,00,42,00,39,00,41,00,31,00,41,\
-  00,35,00,2d,00,36,00,33,00,39,00,38,00,2d,00,34,00,43,00,39,00,39,00,2d,00,\
-  38,00,46,00,44,00,45,00,2d,00,31,00,30,00,37,00,39,00,34,00,46,00,36,00,35,\
-  00,30,00,35,00,43,00,35,00,7d,00,00,00
+  78,00,65,00,20,00,2f,00,58,00,7b,00,34,00,45,00,30,00,39,00,37,00,42,00,30,\
+  00,36,00,2d,00,38,00,33,00,41,00,30,00,2d,00,34,00,43,00,44,00,44,00,2d,00,\
+  41,00,39,00,44,00,42,00,2d,00,32,00,32,00,46,00,30,00,37,00,34,00,34,00,46,\
+  00,45,00,31,00,36,00,41,00,7d,00,00,00
 "URLInfoAbout"=""
 "URLUpdateInfo"=""
 "VersionMajor"=dword:00000001
 "VersionMinor"=dword:00000000
 "WindowsInstaller"=dword:00000001
-"Version"=dword:01000001
+"Version"=dword:01000000
 "Language"=dword:00000409
-"DisplayName"="Intel(R) ME UninstallLegacy"
+"DisplayName"="HP Registration Service"
 
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{52FB0C8F-DF05-4C61-AEB6-18C55F8C385F}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="1.0.3.0"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20231102"
+"InstallLocation"=""
+"InstallSource"="C:\\Users\\General\\Desktop\\ALM invoices\\Y16E_C1_ULWT_PP-inst-F3\\Msi\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,35,00,32,00,46,00,42,00,30,00,43,00,38,00,\
+  46,00,2d,00,44,00,46,00,30,00,35,00,2d,00,34,00,43,00,36,00,31,00,2d,00,41,\
+  00,45,00,42,00,36,00,2d,00,31,00,38,00,43,00,35,00,35,00,46,00,38,00,43,00,\
+  33,00,38,00,35,00,46,00,7d,00,00,00
+"NoModify"=dword:00000001
+"Publisher"="Brother Industries Ltd."
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:00000066
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,35,00,32,00,46,00,42,00,30,00,43,00,38,\
+  00,46,00,2d,00,44,00,46,00,30,00,35,00,2d,00,34,00,43,00,36,00,31,00,2d,00,\
+  41,00,45,00,42,00,36,00,2d,00,31,00,38,00,43,00,35,00,35,00,46,00,38,00,43,\
+  00,33,00,38,00,35,00,46,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000001
+"VersionMinor"=dword:00000000
+"WindowsInstaller"=dword:00000001
+"Version"=dword:01000003
+"Language"=dword:00000409
+"DisplayName"="AppLogLibSetup"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{5af95fd8-a22e-458f-acee-c61bd787178e}]
+"BundleCachePath"="C:\\ProgramData\\Package Cache\\{5af95fd8-a22e-458f-acee-c61bd787178e}\\VC_redist.x64.exe"
+"BundleUpgradeCode"=hex(7):7b,00,43,00,31,00,34,00,36,00,45,00,46,00,34,00,38,\
+  00,2d,00,34,00,44,00,33,00,31,00,2d,00,33,00,43,00,33,00,44,00,2d,00,41,00,\
+  32,00,43,00,35,00,2d,00,31,00,45,00,39,00,31,00,41,00,46,00,38,00,41,00,30,\
+  00,41,00,39,00,42,00,7d,00,00,00,00,00
+"BundleAddonCode"=hex(7):
+"BundleDetectCode"=hex(7):
+"BundlePatchCode"=hex(7):
+"BundleVersion"="14.40.33810.0"
+"BundleProviderKey"="VC,redist.x64,amd64,14.40,bundle"
+"BundleTag"=""
+"EngineVersion"="3.10.4.4718"
+"DisplayIcon"="C:\\ProgramData\\Package Cache\\{5af95fd8-a22e-458f-acee-c61bd787178e}\\VC_redist.x64.exe,0"
+"DisplayName"="Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.40.33810"
+"DisplayVersion"="14.40.33810.0"
+"Publisher"="Microsoft Corporation"
+"ModifyPath"="\"C:\\ProgramData\\Package Cache\\{5af95fd8-a22e-458f-acee-c61bd787178e}\\VC_redist.x64.exe\" /modify"
+"NoElevateOnModify"=dword:00000001
+"QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{5af95fd8-a22e-458f-acee-c61bd787178e}\\VC_redist.x64.exe\" /uninstall /quiet"
+"UninstallString"="\"C:\\ProgramData\\Package Cache\\{5af95fd8-a22e-458f-acee-c61bd787178e}\\VC_redist.x64.exe\"  /uninstall"
+"EstimatedSize"=dword:000052a7
+"Resume"=dword:00000003
+"Installed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{5C591A5B-EA74-44F7-81DD-A757B5935AAD}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="1.5.0.0"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20190322"
+"InstallLocation"=""
+"InstallSource"="C:\\swsetup\\SP87088\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,35,00,43,00,35,00,39,00,31,00,41,00,35,00,\
+  42,00,2d,00,45,00,41,00,37,00,34,00,2d,00,34,00,34,00,46,00,37,00,2d,00,38,\
+  00,31,00,44,00,44,00,2d,00,41,00,37,00,35,00,37,00,42,00,35,00,39,00,33,00,\
+  35,00,41,00,41,00,44,00,7d,00,00,00
+"NoModify"=dword:00000001
+"Publisher"="HP Inc"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:0000a045
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,35,00,43,00,35,00,39,00,31,00,41,00,35,\
+  00,42,00,2d,00,45,00,41,00,37,00,34,00,2d,00,34,00,34,00,46,00,37,00,2d,00,\
+  38,00,31,00,44,00,44,00,2d,00,41,00,37,00,35,00,37,00,42,00,35,00,39,00,33,\
+  00,35,00,41,00,41,00,44,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000001
+"VersionMinor"=dword:00000005
+"WindowsInstaller"=dword:00000001
+"Version"=dword:01050000
+"Language"=dword:00000409
+"DisplayName"="HP PC Hardware Diagnostics Windows"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{5d0723d3-cff7-4e07-8d0b-ada737deb5e6}]
+"BundleCachePath"="C:\\ProgramData\\Package Cache\\{5d0723d3-cff7-4e07-8d0b-ada737deb5e6}\\vcredist_x64.exe"
+"BundleUpgradeCode"=hex(7):7b,00,34,00,30,00,42,00,37,00,35,00,30,00,30,00,42,\
+  00,2d,00,37,00,36,00,42,00,43,00,2d,00,33,00,39,00,33,00,32,00,2d,00,39,00,\
+  35,00,33,00,37,00,2d,00,36,00,39,00,30,00,34,00,38,00,31,00,33,00,45,00,37,\
+  00,35,00,39,00,41,00,7d,00,00,00,00,00
+"BundleAddonCode"=hex(7):
+"BundleDetectCode"=hex(7):
+"BundlePatchCode"=hex(7):
+"BundleVersion"="12.0.40649.5"
+"BundleProviderKey"="{5d0723d3-cff7-4e07-8d0b-ada737deb5e6}"
+"BundleTag"=""
+"EngineVersion"="3.7.3424.0"
+"DisplayIcon"="C:\\ProgramData\\Package Cache\\{5d0723d3-cff7-4e07-8d0b-ada737deb5e6}\\vcredist_x64.exe,0"
+"DisplayName"="Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.40649"
+"DisplayVersion"="12.0.40649.5"
+"Publisher"="Microsoft Corporation"
+"ModifyPath"="\"C:\\ProgramData\\Package Cache\\{5d0723d3-cff7-4e07-8d0b-ada737deb5e6}\\vcredist_x64.exe\" /modify"
+"NoElevateOnModify"=dword:00000001
+"QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{5d0723d3-cff7-4e07-8d0b-ada737deb5e6}\\vcredist_x64.exe\" /uninstall /quiet"
+"UninstallString"="\"C:\\ProgramData\\Package Cache\\{5d0723d3-cff7-4e07-8d0b-ada737deb5e6}\\vcredist_x64.exe\"  /uninstall"
+"EstimatedSize"=dword:00005247
+"Resume"=dword:00000003
+"Installed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{5EA6C998-D5AC-4ED9-89C3-9F25B17CCD3D}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="14.40.33810"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20240731"
+"InstallLocation"=""
+"InstallSource"="C:\\ProgramData\\Package Cache\\{5EA6C998-D5AC-4ED9-89C3-9F25B17CCD3D}v14.40.33810\\packages\\vcRuntimeAdditional_x86\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,49,00,7b,00,35,00,45,00,41,00,36,00,43,00,39,00,39,00,\
+  38,00,2d,00,44,00,35,00,41,00,43,00,2d,00,34,00,45,00,44,00,39,00,2d,00,38,\
+  00,39,00,43,00,33,00,2d,00,39,00,46,00,32,00,35,00,42,00,31,00,37,00,43,00,\
+  43,00,44,00,33,00,44,00,7d,00,00,00
+"Publisher"="Microsoft Corporation"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:0000285c
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,49,00,7b,00,35,00,45,00,41,00,36,00,43,00,39,00,39,\
+  00,38,00,2d,00,44,00,35,00,41,00,43,00,2d,00,34,00,45,00,44,00,39,00,2d,00,\
+  38,00,39,00,43,00,33,00,2d,00,39,00,46,00,32,00,35,00,42,00,31,00,37,00,43,\
+  00,43,00,44,00,33,00,44,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:0000000e
+"VersionMinor"=dword:00000028
+"WindowsInstaller"=dword:00000001
+"Version"=dword:0e288412
+"Language"=dword:00000409
+"DisplayName"="Microsoft Visual C++ 2022 X86 Additional Runtime - 14.40.33810"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{5EB1E201-C417-B1D3-2B94-AA70F4663430}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="25.1.10.9197"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20250314"
+"InstallLocation"=""
+"InstallSource"="
