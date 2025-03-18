@@ -1,374 +1,380 @@
 Windows Registry Editor Version 5.00
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall]
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\AddressBook]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\9C216E2D8379EBC4F6B978D100E71AE9E7819C0F]
+"UninstallString"="rundll32.exe C:\\PROGRA~1\\DIFX\\04518CE46CA408FF\\DIFxAppA.dll, DIFxARPUninstallDriverPackage C:\\Windows\\System32\\DriverStore\\FileRepository\\ftdiport.inf_amd64_2ad21e7fb260b0d2\\ftdiport.inf"
+"DisplayName"="Windows Driver Package - FTDI CDM Driver Package (09/28/2016 2.12.24)"
+"DisplayIcon"=hex(2):43,00,3a,00,5c,00,50,00,52,00,4f,00,47,00,52,00,41,00,7e,\
+  00,31,00,5c,00,44,00,49,00,46,00,58,00,5c,00,30,00,34,00,35,00,31,00,38,00,\
+  43,00,45,00,34,00,36,00,43,00,41,00,34,00,30,00,38,00,46,00,46,00,5c,00,44,\
+  00,49,00,46,00,78,00,41,00,70,00,70,00,41,00,2e,00,64,00,6c,00,6c,00,2c,00,\
+  30,00,00,00
+"DisplayVersion"="09/28/2016 2.12.24"
+"Publisher"="FTDI"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Cisco AnyConnect Secure Mobility Client]
-"Language"=dword:00000409
-"DisplayName"="Cisco AnyConnect Secure Mobility Client "
-"NoRepair"=dword:00000001
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,77,00,77,00,77,00,\
-  2e,00,63,00,69,00,73,00,63,00,6f,00,2e,00,63,00,6f,00,6d,00,2f,00,54,00,41,\
-  00,43,00,2f,00,00,00
-"HelpTelephone"="(800) 553-2447"
-"Brand"="Cisco"
-"DisplayVersion"="4.10.05085"
-"Comments"="A SmartNET contract is required for support - Cisco AnyConnect Secure Mobility Client."
-"DisplayIcon"="C:\\Program Files (x86)\\Cisco\\Cisco AnyConnect Secure Mobility Client\\InstallHelper.exe"
-"EstimatedSize"=dword:00001770
-"NoModify"=dword:00000001
-"Publisher"="Cisco Systems, Inc."
-"URLInfoAbout"="http://www.cisco.com"
-"UninstallString"=hex(2):43,00,3a,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,\
-  6d,00,20,00,46,00,69,00,6c,00,65,00,73,00,20,00,28,00,78,00,38,00,36,00,29,\
-  00,5c,00,43,00,69,00,73,00,63,00,6f,00,5c,00,43,00,69,00,73,00,63,00,6f,00,\
-  20,00,41,00,6e,00,79,00,43,00,6f,00,6e,00,6e,00,65,00,63,00,74,00,20,00,53,\
-  00,65,00,63,00,75,00,72,00,65,00,20,00,4d,00,6f,00,62,00,69,00,6c,00,69,00,\
-  74,00,79,00,20,00,43,00,6c,00,69,00,65,00,6e,00,74,00,5c,00,55,00,6e,00,69,\
-  00,6e,00,73,00,74,00,61,00,6c,00,6c,00,2e,00,65,00,78,00,65,00,20,00,2d,00,\
-  72,00,65,00,6d,00,6f,00,76,00,65,00,00,00
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\AddressBook]
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Connection Manager]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\B3B3880D167C98351FA82762EB3B7CEDB479DEE4]
+"UninstallString"="rundll32.exe C:\\PROGRA~1\\DIFX\\04518CE46CA408FF\\DIFxAppA.dll, DIFxARPUninstallDriverPackage C:\\Windows\\System32\\DriverStore\\FileRepository\\ftdibus.inf_amd64_fcaca8e732787d0b\\ftdibus.inf"
+"DisplayName"="Windows Driver Package - FTDI USB Interface Driver Package (09/28/2016 2.12.24)"
+"DisplayIcon"=hex(2):43,00,3a,00,5c,00,50,00,52,00,4f,00,47,00,52,00,41,00,7e,\
+  00,31,00,5c,00,44,00,49,00,46,00,58,00,5c,00,30,00,34,00,35,00,31,00,38,00,\
+  43,00,45,00,34,00,36,00,43,00,41,00,34,00,30,00,38,00,46,00,46,00,5c,00,44,\
+  00,49,00,46,00,78,00,41,00,70,00,70,00,41,00,2e,00,64,00,6c,00,6c,00,2c,00,\
+  30,00,00,00
+"DisplayVersion"="09/28/2016 2.12.24"
+"Publisher"="FTDI"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Connection Manager]
 "SystemComponent"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\DirectDrawEx]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\DirectDrawEx]
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\DXM_Runtime]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\DXM_Runtime]
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Fontcore]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Fontcore]
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\HostedAgent]
-"DisplayIcon"="C:\\Program Files (x86)\\Trend Micro\\Client Server Security Agent\\PCCNtMon.exe"
-"InstallLocation"="C:\\Program Files (x86)\\Trend Micro\\Client Server Security Agent"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\HomeBusiness2021Retail - en-us]
+"UninstallString"="\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" scenario=install scenariosubtype=ARP sourcetype=None productstoremove=HomeBusiness2021Retail.16_en-us_x-none culture=en-us version.16=16.0"
+"ModifyPath"="\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" scenario=repair platform=x64 culture=en-us"
+"NoRepair"=dword:00000000
+"NoRemove"=dword:00000000
+"NoModify"=dword:00000000
+"DisplayIcon"="C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe"
+"DisplayName"="Microsoft Office Home and Business 2021 - en-us"
+"DisplayVersion"="16.0.18526.20168"
+"Publisher"="Microsoft Corporation"
+"InstallLocation"="C:\\Program Files\\Microsoft Office"
+"ClickToRunComponent"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\IE40]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\IE4Data]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\IE5BAKEX]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\IEData]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Kyocera Product Library]
+"DisplayName"="Kyocera Product Library"
+"Publisher"="KYOCERA Document Solutions Inc."
+"InstallLocation"="C:\\Program Files\\Kyocera"
+"DisplayIcon"="C:\\Program Files\\Kyocera\\KmUninstall.exe"
+"UninstallString"="C:\\Program Files\\Kyocera\\KmUninstall.exe -l English -ck KYOCERA"
+"DisplayVersion"="6.0.4912"
+"Version"=dword:06001330
+"VersionMajor"=dword:00000006
 "VersionMinor"=dword:00000000
-"VersionMajor"=dword:00000001
-"DisplayVersion"="6.7.3897"
-"Publisher"="Trend Micro Inc."
-"UninstallString"="msiexec /x {BED0B8A2-2986-49F8-90D6-FA008D37A3D2} /qf /l+* \"C:\\Windows\\temp\\wofie_uninstall.log\""
-"DisplayName"="Trend Micro Security Agent"
+"VersionBuild"=dword:00001330
+"VersionRevision"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\MobileOptionPack]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\MPlayer2]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\mspaint-b330ad9e-f80b-4c96-9949-4b4228be9a6e]
+"DisplayIcon"=hex(2):43,00,3a,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,73,00,\
+  70,00,61,00,69,00,6e,00,74,00,2e,00,65,00,78,00,65,00,00,00
+"DisplayName_Localized"=hex(2):40,00,43,00,3a,00,5c,00,57,00,69,00,6e,00,64,00,\
+  6f,00,77,00,73,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,6d,00,73,00,70,00,61,00,69,00,6e,00,74,00,2e,00,65,00,78,00,65,00,2c,00,\
+  2d,00,35,00,37,00,33,00,34,00,34,00,00,00
+"InstallLocation"=hex(2):43,00,3a,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,\
+  73,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,00,00
 "NoModify"=dword:00000001
-"EstimatedSize"=dword:0001c564
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\IE40]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\IE4Data]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\IE5BAKEX]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\IEData]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge]
-"DisplayName"="Microsoft Edge"
-"DisplayVersion"="134.0.3124.72"
-"Version"="134.0.3124.72"
-"NoRemove"=dword:00000001
-"ModifyPath"="\"C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe\" /install appguid={56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}&appname=Microsoft%20Edge&needsadmin=true&repairtype=windowsonlinerepair /installsource windows"
-"UninstallString"="\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\134.0.3124.72\\Installer\\setup.exe\" --uninstall --msedge --channel=stable --system-level --verbose-logging"
-"InstallLocation"="C:\\Program Files (x86)\\Microsoft\\Edge\\Application"
-"DisplayIcon"="C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\134.0.3124.72\\msedge.exe,0"
-"NoRepair"=dword:00000001
 "Publisher"="Microsoft Corporation"
-"InstallDate"="20250317"
-"VersionMajor"=dword:00000c34
-"VersionMinor"=dword:00000048
+"UninstallString"=hex(2):22,00,43,00,3a,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,\
+  77,00,73,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,\
+  00,73,00,70,00,61,00,69,00,6e,00,74,00,2e,00,65,00,78,00,65,00,22,00,20,00,\
+  2f,00,75,00,6e,00,69,00,6e,00,73,00,74,00,61,00,6c,00,6c,00,00,00
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge Update]
-"DisplayVersion"="1.3.195.45"
-"Version"="1.3.195.45"
-"NoRemove"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView]
-"DisplayName"="Microsoft Edge WebView2 Runtime"
-"ModifyPath"="\"C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe\" /install appguid={F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}&appname=Microsoft%20Edge%20WebView&needsadmin=true&repairtype=windowsonlinerepair /installsource scheduler"
-"UninstallString"="\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\133.0.3065.92\\Installer\\setup.exe\" --uninstall --msedgewebview --system-level --verbose-logging"
-"InstallLocation"="C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application"
-"DisplayIcon"="C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\133.0.3065.92\\msedgewebview2.exe,0"
-"NoRemove"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="Microsoft Corporation"
-"Version"="133.0.3065.92"
-"DisplayVersion"="133.0.3065.92"
-"InstallDate"="20250304"
-"VersionMajor"=dword:00000bf9
-"VersionMinor"=dword:0000005c
-"SystemComponent"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\MobileOptionPack]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\MPlayer2]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\SAAZOD]
-"Publisher"="ITSupport247"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\SchedulingAgent]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\TeamViewer]
-"DisplayName"="TeamViewer Host"
-"DisplayIcon"="C:\\Program Files (x86)\\TeamViewer\\TeamViewer.exe"
-"Publisher"="TeamViewer"
-"HelpLink"="https://www.teamviewer.com"
-"UninstallString"="\"C:\\Program Files (x86)\\TeamViewer\\uninstall.exe\""
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\mstsc-4b0a31aa-df6a-4307-9b47-d5cc50009643]
+"DisplayIcon"=hex(2):43,00,3a,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,73,00,\
+  74,00,73,00,63,00,2e,00,65,00,78,00,65,00,00,00
+"DisplayName_Localized"=hex(2):40,00,43,00,3a,00,5c,00,57,00,69,00,6e,00,64,00,\
+  6f,00,77,00,73,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,6d,00,73,00,74,00,73,00,63,00,2e,00,65,00,78,00,65,00,2c,00,2d,00,34,00,\
+  30,00,30,00,30,00,00,00
+"InstallLocation"=hex(2):43,00,3a,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,\
+  73,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,00,00
 "NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"VersionMajor"=dword:0000000f
-"VersionMinor"=dword:0000003f
-"InstallLocation"="C:\\Program Files (x86)\\TeamViewer"
-"DisplayVersion"="15.63.4"
+"Publisher"="Microsoft Corporation"
+"UninstallString"=hex(2):22,00,43,00,3a,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,\
+  77,00,73,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,\
+  00,73,00,74,00,73,00,63,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,00,75,00,\
+  6e,00,69,00,6e,00,73,00,74,00,61,00,6c,00,6c,00,00,00
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\WIC]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\OneDriveSetup.exe]
+"DisplayName"="Microsoft OneDrive"
+"DisplayIcon"="C:\\Program Files\\Microsoft OneDrive\\25.031.0217.0003\\OneDriveSetup.exe,-101"
+"DisplayVersion"="25.031.0217.0003"
+"HelpLink"="https://go.microsoft.com/fwlink/?LinkID=215117"
+"Publisher"="Microsoft Corporation"
+"UninstallString"="\"C:\\Program Files\\Microsoft OneDrive\\25.031.0217.0003\\OneDriveSetup.exe\"  /uninstall  /allusers "
+"UrlUpdateInfo"="https://go.microsoft.com/fwlink/?LinkID=223554"
+"EstimatedSize"=dword:00061be0
+"NoRepair"=dword:00000001
+"NoModify"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\SchedulingAgent]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\SnippingTool-ee6eb196-db28-4d99-816d-fa9a63b4a377]
+"DisplayIcon"=hex(2):43,00,3a,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,53,00,6e,00,\
+  69,00,70,00,70,00,69,00,6e,00,67,00,54,00,6f,00,6f,00,6c,00,2e,00,65,00,78,\
+  00,65,00,00,00
+"DisplayName_Localized"=hex(2):40,00,43,00,3a,00,5c,00,57,00,69,00,6e,00,64,00,\
+  6f,00,77,00,73,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,53,00,6e,00,69,00,70,00,70,00,69,00,6e,00,67,00,54,00,6f,00,6f,00,6c,00,\
+  2e,00,65,00,78,00,65,00,2c,00,2d,00,31,00,35,00,30,00,35,00,31,00,00,00
+"InstallLocation"=hex(2):43,00,3a,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,\
+  73,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,00,00
+"NoModify"=dword:00000001
+"Publisher"="Microsoft Corporation"
+"UninstallString"=hex(2):22,00,43,00,3a,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,\
+  77,00,73,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,53,\
+  00,6e,00,69,00,70,00,70,00,69,00,6e,00,67,00,54,00,6f,00,6f,00,6c,00,2e,00,\
+  65,00,78,00,65,00,22,00,20,00,2f,00,75,00,6e,00,69,00,6e,00,73,00,74,00,61,\
+  00,6c,00,6c,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Status Monitor 5]
+"DisplayName"="Status Monitor 5"
+"Publisher"="KYOCERA Document Solutions Inc."
+"InstallLocation"="C:\\Program Files\\Kyocera\\Status Monitor 5"
+"DisplayIcon"="C:\\Program Files\\Kyocera\\Status Monitor 5\\stmuninst.exe"
+"UninstallString"="C:\\Program Files\\Kyocera\\Status Monitor 5\\stmuninst.exe"
+"DisplayVersion"="5.0.9814"
+"Version"=dword:05002656
+"VersionMajor"=dword:00000005
+"VersionMinor"=dword:00000000
+"VersionBuild"=dword:00002656
+"VersionRevision"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\WIC]
 "NoRemove"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{07AD1142-2132-4BAC-9680-EDB89C85BDBA}]
-"SystemComponent"=dword:00000001
-"ParentKeyName"="Cisco AnyConnect Secure Mobility Client"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{010792BA-551A-3AC0-A7EF-0FAB4156C382}]
 "AuthorizedCDFPrefix"=""
-"Comments"="A SmartNET contract is required for support - Cisco AnyConnect Secure Mobility Client."
+"Comments"="Caution. Removing this product might prevent some applications from running."
 "Contact"=""
-"DisplayVersion"="4.10.05085"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,77,00,77,00,77,00,\
-  2e,00,63,00,69,00,73,00,63,00,6f,00,2e,00,63,00,6f,00,6d,00,2f,00,54,00,41,\
-  00,43,00,2f,00,00,00
-"HelpTelephone"="(800) 553-2447"
-"InstallDate"="20241112"
-"InstallLocation"="C:\\Program Files (x86)\\Cisco\\Cisco AnyConnect Secure Mobility Client\\"
-"InstallSource"="\\\\2k12v-dc01\\Workstations\\"
+"DisplayVersion"="12.0.40664"
+"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,67,00,6f,00,2e,00,\
+  6d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,63,00,6f,00,6d,\
+  00,2f,00,66,00,77,00,6c,00,69,00,6e,00,6b,00,2f,00,3f,00,4c,00,69,00,6e,00,\
+  6b,00,49,00,64,00,3d,00,31,00,33,00,33,00,34,00,30,00,35,00,00,00
+"HelpTelephone"=""
+"InstallDate"="20230615"
+"InstallLocation"=""
+"InstallSource"="C:\\ProgramData\\Package Cache\\{010792BA-551A-3AC0-A7EF-0FAB4156C382}v12.0.40664\\packages\\vcRuntimeAdditional_amd64\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,30,00,37,00,41,00,44,00,31,00,31,00,34,00,\
-  32,00,2d,00,32,00,31,00,33,00,32,00,2d,00,34,00,42,00,41,00,43,00,2d,00,39,\
-  00,36,00,38,00,30,00,2d,00,45,00,44,00,42,00,38,00,39,00,43,00,38,00,35,00,\
-  42,00,44,00,42,00,41,00,7d,00,00,00
+  00,65,00,20,00,2f,00,58,00,7b,00,30,00,31,00,30,00,37,00,39,00,32,00,42,00,\
+  41,00,2d,00,35,00,35,00,31,00,41,00,2d,00,33,00,41,00,43,00,30,00,2d,00,41,\
+  00,37,00,45,00,46,00,2d,00,30,00,46,00,41,00,42,00,34,00,31,00,35,00,36,00,\
+  43,00,33,00,38,00,32,00,7d,00,00,00
 "NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="Cisco Systems, Inc."
+"Publisher"="Microsoft Corporation"
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:00006aa4
+"EstimatedSize"=dword:00002e08
+"SystemComponent"=dword:00000001
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,30,00,37,00,41,00,44,00,31,00,31,00,34,\
-  00,32,00,2d,00,32,00,31,00,33,00,32,00,2d,00,34,00,42,00,41,00,43,00,2d,00,\
-  39,00,36,00,38,00,30,00,2d,00,45,00,44,00,42,00,38,00,39,00,43,00,38,00,35,\
-  00,42,00,44,00,42,00,41,00,7d,00,00,00
-"URLInfoAbout"="http://www.cisco.com"
+  78,00,65,00,20,00,2f,00,58,00,7b,00,30,00,31,00,30,00,37,00,39,00,32,00,42,\
+  00,41,00,2d,00,35,00,35,00,31,00,41,00,2d,00,33,00,41,00,43,00,30,00,2d,00,\
+  41,00,37,00,45,00,46,00,2d,00,30,00,46,00,41,00,42,00,34,00,31,00,35,00,36,\
+  00,43,00,33,00,38,00,32,00,7d,00,00,00
+"URLInfoAbout"=""
 "URLUpdateInfo"=""
-"VersionMajor"=dword:00000004
-"VersionMinor"=dword:0000000a
+"VersionMajor"=dword:0000000c
+"VersionMinor"=dword:00000000
 "WindowsInstaller"=dword:00000001
-"Version"=dword:040a13dd
+"Version"=dword:0c009ed8
 "Language"=dword:00000409
-"DisplayName"="Cisco AnyConnect Secure Mobility Client"
+"DisplayName"="Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40664"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{0C3457A0-3DCE-4A33-BEF0-9B528C557771}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{16F628DF-66E7-41A3-9502-3AAADFE6540D}]
 "AuthorizedCDFPrefix"=""
 "Comments"=""
 "Contact"=""
-"DisplayVersion"="14.40.33810"
+"DisplayVersion"="1.0.1422"
 "HelpLink"=""
 "HelpTelephone"=""
-"InstallDate"="20240731"
-"InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\Package Cache\\{0C3457A0-3DCE-4A33-BEF0-9B528C557771}v14.40.33810\\packages\\vcRuntimeMinimum_x86\\"
+"InstallDate"="20240419"
+"InstallLocation"="C:\\Program Files\\Canon Electronics\\OCREngine\\"
+"InstallSource"="C:\\Users\\User\\AppData\\Local\\Temp\\{000E068E-533A-4006-86FF-017A3F77EF89}\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,30,00,43,00,33,00,34,00,35,00,37,00,41,00,\
-  30,00,2d,00,33,00,44,00,43,00,45,00,2d,00,34,00,41,00,33,00,33,00,2d,00,42,\
-  00,45,00,46,00,30,00,2d,00,39,00,42,00,35,00,32,00,38,00,43,00,35,00,35,00,\
-  37,00,37,00,37,00,31,00,7d,00,00,00
-"Publisher"="Microsoft Corporation"
+  00,65,00,20,00,2f,00,58,00,7b,00,31,00,36,00,46,00,36,00,32,00,38,00,44,00,\
+  46,00,2d,00,36,00,36,00,45,00,37,00,2d,00,34,00,31,00,41,00,33,00,2d,00,39,\
+  00,35,00,30,00,32,00,2d,00,33,00,41,00,41,00,41,00,44,00,46,00,45,00,36,00,\
+  35,00,34,00,30,00,44,00,7d,00,00,00
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"Publisher"="Canon Electronics Inc."
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:000007a4
-"SystemComponent"=dword:00000001
+"EstimatedSize"=dword:0019edb4
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,30,00,43,00,33,00,34,00,35,00,37,00,41,\
-  00,30,00,2d,00,33,00,44,00,43,00,45,00,2d,00,34,00,41,00,33,00,33,00,2d,00,\
-  42,00,45,00,46,00,30,00,2d,00,39,00,42,00,35,00,32,00,38,00,43,00,35,00,35,\
-  00,37,00,37,00,37,00,31,00,7d,00,00,00
+  78,00,65,00,20,00,2f,00,58,00,7b,00,31,00,36,00,46,00,36,00,32,00,38,00,44,\
+  00,46,00,2d,00,36,00,36,00,45,00,37,00,2d,00,34,00,31,00,41,00,33,00,2d,00,\
+  39,00,35,00,30,00,32,00,2d,00,33,00,41,00,41,00,41,00,44,00,46,00,45,00,36,\
+  00,35,00,34,00,30,00,44,00,7d,00,00,00
 "URLInfoAbout"=""
 "URLUpdateInfo"=""
-"VersionMajor"=dword:0000000e
-"VersionMinor"=dword:00000028
+"VersionMajor"=dword:00000001
+"VersionMinor"=dword:00000000
 "WindowsInstaller"=dword:00000001
-"Version"=dword:0e288412
-"Language"=dword:00000409
-"DisplayName"="Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.40.33810"
+"Version"=dword:0100058e
+"Language"=dword:00000000
+"DisplayName"="CaptureOnTouch Optional OCR Module (x64)"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{115DF11E-4B4C-4EA9-9A79-00DB0C7EF02D}]
-"Publisher"="Microsoft Corporation"
-"DisplayName"="Windows 11 Installation Assistant"
-"DisplayIcon"="\"C:\\Program Files (x86)\\WindowsInstallationAssistant\\Windows10UpgraderApp.exe\""
-"DisplayVersion"="1.4.19041.3630"
-"UninstallString"="\"C:\\Program Files (x86)\\WindowsInstallationAssistant\\Windows10UpgraderApp.exe\" /SunValley /ForceUninstall"
-"EstimatedSize"=dword:00001400
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{18F39771-F9D8-4CFD-9654-F6C67C8AD9F4}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{1FC1A6C2-576E-489A-9B4A-92D21F542136}]
 "AuthorizedCDFPrefix"=""
-"Comments"="Version: 3.1.2.2578"
+"Comments"=""
 "Contact"=""
-"DisplayVersion"="3.2.4"
+"DisplayVersion"="3.74.0.0"
 "HelpLink"=""
 "HelpTelephone"=""
-"InstallDate"="20240117"
-"InstallLocation"="C:\\Program Files (x86)\\"
-"InstallSource"="\\\\2k12V-DC01\\NETLOGON\\"
+"InstallDate"="20231117"
+"InstallLocation"=""
+"InstallSource"="C:\\Windows\\TEMP\\D0EA80F6-A09E-44D4-9088-684CA3D4F155\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,31,00,38,00,46,00,33,00,39,00,37,00,37,00,\
-  31,00,2d,00,46,00,39,00,44,00,38,00,2d,00,34,00,43,00,46,00,44,00,2d,00,39,\
-  00,36,00,35,00,34,00,2d,00,46,00,36,00,43,00,36,00,37,00,43,00,38,00,41,00,\
-  44,00,39,00,46,00,34,00,7d,00,00,00
-"Publisher"=hex(2):49,00,54,00,53,00,75,00,70,00,70,00,6f,00,72,00,74,00,32,00,\
-  34,00,37,00,00,00
+  00,65,00,20,00,2f,00,58,00,7b,00,31,00,46,00,43,00,31,00,41,00,36,00,43,00,\
+  32,00,2d,00,35,00,37,00,36,00,45,00,2d,00,34,00,38,00,39,00,41,00,2d,00,39,\
+  00,42,00,34,00,41,00,2d,00,39,00,32,00,44,00,32,00,31,00,46,00,35,00,34,00,\
+  32,00,31,00,33,00,36,00,7d,00,00,00
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"Publisher"="Microsoft Corporation"
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:0000e196
+"EstimatedSize"=dword:0000041a
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,31,00,38,00,66,00,33,00,39,00,37,00,37,\
-  00,31,00,2d,00,66,00,39,00,64,00,38,00,2d,00,34,00,63,00,66,00,64,00,2d,00,\
-  39,00,36,00,35,00,34,00,2d,00,66,00,36,00,63,00,36,00,37,00,63,00,38,00,61,\
-  00,64,00,39,00,66,00,34,00,7d,00,00,00
-"URLInfoAbout"="https://www.ConnectWise.com "
+  78,00,65,00,20,00,2f,00,58,00,7b,00,31,00,46,00,43,00,31,00,41,00,36,00,43,\
+  00,32,00,2d,00,35,00,37,00,36,00,45,00,2d,00,34,00,38,00,39,00,41,00,2d,00,\
+  39,00,42,00,34,00,41,00,2d,00,39,00,32,00,44,00,32,00,31,00,46,00,35,00,34,\
+  00,32,00,31,00,33,00,36,00,7d,00,00,00
+"URLInfoAbout"=""
 "URLUpdateInfo"=""
 "VersionMajor"=dword:00000003
-"VersionMinor"=dword:00000001
+"VersionMinor"=dword:0000004a
 "WindowsInstaller"=dword:00000001
-"Version"=dword:03010002
-"Language"=dword:00000409
-"DisplayName"="ITSPlatform"
-"SystemComponent"=dword:00000001
+"Version"=dword:034a0000
+"Language"=dword:00000000
+"DisplayName"="Microsoft Update Health Tools"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{30659E08-0001-4A6D-B881-54EE6E0D5B2A}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{37B8F9C7-03FB-3253-8781-2517C99D7C00}]
+"AuthorizedCDFPrefix"=""
+"Comments"="Caution. Removing this product might prevent some applications from running."
+"Contact"=""
+"DisplayVersion"="11.0.61030"
+"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,67,00,6f,00,2e,00,\
+  6d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,63,00,6f,00,6d,\
+  00,2f,00,66,00,77,00,6c,00,69,00,6e,00,6b,00,2f,00,3f,00,4c,00,69,00,6e,00,\
+  6b,00,49,00,64,00,3d,00,31,00,33,00,33,00,34,00,30,00,35,00,00,00
+"HelpTelephone"=""
+"InstallDate"="20230615"
+"InstallLocation"=""
+"InstallSource"="C:\\ProgramData\\Package Cache\\{37B8F9C7-03FB-3253-8781-2517C99D7C00}v11.0.61030\\packages\\vcRuntimeAdditional_amd64\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,33,00,37,00,42,00,38,00,46,00,39,00,43,00,\
+  37,00,2d,00,30,00,33,00,46,00,42,00,2d,00,33,00,32,00,35,00,33,00,2d,00,38,\
+  00,37,00,38,00,31,00,2d,00,32,00,35,00,31,00,37,00,43,00,39,00,39,00,44,00,\
+  37,00,43,00,30,00,30,00,7d,00,00,00
+"NoModify"=dword:00000001
+"Publisher"="Microsoft Corporation"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:00002ff0
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,33,00,37,00,42,00,38,00,46,00,39,00,43,\
+  00,37,00,2d,00,30,00,33,00,46,00,42,00,2d,00,33,00,32,00,35,00,33,00,2d,00,\
+  38,00,37,00,38,00,31,00,2d,00,32,00,35,00,31,00,37,00,43,00,39,00,39,00,44,\
+  00,37,00,43,00,30,00,30,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:0000000b
+"VersionMinor"=dword:00000000
+"WindowsInstaller"=dword:00000001
+"Version"=dword:0b00ee66
+"Language"=dword:00000409
+"DisplayName"="Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{3D57F0B3-5C71-3C2C-8795-2A150BB58C33}]
 "AuthorizedCDFPrefix"=""
 "Comments"=""
 "Contact"=""
-"DisplayVersion"="7.1.236.43424"
+"DisplayVersion"="134.0.6998.89"
 "HelpLink"=""
 "HelpTelephone"=""
-"InstallDate"="20240805"
+"InstallDate"="20250307"
 "InstallLocation"=""
-"InstallSource"="C:\\Users\\jchick\\Downloads\\"
+"InstallSource"="C:\\Program Files (x86)\\ITSPlatform\\agentcore\\download\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,33,00,30,00,36,00,35,00,39,00,45,00,30,00,\
-  38,00,2d,00,30,00,30,00,30,00,31,00,2d,00,34,00,41,00,36,00,44,00,2d,00,42,\
-  00,38,00,38,00,31,00,2d,00,35,00,34,00,45,00,45,00,36,00,45,00,30,00,44,00,\
-  35,00,42,00,32,00,41,00,7d,00,00,00
-"Publisher"="Velixo"
+  00,65,00,20,00,2f,00,58,00,7b,00,33,00,44,00,35,00,37,00,46,00,30,00,42,00,\
+  33,00,2d,00,35,00,43,00,37,00,31,00,2d,00,33,00,43,00,32,00,43,00,2d,00,38,\
+  00,37,00,39,00,35,00,2d,00,32,00,41,00,31,00,35,00,30,00,42,00,42,00,35,00,\
+  38,00,43,00,33,00,33,00,7d,00,00,00
+"NoModify"=dword:00000001
+"Publisher"="Google LLC"
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:0000aa9c
+"EstimatedSize"=dword:0001f649
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,33,00,30,00,36,00,35,00,39,00,45,00,30,\
-  00,38,00,2d,00,30,00,30,00,30,00,31,00,2d,00,34,00,41,00,36,00,44,00,2d,00,\
-  42,00,38,00,38,00,31,00,2d,00,35,00,34,00,45,00,45,00,36,00,45,00,30,00,44,\
-  00,35,00,42,00,32,00,41,00,7d,00,00,00
+  78,00,65,00,20,00,2f,00,58,00,7b,00,33,00,44,00,35,00,37,00,46,00,30,00,42,\
+  00,33,00,2d,00,35,00,43,00,37,00,31,00,2d,00,33,00,43,00,32,00,43,00,2d,00,\
+  38,00,37,00,39,00,35,00,2d,00,32,00,41,00,31,00,35,00,30,00,42,00,42,00,35,\
+  00,38,00,43,00,33,00,33,00,7d,00,00,00
 "URLInfoAbout"=""
 "URLUpdateInfo"=""
-"VersionMajor"=dword:00000007
-"VersionMinor"=dword:00000001
+"VersionMajor"=dword:00000046
+"VersionMinor"=dword:000000d5
 "WindowsInstaller"=dword:00000001
-"Version"=dword:070100ec
+"Version"=dword:46d58024
 "Language"=dword:00000409
-"DisplayName"="Velixo 7.1.236.43424"
+"DisplayName"="Google Chrome"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{35b83883-40fa-423c-ae73-2aff7e1ea820}]
-"BundleCachePath"="C:\\ProgramData\\Package Cache\\{35b83883-40fa-423c-ae73-2aff7e1ea820}\\vcredist_x86.exe"
-"BundleUpgradeCode"=hex(7):7b,00,46,00,33,00,35,00,38,00,34,00,35,00,36,00,44,\
-  00,2d,00,37,00,41,00,34,00,45,00,2d,00,33,00,36,00,35,00,34,00,2d,00,41,00,\
-  39,00,31,00,45,00,2d,00,43,00,32,00,38,00,36,00,30,00,42,00,34,00,37,00,32,\
-  00,43,00,35,00,32,00,7d,00,00,00,00,00
-"BundleAddonCode"=hex(7):
-"BundleDetectCode"=hex(7):
-"BundlePatchCode"=hex(7):
-"BundleVersion"="12.0.40649.5"
-"BundleProviderKey"="{35b83883-40fa-423c-ae73-2aff7e1ea820}"
-"BundleTag"=""
-"EngineVersion"="3.7.3424.0"
-"DisplayIcon"="C:\\ProgramData\\Package Cache\\{35b83883-40fa-423c-ae73-2aff7e1ea820}\\vcredist_x86.exe,0"
-"DisplayName"="Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.40649"
-"DisplayVersion"="12.0.40649.5"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{53CF6934-A98D-3D84-9146-FC4EDF3D5641}]
+"AuthorizedCDFPrefix"=""
+"Comments"="Caution. Removing this product might prevent some applications from running."
+"Contact"=""
+"DisplayVersion"="12.0.40664"
+"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,67,00,6f,00,2e,00,\
+  6d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,63,00,6f,00,6d,\
+  00,2f,00,66,00,77,00,6c,00,69,00,6e,00,6b,00,2f,00,3f,00,4c,00,69,00,6e,00,\
+  6b,00,49,00,64,00,3d,00,31,00,33,00,33,00,34,00,30,00,35,00,00,00
+"HelpTelephone"=""
+"InstallDate"="20230615"
+"InstallLocation"=""
+"InstallSource"="C:\\ProgramData\\Package Cache\\{53CF6934-A98D-3D84-9146-FC4EDF3D5641}v12.0.40664\\packages\\vcRuntimeMinimum_amd64\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,35,00,33,00,43,00,46,00,36,00,39,00,33,00,\
+  34,00,2d,00,41,00,39,00,38,00,44,00,2d,00,33,00,44,00,38,00,34,00,2d,00,39,\
+  00,31,00,34,00,36,00,2d,00,46,00,43,00,34,00,45,00,44,00,46,00,33,00,44,00,\
+  35,00,36,00,34,00,31,00,7d,00,00,00
+"NoModify"=dword:00000001
 "Publisher"="Microsoft Corporation"
-"ModifyPath"="\"C:\\ProgramData\\Package Cache\\{35b83883-40fa-423c-ae73-2aff7e1ea820}\\vcredist_x86.exe\" /modify"
-"NoElevateOnModify"=dword:00000001
-"QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{35b83883-40fa-423c-ae73-2aff7e1ea820}\\vcredist_x86.exe\" /uninstall /quiet"
-"UninstallString"="\"C:\\ProgramData\\Package Cache\\{35b83883-40fa-423c-ae73-2aff7e1ea820}\\vcredist_x86.exe\"  /uninstall"
-"EstimatedSize"=dword:000044c1
-"Resume"=dword:00000003
-"Installed"=dword:00000001
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:000009dc
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,35,00,33,00,43,00,46,00,36,00,39,00,33,\
+  00,34,00,2d,00,41,00,39,00,38,00,44,00,2d,00,33,00,44,00,38,00,34,00,2d,00,\
+  39,00,31,00,34,00,36,00,2d,00,46,00,43,00,34,00,45,00,44,00,46,00,33,00,44,\
+  00,35,00,36,00,34,00,31,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:0000000c
+"VersionMinor"=dword:00000000
+"WindowsInstaller"=dword:00000001
+"Version"=dword:0c009ed8
+"Language"=dword:00000409
+"DisplayName"="Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.40664"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{47109d57-d746-4f8b-9618-ed6a17cc922b}]
-"BundleCachePath"="C:\\ProgramData\\Package Cache\\{47109d57-d746-4f8b-9618-ed6a17cc922b}\\VC_redist.x86.exe"
-"BundleUpgradeCode"=hex(7):7b,00,46,00,38,00,39,00,39,00,42,00,41,00,44,00,33,\
-  00,2d,00,39,00,38,00,45,00,44,00,2d,00,33,00,30,00,38,00,45,00,2d,00,41,00,\
-  39,00,30,00,35,00,2d,00,35,00,36,00,42,00,35,00,33,00,33,00,38,00,39,00,36,\
-  00,33,00,46,00,46,00,7d,00,00,00,00,00
-"BundleAddonCode"=hex(7):
-"BundleDetectCode"=hex(7):
-"BundlePatchCode"=hex(7):
-"BundleVersion"="14.40.33810.0"
-"BundleProviderKey"="VC,redist.x86,x86,14.40,bundle"
-"BundleTag"=""
-"EngineVersion"="3.10.4.4718"
-"DisplayIcon"="C:\\ProgramData\\Package Cache\\{47109d57-d746-4f8b-9618-ed6a17cc922b}\\VC_redist.x86.exe,0"
-"DisplayName"="Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.40.33810"
-"DisplayVersion"="14.40.33810.0"
-"Publisher"="Microsoft Corporation"
-"ModifyPath"="\"C:\\ProgramData\\Package Cache\\{47109d57-d746-4f8b-9618-ed6a17cc922b}\\VC_redist.x86.exe\" /modify"
-"NoElevateOnModify"=dword:00000001
-"QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{47109d57-d746-4f8b-9618-ed6a17cc922b}\\VC_redist.x86.exe\" /uninstall /quiet"
-"UninstallString"="\"C:\\ProgramData\\Package Cache\\{47109d57-d746-4f8b-9618-ed6a17cc922b}\\VC_redist.x86.exe\"  /uninstall"
-"EstimatedSize"=dword:00004862
-"Resume"=dword:00000003
-"Installed"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{5af95fd8-a22e-458f-acee-c61bd787178e}]
-"BundleCachePath"="C:\\ProgramData\\Package Cache\\{5af95fd8-a22e-458f-acee-c61bd787178e}\\VC_redist.x64.exe"
-"BundleUpgradeCode"=hex(7):7b,00,43,00,31,00,34,00,36,00,45,00,46,00,34,00,38,\
-  00,2d,00,34,00,44,00,33,00,31,00,2d,00,33,00,43,00,33,00,44,00,2d,00,41,00,\
-  32,00,43,00,35,00,2d,00,31,00,45,00,39,00,31,00,41,00,46,00,38,00,41,00,30,\
-  00,41,00,39,00,42,00,7d,00,00,00,00,00
-"BundleAddonCode"=hex(7):
-"BundleDetectCode"=hex(7):
-"BundlePatchCode"=hex(7):
-"BundleVersion"="14.40.33810.0"
-"BundleProviderKey"="VC,redist.x64,amd64,14.40,bundle"
-"BundleTag"=""
-"EngineVersion"="3.10.4.4718"
-"DisplayIcon"="C:\\ProgramData\\Package Cache\\{5af95fd8-a22e-458f-acee-c61bd787178e}\\VC_redist.x64.exe,0"
-"DisplayName"="Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.40.33810"
-"DisplayVersion"="14.40.33810.0"
-"Publisher"="Microsoft Corporation"
-"ModifyPath"="\"C:\\ProgramData\\Package Cache\\{5af95fd8-a22e-458f-acee-c61bd787178e}\\VC_redist.x64.exe\" /modify"
-"NoElevateOnModify"=dword:00000001
-"QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{5af95fd8-a22e-458f-acee-c61bd787178e}\\VC_redist.x64.exe\" /uninstall /quiet"
-"UninstallString"="\"C:\\ProgramData\\Package Cache\\{5af95fd8-a22e-458f-acee-c61bd787178e}\\VC_redist.x64.exe\"  /uninstall"
-"EstimatedSize"=dword:000052a7
-"Resume"=dword:00000003
-"Installed"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{5d0723d3-cff7-4e07-8d0b-ada737deb5e6}]
-"BundleCachePath"="C:\\ProgramData\\Package Cache\\{5d0723d3-cff7-4e07-8d0b-ada737deb5e6}\\vcredist_x64.exe"
-"BundleUpgradeCode"=hex(7):7b,00,34,00,30,00,42,00,37,00,35,00,30,00,30,00,42,\
-  00,2d,00,37,00,36,00,42,00,43,00,2d,00,33,00,39,00,33,00,32,00,2d,00,39,00,\
-  35,00,33,00,37,00,2d,00,36,00,39,00,30,00,34,00,38,00,31,00,33,00,45,00,37,\
-  00,35,00,39,00,41,00,7d,00,00,00,00,00
-"BundleAddonCode"=hex(7):
-"BundleDetectCode"=hex(7):
-"BundlePatchCode"=hex(7):
-"BundleVersion"="12.0.40649.5"
-"BundleProviderKey"="{5d0723d3-cff7-4e07-8d0b-ada737deb5e6}"
-"BundleTag"=""
-"EngineVersion"="3.7.3424.0"
-"DisplayIcon"="C:\\ProgramData\\Package Cache\\{5d0723d3-cff7-4e07-8d0b-ada737deb5e6}\\vcredist_x64.exe,0"
-"DisplayName"="Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.40649"
-"DisplayVersion"="12.0.40649.5"
-"Publisher"="Microsoft Corporation"
-"ModifyPath"="\"C:\\ProgramData\\Package Cache\\{5d0723d3-cff7-4e07-8d0b-ada737deb5e6}\\vcredist_x64.exe\" /modify"
-"NoElevateOnModify"=dword:00000001
-"QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{5d0723d3-cff7-4e07-8d0b-ada737deb5e6}\\vcredist_x64.exe\" /uninstall /quiet"
-"UninstallString"="\"C:\\ProgramData\\Package Cache\\{5d0723d3-cff7-4e07-8d0b-ada737deb5e6}\\vcredist_x64.exe\"  /uninstall"
-"EstimatedSize"=dword:00005247
-"Resume"=dword:00000003
-"Installed"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{5EA6C998-D5AC-4ED9-89C3-9F25B17CCD3D}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{59CED48F-EBFE-480C-8A38-FC079C2BEC0F}]
 "AuthorizedCDFPrefix"=""
 "Comments"=""
 "Contact"=""
@@ -377,22 +383,22 @@ Windows Registry Editor Version 5.00
 "HelpTelephone"=""
 "InstallDate"="20240731"
 "InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\Package Cache\\{5EA6C998-D5AC-4ED9-89C3-9F25B17CCD3D}v14.40.33810\\packages\\vcRuntimeAdditional_x86\\"
+"InstallSource"="C:\\ProgramData\\Package Cache\\{59CED48F-EBFE-480C-8A38-FC079C2BEC0F}v14.40.33810\\packages\\vcRuntimeAdditional_amd64\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,35,00,45,00,41,00,36,00,43,00,39,00,39,00,\
-  38,00,2d,00,44,00,35,00,41,00,43,00,2d,00,34,00,45,00,44,00,39,00,2d,00,38,\
-  00,39,00,43,00,33,00,2d,00,39,00,46,00,32,00,35,00,42,00,31,00,37,00,43,00,\
-  43,00,44,00,33,00,44,00,7d,00,00,00
+  00,65,00,20,00,2f,00,49,00,7b,00,35,00,39,00,43,00,45,00,44,00,34,00,38,00,\
+  46,00,2d,00,45,00,42,00,46,00,45,00,2d,00,34,00,38,00,30,00,43,00,2d,00,38,\
+  00,41,00,33,00,38,00,2d,00,46,00,43,00,30,00,37,00,39,00,43,00,32,00,42,00,\
+  45,00,43,00,30,00,46,00,7d,00,00,00
 "Publisher"="Microsoft Corporation"
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:0000285c
+"EstimatedSize"=dword:00002e68
 "SystemComponent"=dword:00000001
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,35,00,45,00,41,00,36,00,43,00,39,00,39,\
-  00,38,00,2d,00,44,00,35,00,41,00,43,00,2d,00,34,00,45,00,44,00,39,00,2d,00,\
-  38,00,39,00,43,00,33,00,2d,00,39,00,46,00,32,00,35,00,42,00,31,00,37,00,43,\
-  00,43,00,44,00,33,00,44,00,7d,00,00,00
+  78,00,65,00,20,00,2f,00,49,00,7b,00,35,00,39,00,43,00,45,00,44,00,34,00,38,\
+  00,46,00,2d,00,45,00,42,00,46,00,45,00,2d,00,34,00,38,00,30,00,43,00,2d,00,\
+  38,00,41,00,33,00,38,00,2d,00,46,00,43,00,30,00,37,00,39,00,43,00,32,00,42,\
+  00,45,00,43,00,30,00,46,00,7d,00,00,00
 "URLInfoAbout"=""
 "URLUpdateInfo"=""
 "VersionMajor"=dword:0000000e
@@ -400,150 +406,508 @@ Windows Registry Editor Version 5.00
 "WindowsInstaller"=dword:00000001
 "Version"=dword:0e288412
 "Language"=dword:00000409
-"DisplayName"="Microsoft Visual C++ 2022 X86 Additional Runtime - 14.40.33810"
+"DisplayName"="Microsoft Visual C++ 2022 X64 Additional Runtime - 14.40.33810"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{5EB1E201-C417-B1D3-2B94-AA70F4663430}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{6BBAE539-2232-434A-A4E5-9A33560C6283}]
+"DisplayIcon"="C:\\Program Files\\Google\\Drive File Stream\\105.0.1.0\\GoogleDriveFS.exe,0"
+"DisplayName"="Google Drive"
+"DisplayVersion"="105.0.1.0"
+"InstallLocation"="C:\\Program Files\\Google\\Drive File Stream\\105.0.1.0\\GoogleDriveFS.exe"
+"Publisher"="Google LLC"
+"UninstallString"="C:\\Program Files\\Google\\Drive File Stream\\105.0.1.0\\uninstall.exe"
+"VersionMajor"=dword:00000069
+"VersionMinor"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{6CD2C0A9-55E7-4133-BC19-205CCF2B64C9}]
 "AuthorizedCDFPrefix"=""
 "Comments"=""
 "Contact"=""
-"DisplayVersion"="25.1.10.9197"
+"DisplayVersion"="64.52.27977"
 "HelpLink"=""
 "HelpTelephone"=""
-"InstallDate"="20250317"
+"InstallDate"="20250226"
 "InstallLocation"=""
-"InstallSource"="C:\\WINDOWS\\SystemTemp\\ScreenConnect\\25.1.10.9197\\385a4ea3ca5447c4\\"
+"InstallSource"="C:\\ProgramData\\Package Cache\\{6CD2C0A9-55E7-4133-BC19-205CCF2B64C9}v64.52.27977\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,35,00,45,00,42,00,31,00,45,00,32,00,30,00,\
-  31,00,2d,00,43,00,34,00,31,00,37,00,2d,00,42,00,31,00,44,00,33,00,2d,00,32,\
-  00,42,00,39,00,34,00,2d,00,41,00,41,00,37,00,30,00,46,00,34,00,36,00,36,00,\
-  33,00,34,00,33,00,30,00,7d,00,00,00
+  00,65,00,20,00,2f,00,58,00,7b,00,36,00,43,00,44,00,32,00,43,00,30,00,41,00,\
+  39,00,2d,00,35,00,35,00,45,00,37,00,2d,00,34,00,31,00,33,00,33,00,2d,00,42,\
+  00,43,00,31,00,39,00,2d,00,32,00,30,00,35,00,43,00,43,00,46,00,32,00,42,00,\
+  36,00,34,00,43,00,39,00,7d,00,00,00
+"NoModify"=dword:00000001
+"Publisher"="Microsoft Corporation"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:000001e4
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,36,00,43,00,44,00,32,00,43,00,30,00,41,\
+  00,39,00,2d,00,35,00,35,00,45,00,37,00,2d,00,34,00,31,00,33,00,33,00,2d,00,\
+  42,00,43,00,31,00,39,00,2d,00,32,00,30,00,35,00,43,00,43,00,46,00,32,00,42,\
+  00,36,00,34,00,43,00,39,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000040
+"VersionMinor"=dword:00000034
+"WindowsInstaller"=dword:00000001
+"Version"=dword:40346d49
+"Language"=dword:00000409
+"DisplayName"="Microsoft .NET Host - 8.0.13 (x64)"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{84EBD7B9-9573-4C33-9452-B6F028D31A50}]
+"AuthorizedCDFPrefix"=""
+"Comments"="USB Interface Cradle Drivers 64-bit"
+"Contact"=""
+"DisplayVersion"="1.10"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20241227"
+"InstallLocation"="C:\\Users\\User\\AppData\\Roaming\\LogTag Recorders\\USB Interface Cradle Drivers 64-bit\\"
+"InstallSource"="C:\\Users\\User\\AppData\\Roaming\\LogTag\\LogTag Analyzer 3.2.5.2\\install\\ED22F33\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,38,00,34,00,45,00,42,00,44,00,37,00,42,00,\
+  39,00,2d,00,39,00,35,00,37,00,33,00,2d,00,34,00,43,00,33,00,33,00,2d,00,39,\
+  00,34,00,35,00,32,00,2d,00,42,00,36,00,46,00,30,00,32,00,38,00,44,00,33,00,\
+  31,00,41,00,35,00,30,00,7d,00,00,00
+"NoModify"=dword:00000001
+"Publisher"="LogTag Recorders"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:000010c1
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,38,00,34,00,45,00,42,00,44,00,37,00,42,\
+  00,39,00,2d,00,39,00,35,00,37,00,33,00,2d,00,34,00,43,00,33,00,33,00,2d,00,\
+  39,00,34,00,35,00,32,00,2d,00,42,00,36,00,46,00,30,00,32,00,38,00,44,00,33,\
+  00,31,00,41,00,35,00,30,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000001
+"VersionMinor"=dword:0000000a
+"WindowsInstaller"=dword:00000001
+"Version"=dword:010a0000
+"Language"=dword:00000409
+"DisplayName"="USB Interface Cradle Drivers 64-bit"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{852F821B-340A-4473-BA94-8FAFD5AFFE85}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="64.52.27986"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20250226"
+"InstallLocation"=""
+"InstallSource"="C:\\ProgramData\\Package Cache\\{852F821B-340A-4473-BA94-8FAFD5AFFE85}v64.52.27986\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,38,00,35,00,32,00,46,00,38,00,32,00,31,00,\
+  42,00,2d,00,33,00,34,00,30,00,41,00,2d,00,34,00,34,00,37,00,33,00,2d,00,42,\
+  00,41,00,39,00,34,00,2d,00,38,00,46,00,41,00,46,00,44,00,35,00,41,00,46,00,\
+  46,00,45,00,38,00,35,00,7d,00,00,00
+"NoModify"=dword:00000001
+"Publisher"="Microsoft Corporation"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:000167c0
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,38,00,35,00,32,00,46,00,38,00,32,00,31,\
+  00,42,00,2d,00,33,00,34,00,30,00,41,00,2d,00,34,00,34,00,37,00,33,00,2d,00,\
+  42,00,41,00,39,00,34,00,2d,00,38,00,46,00,41,00,46,00,44,00,35,00,41,00,46,\
+  00,46,00,45,00,38,00,35,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000040
+"VersionMinor"=dword:00000034
+"WindowsInstaller"=dword:00000001
+"Version"=dword:40346d52
+"Language"=dword:00000409
+"DisplayName"="Microsoft Windows Desktop Runtime - 8.0.13 (x64)"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{90140000-00D1-0409-1000-0000000FF1CE}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="14.0.7015.1000"
+"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,77,00,77,00,77,00,\
+  2e,00,6d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,63,00,6f,\
+  00,6d,00,2f,00,73,00,75,00,70,00,70,00,6f,00,72,00,74,00,00,00
+"HelpTelephone"=""
+"InstallDate"="20230621"
+"InstallLocation"=""
+"InstallSource"="C:\\Users\\User\\AppData\\Local\\Temp\\{94FC9374-B427-4F45-B558-FE38579FD54E}\\{3B949B20-D83D-49C4-B8D4-743A554AEFD8}\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,49,00,7b,00,39,00,30,00,31,00,34,00,30,00,30,00,30,00,\
+  30,00,2d,00,30,00,30,00,44,00,31,00,2d,00,30,00,34,00,30,00,39,00,2d,00,31,\
+  00,30,00,30,00,30,00,2d,00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,46,00,\
+  46,00,31,00,43,00,45,00,7d,00,00,00
+"Publisher"="Microsoft Corporation"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:00024776
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,49,00,7b,00,39,00,30,00,31,00,34,00,30,00,30,00,30,\
+  00,30,00,2d,00,30,00,30,00,44,00,31,00,2d,00,30,00,34,00,30,00,39,00,2d,00,\
+  31,00,30,00,30,00,30,00,2d,00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,46,\
+  00,46,00,31,00,43,00,45,00,7d,00,00,00
+"URLInfoAbout"="http://www.microsoft.com/support"
+"URLUpdateInfo"=""
+"VersionMajor"=dword:0000000e
+"VersionMinor"=dword:00000000
+"WindowsInstaller"=dword:00000001
+"Version"=dword:0e001b67
+"Language"=dword:00000409
+"DisplayName"="Microsoft Access database engine 2010 (English)"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-007E-0000-1000-0000000FF1CE}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="16.0.18526.20168"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20250316"
+"InstallLocation"=""
+"InstallSource"="c:\\program files\\microsoft office\\root\\integration\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,49,00,7b,00,39,00,30,00,31,00,36,00,30,00,30,00,30,00,\
+  30,00,2d,00,30,00,30,00,37,00,45,00,2d,00,30,00,30,00,30,00,30,00,2d,00,31,\
+  00,30,00,30,00,30,00,2d,00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,46,00,\
+  46,00,31,00,43,00,45,00,7d,00,00,00
+"Publisher"="Microsoft Corporation"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:00001c3c
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,49,00,7b,00,39,00,30,00,31,00,36,00,30,00,30,00,30,\
+  00,30,00,2d,00,30,00,30,00,37,00,45,00,2d,00,30,00,30,00,30,00,30,00,2d,00,\
+  31,00,30,00,30,00,30,00,2d,00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,46,\
+  00,46,00,31,00,43,00,45,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000010
+"VersionMinor"=dword:00000000
+"WindowsInstaller"=dword:00000001
+"Version"=dword:1000485e
+"Language"=dword:00000000
+"DisplayName"="Office 16 Click-to-Run Licensing Component"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-008C-0000-1000-0000000FF1CE}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="16.0.18526.20168"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20250316"
+"InstallLocation"=""
+"InstallSource"="c:\\program files\\microsoft office\\root\\integration\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,39,00,30,00,31,00,36,00,30,00,30,00,30,00,\
+  30,00,2d,00,30,00,30,00,38,00,43,00,2d,00,30,00,30,00,30,00,30,00,2d,00,31,\
+  00,30,00,30,00,30,00,2d,00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,46,00,\
+  46,00,31,00,43,00,45,00,7d,00,00,00
+"NoModify"=dword:00000001
+"Publisher"="Microsoft Corporation"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:00008c3c
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,39,00,30,00,31,00,36,00,30,00,30,00,30,\
+  00,30,00,2d,00,30,00,30,00,38,00,43,00,2d,00,30,00,30,00,30,00,30,00,2d,00,\
+  31,00,30,00,30,00,30,00,2d,00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,46,\
+  00,46,00,31,00,43,00,45,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000010
+"VersionMinor"=dword:00000000
+"WindowsInstaller"=dword:00000001
+"Version"=dword:1000485e
+"Language"=dword:00000000
+"DisplayName"="Office 16 Click-to-Run Extensibility Component"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{912564B2-30EC-4017-BBB2-2EA7E8609C5A}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="1.1.8116"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20240419"
+"InstallLocation"="C:\\Program Files (x86)\\Canon Electronics\\DRCommon\\"
+"InstallSource"="C:\\Users\\User\\AppData\\Local\\Temp\\{8AA346C7-2E52-45C3-99B2-83F9671D729D}\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,39,00,31,00,32,00,35,00,36,00,34,00,42,00,\
+  32,00,2d,00,33,00,30,00,45,00,43,00,2d,00,34,00,30,00,31,00,37,00,2d,00,42,\
+  00,42,00,42,00,32,00,2d,00,32,00,45,00,41,00,37,00,45,00,38,00,36,00,30,00,\
+  39,00,43,00,35,00,41,00,7d,00,00,00
 "NoModify"=dword:00000001
 "NoRepair"=dword:00000001
-"Publisher"="ScreenConnect Software"
+"Publisher"="Canon Electronics Inc."
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:000011c8
+"EstimatedSize"=dword:0003760f
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,35,00,45,00,42,00,31,00,45,00,32,00,30,\
-  00,31,00,2d,00,43,00,34,00,31,00,37,00,2d,00,42,00,31,00,44,00,33,00,2d,00,\
-  32,00,42,00,39,00,34,00,2d,00,41,00,41,00,37,00,30,00,46,00,34,00,36,00,36,\
-  00,33,00,34,00,33,00,30,00,7d,00,00,00
+  78,00,65,00,20,00,2f,00,58,00,7b,00,39,00,31,00,32,00,35,00,36,00,34,00,42,\
+  00,32,00,2d,00,33,00,30,00,45,00,43,00,2d,00,34,00,30,00,31,00,37,00,2d,00,\
+  42,00,42,00,42,00,32,00,2d,00,32,00,45,00,41,00,37,00,45,00,38,00,36,00,30,\
+  00,39,00,43,00,35,00,41,00,7d,00,00,00
 "URLInfoAbout"=""
 "URLUpdateInfo"=""
-"VersionMajor"=dword:00000019
+"VersionMajor"=dword:00000001
 "VersionMinor"=dword:00000001
 "WindowsInstaller"=dword:00000001
-"Version"=dword:1901000a
-"Language"=dword:00000409
-"DisplayName"="ScreenConnect Client (385a4ea3ca5447c4)"
+"Version"=dword:01011fb4
+"Language"=dword:00000000
+"DisplayName"="Canon driver for DR-C225 (x64)"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{A8589745-51BC-3963-B4E9-201CF8693538}]
-"AuthorizedCDFPrefix"=""
-"Comments"="Caution. Removing this product might prevent some applications from running."
-"Contact"=""
-"DisplayVersion"="12.0.40649"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,67,00,6f,00,2e,00,\
-  6d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,63,00,6f,00,6d,\
-  00,2f,00,66,00,77,00,6c,00,69,00,6e,00,6b,00,2f,00,3f,00,4c,00,69,00,6e,00,\
-  6b,00,49,00,64,00,3d,00,31,00,33,00,33,00,34,00,30,00,35,00,00,00
-"HelpTelephone"=""
-"InstallDate"="20240130"
-"InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\Package Cache\\{A8589745-51BC-3963-B4E9-201CF8693538}v12.0.40649\\packages\\vcRuntimeAdditional_x86\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,41,00,38,00,35,00,38,00,39,00,37,00,34,00,\
-  35,00,2d,00,35,00,31,00,42,00,43,00,2d,00,33,00,39,00,36,00,33,00,2d,00,42,\
-  00,34,00,45,00,39,00,2d,00,32,00,30,00,31,00,43,00,46,00,38,00,36,00,39,00,\
-  33,00,35,00,33,00,38,00,7d,00,00,00
-"NoModify"=dword:00000001
-"Publisher"="Microsoft Corporation"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:000024f0
-"SystemComponent"=dword:00000001
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,41,00,38,00,35,00,38,00,39,00,37,00,34,\
-  00,35,00,2d,00,35,00,31,00,42,00,43,00,2d,00,33,00,39,00,36,00,33,00,2d,00,\
-  42,00,34,00,45,00,39,00,2d,00,32,00,30,00,31,00,43,00,46,00,38,00,36,00,39,\
-  00,33,00,35,00,33,00,38,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:0000000c
-"VersionMinor"=dword:00000000
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0c009ec9
-"Language"=dword:00000409
-"DisplayName"="Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.40649"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{BED0B8A2-2986-49F8-90D6-FA008D37A3D2}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{98CF6CD3-679E-475D-925A-6F19B0D56D2B}]
 "AuthorizedCDFPrefix"=""
 "Comments"=""
 "Contact"=""
-"DisplayVersion"="6.7.3897"
+"DisplayVersion"="5.1.1523"
 "HelpLink"=""
 "HelpTelephone"=""
-"InstallDate"="20240117"
-"InstallLocation"=""
-"InstallSource"="\\\\2k12v-dc01\\Workstations\\"
+"InstallDate"="20240419"
+"InstallLocation"="C:\\Program Files (x86)\\Canon Electronics\\CaptureOnTouch\\"
+"InstallSource"="C:\\Users\\User\\AppData\\Local\\Temp\\{C0B1ED10-61D5-4D24-BCE6-A53F7217584F}\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,42,00,45,00,44,00,30,00,42,00,38,00,41,00,\
-  32,00,2d,00,32,00,39,00,38,00,36,00,2d,00,34,00,39,00,46,00,38,00,2d,00,39,\
-  00,30,00,44,00,36,00,2d,00,46,00,41,00,30,00,30,00,38,00,44,00,33,00,37,00,\
-  41,00,33,00,44,00,32,00,7d,00,00,00
-"Publisher"="Trend Micro Inc."
+  00,65,00,20,00,2f,00,58,00,7b,00,39,00,38,00,43,00,46,00,36,00,43,00,44,00,\
+  33,00,2d,00,36,00,37,00,39,00,45,00,2d,00,34,00,37,00,35,00,44,00,2d,00,39,\
+  00,32,00,35,00,41,00,2d,00,36,00,46,00,31,00,39,00,42,00,30,00,44,00,35,00,\
+  36,00,44,00,32,00,42,00,7d,00,00,00
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"Publisher"="Canon Electronics Inc."
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:0000223b
-"SystemComponent"=dword:00000001
+"EstimatedSize"=dword:000bb5e4
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,42,00,45,00,44,00,30,00,42,00,38,00,41,\
-  00,32,00,2d,00,32,00,39,00,38,00,36,00,2d,00,34,00,39,00,46,00,38,00,2d,00,\
-  39,00,30,00,44,00,36,00,2d,00,46,00,41,00,30,00,30,00,38,00,44,00,33,00,37,\
-  00,41,00,33,00,44,00,32,00,7d,00,00,00
+  78,00,65,00,20,00,2f,00,58,00,7b,00,39,00,38,00,43,00,46,00,36,00,43,00,44,\
+  00,33,00,2d,00,36,00,37,00,39,00,45,00,2d,00,34,00,37,00,35,00,44,00,2d,00,\
+  39,00,32,00,35,00,41,00,2d,00,36,00,46,00,31,00,39,00,42,00,30,00,44,00,35,\
+  00,36,00,44,00,32,00,42,00,7d,00,00,00
 "URLInfoAbout"=""
 "URLUpdateInfo"=""
-"VersionMajor"=dword:00000006
-"VersionMinor"=dword:00000006
+"VersionMajor"=dword:00000005
+"VersionMinor"=dword:00000001
 "WindowsInstaller"=dword:00000001
-"Version"=dword:060609b3
-"Language"=dword:00000409
-"DisplayName"="Trend Micro Security Agent"
+"Version"=dword:050105f3
+"Language"=dword:00000000
+"DisplayName"="CaptureOnTouch V5 Pro (x64)"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{DEA7F8E3-B7B9-3C3C-945B-7F8CE9041748}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{B8B3BB4A-A10D-4F51-91B7-A64FFAC31EA7}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="14.40.33810"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20240731"
+"InstallLocation"=""
+"InstallSource"="C:\\ProgramData\\Package Cache\\{B8B3BB4A-A10D-4F51-91B7-A64FFAC31EA7}v14.40.33810\\packages\\vcRuntimeMinimum_amd64\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,49,00,7b,00,42,00,38,00,42,00,33,00,42,00,42,00,34,00,\
+  41,00,2d,00,41,00,31,00,30,00,44,00,2d,00,34,00,46,00,35,00,31,00,2d,00,39,\
+  00,31,00,42,00,37,00,2d,00,41,00,36,00,34,00,46,00,46,00,41,00,43,00,33,00,\
+  31,00,45,00,41,00,37,00,7d,00,00,00
+"Publisher"="Microsoft Corporation"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:0000094c
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,49,00,7b,00,42,00,38,00,42,00,33,00,42,00,42,00,34,\
+  00,41,00,2d,00,41,00,31,00,30,00,44,00,2d,00,34,00,46,00,35,00,31,00,2d,00,\
+  39,00,31,00,42,00,37,00,2d,00,41,00,36,00,34,00,46,00,46,00,41,00,43,00,33,\
+  00,31,00,45,00,41,00,37,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:0000000e
+"VersionMinor"=dword:00000028
+"WindowsInstaller"=dword:00000001
+"Version"=dword:0e288412
+"Language"=dword:00000409
+"DisplayName"="Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.40.33810"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{BB5AC4BC-A263-43DA-A530-9CB56342D6B8}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="64.52.27977"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20250226"
+"InstallLocation"=""
+"InstallSource"="C:\\ProgramData\\Package Cache\\{BB5AC4BC-A263-43DA-A530-9CB56342D6B8}v64.52.27977\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,42,00,42,00,35,00,41,00,43,00,34,00,42,00,\
+  43,00,2d,00,41,00,32,00,36,00,33,00,2d,00,34,00,33,00,44,00,41,00,2d,00,41,\
+  00,35,00,33,00,30,00,2d,00,39,00,43,00,42,00,35,00,36,00,33,00,34,00,32,00,\
+  44,00,36,00,42,00,38,00,7d,00,00,00
+"NoModify"=dword:00000001
+"Publisher"="Microsoft Corporation"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:00000144
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,42,00,42,00,35,00,41,00,43,00,34,00,42,\
+  00,43,00,2d,00,41,00,32,00,36,00,33,00,2d,00,34,00,33,00,44,00,41,00,2d,00,\
+  41,00,35,00,33,00,30,00,2d,00,39,00,43,00,42,00,35,00,36,00,33,00,34,00,32,\
+  00,44,00,36,00,42,00,38,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000040
+"VersionMinor"=dword:00000034
+"WindowsInstaller"=dword:00000001
+"Version"=dword:40346d49
+"Language"=dword:00000409
+"DisplayName"="Microsoft .NET Host FX Resolver - 8.0.13 (x64)"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{C2E82310-976A-4FC1-AD15-B25F4D715AC0}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="1.2.5382"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20230807"
+"InstallLocation"="C:\\Program Files (x86)\\Canon Electronics\\DRCommon\\"
+"InstallSource"="C:\\Users\\User\\AppData\\Local\\Temp\\{A8EE3E84-207A-47FF-A2FF-34C533C703AA}\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,43,00,32,00,45,00,38,00,32,00,33,00,31,00,\
+  30,00,2d,00,39,00,37,00,36,00,41,00,2d,00,34,00,46,00,43,00,31,00,2d,00,41,\
+  00,44,00,31,00,35,00,2d,00,42,00,32,00,35,00,46,00,34,00,44,00,37,00,31,00,\
+  35,00,41,00,43,00,30,00,7d,00,00,00
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"Publisher"="Canon Electronics Inc."
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:000090ae
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,43,00,32,00,45,00,38,00,32,00,33,00,31,\
+  00,30,00,2d,00,39,00,37,00,36,00,41,00,2d,00,34,00,46,00,43,00,31,00,2d,00,\
+  41,00,44,00,31,00,35,00,2d,00,42,00,32,00,35,00,46,00,34,00,44,00,37,00,31,\
+  00,35,00,41,00,43,00,30,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000001
+"VersionMinor"=dword:00000002
+"WindowsInstaller"=dword:00000001
+"Version"=dword:01021506
+"Language"=dword:00000000
+"DisplayName"="Canon driver for DR-C125 (x64)"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{C7FB4EEE-D481-4AC1-B113-120A9124FE50}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="64.52.27977"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20250226"
+"InstallLocation"=""
+"InstallSource"="C:\\ProgramData\\Package Cache\\{C7FB4EEE-D481-4AC1-B113-120A9124FE50}v64.52.27977\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,43,00,37,00,46,00,42,00,34,00,45,00,45,00,\
+  45,00,2d,00,44,00,34,00,38,00,31,00,2d,00,34,00,41,00,43,00,31,00,2d,00,42,\
+  00,31,00,31,00,33,00,2d,00,31,00,32,00,30,00,41,00,39,00,31,00,32,00,34,00,\
+  46,00,45,00,35,00,30,00,7d,00,00,00
+"NoModify"=dword:00000001
+"Publisher"="Microsoft Corporation"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:000118f0
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,43,00,37,00,46,00,42,00,34,00,45,00,45,\
+  00,45,00,2d,00,44,00,34,00,38,00,31,00,2d,00,34,00,41,00,43,00,31,00,2d,00,\
+  42,00,31,00,31,00,33,00,2d,00,31,00,32,00,30,00,41,00,39,00,31,00,32,00,34,\
+  00,46,00,45,00,35,00,30,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000040
+"VersionMinor"=dword:00000034
+"WindowsInstaller"=dword:00000001
+"Version"=dword:40346d49
+"Language"=dword:00000409
+"DisplayName"="Microsoft .NET Runtime - 8.0.13 (x64)"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{CF2BEA3C-26EA-32F8-AA9B-331F7E34BA97}]
 "AuthorizedCDFPrefix"=""
 "Comments"="Caution. Removing this product might prevent some applications from running."
 "Contact"=""
-"DisplayVersion"="12.0.40649"
+"DisplayVersion"="11.0.61030"
 "HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,67,00,6f,00,2e,00,\
   6d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,63,00,6f,00,6d,\
   00,2f,00,66,00,77,00,6c,00,69,00,6e,00,6b,00,2f,00,3f,00,4c,00,69,00,6e,00,\
   6b,00,49,00,64,00,3d,00,31,00,33,00,33,00,34,00,30,00,35,00,00,00
 "HelpTelephone"=""
-"InstallDate"="20240130"
+"InstallDate"="20230615"
 "InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\Package Cache\\{DEA7F8E3-B7B9-3C3C-945B-7F8CE9041748}v12.0.40649\\packages\\vcRuntimeMinimum_x86\\"
+"InstallSource"="C:\\ProgramData\\Package Cache\\{CF2BEA3C-26EA-32F8-AA9B-331F7E34BA97}v11.0.61030\\packages\\vcRuntimeMinimum_amd64\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,44,00,45,00,41,00,37,00,46,00,38,00,45,00,\
-  33,00,2d,00,42,00,37,00,42,00,39,00,2d,00,33,00,43,00,33,00,43,00,2d,00,39,\
-  00,34,00,35,00,42,00,2d,00,37,00,46,00,38,00,43,00,45,00,39,00,30,00,34,00,\
-  31,00,37,00,34,00,38,00,7d,00,00,00
+  00,65,00,20,00,2f,00,58,00,7b,00,43,00,46,00,32,00,42,00,45,00,41,00,33,00,\
+  43,00,2d,00,32,00,36,00,45,00,41,00,2d,00,33,00,32,00,46,00,38,00,2d,00,41,\
+  00,41,00,39,00,42,00,2d,00,33,00,33,00,31,00,46,00,37,00,45,00,33,00,34,00,\
+  42,00,41,00,39,00,37,00,7d,00,00,00
 "NoModify"=dword:00000001
 "Publisher"="Microsoft Corporation"
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:0000081c
+"EstimatedSize"=dword:000007d0
 "SystemComponent"=dword:00000001
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,44,00,45,00,41,00,37,00,46,00,38,00,45,\
-  00,33,00,2d,00,42,00,37,00,42,00,39,00,2d,00,33,00,43,00,33,00,43,00,2d,00,\
-  39,00,34,00,35,00,42,00,2d,00,37,00,46,00,38,00,43,00,45,00,39,00,30,00,34,\
-  00,31,00,37,00,34,00,38,00,7d,00,00,00
+  78,00,65,00,20,00,2f,00,58,00,7b,00,43,00,46,00,32,00,42,00,45,00,41,00,33,\
+  00,43,00,2d,00,32,00,36,00,45,00,41,00,2d,00,33,00,32,00,46,00,38,00,2d,00,\
+  41,00,41,00,39,00,42,00,2d,00,33,00,33,00,31,00,46,00,37,00,45,00,33,00,34,\
+  00,42,00,41,00,39,00,37,00,7d,00,00,00
 "URLInfoAbout"=""
 "URLUpdateInfo"=""
-"VersionMajor"=dword:0000000c
+"VersionMajor"=dword:0000000b
 "VersionMinor"=dword:00000000
 "WindowsInstaller"=dword:00000001
-"Version"=dword:0c009ec9
+"Version"=dword:0b00ee66
 "Language"=dword:00000409
-"DisplayName"="Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.40649"
+"DisplayName"="Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{DA80A019-4C3B-4DAA-ACA1-6937D7CAAF9E}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="8.94.0.0"
+"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,73,00,75,00,70,00,\
+  70,00,6f,00,72,00,74,00,2e,00,6d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,\
+  00,74,00,2e,00,63,00,6f,00,6d,00,2f,00,6b,00,62,00,2f,00,35,00,30,00,30,00,\
+  31,00,37,00,31,00,36,00,00,00
+"HelpTelephone"=""
+"InstallDate"="20241024"
+"InstallLocation"=""
+"InstallSource"="C:\\Windows\\SoftwareDistribution\\Download\\f9ce4793f88f2bc595a0d9329d7afaf4\\img\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,44,00,41,00,38,00,30,00,41,00,30,00,31,00,\
+  39,00,2d,00,34,00,43,00,33,00,42,00,2d,00,34,00,44,00,41,00,41,00,2d,00,41,\
+  00,43,00,41,00,31,00,2d,00,36,00,39,00,33,00,37,00,44,00,37,00,43,00,41,00,\
+  41,00,46,00,39,00,45,00,7d,00,00,00
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"Publisher"="Microsoft Corporation"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:0000035c
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,44,00,41,00,38,00,30,00,41,00,30,00,31,\
+  00,39,00,2d,00,34,00,43,00,33,00,42,00,2d,00,34,00,44,00,41,00,41,00,2d,00,\
+  41,00,43,00,41,00,31,00,2d,00,36,00,39,00,33,00,37,00,44,00,37,00,43,00,41,\
+  00,41,00,46,00,39,00,45,00,7d,00,00,00
+"URLInfoAbout"="http://support.microsoft.com/kb/5001716"
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000008
+"VersionMinor"=dword:0000005e
+"WindowsInstaller"=dword:00000001
+"Version"=dword:085e0000
+"Language"=dword:00000000
+"DisplayName"="Update for x64-based Windows Systems (KB5001716)"
 
