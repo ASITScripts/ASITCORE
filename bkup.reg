@@ -1,591 +1,272 @@
 Windows Registry Editor Version 5.00
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall]
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\1992736F-C90A-481C-B21B-EE34CAD07387]
-"DisplayName"="Intel(R) Virtual Buttons"
-"UninstallString"="C:\\Program Files (x86)\\Intel\\Intel(R) Virtual Buttons\\Uninstall\\setup.exe -uninstall"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\AddressBook]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\BE17274E9C6CDC3AFCBC3726EF1E1DCC08501D89]
+"UninstallString"="C:\\PROGRA~1\\DIFX\\B60D12~1\\dpinst.exe /u C:\\Windows\\System32\\DRVSTORE\\brcow_4_1__79E3578E83EA5CF5A74A0A260104A4C771243C69\\brcow_4_1_0_1967.inf"
+"DisplayName"="Windows Driver Package - HP Inc. BrCow_4_1_0_1967 ActivityMonitor  (02/19/2018 4.1.0.1967)"
+"DisplayIcon"=hex(2):43,00,3a,00,5c,00,50,00,52,00,4f,00,47,00,52,00,41,00,7e,\
+  00,31,00,5c,00,44,00,49,00,46,00,58,00,5c,00,42,00,36,00,30,00,44,00,31,00,\
+  32,00,7e,00,31,00,5c,00,64,00,70,00,69,00,6e,00,73,00,74,00,2e,00,65,00,78,\
+  00,65,00,2c,00,30,00,00,00
+"DisplayVersion"="02/19/2018 4.1.0.1967"
+"Publisher"="HP Inc."
+"SystemComponent"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\C983A229692E458A67902288C21CFB23677C0BD4]
+"UninstallString"="C:\\PROGRA~1\\DIFX\\B60D12~1\\dpinst.exe /u C:\\Windows\\System32\\DRVSTORE\\brfilter_4_8636ED7933F95319D2290F1A5B75D9369B44B388\\brfilter_4_1_0_1967.inf"
+"DisplayName"="Windows Driver Package - HP Inc. BrFilter_4_1_0_1967 ActivityMonitor  (02/19/2018 4.1.0.1967)"
+"DisplayIcon"=hex(2):43,00,3a,00,5c,00,50,00,52,00,4f,00,47,00,52,00,41,00,7e,\
+  00,31,00,5c,00,44,00,49,00,46,00,58,00,5c,00,42,00,36,00,30,00,44,00,31,00,\
+  32,00,7e,00,31,00,5c,00,64,00,70,00,69,00,6e,00,73,00,74,00,2e,00,65,00,78,\
+  00,65,00,2c,00,30,00,00,00
+"DisplayVersion"="02/19/2018 4.1.0.1967"
+"Publisher"="HP Inc."
+"SystemComponent"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\CNXT_AUDIO_HDA]
+"DisplayName"="Conexant ISST Audio"
+"DisplayVersion"="9.0.278.150"
+"VersionMajor"="9"
+"VersionMinor"="0"
+"Publisher"="Conexant"
+"DisplayIcon"="C:\\Program Files\\CONEXANT\\CNXT_AUDIO_HDA\\HPLogo.ico"
+"UninstallString"="C:\\Program Files\\CONEXANT\\CNXT_AUDIO_HDA\\UIU64a.exe -U -R -G -Icisstrt.inf -OI=IntcAudioBus.inf"
+"EstimatedSize"=dword:000237a6
+"ForcedUninstallFriendlyName"="Conexant HD/ISST Audio"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Connection Manager]
+"SystemComponent"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\DirectDrawEx]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\DXM_Runtime]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\EPSON WF-4740 Series]
+"caption"="EPSON WF-4740 Series Printer Uninstall"
+"DisplayName"="EPSON WF-4740 Series Printer Uninstall"
+"DisplayIcon"="C:\\WINDOWS\\system32\\spool\\DRIVERS\\x64\\3\\E_YINSQCE.EXE"
+"UninstallString"="C:\\WINDOWS\\system32\\spool\\DRIVERS\\x64\\3\\E_YINSQCE.EXE /R /APD /P:\"EPSON WF-4740 Series\""
+"Publisher"="Seiko Epson Corporation"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\EPSON WF-4740 Series\PrinterDrivers]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\EPSON WF-4740 Series\PrinterDrivers\EPSON WF-4740 Series]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\EPSON WF-4740 Series\PrinterDrivers\EPSON WF-4740 Series\Files]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\EPSON WF-4740 Series\PrinterDrivers\EPSON WF-4740 Series\Files\Extension]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\EPSON WF-4740 Series\PrinterDrivers\EPSON WF-4740 Series\Files\Extension\101]
+"ProfilePath"="C:\\ProgramData\\EPSON\\EPSON WF-4740 Series"
+"FileSpec"="*.BR1,*.BR2"
+"Type"=dword:00000124
+"Flags"=hex:01
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\EPSON WF-4740 Series\PrinterDrivers\EPSON WF-4740 Series\Files\Extension\102]
+"ProfilePath"="C:\\ProgramData\\EPSON"
+"FileSpec"="DUMMY.FN"
+"Type"=dword:00000124
+"Flags"=hex:01
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\EPSON WF-4740 Series\PrinterDrivers\EPSON WF-4740 Series\Settings]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\EPSON WF-4740 Series\PrinterDrivers\EPSON WF-4740 Series\Settings\HKEY_LOCAL_MACHINE]
+@="0x80000002"
+"101"="\"SOFTWARE\\Wow6432Node\\EPSON\\STM3\\Driver\\EPSON WF-4740 Series\",\"\",\"\""
+"102"="\"SOFTWARE\\Wow6432Node\\EPSON\\STM3\\Driver\",\"\",\"\",\"1\""
+"103"="\"SOFTWARE\\Wow6432Node\\EPSON\\STM3\",\"\",\"\",\"1\""
+"104"="\"SOFTWARE\\EPSON\\EPSON WF-4740 Series TS_URL\",\"\",\"\""
+"105"="\"SOFTWARE\\EPSON\\EPSON WF-4740 Series IO_URL\",\"\",\"\""
+"106"="\"SOFTWARE\\Wow6432Node\\EPSON\",\"\",\"\",\"1\""
+"107"="\"SOFTWARE\\EPSON\",\"\",\"\",\"1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Flow]
+"DisplayVersion"="1.3.176.0"
+"Publisher"="Conexant Systems"
+"DisplayIcon"="C:\\Program Files\\Conexant\\Flow\\Flow.exe"
+"UninstallString"="C:\\Program Files\\Conexant\\Flow\\Setup64.exe -U -IFlowSetup -SRM=Flow.exe,UtilStatus,4"
+"EstimatedSize"=dword:000079c2
+"CorrespondingDevice"="{4d36e96c-e325-11ce-bfc1-08002be10318}\\0001"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Fontcore]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\HomeBusiness2019Retail - en-us]
+"UninstallString"="\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" scenario=install scenariosubtype=ARP sourcetype=None productstoremove=HomeBusiness2019Retail.16_en-us_x-none culture=en-us version.16=16.0"
+"ModifyPath"="\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" scenario=repair platform=x64 culture=en-us"
+"NoRepair"=dword:00000000
+"NoRemove"=dword:00000000
+"NoModify"=dword:00000000
+"DisplayIcon"="C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe"
+"DisplayName"="Microsoft Office Home and Business 2019 - en-us"
+"DisplayVersion"="16.0.17126.20132"
+"Publisher"="Microsoft Corporation"
+"InstallLocation"="C:\\Program Files\\Microsoft Office"
+"ClickToRunComponent"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\HP-NB-AIO]
+"DisplayIcon"="C:\\Program Files\\Conexant\\SA3\\HP-NB-AIO\\SADefaultIcon.ico"
+"DisplayVersion"="4.0.133.0"
+"MajorVersion"="4"
+"VersionMajor"="4"
+"MinorVersion"="0"
+"VersionMinor"="0"
+"Publisher"="Conexant Systems"
+"InstallLocation"="C:\\Program Files\\Conexant\\SA3\\HP-NB-AIO"
+"UninstallString"="C:\\Program Files\\Conexant\\SA3\\HP-NB-AIO\\SETUP64.EXE -U -ISA3 -SWTM=\"HDAudioAPI-D9A3021B-9BCE-458C-B667-9029C4EF4050,1801\""
+"EstimatedSize"=dword:0000bfe7
+"CorrespondingDevice"="{4d36e96c-e325-11ce-bfc1-08002be10318}\\0001"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\HPProtectTools]
+"DisplayName"="HP Client Security Manager"
+"DisplayVersion"="9.3.13.2627"
+"InstallLocation"="c:\\Program Files\\HP\\HP ProtectTools Security Manager\\"
+"UninstallString"="c:\\Program Files\\HP\\HP ProtectTools Security Manager\\Bin\\setup.exe"
+"Publisher"="HP Inc."
+"DisplayIcon"="c:\\Program Files\\HP\\HP ProtectTools Security Manager\\Bin\\dpsmver.dll,0"
+"EstimatedSize"=dword:0001628b
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\HP_Documentation]
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"UninstallString"=hex(2):43,00,4d,00,44,00,20,00,2f,00,43,00,20,00,22,00,43,00,\
+  3a,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,20,00,46,00,69,00,6c,\
+  00,65,00,73,00,5c,00,48,00,50,00,5c,00,44,00,6f,00,63,00,75,00,6d,00,65,00,\
+  6e,00,74,00,61,00,74,00,69,00,6f,00,6e,00,5c,00,44,00,6f,00,63,00,5f,00,55,\
+  00,6e,00,69,00,6e,00,73,00,74,00,61,00,6c,00,6c,00,2e,00,63,00,6d,00,64,00,\
+  22,00,00,00
+"DisplayName"="HP Documentation"
+"Publisher"="HP Inc."
+"DisplayVersion"="1.0.0.1"
+"DisplayIcon"="C:\\Program Files\\HP\\Documentation\\elements\\hp.ico"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\IE40]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\IE4Data]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\IE5BAKEX]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\IEData]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\MicTray]
+"DisplayVersion"="1.25.0.0"
+"VersionMajor"="1"
+"VersionMinor"="0"
+"Publisher"="Conexant Systems"
+"InstallLocation"="C:\\Program Files\\Conexant\\MicTray"
+"UninstallString"="C:\\Program Files\\Conexant\\MicTray\\SETUP64.EXE -U -IMicTray"
+"EstimatedSize"=dword:000052f0
+"CorrespondingDevice"="{4d36e96c-e325-11ce-bfc1-08002be10318}\\0001"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\MobileOptionPack]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\MPlayer2]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\mspaint-b330ad9e-f80b-4c96-9949-4b4228be9a6e]
+"DisplayIcon"=hex(2):43,00,3a,00,5c,00,57,00,49,00,4e,00,44,00,4f,00,57,00,53,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,73,00,\
+  70,00,61,00,69,00,6e,00,74,00,2e,00,65,00,78,00,65,00,00,00
+"DisplayName_Localized"=hex(2):40,00,43,00,3a,00,5c,00,57,00,49,00,4e,00,44,00,\
+  4f,00,57,00,53,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,6d,00,73,00,70,00,61,00,69,00,6e,00,74,00,2e,00,65,00,78,00,65,00,2c,00,\
+  2d,00,35,00,37,00,33,00,34,00,34,00,00,00
+"InstallLocation"=hex(2):43,00,3a,00,5c,00,57,00,49,00,4e,00,44,00,4f,00,57,00,\
+  53,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,00,00
+"NoModify"=dword:00000001
+"Publisher"="Microsoft Corporation"
+"UninstallString"=hex(2):22,00,43,00,3a,00,5c,00,57,00,49,00,4e,00,44,00,4f,00,\
+  57,00,53,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,\
+  00,73,00,70,00,61,00,69,00,6e,00,74,00,2e,00,65,00,78,00,65,00,22,00,20,00,\
+  2f,00,75,00,6e,00,69,00,6e,00,73,00,74,00,61,00,6c,00,6c,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\mstsc-4b0a31aa-df6a-4307-9b47-d5cc50009643]
+"DisplayIcon"=hex(2):43,00,3a,00,5c,00,57,00,49,00,4e,00,44,00,4f,00,57,00,53,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,73,00,\
+  74,00,73,00,63,00,2e,00,65,00,78,00,65,00,00,00
+"DisplayName_Localized"=hex(2):40,00,43,00,3a,00,5c,00,57,00,49,00,4e,00,44,00,\
+  4f,00,57,00,53,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,6d,00,73,00,74,00,73,00,63,00,2e,00,65,00,78,00,65,00,2c,00,2d,00,34,00,\
+  30,00,30,00,30,00,00,00
+"InstallLocation"=hex(2):43,00,3a,00,5c,00,57,00,49,00,4e,00,44,00,4f,00,57,00,\
+  53,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,00,00
+"NoModify"=dword:00000001
+"Publisher"="Microsoft Corporation"
+"UninstallString"=hex(2):22,00,43,00,3a,00,5c,00,57,00,49,00,4e,00,44,00,4f,00,\
+  57,00,53,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,\
+  00,73,00,74,00,73,00,63,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,00,75,00,\
+  6e,00,69,00,6e,00,73,00,74,00,61,00,6c,00,6c,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\SchedulingAgent]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\SFPreset]
+"DisplayVersion"="4.1.0.84"
+"VersionMajor"="1"
+"VersionMinor"="0"
+"Publisher"="Conexant Systems"
+"InstallLocation"="C:\\Program Files\\Conexant\\SFPreset"
+"UninstallString"="C:\\Program Files\\Conexant\\SFPreset\\SETUP64.EXE -U -ISFPreset"
+"EstimatedSize"=dword:000041b8
+"CorrespondingDevice"="{4d36e96c-e325-11ce-bfc1-08002be10318}\\0001"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\SnippingTool-ee6eb196-db28-4d99-816d-fa9a63b4a377]
+"DisplayIcon"=hex(2):43,00,3a,00,5c,00,57,00,49,00,4e,00,44,00,4f,00,57,00,53,\
+  00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,53,00,6e,00,\
+  69,00,70,00,70,00,69,00,6e,00,67,00,54,00,6f,00,6f,00,6c,00,2e,00,65,00,78,\
+  00,65,00,00,00
+"DisplayName_Localized"=hex(2):40,00,43,00,3a,00,5c,00,57,00,49,00,4e,00,44,00,\
+  4f,00,57,00,53,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,\
+  00,53,00,6e,00,69,00,70,00,70,00,69,00,6e,00,67,00,54,00,6f,00,6f,00,6c,00,\
+  2e,00,65,00,78,00,65,00,2c,00,2d,00,31,00,35,00,30,00,35,00,31,00,00,00
+"InstallLocation"=hex(2):43,00,3a,00,5c,00,57,00,49,00,4e,00,44,00,4f,00,57,00,\
+  53,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,00,00
+"NoModify"=dword:00000001
+"Publisher"="Microsoft Corporation"
+"UninstallString"=hex(2):22,00,43,00,3a,00,5c,00,57,00,49,00,4e,00,44,00,4f,00,\
+  57,00,53,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,53,\
+  00,6e,00,69,00,70,00,70,00,69,00,6e,00,67,00,54,00,6f,00,6f,00,6c,00,2e,00,\
+  65,00,78,00,65,00,22,00,20,00,2f,00,75,00,6e,00,69,00,6e,00,73,00,74,00,61,\
+  00,6c,00,6c,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\SSPConfig]
+"DisplayVersion"="1.1.0.76"
+"VersionMajor"="1"
+"VersionMinor"="0"
+"Publisher"="Conexant Systems"
+"InstallLocation"="C:\\Program Files\\Conexant\\SSPConfig"
+"UninstallString"="C:\\Program Files\\Conexant\\SSPConfig\\SETUP64.EXE -U -ISSPConfig"
+"EstimatedSize"=dword:000046f2
+"CorrespondingDevice"="{4d36e96c-e325-11ce-bfc1-08002be10318}\\0001"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\WIC]
+"NoRemove"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{08B56C70-0544-4455-A37E-D033D6F3EBF7}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="1.0.0.0"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20190223"
+"InstallLocation"=""
+"InstallSource"="C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\IIFAD56.tmp\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,49,00,7b,00,30,00,38,00,42,00,35,00,36,00,43,00,37,00,\
+  30,00,2d,00,30,00,35,00,34,00,34,00,2d,00,34,00,34,00,35,00,35,00,2d,00,41,\
+  00,33,00,37,00,45,00,2d,00,44,00,30,00,33,00,33,00,44,00,36,00,46,00,33,00,\
+  45,00,42,00,46,00,37,00,7d,00,00,00
 "Publisher"="Intel Corporation"
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"InstallLocation"="C:\\Program Files (x86)\\Intel\\Intel(R) Virtual Buttons"
-"DisplayIcon"="C:\\Program Files (x86)\\Intel\\Intel(R) Virtual Buttons\\Uninstall\\Setup.exe,0"
-"DisplayVersion"="2.2.1.31"
-"VersionMajor"=dword:00000002
-"VersionMinor"=dword:00000002
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\3FB06EEC-013D-4366-9918-71B97DFB84EB]
-"DisplayName"="Intel(R) HID Event Filter"
-"UninstallString"="C:\\Program Files (x86)\\Intel\\Intel(R) HID Event Filter\\Uninstall\\setup.exe -uninstall"
-"Publisher"="Intel Corporation"
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"InstallLocation"="C:\\Program Files (x86)\\Intel\\Intel(R) HID Event Filter"
-"DisplayIcon"="C:\\Program Files (x86)\\Intel\\Intel(R) HID Event Filter\\Uninstall\\Setup.exe,0"
-"DisplayVersion"="2.2.1.372"
-"VersionMajor"=dword:00000002
-"VersionMinor"=dword:00000002
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\AddressBook]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Connection Manager]
-"SystemComponent"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\DirectDrawEx]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\DXM_Runtime]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\EPSON PC-FAX Driver 2]
-"DisplayName"="Epson PC-FAX Driver"
-"DisplayIcon"="C:\\Program Files (x86)\\Epson Software\\FAX Utility\\FUFAXCNT.exe"
-"Publisher"="Seiko Epson Corporation"
-"UninstallString"="C:\\WINDOWS\\system32\\spool\\DRIVERS\\x64\\3\\EFXIJRMV.exe"
-"NoModify"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Epson Scan 2]
-"DisplayName"="Epson Scan 2"
-"DisplayIcon"="C:\\Program Files (x86)\\epson\\Epson Scan 2\\Setup\\setup.exe"
-"UninstallString"="C:\\Program Files (x86)\\epson\\Epson Scan 2\\Setup\\setup.exe /R"
-"Publisher"="Seiko Epson Corporation"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Fontcore]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\HostedAgent]
-"DisplayIcon"="C:\\Program Files (x86)\\Trend Micro\\Client Server Security Agent\\PCCNtMon.exe"
-"InstallLocation"="C:\\Program Files (x86)\\Trend Micro\\Client Server Security Agent"
-"VersionMinor"=dword:00000000
-"VersionMajor"=dword:00000001
-"DisplayVersion"="6.7.3902"
-"Publisher"="Trend Micro Inc."
-"UninstallString"="msiexec /x {BED0B8A2-2986-49F8-90D6-FA008D37A3D2} /qf /l+* \"C:\\WINDOWS\\temp\\wofie_uninstall.log\""
-"DisplayName"="Trend Micro Security Agent"
-"NoModify"=dword:00000001
-"EstimatedSize"=dword:0001c564
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\IE40]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\IE4Data]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\IE5BAKEX]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\IEData]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\InstallShield Uninstall Information]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge]
-"DisplayName"="Microsoft Edge"
-"ModifyPath"="\"C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe\" /install appguid={56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}&appname=Microsoft%20Edge&needsadmin=true&repairtype=windowsonlinerepair /installsource windowsupdate"
-"UninstallString"="\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\134.0.3124.72\\Installer\\setup.exe\" --uninstall --msedge --channel=stable --system-level --verbose-logging"
-"InstallLocation"="C:\\Program Files (x86)\\Microsoft\\Edge\\Application"
-"DisplayIcon"="C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\134.0.3124.72\\msedge.exe,0"
-"NoRepair"=dword:00000001
-"Publisher"="Microsoft Corporation"
-"Version"="134.0.3124.72"
-"DisplayVersion"="134.0.3124.72"
-"InstallDate"="20250317"
-"VersionMajor"=dword:00000c34
-"VersionMinor"=dword:00000048
-"NoRemove"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge Update]
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"DisplayVersion"="1.3.195.45"
-"Version"="1.3.195.45"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView]
-"DisplayName"="Microsoft Edge WebView2 Runtime"
-"ModifyPath"="\"C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe\" /install appguid={F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}&appname=Microsoft%20Edge%20WebView&needsadmin=true&repairtype=windowsonlinerepair /installsource windowsonlinerepair"
-"UninstallString"="\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\133.0.3065.92\\Installer\\setup.exe\" --uninstall --msedgewebview --system-level --verbose-logging"
-"InstallLocation"="C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application"
-"DisplayIcon"="C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\133.0.3065.92\\msedgewebview2.exe,0"
-"NoRepair"=dword:00000001
-"Publisher"="Microsoft Corporation"
-"Version"="133.0.3065.92"
-"DisplayVersion"="133.0.3065.92"
-"InstallDate"="20250302"
-"VersionMajor"=dword:00000bf9
-"VersionMinor"=dword:0000005c
-"NoRemove"=dword:00000001
-"SystemComponent"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\MobileOptionPack]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\MPlayer2]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\SAAZOD]
-"Publisher"="ITSupport247"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\SchedulingAgent]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\WIC]
-"NoRemove"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{050d4fc8-5d48-4b8f-8972-47c82c46020f}]
-"BundleCachePath"="C:\\ProgramData\\Package Cache\\{050d4fc8-5d48-4b8f-8972-47c82c46020f}\\vcredist_x64.exe"
-"BundleUpgradeCode"=hex(7):7b,00,31,00,44,00,31,00,44,00,42,00,35,00,45,00,36,\
-  00,2d,00,45,00,30,00,44,00,38,00,2d,00,33,00,31,00,30,00,33,00,2d,00,38,00,\
-  35,00,37,00,30,00,2d,00,33,00,36,00,39,00,41,00,38,00,32,00,41,00,39,00,42,\
-  00,46,00,33,00,33,00,7d,00,00,00,00,00
-"BundleAddonCode"=hex(7):
-"BundleDetectCode"=hex(7):
-"BundlePatchCode"=hex(7):
-"BundleVersion"="12.0.30501.0"
-"BundleProviderKey"="{050d4fc8-5d48-4b8f-8972-47c82c46020f}"
-"BundleTag"=""
-"EngineVersion"="3.7.2829.0"
-"DisplayIcon"="C:\\ProgramData\\Package Cache\\{050d4fc8-5d48-4b8f-8972-47c82c46020f}\\vcredist_x64.exe,0"
-"DisplayName"="Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.30501"
-"DisplayVersion"="12.0.30501.0"
-"Publisher"="Microsoft Corporation"
-"ModifyPath"="\"C:\\ProgramData\\Package Cache\\{050d4fc8-5d48-4b8f-8972-47c82c46020f}\\vcredist_x64.exe\" /modify"
-"NoElevateOnModify"=dword:00000001
-"QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{050d4fc8-5d48-4b8f-8972-47c82c46020f}\\vcredist_x64.exe\" /uninstall /quiet"
-"UninstallString"="\"C:\\ProgramData\\Package Cache\\{050d4fc8-5d48-4b8f-8972-47c82c46020f}\\vcredist_x64.exe\"  /uninstall"
-"EstimatedSize"=dword:00005246
-"Resume"=dword:00000003
-"Installed"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{0A46A65D-89AC-464C-8026-3CD44960BD04}]
-"ModifyPath"="\"C:\\Program Files (x86)\\InstallShield Installation Information\\{0A46A65D-89AC-464C-8026-3CD44960BD04}\\setup.exe\" -runfromtemp "
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"UninstallString"="\"C:\\Program Files (x86)\\InstallShield Installation Information\\{0A46A65D-89AC-464C-8026-3CD44960BD04}\\setup.exe\" -runfromtemp  -removeonly"
-"LogFile"="C:\\Program Files (x86)\\InstallShield Installation Information\\{0A46A65D-89AC-464C-8026-3CD44960BD04}\\setup.ilg"
-"InstallLocation"="C:\\Program Files (x86)\\Realtek\\Audio"
-"ProductGuid"="{0A46A65D-89AC-464C-8026-3CD44960BD04}"
-"InstallSource"="c:\\SWSETUP\\DRV\\Audio\\Realtek\\USBaudio\\6.3.9600.182\\src\\"
-"DisplayName"="Realtek USB Audio"
-"Publisher"="Realtek Semiconductor Corp."
-"URLInfoAbout"="http://www.realtek.com"
-"RegCompany"="HP Inc."
-"RegOwner"="HP Inc."
-"DisplayIcon"="C:\\Program Files (x86)\\Realtek\\Audio\\USBAud\\RtSetupAPI64.dll"
-"InstallDate"="20181102"
-"Language"=dword:00000409
-"DisplayVersion"="6.3.9600.182"
-"Version"=dword:000a0000
-"VersionMajor"=dword:00000000
-"VersionMinor"=dword:0000000a
-"LogMode"=dword:00000001
-"BackUnString"="\"C:\\Program Files (x86)\\InstallShield Installation Information\\{0A46A65D-89AC-464C-8026-3CD44960BD04}\\setup.exe\" -runfromtemp  -removeonly"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{0C3457A0-3DCE-4A33-BEF0-9B528C557771}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="14.40.33810"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20240731"
-"InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\Package Cache\\{0C3457A0-3DCE-4A33-BEF0-9B528C557771}v14.40.33810\\packages\\vcRuntimeMinimum_x86\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,30,00,43,00,33,00,34,00,35,00,37,00,41,00,\
-  30,00,2d,00,33,00,44,00,43,00,45,00,2d,00,34,00,41,00,33,00,33,00,2d,00,42,\
-  00,45,00,46,00,30,00,2d,00,39,00,42,00,35,00,32,00,38,00,43,00,35,00,35,00,\
-  37,00,37,00,37,00,31,00,7d,00,00,00
-"Publisher"="Microsoft Corporation"
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:000007a4
+"EstimatedSize"=dword:000003d5
 "SystemComponent"=dword:00000001
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,30,00,43,00,33,00,34,00,35,00,37,00,41,\
-  00,30,00,2d,00,33,00,44,00,43,00,45,00,2d,00,34,00,41,00,33,00,33,00,2d,00,\
-  42,00,45,00,46,00,30,00,2d,00,39,00,42,00,35,00,32,00,38,00,43,00,35,00,35,\
-  00,37,00,37,00,37,00,31,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:0000000e
-"VersionMinor"=dword:00000028
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0e288412
-"Language"=dword:00000409
-"DisplayName"="Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.40.33810"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{0CBE6C93-CB2E-4378-91EE-12BE6D4E2E4A}]
-"ModifyPath"="\"C:\\Program Files (x86)\\InstallShield Installation Information\\{0CBE6C93-CB2E-4378-91EE-12BE6D4E2E4A}\\setup.exe\" -runfromtemp -l0x0409 "
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"UninstallString"="\"C:\\Program Files (x86)\\InstallShield Installation Information\\{0CBE6C93-CB2E-4378-91EE-12BE6D4E2E4A}\\setup.exe\" -runfromtemp -l0x0409  -removeonly"
-"LogFile"="C:\\Program Files (x86)\\InstallShield Installation Information\\{0CBE6C93-CB2E-4378-91EE-12BE6D4E2E4A}\\setup.ilg"
-"InstallLocation"="C:\\Program Files (x86)\\Epson Software\\FAX Utility"
-"ProductGuid"="{0CBE6C93-CB2E-4378-91EE-12BE6D4E2E4A}"
-"InstallSource"="C:\\Users\\nandersbnomik\\AppData\\Local\\Temp\\EpInsNav\\DL\\Fax Utility_EA\\Fax Utility_EA\\Data\\main\\"
-"DisplayName"="Epson FAX Utility"
-"Publisher"="Seiko Epson Corporation"
-"RegCompany"="HP Inc."
-"RegOwner"="Ian"
-"DisplayIcon"="\"C:\\Program Files (x86)\\Epson Software\\FAX Utility\\FUFAXCNT.exe\",-128"
-"InstallDate"="20200821"
-"Language"=dword:00000409
-"DisplayVersion"="3.10.00"
-"Version"=dword:030a0000
-"VersionMajor"=dword:00000003
-"VersionMinor"=dword:0000000a
-"LogMode"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{0cd43c04-1135-4d28-a78d-5a1fa8d790a3}]
-"BundleCachePath"="C:\\ProgramData\\Package Cache\\{0cd43c04-1135-4d28-a78d-5a1fa8d790a3}\\PowerToysSetup-0.67.1-x64.exe"
-"BundleUpgradeCode"=hex(7):7b,00,36,00,33,00,34,00,31,00,33,00,38,00,32,00,44,\
-  00,2d,00,43,00,30,00,41,00,39,00,2d,00,34,00,32,00,33,00,38,00,2d,00,39,00,\
-  31,00,38,00,38,00,2d,00,42,00,45,00,39,00,36,00,30,00,37,00,45,00,33,00,46,\
-  00,41,00,42,00,32,00,7d,00,00,00,00,00
-"BundleAddonCode"=hex(7):
-"BundleDetectCode"=hex(7):
-"BundlePatchCode"=hex(7):
-"BundleVersion"="0.67.1.0"
-"VersionMajor"=dword:00000000
-"VersionMinor"=dword:00000043
-"BundleProviderKey"="{0cd43c04-1135-4d28-a78d-5a1fa8d790a3}"
-"BundleTag"=""
-"EngineVersion"="3.14.0.6526"
-"DisplayIcon"="C:\\ProgramData\\Package Cache\\{0cd43c04-1135-4d28-a78d-5a1fa8d790a3}\\PowerToysSetup-0.67.1-x64.exe,0"
-"DisplayName"="PowerToys (Preview) x64"
-"DisplayVersion"="0.67.1"
-"Publisher"="Microsoft Corporation"
-"ModifyPath"="\"C:\\ProgramData\\Package Cache\\{0cd43c04-1135-4d28-a78d-5a1fa8d790a3}\\PowerToysSetup-0.67.1-x64.exe\" /modify"
-"NoElevateOnModify"=dword:00000001
-"QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{0cd43c04-1135-4d28-a78d-5a1fa8d790a3}\\PowerToysSetup-0.67.1-x64.exe\" /uninstall /quiet"
-"UninstallString"="\"C:\\ProgramData\\Package Cache\\{0cd43c04-1135-4d28-a78d-5a1fa8d790a3}\\PowerToysSetup-0.67.1-x64.exe\"  /uninstall"
-"EstimatedSize"=dword:000ce1d8
-"Resume"=dword:00000003
-"Installed"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{18f39771-f9d8-4cfd-9654-f6c67c8ad9f4}]
-"AuthorizedCDFPrefix"=""
-"Comments"="Version: 3.1.2.2578"
-"Contact"=""
-"DisplayVersion"="3.2.4"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20240202"
-"InstallLocation"="C:\\Program Files (x86)\\"
-"InstallSource"="\\\\2k12V-DC01\\NETLOGON\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,31,00,38,00,46,00,33,00,39,00,37,00,37,00,\
-  31,00,2d,00,46,00,39,00,44,00,38,00,2d,00,34,00,43,00,46,00,44,00,2d,00,39,\
-  00,36,00,35,00,34,00,2d,00,46,00,36,00,43,00,36,00,37,00,43,00,38,00,41,00,\
-  44,00,39,00,46,00,34,00,7d,00,00,00
-"Publisher"="  "
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:0000e252
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,31,00,38,00,46,00,33,00,39,00,37,00,37,\
-  00,31,00,2d,00,46,00,39,00,44,00,38,00,2d,00,34,00,43,00,46,00,44,00,2d,00,\
-  39,00,36,00,35,00,34,00,2d,00,46,00,36,00,43,00,36,00,37,00,43,00,38,00,41,\
-  00,44,00,39,00,46,00,34,00,7d,00,00,00
-"URLInfoAbout"="https://www.ConnectWise.com "
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000003
-"VersionMinor"=dword:00000001
-"WindowsInstaller"=dword:00000001
-"Version"=dword:03010002
-"Language"=dword:00000409
-"DisplayName"="ITSPlatform"
-"SystemComponent"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{1ACFA37D-E100-4DF3-BC69-E4D583E874F0}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="11.3.2"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20181102"
-"InstallLocation"="c:\\Program Files (x86)\\HP\\HP ESU for Microsoft Windows 10\\"
-"InstallSource"="c:\\SWSETUP\\APP\\PREOS\\HP\\EssentialSystem\\X\\src\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,31,00,41,00,43,00,46,00,41,00,33,00,37,00,\
-  44,00,2d,00,45,00,31,00,30,00,30,00,2d,00,34,00,44,00,46,00,33,00,2d,00,42,\
-  00,43,00,36,00,39,00,2d,00,45,00,34,00,44,00,35,00,38,00,33,00,45,00,38,00,\
-  37,00,34,00,46,00,30,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="HP"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00029fbd
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,31,00,41,00,43,00,46,00,41,00,33,00,37,\
-  00,44,00,2d,00,45,00,31,00,30,00,30,00,2d,00,34,00,44,00,46,00,33,00,2d,00,\
-  42,00,43,00,36,00,39,00,2d,00,45,00,34,00,44,00,35,00,38,00,33,00,45,00,38,\
-  00,37,00,34,00,46,00,30,00,7d,00,00,00
-"URLInfoAbout"="http://www.hp.com"
-"URLUpdateInfo"=""
-"VersionMajor"=dword:0000000b
-"VersionMinor"=dword:00000003
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0b030002
-"Language"=dword:00000000
-"DisplayName"="HP ESU for Microsoft Windows 10"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{1D8E6291-B0D5-35EC-8441-6616F567A0F7}.KB2151757]
-@="KB2151757"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{1D8E6291-B0D5-35EC-8441-6616F567A0F7}.KB2467173]
-@="KB2467173"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{1D8E6291-B0D5-35EC-8441-6616F567A0F7}.KB2524860]
-@="KB2524860"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{1D8E6291-B0D5-35EC-8441-6616F567A0F7}.KB2544655]
-@="KB2544655"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{1D8E6291-B0D5-35EC-8441-6616F567A0F7}.KB2549743]
-@="KB2549743"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{1D8E6291-B0D5-35EC-8441-6616F567A0F7}.KB2565063]
-@="KB2565063"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{1D8E6291-B0D5-35EC-8441-6616F567A0F7}.KB982573]
-@="KB982573"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{21FA165F-905C-4DDA-B00A-00C3A5D17BBA}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="1.1.16.1"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20190223"
-"InstallLocation"="C:\\Program Files (x86)\\HP\\HP MAC Address Manager\\"
-"InstallSource"="C:\\ProgramData\\HP\\HP Mac Address Manager\\{D466B775-34A4-471C-BD6E-F5F1160CFF27}\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,32,00,31,00,46,00,41,00,31,00,36,00,35,00,\
-  46,00,2d,00,39,00,30,00,35,00,43,00,2d,00,34,00,44,00,44,00,41,00,2d,00,42,\
-  00,30,00,30,00,41,00,2d,00,30,00,30,00,43,00,33,00,41,00,35,00,44,00,31,00,\
-  37,00,42,00,42,00,41,00,7d,00,00,00
-"Publisher"="HP Inc."
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00000200
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,32,00,31,00,46,00,41,00,31,00,36,00,35,\
-  00,46,00,2d,00,39,00,30,00,35,00,43,00,2d,00,34,00,44,00,44,00,41,00,2d,00,\
-  42,00,30,00,30,00,41,00,2d,00,30,00,30,00,43,00,33,00,41,00,35,00,44,00,31,\
-  00,37,00,42,00,42,00,41,00,7d,00,00,00
-"URLInfoAbout"="http://www.HP.com"
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000001
-"VersionMinor"=dword:00000001
-"WindowsInstaller"=dword:00000001
-"Version"=dword:01010010
-"Language"=dword:00000000
-"DisplayName"="HP MAC Address Manager"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{31a05164-f722-485c-90e3-db78421fa156}]
-"Comments"="TIC: STHWFW3287"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}]
-"BundleCachePath"="C:\\ProgramData\\Package Cache\\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}\\vcredist_x86.exe"
-"BundleUpgradeCode"=hex(7):7b,00,30,00,42,00,36,00,35,00,46,00,32,00,46,00,33,\
-  00,2d,00,41,00,38,00,34,00,35,00,2d,00,33,00,36,00,42,00,42,00,2d,00,38,00,\
-  34,00,38,00,41,00,2d,00,35,00,44,00,39,00,33,00,39,00,38,00,32,00,36,00,45,\
-  00,42,00,45,00,34,00,7d,00,00,00,00,00
-"BundleAddonCode"=hex(7):
-"BundleDetectCode"=hex(7):
-"BundlePatchCode"=hex(7):
-"BundleVersion"="11.0.61030.0"
-"BundleProviderKey"="{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}"
-"BundleTag"=""
-"EngineVersion"="3.6.3542.0"
-"DisplayIcon"="C:\\ProgramData\\Package Cache\\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}\\vcredist_x86.exe,0"
-"DisplayName"="Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.61030"
-"DisplayVersion"="11.0.61030.0"
-"Publisher"="Microsoft Corporation"
-"ModifyPath"="\"C:\\ProgramData\\Package Cache\\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}\\vcredist_x86.exe\" /modify"
-"NoElevateOnModify"=dword:00000001
-"QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}\\vcredist_x86.exe\" /uninstall /quiet"
-"UninstallString"="\"C:\\ProgramData\\Package Cache\\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}\\vcredist_x86.exe\"  /uninstall"
-"EstimatedSize"=dword:00004588
-"Resume"=dword:00000003
-"Installed"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{35b83883-40fa-423c-ae73-2aff7e1ea820}]
-"BundleCachePath"="C:\\ProgramData\\Package Cache\\{35b83883-40fa-423c-ae73-2aff7e1ea820}\\vcredist_x86.exe"
-"BundleUpgradeCode"=hex(7):7b,00,46,00,33,00,35,00,38,00,34,00,35,00,36,00,44,\
-  00,2d,00,37,00,41,00,34,00,45,00,2d,00,33,00,36,00,35,00,34,00,2d,00,41,00,\
-  39,00,31,00,45,00,2d,00,43,00,32,00,38,00,36,00,30,00,42,00,34,00,37,00,32,\
-  00,43,00,35,00,32,00,7d,00,00,00,00,00
-"BundleAddonCode"=hex(7):
-"BundleDetectCode"=hex(7):
-"BundlePatchCode"=hex(7):
-"BundleVersion"="12.0.40649.5"
-"BundleProviderKey"="{35b83883-40fa-423c-ae73-2aff7e1ea820}"
-"BundleTag"=""
-"EngineVersion"="3.7.3424.0"
-"DisplayIcon"="C:\\ProgramData\\Package Cache\\{35b83883-40fa-423c-ae73-2aff7e1ea820}\\vcredist_x86.exe,0"
-"DisplayName"="Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.40649"
-"DisplayVersion"="12.0.40649.5"
-"Publisher"="Microsoft Corporation"
-"ModifyPath"="\"C:\\ProgramData\\Package Cache\\{35b83883-40fa-423c-ae73-2aff7e1ea820}\\vcredist_x86.exe\" /modify"
-"NoElevateOnModify"=dword:00000001
-"QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{35b83883-40fa-423c-ae73-2aff7e1ea820}\\vcredist_x86.exe\" /uninstall /quiet"
-"UninstallString"="\"C:\\ProgramData\\Package Cache\\{35b83883-40fa-423c-ae73-2aff7e1ea820}\\vcredist_x86.exe\"  /uninstall"
-"EstimatedSize"=dword:000044c1
-"Resume"=dword:00000003
-"Installed"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{3D00C669-D447-4A04-AFDA-25E9E76E7873}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="5.5.22560"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20190223"
-"InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\Package Cache\\{3D00C669-D447-4A04-AFDA-25E9E76E7873}v5.5.22560\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,33,00,44,00,30,00,30,00,43,00,36,00,36,00,\
-  39,00,2d,00,44,00,34,00,34,00,37,00,2d,00,34,00,41,00,30,00,34,00,2d,00,41,\
-  00,46,00,44,00,41,00,2d,00,32,00,35,00,45,00,39,00,45,00,37,00,36,00,45,00,\
-  37,00,38,00,37,00,33,00,7d,00,00,00
-"Publisher"="HP Inc."
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00000150
-"SystemComponent"=dword:00000001
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,33,00,44,00,30,00,30,00,43,00,36,00,36,\
-  00,39,00,2d,00,44,00,34,00,34,00,37,00,2d,00,34,00,41,00,30,00,34,00,2d,00,\
-  41,00,46,00,44,00,41,00,2d,00,32,00,35,00,45,00,39,00,45,00,37,00,36,00,45,\
-  00,37,00,38,00,37,00,33,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000005
-"VersionMinor"=dword:00000005
-"WindowsInstaller"=dword:00000001
-"Version"=dword:05055820
-"Language"=dword:00000409
-"DisplayName"="HP ePrint SW"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{3FC961DB-BD36-4D8D-B276-0C456A2BB638}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="1.4.0.441"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20190223"
-"InstallLocation"=""
-"InstallSource"="c:\\SWSETUP\\APP\\Applications\\HP\\HPJumpSta_SSEZB2\\1.4.464.0\\src\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,33,00,46,00,43,00,39,00,36,00,31,00,44,00,\
-  42,00,2d,00,42,00,44,00,33,00,36,00,2d,00,34,00,44,00,38,00,44,00,2d,00,42,\
-  00,32,00,37,00,36,00,2d,00,30,00,43,00,34,00,35,00,36,00,41,00,32,00,42,00,\
-  42,00,36,00,33,00,38,00,7d,00,00,00
-"Publisher"="HP Inc."
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00003d96
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,33,00,46,00,43,00,39,00,36,00,31,00,44,\
-  00,42,00,2d,00,42,00,44,00,33,00,36,00,2d,00,34,00,44,00,38,00,44,00,2d,00,\
-  42,00,32,00,37,00,36,00,2d,00,30,00,43,00,34,00,35,00,36,00,41,00,32,00,42,\
-  00,42,00,36,00,33,00,38,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000001
-"VersionMinor"=dword:00000004
-"WindowsInstaller"=dword:00000001
-"Version"=dword:01040000
-"Language"=dword:00000409
-"DisplayName"="HP JumpStart Bridge"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{47109d57-d746-4f8b-9618-ed6a17cc922b}]
-"BundleCachePath"="C:\\ProgramData\\Package Cache\\{47109d57-d746-4f8b-9618-ed6a17cc922b}\\VC_redist.x86.exe"
-"BundleUpgradeCode"=hex(7):7b,00,46,00,38,00,39,00,39,00,42,00,41,00,44,00,33,\
-  00,2d,00,39,00,38,00,45,00,44,00,2d,00,33,00,30,00,38,00,45,00,2d,00,41,00,\
-  39,00,30,00,35,00,2d,00,35,00,36,00,42,00,35,00,33,00,33,00,38,00,39,00,36,\
-  00,33,00,46,00,46,00,7d,00,00,00,00,00
-"BundleAddonCode"=hex(7):
-"BundleDetectCode"=hex(7):
-"BundlePatchCode"=hex(7):
-"BundleVersion"="14.40.33810.0"
-"BundleProviderKey"="VC,redist.x86,x86,14.40,bundle"
-"BundleTag"=""
-"EngineVersion"="3.10.4.4718"
-"DisplayIcon"="C:\\ProgramData\\Package Cache\\{47109d57-d746-4f8b-9618-ed6a17cc922b}\\VC_redist.x86.exe,0"
-"DisplayName"="Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.40.33810"
-"DisplayVersion"="14.40.33810.0"
-"Publisher"="Microsoft Corporation"
-"ModifyPath"="\"C:\\ProgramData\\Package Cache\\{47109d57-d746-4f8b-9618-ed6a17cc922b}\\VC_redist.x86.exe\" /modify"
-"NoElevateOnModify"=dword:00000001
-"QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{47109d57-d746-4f8b-9618-ed6a17cc922b}\\VC_redist.x86.exe\" /uninstall /quiet"
-"UninstallString"="\"C:\\ProgramData\\Package Cache\\{47109d57-d746-4f8b-9618-ed6a17cc922b}\\VC_redist.x86.exe\"  /uninstall"
-"EstimatedSize"=dword:00004862
-"Resume"=dword:00000003
-"Installed"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{4AAC4B07-77EF-4BCF-88DC-D24E4DE683E8}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="8.5.37.19"
-"HelpLink"=hex(2):00,00
-"HelpTelephone"=""
-"InstallDate"="20190223"
-"InstallLocation"="C:\\Program Files (x86)\\Hewlett-Packard\\HP Support Framework\\"
-"InstallSource"="C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\{EFA3A0E6-1F59-4665-9D67-96FF7BF4B962}\\"
-"ModifyPath"="\"C:\\Program Files (x86)\\InstallShield Installation Information\\{4AAC4B07-77EF-4BCF-88DC-D24E4DE683E8}\\setup.exe\" -runfromtemp -l0x0409 "
-"NoModify"=dword:00000001
-"Publisher"="HP Inc."
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:0000def8
-"SystemComponent"=dword:00000000
-"UninstallString"="\"C:\\Program Files (x86)\\InstallShield Installation Information\\{4AAC4B07-77EF-4BCF-88DC-D24E4DE683E8}\\setup.exe\" -runfromtemp -l0x0409  -removeonly"
-"URLInfoAbout"="http://www.hp.com"
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000008
-"VersionMinor"=dword:00000005
-"WindowsInstaller"=dword:00000001
-"Version"=dword:08050025
-"Language"=dword:00000409
-"DisplayName"="HP Support Assistant"
-"LogFile"="C:\\Program Files (x86)\\InstallShield Installation Information\\{4AAC4B07-77EF-4BCF-88DC-D24E4DE683E8}\\Setup.ilg"
-"DisplayIcon"=hex(2):43,00,3a,00,5c,00,77,00,69,00,6e,00,64,00,6f,00,77,00,73,\
-  00,5c,00,49,00,6e,00,73,00,74,00,61,00,6c,00,6c,00,65,00,72,00,5c,00,7b,00,\
-  34,00,41,00,41,00,43,00,34,00,42,00,30,00,37,00,2d,00,37,00,37,00,45,00,46,\
-  00,2d,00,34,00,42,00,43,00,46,00,2d,00,38,00,38,00,44,00,43,00,2d,00,44,00,\
-  32,00,34,00,45,00,34,00,44,00,45,00,36,00,38,00,33,00,45,00,38,00,7d,00,5c,\
-  00,41,00,52,00,50,00,50,00,52,00,4f,00,44,00,55,00,43,00,54,00,49,00,43,00,\
-  4f,00,4e,00,2e,00,65,00,78,00,65,00,00,00
-"RegOwner"="HP Inc."
-"RegCompany"="HP Inc."
-"NoRepair"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{4E097B06-83A0-4CDD-A9DB-22F0744FE16A}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="1.0.0.43"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20190223"
-"InstallLocation"=""
-"InstallSource"="c:\\SWSETUP\\APP\\PreReq2\\HP\\HPSetupIn_QQZUB2\\1.18.RS.3\\src\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,34,00,45,00,30,00,39,00,37,00,42,00,30,00,\
-  36,00,2d,00,38,00,33,00,41,00,30,00,2d,00,34,00,43,00,44,00,44,00,2d,00,41,\
-  00,39,00,44,00,42,00,2d,00,32,00,32,00,46,00,30,00,37,00,34,00,34,00,46,00,\
-  45,00,31,00,36,00,41,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="HP Inc."
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00001a40
-"SystemComponent"=dword:00000001
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,34,00,45,00,30,00,39,00,37,00,42,00,30,\
-  00,36,00,2d,00,38,00,33,00,41,00,30,00,2d,00,34,00,43,00,44,00,44,00,2d,00,\
-  41,00,39,00,44,00,42,00,2d,00,32,00,32,00,46,00,30,00,37,00,34,00,34,00,46,\
-  00,45,00,31,00,36,00,41,00,7d,00,00,00
+  78,00,65,00,20,00,2f,00,49,00,7b,00,30,00,38,00,42,00,35,00,36,00,43,00,37,\
+  00,30,00,2d,00,30,00,35,00,34,00,34,00,2d,00,34,00,34,00,35,00,35,00,2d,00,\
+  41,00,33,00,37,00,45,00,2d,00,44,00,30,00,33,00,33,00,44,00,36,00,46,00,33,\
+  00,45,00,42,00,46,00,37,00,7d,00,00,00
 "URLInfoAbout"=""
 "URLUpdateInfo"=""
 "VersionMajor"=dword:00000001
@@ -593,31 +274,46 @@ Windows Registry Editor Version 5.00
 "WindowsInstaller"=dword:00000001
 "Version"=dword:01000000
 "Language"=dword:00000409
-"DisplayName"="HP Registration Service"
+"DisplayName"="Intel(R) Management Engine Components"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{563B99D8-8895-4E3E-AE8D-15BE8C05F1C1}]
-"UninstallString"="C:\\Program Files (x86)\\InstallShield Installation Information\\{563B99D8-8895-4E3E-AE8D-15BE8C05F1C1}\\setup.exe -runfromtemp -l0x0009 -removeonly"
-"LogFile"="C:\\Program Files (x86)\\InstallShield Installation Information\\{563B99D8-8895-4E3E-AE8D-15BE8C05F1C1}\\setup.ilg"
-"InstallLocation"="C:\\Program Files (x86)\\SEIKO EPSON Corp.\\EPSON Scan OCR Component"
-"ProductGuid"="{563B99D8-8895-4E3E-AE8D-15BE8C05F1C1}"
-"InstallSource"="D:\\Driver\\OcrComponent\\SETUP.EXE"
-"DisplayName"="EPSON Scan OCR Component"
-"Publisher"="SEIKO EPSON Corp."
-"URLInfoAbout"="---"
-"RegCompany"="HP Inc."
-"RegOwner"="Ian"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{15393052-A362-41DF-969E-638A2A07F7AD}]
+"AuthorizedCDFPrefix"=""
+"Comments"="Duo integrates with Microsoft Windows client and server operating systems to add two-factor authentication to Remote Desktop, Local Logon, and UAC elevation."
+"Contact"=""
+"DisplayVersion"="4.2.2.1755"
+"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,77,00,77,00,77,00,\
+  2e,00,64,00,75,00,6f,00,73,00,65,00,63,00,75,00,72,00,69,00,74,00,79,00,2e,\
+  00,63,00,6f,00,6d,00,2f,00,64,00,6f,00,63,00,73,00,2f,00,72,00,64,00,70,00,\
+  00,00
+"HelpTelephone"=""
+"InstallDate"="20231013"
+"InstallLocation"="C:\\Program Files\\Duo Security\\WindowsLogon\\"
+"InstallSource"="C:\\WINDOWS\\TEMP\\{FB020A5C-10E4-4D60-AC4E-C0AE88C5C31E}\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,31,00,35,00,33,00,39,00,33,00,30,00,35,00,\
+  32,00,2d,00,41,00,33,00,36,00,32,00,2d,00,34,00,31,00,44,00,46,00,2d,00,39,\
+  00,36,00,39,00,45,00,2d,00,36,00,33,00,38,00,41,00,32,00,41,00,30,00,37,00,\
+  46,00,37,00,41,00,44,00,7d,00,00,00
 "NoModify"=dword:00000001
-"NoRemove"=dword:00000000
-"NoRepair"=dword:00000001
-"InstallDate"="20200821"
-"Language"=dword:00000009
-"DisplayVersion"="3.00.01"
-"Version"=dword:03000001
-"MajorVersion"=dword:00000003
-"MinorVersion"=dword:00000000
-"LogMode"=dword:00000001
+"Publisher"="Duo Security Inc."
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:00001220
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,31,00,35,00,33,00,39,00,33,00,30,00,35,\
+  00,32,00,2d,00,41,00,33,00,36,00,32,00,2d,00,34,00,31,00,44,00,46,00,2d,00,\
+  39,00,36,00,39,00,45,00,2d,00,36,00,33,00,38,00,41,00,32,00,41,00,30,00,37,\
+  00,46,00,37,00,41,00,44,00,7d,00,00,00
+"URLInfoAbout"="http://www.duosecurity.com"
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000004
+"VersionMinor"=dword:00000002
+"WindowsInstaller"=dword:00000001
+"Version"=dword:04020002
+"Language"=dword:00000409
+"DisplayName"="Duo Authentication for Windows Logon x64"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{59649835-21FD-4523-9AB0-9E67ED77F0CA}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{16311D0B-D57C-46F8-AE64-9D4D44227271}]
 "AuthorizedCDFPrefix"=""
 "Comments"=""
 "Contact"=""
@@ -626,22 +322,22 @@ Windows Registry Editor Version 5.00
 "HelpTelephone"=""
 "InstallDate"="20190223"
 "InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\Package Cache\\{59649835-21FD-4523-9AB0-9E67ED77F0CA}v5.5.22560\\"
+"InstallSource"="C:\\ProgramData\\Package Cache\\{16311D0B-D57C-46F8-AE64-9D4D44227271}v5.5.22560\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,35,00,39,00,36,00,34,00,39,00,38,00,33,00,\
-  35,00,2d,00,32,00,31,00,46,00,44,00,2d,00,34,00,35,00,32,00,33,00,2d,00,39,\
-  00,41,00,42,00,30,00,2d,00,39,00,45,00,36,00,37,00,45,00,44,00,37,00,37,00,\
-  46,00,30,00,43,00,41,00,7d,00,00,00
+  00,65,00,20,00,2f,00,49,00,7b,00,31,00,36,00,33,00,31,00,31,00,44,00,30,00,\
+  42,00,2d,00,44,00,35,00,37,00,43,00,2d,00,34,00,36,00,46,00,38,00,2d,00,41,\
+  00,45,00,36,00,34,00,2d,00,39,00,44,00,34,00,44,00,34,00,34,00,32,00,32,00,\
+  37,00,32,00,37,00,31,00,7d,00,00,00
 "Publisher"="HP Inc."
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:000003d4
+"EstimatedSize"=dword:0000025c
 "SystemComponent"=dword:00000001
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,35,00,39,00,36,00,34,00,39,00,38,00,33,\
-  00,35,00,2d,00,32,00,31,00,46,00,44,00,2d,00,34,00,35,00,32,00,33,00,2d,00,\
-  39,00,41,00,42,00,30,00,2d,00,39,00,45,00,36,00,37,00,45,00,44,00,37,00,37,\
-  00,46,00,30,00,43,00,41,00,7d,00,00,00
+  78,00,65,00,20,00,2f,00,49,00,7b,00,31,00,36,00,33,00,31,00,31,00,44,00,30,\
+  00,42,00,2d,00,44,00,35,00,37,00,43,00,2d,00,34,00,36,00,46,00,38,00,2d,00,\
+  41,00,45,00,36,00,34,00,2d,00,39,00,44,00,34,00,44,00,34,00,34,00,32,00,32,\
+  00,37,00,32,00,37,00,31,00,7d,00,00,00
 "URLInfoAbout"=""
 "URLUpdateInfo"=""
 "VersionMajor"=dword:00000005
@@ -651,506 +347,126 @@ Windows Registry Editor Version 5.00
 "Language"=dword:00000409
 "DisplayName"="HP ePrint SW"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{5af95fd8-a22e-458f-acee-c61bd787178e}]
-"BundleCachePath"="C:\\ProgramData\\Package Cache\\{5af95fd8-a22e-458f-acee-c61bd787178e}\\VC_redist.x64.exe"
-"BundleUpgradeCode"=hex(7):7b,00,43,00,31,00,34,00,36,00,45,00,46,00,34,00,38,\
-  00,2d,00,34,00,44,00,33,00,31,00,2d,00,33,00,43,00,33,00,44,00,2d,00,41,00,\
-  32,00,43,00,35,00,2d,00,31,00,45,00,39,00,31,00,41,00,46,00,38,00,41,00,30,\
-  00,41,00,39,00,42,00,7d,00,00,00,00,00
-"BundleAddonCode"=hex(7):
-"BundleDetectCode"=hex(7):
-"BundlePatchCode"=hex(7):
-"BundleVersion"="14.40.33810.0"
-"BundleProviderKey"="VC,redist.x64,amd64,14.40,bundle"
-"BundleTag"=""
-"EngineVersion"="3.10.4.4718"
-"DisplayIcon"="C:\\ProgramData\\Package Cache\\{5af95fd8-a22e-458f-acee-c61bd787178e}\\VC_redist.x64.exe,0"
-"DisplayName"="Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.40.33810"
-"DisplayVersion"="14.40.33810.0"
-"Publisher"="Microsoft Corporation"
-"ModifyPath"="\"C:\\ProgramData\\Package Cache\\{5af95fd8-a22e-458f-acee-c61bd787178e}\\VC_redist.x64.exe\" /modify"
-"NoElevateOnModify"=dword:00000001
-"QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{5af95fd8-a22e-458f-acee-c61bd787178e}\\VC_redist.x64.exe\" /uninstall /quiet"
-"UninstallString"="\"C:\\ProgramData\\Package Cache\\{5af95fd8-a22e-458f-acee-c61bd787178e}\\VC_redist.x64.exe\"  /uninstall"
-"EstimatedSize"=dword:000052a7
-"Resume"=dword:00000003
-"Installed"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{5d0723d3-cff7-4e07-8d0b-ada737deb5e6}]
-"BundleCachePath"="C:\\ProgramData\\Package Cache\\{5d0723d3-cff7-4e07-8d0b-ada737deb5e6}\\vcredist_x64.exe"
-"BundleUpgradeCode"=hex(7):7b,00,34,00,30,00,42,00,37,00,35,00,30,00,30,00,42,\
-  00,2d,00,37,00,36,00,42,00,43,00,2d,00,33,00,39,00,33,00,32,00,2d,00,39,00,\
-  35,00,33,00,37,00,2d,00,36,00,39,00,30,00,34,00,38,00,31,00,33,00,45,00,37,\
-  00,35,00,39,00,41,00,7d,00,00,00,00,00
-"BundleAddonCode"=hex(7):
-"BundleDetectCode"=hex(7):
-"BundlePatchCode"=hex(7):
-"BundleVersion"="12.0.40649.5"
-"BundleProviderKey"="{5d0723d3-cff7-4e07-8d0b-ada737deb5e6}"
-"BundleTag"=""
-"EngineVersion"="3.7.3424.0"
-"DisplayIcon"="C:\\ProgramData\\Package Cache\\{5d0723d3-cff7-4e07-8d0b-ada737deb5e6}\\vcredist_x64.exe,0"
-"DisplayName"="Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.40649"
-"DisplayVersion"="12.0.40649.5"
-"Publisher"="Microsoft Corporation"
-"ModifyPath"="\"C:\\ProgramData\\Package Cache\\{5d0723d3-cff7-4e07-8d0b-ada737deb5e6}\\vcredist_x64.exe\" /modify"
-"NoElevateOnModify"=dword:00000001
-"QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{5d0723d3-cff7-4e07-8d0b-ada737deb5e6}\\vcredist_x64.exe\" /uninstall /quiet"
-"UninstallString"="\"C:\\ProgramData\\Package Cache\\{5d0723d3-cff7-4e07-8d0b-ada737deb5e6}\\vcredist_x64.exe\"  /uninstall"
-"EstimatedSize"=dword:00005247
-"Resume"=dword:00000003
-"Installed"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{5EA6C998-D5AC-4ED9-89C3-9F25B17CCD3D}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{19933282-8178-41DC-A918-D57BB8BE6E4C}]
 "AuthorizedCDFPrefix"=""
 "Comments"=""
 "Contact"=""
-"DisplayVersion"="14.40.33810"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20240731"
-"InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\Package Cache\\{5EA6C998-D5AC-4ED9-89C3-9F25B17CCD3D}v14.40.33810\\packages\\vcRuntimeAdditional_x86\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,35,00,45,00,41,00,36,00,43,00,39,00,39,00,\
-  38,00,2d,00,44,00,35,00,41,00,43,00,2d,00,34,00,45,00,44,00,39,00,2d,00,38,\
-  00,39,00,43,00,33,00,2d,00,39,00,46,00,32,00,35,00,42,00,31,00,37,00,43,00,\
-  43,00,44,00,33,00,44,00,7d,00,00,00
-"Publisher"="Microsoft Corporation"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:0000285c
-"SystemComponent"=dword:00000001
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,35,00,45,00,41,00,36,00,43,00,39,00,39,\
-  00,38,00,2d,00,44,00,35,00,41,00,43,00,2d,00,34,00,45,00,44,00,39,00,2d,00,\
-  38,00,39,00,43,00,33,00,2d,00,39,00,46,00,32,00,35,00,42,00,31,00,37,00,43,\
-  00,43,00,44,00,33,00,44,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:0000000e
-"VersionMinor"=dword:00000028
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0e288412
-"Language"=dword:00000409
-"DisplayName"="Microsoft Visual C++ 2022 X86 Additional Runtime - 14.40.33810"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{5EB1E201-C417-B1D3-2B94-AA70F4663430}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="25.1.10.9197"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20250314"
-"InstallLocation"=""
-"InstallSource"="C:\\WINDOWS\\SystemTemp\\ScreenConnect\\25.1.10.9197\\385a4ea3ca5447c4\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,35,00,45,00,42,00,31,00,45,00,32,00,30,00,\
-  31,00,2d,00,43,00,34,00,31,00,37,00,2d,00,42,00,31,00,44,00,33,00,2d,00,32,\
-  00,42,00,39,00,34,00,2d,00,41,00,41,00,37,00,30,00,46,00,34,00,36,00,36,00,\
-  33,00,34,00,33,00,30,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="ScreenConnect Software"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:000011c8
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,35,00,45,00,42,00,31,00,45,00,32,00,30,\
-  00,31,00,2d,00,43,00,34,00,31,00,37,00,2d,00,42,00,31,00,44,00,33,00,2d,00,\
-  32,00,42,00,39,00,34,00,2d,00,41,00,41,00,37,00,30,00,46,00,34,00,36,00,36,\
-  00,33,00,34,00,33,00,30,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000019
-"VersionMinor"=dword:00000001
-"WindowsInstaller"=dword:00000001
-"Version"=dword:1901000a
-"Language"=dword:00000409
-"DisplayName"="ScreenConnect Client (385a4ea3ca5447c4)"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{6068ca10-cf72-4f15-a628-2d825d77d406}]
-"BundleCachePath"="C:\\ProgramData\\Package Cache\\{6068ca10-cf72-4f15-a628-2d825d77d406}\\SetupISS.exe"
-"BundleUpgradeCode"=hex(7):7b,00,45,00,31,00,30,00,45,00,31,00,39,00,30,00,35,\
-  00,2d,00,33,00,31,00,41,00,43,00,2d,00,34,00,45,00,30,00,38,00,2d,00,41,00,\
-  41,00,41,00,39,00,2d,00,38,00,38,00,37,00,43,00,34,00,39,00,44,00,37,00,45,\
-  00,39,00,34,00,32,00,7d,00,00,00,00,00
-"BundleAddonCode"=hex(7):
-"BundleDetectCode"=hex(7):
-"BundlePatchCode"=hex(7):
-"BundleVersion"="3.10.100.3527"
-"BundleProviderKey"="{6068ca10-cf72-4f15-a628-2d825d77d406}"
-"BundleTag"=""
-"EngineVersion"="3.10.3.3007"
-"DisplayIcon"="C:\\ProgramData\\Package Cache\\{6068ca10-cf72-4f15-a628-2d825d77d406}\\SetupISS.exe,0"
-"DisplayName"="Intel® Integrated Sensor Solution"
-"DisplayVersion"="3.10.100.3527"
-"Publisher"="Intel Corporation"
-"ModifyPath"="\"C:\\ProgramData\\Package Cache\\{6068ca10-cf72-4f15-a628-2d825d77d406}\\SetupISS.exe\" /modify"
-"NoElevateOnModify"=dword:00000001
-"QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{6068ca10-cf72-4f15-a628-2d825d77d406}\\SetupISS.exe\" /uninstall /quiet"
-"UninstallString"="\"C:\\ProgramData\\Package Cache\\{6068ca10-cf72-4f15-a628-2d825d77d406}\\SetupISS.exe\"  /uninstall"
-"EstimatedSize"=dword:0000058b
-"Resume"=dword:00000003
-"Installed"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{63F82052-C045-4F97-A3CA-C41D2CCA1FFA}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="12.8.37.11"
+"DisplayVersion"="12.0.0.0"
 "HelpLink"=""
 "HelpTelephone"=""
 "InstallDate"="20190223"
 "InstallLocation"=""
-"InstallSource"="C:\\Users\\Administrator\\AppData\\Local\\Temp\\"
+"InstallSource"="C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\IIFAD56.tmp\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,36,00,33,00,46,00,38,00,32,00,30,00,35,00,\
-  32,00,2d,00,43,00,30,00,34,00,35,00,2d,00,34,00,46,00,39,00,37,00,2d,00,41,\
-  00,33,00,43,00,41,00,2d,00,43,00,34,00,31,00,44,00,32,00,43,00,43,00,41,00,\
-  31,00,46,00,46,00,41,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="HP Inc."
+  00,65,00,20,00,2f,00,49,00,7b,00,31,00,39,00,39,00,33,00,33,00,32,00,38,00,\
+  32,00,2d,00,38,00,31,00,37,00,38,00,2d,00,34,00,31,00,44,00,43,00,2d,00,41,\
+  00,39,00,31,00,38,00,2d,00,44,00,35,00,37,00,42,00,42,00,38,00,42,00,45,00,\
+  36,00,45,00,34,00,43,00,7d,00,00,00
+"Publisher"="Intel Corporation"
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:00001f95
+"EstimatedSize"=dword:00000770
+"SystemComponent"=dword:00000001
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,36,00,33,00,46,00,38,00,32,00,30,00,35,\
-  00,32,00,2d,00,43,00,30,00,34,00,35,00,2d,00,34,00,46,00,39,00,37,00,2d,00,\
-  41,00,33,00,43,00,41,00,2d,00,43,00,34,00,31,00,44,00,32,00,43,00,43,00,41,\
-  00,31,00,46,00,46,00,41,00,7d,00,00,00
+  78,00,65,00,20,00,2f,00,49,00,7b,00,31,00,39,00,39,00,33,00,33,00,32,00,38,\
+  00,32,00,2d,00,38,00,31,00,37,00,38,00,2d,00,34,00,31,00,44,00,43,00,2d,00,\
+  41,00,39,00,31,00,38,00,2d,00,44,00,35,00,37,00,42,00,42,00,38,00,42,00,45,\
+  00,36,00,45,00,34,00,43,00,7d,00,00,00
 "URLInfoAbout"=""
 "URLUpdateInfo"=""
 "VersionMajor"=dword:0000000c
-"VersionMinor"=dword:00000008
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0c080025
-"Language"=dword:00000409
-"DisplayName"="HP Support Solutions Framework"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{6468C4A5-E47E-405F-B675-A70A70983EA6}]
-"ModifyPath"="\"C:\\Program Files (x86)\\InstallShield Installation Information\\{6468C4A5-E47E-405F-B675-A70A70983EA6}\\setup.exe\" -runfromtemp -l0x0409 "
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"UninstallString"="\"C:\\Program Files (x86)\\InstallShield Installation Information\\{6468C4A5-E47E-405F-B675-A70A70983EA6}\\setup.exe\" -runfromtemp -l0x0409  -removeonly"
-"LogFile"="C:\\Program Files (x86)\\InstallShield Installation Information\\{6468C4A5-E47E-405F-B675-A70A70983EA6}\\setup.ilg"
-"InstallLocation"="C:\\Program Files (x86)\\HP Inc.\\HP Connection Optimizer"
-"ProductGuid"="{6468C4A5-E47E-405F-B675-A70A70983EA6}"
-"InstallSource"="c:\\SWSETUP\\APP\\Applications\\HP\\HPConnect_RRRPB2\\2.0.11.0\\src\\"
-"DisplayName"="HP Connection Optimizer"
-"Publisher"="HP Inc."
-"URLInfoAbout"="http://www.HPInc..com"
-"RegCompany"="HP Inc."
-"RegOwner"="HP Inc."
-"DisplayIcon"="C:\\Program Files\\HPCommRecovery\\HPCommRecovery.exe,0"
-"InstallDate"="20190223"
-"Language"=dword:00000409
-"DisplayVersion"="2.0.11.0"
-"Version"=dword:0200000b
-"VersionMajor"=dword:00000002
 "VersionMinor"=dword:00000000
-"LogMode"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{654EE65D-FAA4-4EA6-8C07-DC94E6A304D4}]
-"DisplayName"="Intel(R) Dynamic Platform and Thermal Framework"
-"UninstallString"="C:\\Program Files\\Intel\\Intel(R) Dynamic Platform and Thermal Framework\\Uninstall\\setup.exe -uninstall"
-"Publisher"="Intel Corporation"
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"InstallLocation"="C:\\Program Files\\Intel\\Intel(R) Dynamic Platform and Thermal Framework"
-"DisplayIcon"="C:\\Program Files\\Intel\\Intel(R) Dynamic Platform and Thermal Framework\\Uninstall\\Setup.exe,0"
-"DisplayVersion"="8.4.11000.6436"
-"VersionMajor"=dword:00000008
-"VersionMinor"=dword:00000004
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{66129f84-d3f0-4884-ac54-369ae6fc2cf6}]
-"BundleCachePath"="C:\\ProgramData\\Package Cache\\{66129f84-d3f0-4884-ac54-369ae6fc2cf6}\\iclsClientInstaller.exe"
-"BundleUpgradeCode"=hex(7):7b,00,35,00,38,00,41,00,44,00,38,00,33,00,34,00,38,\
-  00,2d,00,37,00,32,00,31,00,45,00,2d,00,34,00,37,00,41,00,32,00,2d,00,39,00,\
-  33,00,33,00,43,00,2d,00,36,00,35,00,44,00,45,00,37,00,46,00,38,00,36,00,37,\
-  00,41,00,35,00,36,00,7d,00,00,00,00,00
-"BundleAddonCode"=hex(7):
-"BundleDetectCode"=hex(7):
-"BundlePatchCode"=hex(7):
-"BundleVersion"="1.48.197.0"
-"BundleProviderKey"="{66129f84-d3f0-4884-ac54-369ae6fc2cf6}"
-"BundleTag"=""
-"EngineVersion"="3.10.3.3007"
-"DisplayIcon"="C:\\ProgramData\\Package Cache\\{66129f84-d3f0-4884-ac54-369ae6fc2cf6}\\iclsClientInstaller.exe,0"
-"DisplayName"="Intel(R) Trusted Connect Services Client"
-"DisplayVersion"="1.48.197.0"
-"Publisher"="Intel Corporation"
-"NoModify"=dword:00000001
-"NoRemove"=dword:00000001
-"SystemComponent"=dword:00000001
-"QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{66129f84-d3f0-4884-ac54-369ae6fc2cf6}\\iclsClientInstaller.exe\" /uninstall /quiet"
-"UninstallString"="\"C:\\ProgramData\\Package Cache\\{66129f84-d3f0-4884-ac54-369ae6fc2cf6}\\iclsClientInstaller.exe\"  /uninstall"
-"EstimatedSize"=dword:00007f7c
-"Resume"=dword:00000003
-"Installed"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{69D0865F-A606-4B0F-9270-FBD3130666BA}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="1.3.1.1"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20190223"
-"InstallLocation"="C:\\Program Files (x86)\\HP\\HP System Default Settings\\"
-"InstallSource"="C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\{34507610-1467-4553-935E-1C6DE1FD61A0}\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,36,00,39,00,44,00,30,00,38,00,36,00,35,00,\
-  46,00,2d,00,41,00,36,00,30,00,36,00,2d,00,34,00,42,00,30,00,46,00,2d,00,39,\
-  00,32,00,37,00,30,00,2d,00,46,00,42,00,44,00,33,00,31,00,33,00,30,00,36,00,\
-  36,00,36,00,42,00,41,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="HP Inc."
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00000695
-"SystemComponent"=dword:00000001
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,36,00,39,00,44,00,30,00,38,00,36,00,35,\
-  00,46,00,2d,00,41,00,36,00,30,00,36,00,2d,00,34,00,42,00,30,00,46,00,2d,00,\
-  39,00,32,00,37,00,30,00,2d,00,46,00,42,00,44,00,33,00,31,00,33,00,30,00,36,\
-  00,36,00,36,00,42,00,41,00,7d,00,00,00
-"URLInfoAbout"="http://www.HPINC.com"
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000001
-"VersionMinor"=dword:00000003
 "WindowsInstaller"=dword:00000001
-"Version"=dword:01030001
-"Language"=dword:00000000
-"DisplayName"="HP System Default Settings"
+"Version"=dword:0c000000
+"Language"=dword:00000409
+"DisplayName"="Microsoft VC++ redistributables repacked."
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{710f4c1c-cc18-4c49-8cbf-51240c89a1a2}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{1CEAC85D-2590-4760-800F-8DE5E91F3700}]
+"EstimatedSize"=dword:00019b93
+"DisplayName"="Intel(R) Management Engine Components"
+"DisplayName_Localized"="@C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\Lang\\Resource.dll,-20000"
+"UninstallString"="\"C:\\ProgramData\\Intel\\Package Cache\\{1CEAC85D-2590-4760-800F-8DE5E91F3700}\\Setup.exe\" -uninstall"
+"Publisher"="Intel Corporation"
+"DisplayVersion"="11.7.0.1067"
+"InstallLocation"="C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components"
+"DisplayIcon"="C:\\ProgramData\\Intel\\Package Cache\\{1CEAC85D-2590-4760-800F-8DE5E91F3700}\\Setup.exe,0"
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{1D8E6291-B0D5-35EC-8441-6616F567A0F7}]
 "AuthorizedCDFPrefix"=""
-"Comments"=""
+"Comments"="Caution. Removing this product might prevent some applications from running."
 "Contact"=""
-"DisplayVersion"="8.0.61001"
-"HelpLink"=""
+"DisplayVersion"="10.0.40219"
+"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,67,00,6f,00,2e,00,\
+  6d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,63,00,6f,00,6d,\
+  00,2f,00,66,00,77,00,6c,00,69,00,6e,00,6b,00,2f,00,3f,00,4c,00,69,00,6e,00,\
+  6b,00,49,00,64,00,3d,00,31,00,34,00,36,00,30,00,30,00,38,00,00,00
 "HelpTelephone"=""
 "InstallDate"="20180425"
 "InstallLocation"=""
-"InstallSource"="C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\IXP000.TMP\\"
+"InstallSource"="d:\\44ab72d203e1cb017fc1043d29\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,37,00,31,00,30,00,66,00,34,00,63,00,31,00,\
-  63,00,2d,00,63,00,63,00,31,00,38,00,2d,00,34,00,63,00,34,00,39,00,2d,00,38,\
-  00,63,00,62,00,66,00,2d,00,35,00,31,00,32,00,34,00,30,00,63,00,38,00,39,00,\
-  61,00,31,00,61,00,32,00,7d,00,00,00
+  00,65,00,20,00,2f,00,58,00,7b,00,31,00,44,00,38,00,45,00,36,00,32,00,39,00,\
+  31,00,2d,00,42,00,30,00,44,00,35,00,2d,00,33,00,35,00,45,00,43,00,2d,00,38,\
+  00,34,00,34,00,31,00,2d,00,36,00,36,00,31,00,36,00,46,00,35,00,36,00,37,00,\
+  41,00,30,00,46,00,37,00,7d,00,00,00
 "NoModify"=dword:00000001
 "NoRepair"=dword:00000001
 "Publisher"="Microsoft Corporation"
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:00001364
+"EstimatedSize"=dword:00003777
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,37,00,31,00,30,00,66,00,34,00,63,00,31,\
-  00,63,00,2d,00,63,00,63,00,31,00,38,00,2d,00,34,00,63,00,34,00,39,00,2d,00,\
-  38,00,63,00,62,00,66,00,2d,00,35,00,31,00,32,00,34,00,30,00,63,00,38,00,39,\
-  00,61,00,31,00,61,00,32,00,7d,00,00,00
+  78,00,65,00,20,00,2f,00,58,00,7b,00,31,00,44,00,38,00,45,00,36,00,32,00,39,\
+  00,31,00,2d,00,42,00,30,00,44,00,35,00,2d,00,33,00,35,00,45,00,43,00,2d,00,\
+  38,00,34,00,34,00,31,00,2d,00,36,00,36,00,31,00,36,00,46,00,35,00,36,00,37,\
+  00,41,00,30,00,46,00,37,00,7d,00,00,00
 "URLInfoAbout"=""
 "URLUpdateInfo"=""
-"VersionMajor"=dword:00000008
-"VersionMinor"=dword:00000000
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0800ee49
-"Language"=dword:00000000
-"DisplayName"="Microsoft Visual C++ 2005 Redistributable"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{84CECC1B-21EF-41B1-9A91-3E724E5D99D3}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="1.54.0.0"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20200821"
-"InstallLocation"=""
-"InstallSource"="D:\\Manual\\Package\\"
-"NoRemove"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="Seiko Epson Corporation"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00000380
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000001
-"VersionMinor"=dword:00000036
-"WindowsInstaller"=dword:00000001
-"Version"=dword:01360000
-"Language"=dword:00000409
-"DisplayName"="EPSON Manuals"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{8833FFB6-5B0C-4764-81AA-06DFEED9A476}]
-"ModifyPath"="\"C:\\Program Files (x86)\\InstallShield Installation Information\\{8833FFB6-5B0C-4764-81AA-06DFEED9A476}\\setup.exe\" -runfromtemp"
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"UninstallString"="\"C:\\Program Files (x86)\\InstallShield Installation Information\\{8833FFB6-5B0C-4764-81AA-06DFEED9A476}\\setup.exe\" -runfromtemp -removeonly"
-"LogFile"="C:\\Program Files (x86)\\InstallShield Installation Information\\{8833FFB6-5B0C-4764-81AA-06DFEED9A476}\\setup.ilg"
-"InstallLocation"="C:\\Program Files (x86)\\Realtek\\NICDRV_8169"
-"ProductGuid"="{8833FFB6-5B0C-4764-81AA-06DFEED9A476}"
-"InstallSource"="c:\\SWSETUP\\DRV\\Network\\REALTEK\\RealtekEt_MM2WB2\\10.26.328.2018\\src\\"
-"DisplayName"="Realtek Ethernet Controller Driver"
-"Publisher"="Realtek"
-"URLInfoAbout"="http://www.Realtek.com"
-"RegCompany"="HP Inc."
-"RegOwner"="HP Inc."
-"DisplayIcon"="\"C:\\Program Files (x86)\\Realtek\\NICDRV_8169\\ICON\\remove.ico\""
-"InstallDate"="20190223"
-"DisplayVersion"="10.26.328.2018"
-"Version"=dword:0a1a0148
 "VersionMajor"=dword:0000000a
-"VersionMinor"=dword:0000001a
-"LogMode"=dword:00000001
-"EstimatedSize"=dword:00000d47
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{9720A595-3D2D-440E-9523-0B6F970745DD}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="6.0.11.1"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20190223"
-"InstallLocation"="C:\\Program Files (x86)\\"
-"InstallSource"="C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\{4974B1C9-B51D-40EA-9AD2-B79B638051C6}\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,39,00,37,00,32,00,30,00,41,00,35,00,39,00,\
-  35,00,2d,00,33,00,44,00,32,00,44,00,2d,00,34,00,34,00,30,00,45,00,2d,00,39,\
-  00,35,00,32,00,33,00,2d,00,30,00,42,00,36,00,46,00,39,00,37,00,30,00,37,00,\
-  34,00,35,00,44,00,44,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="HP Inc."
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:000001f5
-"SystemComponent"=dword:00000001
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,39,00,37,00,32,00,30,00,41,00,35,00,39,\
-  00,35,00,2d,00,33,00,44,00,32,00,44,00,2d,00,34,00,34,00,30,00,45,00,2d,00,\
-  39,00,35,00,32,00,33,00,2d,00,30,00,42,00,36,00,46,00,39,00,37,00,30,00,37,\
-  00,34,00,35,00,44,00,44,00,7d,00,00,00
-"URLInfoAbout"="http://www.hp.com"
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000006
 "VersionMinor"=dword:00000000
 "WindowsInstaller"=dword:00000001
-"Version"=dword:0600000b
-"Language"=dword:00000409
-"DisplayName"="HP Customer Experience Enhancements"
+"Version"=dword:0a009d1b
+"Language"=dword:00000000
+"DisplayName"="Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{9BE518E6-ECC6-35A9-88E4-87755C07200F}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{1FC1A6C2-576E-489A-9B4A-92D21F542136}]
 "AuthorizedCDFPrefix"=""
 "Comments"=""
 "Contact"=""
-"DisplayVersion"="9.0.30729.6161"
+"DisplayVersion"="3.74.0.0"
 "HelpLink"=""
 "HelpTelephone"=""
-"InstallDate"="20180425"
+"InstallDate"="20231118"
 "InstallLocation"=""
-"InstallSource"="d:\\68c66ce478ac52a735\\"
+"InstallSource"="C:\\WINDOWS\\TEMP\\C42DC7F7-7132-4CAE-BE9F-688629F8472B\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,39,00,42,00,45,00,35,00,31,00,38,00,45,00,\
-  36,00,2d,00,45,00,43,00,43,00,36,00,2d,00,33,00,35,00,41,00,39,00,2d,00,38,\
-  00,38,00,45,00,34,00,2d,00,38,00,37,00,37,00,35,00,35,00,43,00,30,00,37,00,\
-  32,00,30,00,30,00,46,00,7d,00,00,00
+  00,65,00,20,00,2f,00,58,00,7b,00,31,00,46,00,43,00,31,00,41,00,36,00,43,00,\
+  32,00,2d,00,35,00,37,00,36,00,45,00,2d,00,34,00,38,00,39,00,41,00,2d,00,39,\
+  00,42,00,34,00,41,00,2d,00,39,00,32,00,44,00,32,00,31,00,46,00,35,00,34,00,\
+  32,00,31,00,33,00,36,00,7d,00,00,00
 "NoModify"=dword:00000001
 "NoRepair"=dword:00000001
 "Publisher"="Microsoft Corporation"
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:000028c8
+"EstimatedSize"=dword:0000041a
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,39,00,42,00,45,00,35,00,31,00,38,00,45,\
-  00,36,00,2d,00,45,00,43,00,43,00,36,00,2d,00,33,00,35,00,41,00,39,00,2d,00,\
-  38,00,38,00,45,00,34,00,2d,00,38,00,37,00,37,00,35,00,35,00,43,00,30,00,37,\
-  00,32,00,30,00,30,00,46,00,7d,00,00,00
+  78,00,65,00,20,00,2f,00,58,00,7b,00,31,00,46,00,43,00,31,00,41,00,36,00,43,\
+  00,32,00,2d,00,35,00,37,00,36,00,45,00,2d,00,34,00,38,00,39,00,41,00,2d,00,\
+  39,00,42,00,34,00,41,00,2d,00,39,00,32,00,44,00,32,00,31,00,46,00,35,00,34,\
+  00,32,00,31,00,33,00,36,00,7d,00,00,00
 "URLInfoAbout"=""
 "URLUpdateInfo"=""
-"VersionMajor"=dword:00000009
-"VersionMinor"=dword:00000000
+"VersionMajor"=dword:00000003
+"VersionMinor"=dword:0000004a
 "WindowsInstaller"=dword:00000001
-"Version"=dword:09007809
-"Language"=dword:00000409
-"DisplayName"="Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{A2978410-04A3-4BCC-8486-E97D1C05861A}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="1.1.8.1"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20181102"
-"InstallLocation"="C:\\Program Files (x86)\\HP\\HP Notifications\\"
-"InstallSource"="C:\\ProgramData\\Hewlett-Packard\\MsiCache\\HPNotifications\\{BB6063BB-D8B1-402E-8BD2-CD7D37D8CDED}\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,41,00,32,00,39,00,37,00,38,00,34,00,31,00,\
-  30,00,2d,00,30,00,34,00,41,00,33,00,2d,00,34,00,42,00,43,00,43,00,2d,00,38,\
-  00,34,00,38,00,36,00,2d,00,45,00,39,00,37,00,44,00,31,00,43,00,30,00,35,00,\
-  38,00,36,00,31,00,41,00,7d,00,00,00
-"NoModify"=dword:00000001
-"Publisher"="HP"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00002631
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,41,00,32,00,39,00,37,00,38,00,34,00,31,\
-  00,30,00,2d,00,30,00,34,00,41,00,33,00,2d,00,34,00,42,00,43,00,43,00,2d,00,\
-  38,00,34,00,38,00,36,00,2d,00,45,00,39,00,37,00,44,00,31,00,43,00,30,00,35,\
-  00,38,00,36,00,31,00,41,00,7d,00,00,00
-"URLInfoAbout"="http://www.HP.com"
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000001
-"VersionMinor"=dword:00000001
-"WindowsInstaller"=dword:00000001
-"Version"=dword:01010008
+"Version"=dword:034a0000
 "Language"=dword:00000000
-"DisplayName"="HP Notifications"
+"DisplayName"="Microsoft Update Health Tools"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{A3985C05-7386-411F-A4BF-32A73F37EB44}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"="AppleCare Support"
-"DisplayVersion"="2.6.3.1"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,73,00,3a,00,2f,00,2f,00,73,00,75,00,\
-  70,00,70,00,6f,00,72,00,74,00,2e,00,61,00,70,00,70,00,6c,00,65,00,2e,00,63,\
-  00,6f,00,6d,00,2f,00,65,00,6e,00,2d,00,61,00,75,00,00,00
-"HelpTelephone"="1800 275 2273"
-"InstallDate"="20210520"
-"InstallLocation"="C:\\Program Files (x86)\\Apple Software Update\\"
-"InstallSource"="C:\\Users\\mspiteri\\AppData\\Local\\Temp\\IXP738.TMP\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,41,00,33,00,39,00,38,00,35,00,43,00,30,00,\
-  35,00,2d,00,37,00,33,00,38,00,36,00,2d,00,34,00,31,00,31,00,46,00,2d,00,41,\
-  00,34,00,42,00,46,00,2d,00,33,00,32,00,41,00,37,00,33,00,46,00,33,00,37,00,\
-  45,00,42,00,34,00,34,00,7d,00,00,00
-"Publisher"="Apple Inc."
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00001025
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,41,00,33,00,39,00,38,00,35,00,43,00,30,\
-  00,35,00,2d,00,37,00,33,00,38,00,36,00,2d,00,34,00,31,00,31,00,46,00,2d,00,\
-  41,00,34,00,42,00,46,00,2d,00,33,00,32,00,41,00,37,00,33,00,46,00,33,00,37,\
-  00,45,00,42,00,34,00,34,00,7d,00,00,00
-"URLInfoAbout"="http://www.apple.com/au/"
-"URLUpdateInfo"="http://www.apple.com/au/"
-"VersionMajor"=dword:00000002
-"VersionMinor"=dword:00000006
-"WindowsInstaller"=dword:00000001
-"Version"=dword:02060003
-"Language"=dword:00000c09
-"DisplayName"="Apple Software Update"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{A8589745-51BC-3963-B4E9-201CF8693538}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{20C1086D-C843-36B1-B678-990089D1BD44}]
 "AuthorizedCDFPrefix"=""
 "Comments"="Caution. Removing this product might prevent some applications from running."
 "Contact"=""
@@ -1162,23 +478,23 @@ Windows Registry Editor Version 5.00
 "HelpTelephone"=""
 "InstallDate"="20240119"
 "InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\Package Cache\\{A8589745-51BC-3963-B4E9-201CF8693538}v12.0.40649\\packages\\vcRuntimeAdditional_x86\\"
+"InstallSource"="C:\\ProgramData\\Package Cache\\{20C1086D-C843-36B1-B678-990089D1BD44}v12.0.40649\\packages\\vcRuntimeAdditional_amd64\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,41,00,38,00,35,00,38,00,39,00,37,00,34,00,\
-  35,00,2d,00,35,00,31,00,42,00,43,00,2d,00,33,00,39,00,36,00,33,00,2d,00,42,\
-  00,34,00,45,00,39,00,2d,00,32,00,30,00,31,00,43,00,46,00,38,00,36,00,39,00,\
-  33,00,35,00,33,00,38,00,7d,00,00,00
+  00,65,00,20,00,2f,00,58,00,7b,00,32,00,30,00,43,00,31,00,30,00,38,00,36,00,\
+  44,00,2d,00,43,00,38,00,34,00,33,00,2d,00,33,00,36,00,42,00,31,00,2d,00,42,\
+  00,36,00,37,00,38,00,2d,00,39,00,39,00,30,00,30,00,38,00,39,00,44,00,31,00,\
+  42,00,44,00,34,00,34,00,7d,00,00,00
 "NoModify"=dword:00000001
 "Publisher"="Microsoft Corporation"
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:000024f0
+"EstimatedSize"=dword:00002e08
 "SystemComponent"=dword:00000001
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,41,00,38,00,35,00,38,00,39,00,37,00,34,\
-  00,35,00,2d,00,35,00,31,00,42,00,43,00,2d,00,33,00,39,00,36,00,33,00,2d,00,\
-  42,00,34,00,45,00,39,00,2d,00,32,00,30,00,31,00,43,00,46,00,38,00,36,00,39,\
-  00,33,00,35,00,33,00,38,00,7d,00,00,00
+  78,00,65,00,20,00,2f,00,58,00,7b,00,32,00,30,00,43,00,31,00,30,00,38,00,36,\
+  00,44,00,2d,00,43,00,38,00,34,00,33,00,2d,00,33,00,36,00,42,00,31,00,2d,00,\
+  42,00,36,00,37,00,38,00,2d,00,39,00,39,00,30,00,30,00,38,00,39,00,44,00,31,\
+  00,42,00,44,00,34,00,34,00,7d,00,00,00
 "URLInfoAbout"=""
 "URLUpdateInfo"=""
 "VersionMajor"=dword:0000000c
@@ -1186,190 +502,922 @@ Windows Registry Editor Version 5.00
 "WindowsInstaller"=dword:00000001
 "Version"=dword:0c009ec9
 "Language"=dword:00000409
-"DisplayName"="Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.40649"
+"DisplayName"="Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40649"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{AC76BA86-0804-1033-1959-018244601108}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{27AE7462-439F-4DB5-8307-C9379670F114}]
+"AuthorizedCDFPrefix"=""
+"Comments"="6.3.6 (56144)"
+"Contact"="Zoom Communications, Inc."
+"DisplayVersion"="6.3.56144"
+"HelpLink"=hex(2):68,00,74,00,74,00,70,00,73,00,3a,00,2f,00,2f,00,73,00,75,00,\
+  70,00,70,00,6f,00,72,00,74,00,2e,00,7a,00,6f,00,6f,00,6d,00,2e,00,75,00,73,\
+  00,2f,00,68,00,6f,00,6d,00,65,00,00,00
+"HelpTelephone"=""
+"InstallDate"="20250124"
+"InstallLocation"=""
+"InstallSource"="C:\\Program Files (x86)\\ITSPlatform\\agentcore\\download\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,32,00,37,00,41,00,45,00,37,00,34,00,36,00,\
+  32,00,2d,00,34,00,33,00,39,00,46,00,2d,00,34,00,44,00,42,00,35,00,2d,00,38,\
+  00,33,00,30,00,37,00,2d,00,43,00,39,00,33,00,37,00,39,00,36,00,37,00,30,00,\
+  46,00,31,00,31,00,34,00,7d,00,00,00
+"NoModify"=dword:00000001
+"Publisher"="Zoom"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:0005ac39
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,32,00,37,00,41,00,45,00,37,00,34,00,36,\
+  00,32,00,2d,00,34,00,33,00,39,00,46,00,2d,00,34,00,44,00,42,00,35,00,2d,00,\
+  38,00,33,00,30,00,37,00,2d,00,43,00,39,00,33,00,37,00,39,00,36,00,37,00,30,\
+  00,46,00,31,00,31,00,34,00,7d,00,00,00
+"URLInfoAbout"="https://zoom.us"
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000006
+"VersionMinor"=dword:00000003
+"WindowsInstaller"=dword:00000001
+"Version"=dword:0603db50
+"Language"=dword:00000409
+"DisplayName"="Zoom Workplace (64-bit)"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{2A53B916-F9AB-3F3D-A542-67840373B6D8}]
 "AuthorizedCDFPrefix"=""
 "Comments"=""
+"Contact"=""
+"DisplayVersion"="134.0.6998.89"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20250207"
+"InstallLocation"=""
+"InstallSource"="C:\\Program Files (x86)\\ITSPlatform\\agentcore\\download\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,32,00,41,00,35,00,33,00,42,00,39,00,31,00,\
+  36,00,2d,00,46,00,39,00,41,00,42,00,2d,00,33,00,46,00,33,00,44,00,2d,00,41,\
+  00,35,00,34,00,32,00,2d,00,36,00,37,00,38,00,34,00,30,00,33,00,37,00,33,00,\
+  42,00,36,00,44,00,38,00,7d,00,00,00
+"NoModify"=dword:00000001
+"Publisher"="Google LLC"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:0001f22d
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,32,00,41,00,35,00,33,00,42,00,39,00,31,\
+  00,36,00,2d,00,46,00,39,00,41,00,42,00,2d,00,33,00,46,00,33,00,44,00,2d,00,\
+  41,00,35,00,34,00,32,00,2d,00,36,00,37,00,38,00,34,00,30,00,33,00,37,00,33,\
+  00,42,00,36,00,44,00,38,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000046
+"VersionMinor"=dword:000000c7
+"WindowsInstaller"=dword:00000001
+"Version"=dword:46c7c03c
+"Language"=dword:00000409
+"DisplayName"="Google Chrome"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{328C0427-F65D-4747-ABA3-19A3637409C0}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="1.0.0.0"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20190223"
+"InstallLocation"=""
+"InstallSource"="C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\IIFAD56.tmp\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,49,00,7b,00,33,00,32,00,38,00,43,00,30,00,34,00,32,00,\
+  37,00,2d,00,46,00,36,00,35,00,44,00,2d,00,34,00,37,00,34,00,37,00,2d,00,41,\
+  00,42,00,41,00,33,00,2d,00,31,00,39,00,41,00,33,00,36,00,33,00,37,00,34,00,\
+  30,00,39,00,43,00,30,00,7d,00,00,00
+"Publisher"="Intel Corporation"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:0000047c
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,49,00,7b,00,33,00,32,00,38,00,43,00,30,00,34,00,32,\
+  00,37,00,2d,00,46,00,36,00,35,00,44,00,2d,00,34,00,37,00,34,00,37,00,2d,00,\
+  41,00,42,00,41,00,33,00,2d,00,31,00,39,00,41,00,33,00,36,00,33,00,37,00,34,\
+  00,30,00,39,00,43,00,30,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000001
+"VersionMinor"=dword:00000000
+"WindowsInstaller"=dword:00000001
+"Version"=dword:01000000
+"Language"=dword:00000409
+"DisplayName"="Intel(R) Management Engine Components"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{37B8F9C7-03FB-3253-8781-2517C99D7C00}]
+"AuthorizedCDFPrefix"=""
+"Comments"="Caution. Removing this product might prevent some applications from running."
+"Contact"=""
+"DisplayVersion"="11.0.61030"
+"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,67,00,6f,00,2e,00,\
+  6d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,63,00,6f,00,6d,\
+  00,2f,00,66,00,77,00,6c,00,69,00,6e,00,6b,00,2f,00,3f,00,4c,00,69,00,6e,00,\
+  6b,00,49,00,64,00,3d,00,31,00,33,00,33,00,34,00,30,00,35,00,00,00
+"HelpTelephone"=""
+"InstallDate"="20180425"
+"InstallLocation"=""
+"InstallSource"="C:\\ProgramData\\Package Cache\\{37B8F9C7-03FB-3253-8781-2517C99D7C00}v11.0.61030\\packages\\vcRuntimeAdditional_amd64\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,33,00,37,00,42,00,38,00,46,00,39,00,43,00,\
+  37,00,2d,00,30,00,33,00,46,00,42,00,2d,00,33,00,32,00,35,00,33,00,2d,00,38,\
+  00,37,00,38,00,31,00,2d,00,32,00,35,00,31,00,37,00,43,00,39,00,39,00,44,00,\
+  37,00,43,00,30,00,30,00,7d,00,00,00
+"NoModify"=dword:00000001
+"Publisher"="Microsoft Corporation"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:00002ff0
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,33,00,37,00,42,00,38,00,46,00,39,00,43,\
+  00,37,00,2d,00,30,00,33,00,46,00,42,00,2d,00,33,00,32,00,35,00,33,00,2d,00,\
+  38,00,37,00,38,00,31,00,2d,00,32,00,35,00,31,00,37,00,43,00,39,00,39,00,44,\
+  00,37,00,43,00,30,00,30,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:0000000b
+"VersionMinor"=dword:00000000
+"WindowsInstaller"=dword:00000001
+"Version"=dword:0b00ee66
+"Language"=dword:00000409
+"DisplayName"="Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{3BAE4496-6F6C-4330-A8AA-B93D3D346FA5}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="2.53.0.0"
+"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,73,00,75,00,70,00,\
+  70,00,6f,00,72,00,74,00,2e,00,6d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,\
+  00,74,00,2e,00,63,00,6f,00,6d,00,2f,00,6b,00,62,00,2f,00,34,00,34,00,38,00,\
+  30,00,37,00,33,00,30,00,00,00
+"HelpTelephone"=""
+"InstallDate"="20191002"
+"InstallLocation"=""
+"InstallSource"="C:\\windows\\SoftwareDistribution\\Download\\62283e8f2c3372f990f6c258b4091686\\img\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,33,00,42,00,41,00,45,00,34,00,34,00,39,00,\
+  36,00,2d,00,36,00,46,00,36,00,43,00,2d,00,34,00,33,00,33,00,30,00,2d,00,41,\
+  00,38,00,41,00,41,00,2d,00,42,00,39,00,33,00,44,00,33,00,44,00,33,00,34,00,\
+  36,00,46,00,41,00,35,00,7d,00,00,00
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"Publisher"="Microsoft Corporation"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:00000174
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,33,00,42,00,41,00,45,00,34,00,34,00,39,\
+  00,36,00,2d,00,36,00,46,00,36,00,43,00,2d,00,34,00,33,00,33,00,30,00,2d,00,\
+  41,00,38,00,41,00,41,00,2d,00,42,00,39,00,33,00,44,00,33,00,44,00,33,00,34,\
+  00,36,00,46,00,41,00,35,00,7d,00,00,00
+"URLInfoAbout"="http://support.microsoft.com/kb/4480730"
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000002
+"VersionMinor"=dword:00000035
+"WindowsInstaller"=dword:00000001
+"Version"=dword:02350000
+"Language"=dword:00000000
+"DisplayName"="Update for Windows 10 for x64-based Systems (KB4480730)"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{409CB30E-E457-4008-9B1A-ED1B9EA21140}]
+"DisplayName"="Intel(R) Rapid Storage Technology"
+"DisplayName_Localized"="@C:\\Program Files\\Intel\\Intel(R) Rapid Storage Technology\\Lang\\Resource.dll,-20000"
+"UninstallString"="\"C:\\Program Files (x86)\\Intel\\Package Cache\\{409CB30E-E457-4008-9B1A-ED1B9EA21140}\\Setup.exe\" -uninstall"
+"Publisher"="Intel Corporation"
+"EstimatedSize"=dword:000065e0
+"DisplayVersion"="16.5.3.1031"
+"InstallLocation"="C:\\Program Files\\Intel\\Intel(R) Rapid Storage Technology"
+"DisplayIcon"="C:\\Program Files\\Intel\\Intel(R) Rapid Storage Technology\\IAStorUI.exe,0"
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{4C246A91-6BAE-450E-BDEA-70D01663DF43}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="5.5.22560"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20190223"
+"InstallLocation"=""
+"InstallSource"="C:\\ProgramData\\Package Cache\\{4C246A91-6BAE-450E-BDEA-70D01663DF43}v5.5.22560\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,49,00,7b,00,34,00,43,00,32,00,34,00,36,00,41,00,39,00,\
+  31,00,2d,00,36,00,42,00,41,00,45,00,2d,00,34,00,35,00,30,00,45,00,2d,00,42,\
+  00,44,00,45,00,41,00,2d,00,37,00,30,00,44,00,30,00,31,00,36,00,36,00,33,00,\
+  44,00,46,00,34,00,33,00,7d,00,00,00
+"Publisher"="HP Inc."
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:00000794
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,49,00,7b,00,34,00,43,00,32,00,34,00,36,00,41,00,39,\
+  00,31,00,2d,00,36,00,42,00,41,00,45,00,2d,00,34,00,35,00,30,00,45,00,2d,00,\
+  42,00,44,00,45,00,41,00,2d,00,37,00,30,00,44,00,30,00,31,00,36,00,36,00,33,\
+  00,44,00,46,00,34,00,33,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000005
+"VersionMinor"=dword:00000005
+"WindowsInstaller"=dword:00000001
+"Version"=dword:05055820
+"Language"=dword:00000409
+"DisplayName"="HP ePrint SW"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{56DDDFB8-7F79-4480-89D5-25E1F52AB28F}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"="AppleCare Support"
+"DisplayVersion"="3.1.0.1"
+"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,77,00,77,00,77,00,\
+  2e,00,61,00,70,00,70,00,6c,00,65,00,2e,00,63,00,6f,00,6d,00,2f,00,73,00,75,\
+  00,70,00,70,00,6f,00,72,00,74,00,2f,00,00,00
+"HelpTelephone"="1-800-275-2273"
+"InstallDate"="20210520"
+"InstallLocation"="C:\\Program Files (x86)\\Bonjour\\"
+"InstallSource"="C:\\Users\\mspiteri\\AppData\\Local\\Temp\\IXP738.TMP\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,35,00,36,00,44,00,44,00,44,00,46,00,42,00,\
+  38,00,2d,00,37,00,46,00,37,00,39,00,2d,00,34,00,34,00,38,00,30,00,2d,00,38,\
+  00,39,00,44,00,35,00,2d,00,32,00,35,00,45,00,31,00,46,00,35,00,32,00,41,00,\
+  42,00,32,00,38,00,46,00,7d,00,00,00
+"NoModify"=dword:00000001
+"Publisher"="Apple Inc."
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:00000810
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,35,00,36,00,44,00,44,00,44,00,46,00,42,\
+  00,38,00,2d,00,37,00,46,00,37,00,39,00,2d,00,34,00,34,00,38,00,30,00,2d,00,\
+  38,00,39,00,44,00,35,00,2d,00,32,00,35,00,45,00,31,00,46,00,35,00,32,00,41,\
+  00,42,00,32,00,38,00,46,00,7d,00,00,00
+"URLInfoAbout"="http://www.apple.com"
+"URLUpdateInfo"="http://www.apple.com/"
+"VersionMajor"=dword:00000003
+"VersionMinor"=dword:00000001
+"WindowsInstaller"=dword:00000001
+"Version"=dword:03010000
+"Language"=dword:00000409
+"DisplayName"="Bonjour"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{59CED48F-EBFE-480C-8A38-FC079C2BEC0F}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="14.40.33810"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20240731"
+"InstallLocation"=""
+"InstallSource"="C:\\ProgramData\\Package Cache\\{59CED48F-EBFE-480C-8A38-FC079C2BEC0F}v14.40.33810\\packages\\vcRuntimeAdditional_amd64\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,49,00,7b,00,35,00,39,00,43,00,45,00,44,00,34,00,38,00,\
+  46,00,2d,00,45,00,42,00,46,00,45,00,2d,00,34,00,38,00,30,00,43,00,2d,00,38,\
+  00,41,00,33,00,38,00,2d,00,46,00,43,00,30,00,37,00,39,00,43,00,32,00,42,00,\
+  45,00,43,00,30,00,46,00,7d,00,00,00
+"Publisher"="Microsoft Corporation"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:00002e68
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,49,00,7b,00,35,00,39,00,43,00,45,00,44,00,34,00,38,\
+  00,46,00,2d,00,45,00,42,00,46,00,45,00,2d,00,34,00,38,00,30,00,43,00,2d,00,\
+  38,00,41,00,33,00,38,00,2d,00,46,00,43,00,30,00,37,00,39,00,43,00,32,00,42,\
+  00,45,00,43,00,30,00,46,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:0000000e
+"VersionMinor"=dword:00000028
+"WindowsInstaller"=dword:00000001
+"Version"=dword:0e288412
+"Language"=dword:00000409
+"DisplayName"="Microsoft Visual C++ 2022 X64 Additional Runtime - 14.40.33810"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{5EB9FD2F-36F4-4BD7-95AD-EEF396607F74}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="3.10.100.3527"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20190223"
+"InstallLocation"=""
+"InstallSource"="C:\\ProgramData\\Package Cache\\{5EB9FD2F-36F4-4BD7-95AD-EEF396607F74}v3.10.100.3527\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,49,00,7b,00,35,00,45,00,42,00,39,00,46,00,44,00,32,00,\
+  46,00,2d,00,33,00,36,00,46,00,34,00,2d,00,34,00,42,00,44,00,37,00,2d,00,39,\
+  00,35,00,41,00,44,00,2d,00,45,00,45,00,46,00,33,00,39,00,36,00,36,00,30,00,\
+  37,00,46,00,37,00,34,00,7d,00,00,00
+"Publisher"="Intel Corporation"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:00000158
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,49,00,7b,00,35,00,45,00,42,00,39,00,46,00,44,00,32,\
+  00,46,00,2d,00,33,00,36,00,46,00,34,00,2d,00,34,00,42,00,44,00,37,00,2d,00,\
+  39,00,35,00,41,00,44,00,2d,00,45,00,45,00,46,00,33,00,39,00,36,00,36,00,30,\
+  00,37,00,46,00,37,00,34,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000003
+"VersionMinor"=dword:0000000a
+"WindowsInstaller"=dword:00000001
+"Version"=dword:030a0064
+"Language"=dword:00000409
+"DisplayName"="ISS_Drivers_x64"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{5FCE6D76-F5DC-37AB-B2B8-22AB8CEDB1D4}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="9.0.30729.6161"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20180425"
+"InstallLocation"=""
+"InstallSource"="d:\\718b2d749b6aaf320930\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,35,00,46,00,43,00,45,00,36,00,44,00,37,00,\
+  36,00,2d,00,46,00,35,00,44,00,43,00,2d,00,33,00,37,00,41,00,42,00,2d,00,42,\
+  00,32,00,42,00,38,00,2d,00,32,00,32,00,41,00,42,00,38,00,43,00,45,00,44,00,\
+  42,00,31,00,44,00,34,00,7d,00,00,00
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"Publisher"="Microsoft Corporation"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:000034dc
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,35,00,46,00,43,00,45,00,36,00,44,00,37,\
+  00,36,00,2d,00,46,00,35,00,44,00,43,00,2d,00,33,00,37,00,41,00,42,00,2d,00,\
+  42,00,32,00,42,00,38,00,2d,00,32,00,32,00,41,00,42,00,38,00,43,00,45,00,44,\
+  00,42,00,31,00,44,00,34,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000009
+"VersionMinor"=dword:00000000
+"WindowsInstaller"=dword:00000001
+"Version"=dword:09007809
+"Language"=dword:00000409
+"DisplayName"="Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{631C57C3-B765-4327-822A-057C34D691CC}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="10.1.17695.8086"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20190223"
+"InstallLocation"=""
+"InstallSource"="C:\\ProgramData\\Package Cache\\{631C57C3-B765-4327-822A-057C34D691CC}v10.1.17695.8086\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,49,00,7b,00,36,00,33,00,31,00,43,00,35,00,37,00,43,00,\
+  33,00,2d,00,42,00,37,00,36,00,35,00,2d,00,34,00,33,00,32,00,37,00,2d,00,38,\
+  00,32,00,32,00,41,00,2d,00,30,00,35,00,37,00,43,00,33,00,34,00,44,00,36,00,\
+  39,00,31,00,43,00,43,00,7d,00,00,00
+"Publisher"="Intel Corporation"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:00000024
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,49,00,7b,00,36,00,33,00,31,00,43,00,35,00,37,00,43,\
+  00,33,00,2d,00,42,00,37,00,36,00,35,00,2d,00,34,00,33,00,32,00,37,00,2d,00,\
+  38,00,32,00,32,00,41,00,2d,00,30,00,35,00,37,00,43,00,33,00,34,00,44,00,36,\
+  00,39,00,31,00,43,00,43,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:0000000a
+"VersionMinor"=dword:00000001
+"WindowsInstaller"=dword:00000001
+"Version"=dword:0a01451f
+"Language"=dword:00000409
+"DisplayName"="Intel(R) Chipset Device Software"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{687CC295-E8F7-4662-8BA6-E7DCD999C390}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="9.3.13.2627"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20190223"
+"InstallLocation"="c:\\Program Files\\HP\\HP ProtectTools Security Manager\\"
+"InstallSource"="c:\\SWSETUP\\APP\\Applications\\Crossmatch\\2013Bucke_QQWVB2\\9.3.13.2627\\src\\x64\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,36,00,38,00,37,00,43,00,43,00,32,00,39,00,\
+  35,00,2d,00,45,00,38,00,46,00,37,00,2d,00,34,00,36,00,36,00,32,00,2d,00,38,\
+  00,42,00,41,00,36,00,2d,00,45,00,37,00,44,00,43,00,44,00,39,00,39,00,39,00,\
+  43,00,33,00,39,00,30,00,7d,00,00,00
+"NoModify"=dword:00000001
+"Publisher"="HP Inc."
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:0002a3f1
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,36,00,38,00,37,00,43,00,43,00,32,00,39,\
+  00,35,00,2d,00,45,00,38,00,46,00,37,00,2d,00,34,00,36,00,36,00,32,00,2d,00,\
+  38,00,42,00,41,00,36,00,2d,00,45,00,37,00,44,00,43,00,44,00,39,00,39,00,39,\
+  00,43,00,33,00,39,00,30,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000009
+"VersionMinor"=dword:00000003
+"WindowsInstaller"=dword:00000001
+"Version"=dword:0903000d
+"Language"=dword:00000000
+"DisplayName"="HP Client Security Manager"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{6C0D92F3-38B8-437A-9CF0-B8C3AFCF3310}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"="AppleCare Support"
+"DisplayVersion"="12.13.4.4"
+"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,77,00,77,00,77,00,\
+  2e,00,61,00,70,00,70,00,6c,00,65,00,2e,00,63,00,6f,00,6d,00,2f,00,73,00,75,\
+  00,70,00,70,00,6f,00,72,00,74,00,2f,00,00,00
+"HelpTelephone"="1800 2752 273"
+"InstallDate"="20241101"
+"InstallLocation"="C:\\Program Files\\iTunes\\"
+"InstallSource"="C:\\WINDOWS\\TEMP\\IXP314.TMP\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,49,00,7b,00,36,00,43,00,30,00,44,00,39,00,32,00,46,00,\
+  33,00,2d,00,33,00,38,00,42,00,38,00,2d,00,34,00,33,00,37,00,41,00,2d,00,39,\
+  00,43,00,46,00,30,00,2d,00,42,00,38,00,43,00,33,00,41,00,46,00,43,00,46,00,\
+  33,00,33,00,31,00,30,00,7d,00,00,00
+"Publisher"="Apple Inc."
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:000697cc
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,49,00,7b,00,36,00,43,00,30,00,44,00,39,00,32,00,46,\
+  00,33,00,2d,00,33,00,38,00,42,00,38,00,2d,00,34,00,33,00,37,00,41,00,2d,00,\
+  39,00,43,00,46,00,30,00,2d,00,42,00,38,00,43,00,33,00,41,00,46,00,43,00,46,\
+  00,33,00,33,00,31,00,30,00,7d,00,00,00
+"URLInfoAbout"="http://www.apple.com/au/"
+"URLUpdateInfo"="http://www.apple.com/au/itunes/"
+"VersionMajor"=dword:0000000c
+"VersionMinor"=dword:0000000d
+"WindowsInstaller"=dword:00000001
+"Version"=dword:0c0d0004
+"Language"=dword:00000c09
+"DisplayName"="iTunes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{70BFDD74-8988-4122-A9EA-E0A3BCFD687F}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="0.67.1"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20230315"
+"InstallLocation"="C:\\Program Files\\PowerToys\\"
+"InstallSource"="C:\\ProgramData\\Package Cache\\{70BFDD74-8988-4122-A9EA-E0A3BCFD687F}v0.67.1\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,37,00,30,00,42,00,46,00,44,00,44,00,37,00,\
+  34,00,2d,00,38,00,39,00,38,00,38,00,2d,00,34,00,31,00,32,00,32,00,2d,00,41,\
+  00,39,00,45,00,41,00,2d,00,45,00,30,00,41,00,33,00,42,00,43,00,46,00,44,00,\
+  36,00,38,00,37,00,46,00,7d,00,00,00
+"NoModify"=dword:00000001
+"Publisher"="Microsoft Corporation"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:000a430e
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,37,00,30,00,42,00,46,00,44,00,44,00,37,\
+  00,34,00,2d,00,38,00,39,00,38,00,38,00,2d,00,34,00,31,00,32,00,32,00,2d,00,\
+  41,00,39,00,45,00,41,00,2d,00,45,00,30,00,41,00,33,00,42,00,43,00,46,00,44,\
+  00,36,00,38,00,37,00,46,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000000
+"VersionMinor"=dword:00000043
+"WindowsInstaller"=dword:00000001
+"Version"=dword:00430001
+"Language"=dword:00000409
+"DisplayName"="PowerToys (Preview)"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{74CC99EB-7DC0-4CB0-847A-F8C2FE39690C}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"="AppleCare Support"
+"DisplayVersion"="14.5.0.7"
+"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,77,00,77,00,77,00,\
+  2e,00,61,00,70,00,70,00,6c,00,65,00,2e,00,63,00,6f,00,6d,00,2f,00,73,00,75,\
+  00,70,00,70,00,6f,00,72,00,74,00,2f,00,00,00
+"HelpTelephone"="1-800-275-2273"
+"InstallDate"="20210520"
+"InstallLocation"="C:\\Program Files\\Common Files\\Apple\\Mobile Device Support\\"
+"InstallSource"="C:\\Users\\mspiteri\\AppData\\Local\\Temp\\IXP738.TMP\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,49,00,7b,00,37,00,34,00,43,00,43,00,39,00,39,00,45,00,\
+  42,00,2d,00,37,00,44,00,43,00,30,00,2d,00,34,00,43,00,42,00,30,00,2d,00,38,\
+  00,34,00,37,00,41,00,2d,00,46,00,38,00,43,00,32,00,46,00,45,00,33,00,39,00,\
+  36,00,39,00,30,00,43,00,7d,00,00,00
+"Publisher"="Apple Inc."
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:0001912e
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,49,00,7b,00,37,00,34,00,43,00,43,00,39,00,39,00,45,\
+  00,42,00,2d,00,37,00,44,00,43,00,30,00,2d,00,34,00,43,00,42,00,30,00,2d,00,\
+  38,00,34,00,37,00,41,00,2d,00,46,00,38,00,43,00,32,00,46,00,45,00,33,00,39,\
+  00,36,00,39,00,30,00,43,00,7d,00,00,00
+"URLInfoAbout"="http://www.apple.com"
+"URLUpdateInfo"="http://www.apple.com/"
+"VersionMajor"=dword:0000000e
+"VersionMinor"=dword:00000005
+"WindowsInstaller"=dword:00000001
+"Version"=dword:0e050000
+"Language"=dword:00000409
+"DisplayName"="Apple Mobile Device Support"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{76E2A775-D74D-40FE-AE5F-282AEA540070}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="1.0.0.0"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20190223"
+"InstallLocation"=""
+"InstallSource"="C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\IIFAD56.tmp\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,49,00,7b,00,37,00,36,00,45,00,32,00,41,00,37,00,37,00,\
+  35,00,2d,00,44,00,37,00,34,00,44,00,2d,00,34,00,30,00,46,00,45,00,2d,00,41,\
+  00,45,00,35,00,46,00,2d,00,32,00,38,00,32,00,41,00,45,00,41,00,35,00,34,00,\
+  30,00,30,00,37,00,30,00,7d,00,00,00
+"Publisher"="Intel Corporation"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:00009c61
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,49,00,7b,00,37,00,36,00,45,00,32,00,41,00,37,00,37,\
+  00,35,00,2d,00,44,00,37,00,34,00,44,00,2d,00,34,00,30,00,46,00,45,00,2d,00,\
+  41,00,45,00,35,00,46,00,2d,00,32,00,38,00,32,00,41,00,45,00,41,00,35,00,34,\
+  00,30,00,30,00,37,00,30,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000001
+"VersionMinor"=dword:00000000
+"WindowsInstaller"=dword:00000001
+"Version"=dword:01000000
+"Language"=dword:00000409
+"DisplayName"="Intel(R) Management Engine Components"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{78525DEA-1E62-429B-9CA4-A78F899A9F29}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="5.5.22560"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20190223"
+"InstallLocation"=""
+"InstallSource"="C:\\ProgramData\\Package Cache\\{78525DEA-1E62-429B-9CA4-A78F899A9F29}v5.5.22560\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,49,00,7b,00,37,00,38,00,35,00,32,00,35,00,44,00,45,00,\
+  41,00,2d,00,31,00,45,00,36,00,32,00,2d,00,34,00,32,00,39,00,42,00,2d,00,39,\
+  00,43,00,41,00,34,00,2d,00,41,00,37,00,38,00,46,00,38,00,39,00,39,00,41,00,\
+  39,00,46,00,32,00,39,00,7d,00,00,00
+"Publisher"="HP Inc."
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:00000afc
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,49,00,7b,00,37,00,38,00,35,00,32,00,35,00,44,00,45,\
+  00,41,00,2d,00,31,00,45,00,36,00,32,00,2d,00,34,00,32,00,39,00,42,00,2d,00,\
+  39,00,43,00,41,00,34,00,2d,00,41,00,37,00,38,00,46,00,38,00,39,00,39,00,41,\
+  00,39,00,46,00,32,00,39,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000005
+"VersionMinor"=dword:00000005
+"WindowsInstaller"=dword:00000001
+"Version"=dword:05055820
+"Language"=dword:00000409
+"DisplayName"="HP ePrint SW"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{8fb9abdb-d154-4df3-bd67-8817a4550027}]
+"IntelProductID"="WiFiDrivers"
+"AuthorizedCDFPrefix"=""
+"Comments"="Intel® PRO/Wireless Driver installation package"
+"Contact"="Intel® Customer Support"
+"DisplayVersion"="20.90.0000.9678"
+"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,77,00,77,00,77,00,\
+  2e,00,69,00,6e,00,74,00,65,00,6c,00,2e,00,63,00,6f,00,6d,00,2f,00,73,00,75,\
+  00,70,00,70,00,6f,00,72,00,74,00,2f,00,67,00,6f,00,2f,00,77,00,69,00,72,00,\
+  65,00,6c,00,65,00,73,00,73,00,5f,00,73,00,75,00,70,00,70,00,6f,00,72,00,74,\
+  00,00,00
+"HelpTelephone"="1-916-377-7000"
+"InstallDate"="20191002"
+"InstallLocation"="C:\\Program Files\\Intel"
+"InstallSource"="C:\\ProgramData\\Package Cache\\{5368D82D-CAA5-48CC-9017-5BAAAB87591B}v20.90.0\\data\\"
+"NoRemove"=dword:00000001
+"NoRepair"=dword:00000001
+"Publisher"="Intel Corporation"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:00012fdc
+"SystemComponent"=dword:00000001
+"URLInfoAbout"="http://www.intel.com/support/go/wireless_support"
+"URLUpdateInfo"="http://downloadfinder.intel.com"
+"VersionMajor"=dword:00000014
+"VersionMinor"=dword:0000005a
+"WindowsInstaller"=dword:00000001
+"Version"=dword:145a0000
+"Language"=dword:00000409
+"DisplayName"="Intel(R) PRO/Wireless Driver"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-007E-0000-1000-0000000FF1CE}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="16.0.17231.20194"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20240202"
+"InstallLocation"=""
+"InstallSource"="c:\\program files\\microsoft office\\root\\integration\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,49,00,7b,00,39,00,30,00,31,00,36,00,30,00,30,00,30,00,\
+  30,00,2d,00,30,00,30,00,37,00,45,00,2d,00,30,00,30,00,30,00,30,00,2d,00,31,\
+  00,30,00,30,00,30,00,2d,00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,46,00,\
+  46,00,31,00,43,00,45,00,7d,00,00,00
+"Publisher"="Microsoft Corporation"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:00001b80
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,49,00,7b,00,39,00,30,00,31,00,36,00,30,00,30,00,30,\
+  00,30,00,2d,00,30,00,30,00,37,00,45,00,2d,00,30,00,30,00,30,00,30,00,2d,00,\
+  31,00,30,00,30,00,30,00,2d,00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,46,\
+  00,46,00,31,00,43,00,45,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000010
+"VersionMinor"=dword:00000000
+"WindowsInstaller"=dword:00000001
+"Version"=dword:1000434f
+"Language"=dword:00000000
+"DisplayName"="Office 16 Click-to-Run Licensing Component"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-008C-0000-1000-0000000FF1CE}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="16.0.17231.20194"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20240202"
+"InstallLocation"=""
+"InstallSource"="c:\\program files\\microsoft office\\root\\integration\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,39,00,30,00,31,00,36,00,30,00,30,00,30,00,\
+  30,00,2d,00,30,00,30,00,38,00,43,00,2d,00,30,00,30,00,30,00,30,00,2d,00,31,\
+  00,30,00,30,00,30,00,2d,00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,46,00,\
+  46,00,31,00,43,00,45,00,7d,00,00,00
+"NoModify"=dword:00000001
+"Publisher"="Microsoft Corporation"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:0000876c
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,39,00,30,00,31,00,36,00,30,00,30,00,30,\
+  00,30,00,2d,00,30,00,30,00,38,00,43,00,2d,00,30,00,30,00,30,00,30,00,2d,00,\
+  31,00,30,00,30,00,30,00,2d,00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,46,\
+  00,46,00,31,00,43,00,45,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000010
+"VersionMinor"=dword:00000000
+"WindowsInstaller"=dword:00000001
+"Version"=dword:1000434f
+"Language"=dword:00000000
+"DisplayName"="Office 16 Click-to-Run Extensibility Component"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-008C-0409-1000-0000000FF1CE}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="16.0.14131.20278"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20210703"
+"InstallLocation"=""
+"InstallSource"="c:\\program files\\microsoft office\\root\\integration\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,39,00,30,00,31,00,36,00,30,00,30,00,30,00,\
+  30,00,2d,00,30,00,30,00,38,00,43,00,2d,00,30,00,34,00,30,00,39,00,2d,00,31,\
+  00,30,00,30,00,30,00,2d,00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,46,00,\
+  46,00,31,00,43,00,45,00,7d,00,00,00
+"NoModify"=dword:00000001
+"Publisher"="Microsoft Corporation"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:00000034
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,39,00,30,00,31,00,36,00,30,00,30,00,30,\
+  00,30,00,2d,00,30,00,30,00,38,00,43,00,2d,00,30,00,34,00,30,00,39,00,2d,00,\
+  31,00,30,00,30,00,30,00,2d,00,30,00,30,00,30,00,30,00,30,00,30,00,30,00,46,\
+  00,46,00,31,00,43,00,45,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000010
+"VersionMinor"=dword:00000000
+"WindowsInstaller"=dword:00000001
+"Version"=dword:10003733
+"Language"=dword:00000409
+"DisplayName"="Office 16 Click-to-Run Localization Component"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{97F8FADE-1594-11E8-BADE-3863BB3CB5A8}]
+"AuthorizedCDFPrefix"=""
+"Comments"="HP Sure Click"
+"Contact"="HP Inc."
+"DisplayVersion"="4.1.0.1967"
+"HelpLink"=hex(2):68,00,74,00,74,00,70,00,73,00,3a,00,2f,00,2f,00,77,00,77,00,\
+  77,00,2e,00,68,00,70,00,2e,00,63,00,6f,00,6d,00,2f,00,73,00,75,00,70,00,70,\
+  00,6f,00,72,00,74,00,00,00
+"HelpTelephone"=""
+"InstallDate"="20190223"
+"InstallLocation"=""
+"InstallSource"="c:\\SWSETUP\\APP\\Security\\Bromium\\HPSureCli_SSUNB2\\4.1.0.1967\\src\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,49,00,7b,00,39,00,37,00,46,00,38,00,46,00,41,00,44,00,\
+  45,00,2d,00,31,00,35,00,39,00,34,00,2d,00,31,00,31,00,45,00,38,00,2d,00,42,\
+  00,41,00,44,00,45,00,2d,00,33,00,38,00,36,00,33,00,42,00,42,00,33,00,43,00,\
+  42,00,35,00,41,00,38,00,7d,00,00,00
+"Publisher"="HP Inc."
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:000affcd
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,49,00,7b,00,39,00,37,00,46,00,38,00,46,00,41,00,44,\
+  00,45,00,2d,00,31,00,35,00,39,00,34,00,2d,00,31,00,31,00,45,00,38,00,2d,00,\
+  42,00,41,00,44,00,45,00,2d,00,33,00,38,00,36,00,33,00,42,00,42,00,33,00,43,\
+  00,42,00,35,00,41,00,38,00,7d,00,00,00
+"URLInfoAbout"="https://www.hp.com"
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000004
+"VersionMinor"=dword:00000001
+"WindowsInstaller"=dword:00000001
+"Version"=dword:04010000
+"Language"=dword:00000409
+"DisplayName"="HP Sure Click"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{9FD91C5C-44AE-4D9D-85BE-AE52816B0294}]
+"DisplayName"="Intel(R) Serial IO"
+"DisplayName_Localized"="@C:\\Program Files\\Intel\\Intel(R) Serial IO\\Lang\\Resource.dll,-20000"
+"UninstallString"="\"C:\\ProgramData\\Intel\\Package Cache\\{9FD91C5C-44AE-4D9D-85BE-AE52816B0294}\\Setup.exe\" -uninstall"
+"Publisher"="Intel Corporation"
+"DisplayVersion"="30.100.1823.1"
+"InstallLocation"="C:\\Program Files\\Intel\\Intel(R) Serial IO"
+"DisplayIcon"="C:\\ProgramData\\Intel\\Package Cache\\{9FD91C5C-44AE-4D9D-85BE-AE52816B0294}\\Setup.exe,0"
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{A7AB73A3-CB10-4AA5-9D38-6AEFFBDE4C91}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"="Microsoft"
+"DisplayVersion"="1.24.31301"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20250109"
+"InstallLocation"=""
+"InstallSource"="C:\\Program Files\\WindowsApps\\MSTeams_24335.208.3315.1951_x64__8wekyb3d8bbwe\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,49,00,7b,00,41,00,37,00,41,00,42,00,37,00,33,00,41,00,\
+  33,00,2d,00,43,00,42,00,31,00,30,00,2d,00,34,00,41,00,41,00,35,00,2d,00,39,\
+  00,44,00,33,00,38,00,2d,00,36,00,41,00,45,00,46,00,46,00,42,00,44,00,45,00,\
+  34,00,43,00,39,00,31,00,7d,00,00,00
+"Publisher"="Microsoft"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:00007f13
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,49,00,7b,00,41,00,37,00,41,00,42,00,37,00,33,00,41,\
+  00,33,00,2d,00,43,00,42,00,31,00,30,00,2d,00,34,00,41,00,41,00,35,00,2d,00,\
+  39,00,44,00,33,00,38,00,2d,00,36,00,41,00,45,00,46,00,46,00,42,00,44,00,45,\
+  00,34,00,43,00,39,00,31,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000001
+"VersionMinor"=dword:00000018
+"WindowsInstaller"=dword:00000001
+"Version"=dword:01187a45
+"Language"=dword:00000409
+"DisplayName"="Microsoft Teams Meeting Add-in for Microsoft Office"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{A9941B94-B4E5-4C5D-8156-38F9D3F51600}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="1.0.0.0"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20190223"
+"InstallLocation"=""
+"InstallSource"="C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\IIFAD56.tmp\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,49,00,7b,00,41,00,39,00,39,00,34,00,31,00,42,00,39,00,\
+  34,00,2d,00,42,00,34,00,45,00,35,00,2d,00,34,00,43,00,35,00,44,00,2d,00,38,\
+  00,31,00,35,00,36,00,2d,00,33,00,38,00,46,00,39,00,44,00,33,00,46,00,35,00,\
+  31,00,36,00,30,00,30,00,7d,00,00,00
+"Publisher"="Intel Corporation"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:0000001d
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,49,00,7b,00,41,00,39,00,39,00,34,00,31,00,42,00,39,\
+  00,34,00,2d,00,42,00,34,00,45,00,35,00,2d,00,34,00,43,00,35,00,44,00,2d,00,\
+  38,00,31,00,35,00,36,00,2d,00,33,00,38,00,46,00,39,00,44,00,33,00,46,00,35,\
+  00,31,00,36,00,30,00,30,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000001
+"VersionMinor"=dword:00000000
+"WindowsInstaller"=dword:00000001
+"Version"=dword:01000000
+"Language"=dword:00000409
+"DisplayName"="Intel(R) Management Engine Driver"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{ABB19BB4-838D-3082-BDA4-87C6604181A2}]
+"AuthorizedCDFPrefix"=""
+"Comments"="Caution. Removing this product might prevent some applications from running."
+"Contact"=""
+"DisplayVersion"="12.0.40649"
+"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,67,00,6f,00,2e,00,\
+  6d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,63,00,6f,00,6d,\
+  00,2f,00,66,00,77,00,6c,00,69,00,6e,00,6b,00,2f,00,3f,00,4c,00,69,00,6e,00,\
+  6b,00,49,00,64,00,3d,00,31,00,33,00,33,00,34,00,30,00,35,00,00,00
+"HelpTelephone"=""
+"InstallDate"="20240119"
+"InstallLocation"=""
+"InstallSource"="C:\\ProgramData\\Package Cache\\{ABB19BB4-838D-3082-BDA4-87C6604181A2}v12.0.40649\\packages\\vcRuntimeMinimum_amd64\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,41,00,42,00,42,00,31,00,39,00,42,00,42,00,\
+  34,00,2d,00,38,00,33,00,38,00,44,00,2d,00,33,00,30,00,38,00,32,00,2d,00,42,\
+  00,44,00,41,00,34,00,2d,00,38,00,37,00,43,00,36,00,36,00,30,00,34,00,31,00,\
+  38,00,31,00,41,00,32,00,7d,00,00,00
+"NoModify"=dword:00000001
+"Publisher"="Microsoft Corporation"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:000009dc
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,41,00,42,00,42,00,31,00,39,00,42,00,42,\
+  00,34,00,2d,00,38,00,33,00,38,00,44,00,2d,00,33,00,30,00,38,00,32,00,2d,00,\
+  42,00,44,00,41,00,34,00,2d,00,38,00,37,00,43,00,36,00,36,00,30,00,34,00,31,\
+  00,38,00,31,00,41,00,32,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:0000000c
+"VersionMinor"=dword:00000000
+"WindowsInstaller"=dword:00000001
+"Version"=dword:0c009ec9
+"Language"=dword:00000409
+"DisplayName"="Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.40649"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{AC76BA86-1033-1033-7760-BC15014EA700}]
+"AuthorizedCDFPrefix"=""
+"Comments"="
+			"
 "Contact"="Customer Support"
-"DisplayVersion"="1.8.0"
+"DisplayVersion"="25.001.20432"
 "HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,77,00,77,00,77,00,\
   2e,00,61,00,64,00,6f,00,62,00,65,00,2e,00,63,00,6f,00,6d,00,2f,00,73,00,75,\
   00,70,00,70,00,6f,00,72,00,74,00,2f,00,6d,00,61,00,69,00,6e,00,2e,00,68,00,\
   74,00,6d,00,6c,00,00,00
-"HelpTelephone"=""
-"InstallDate"="20250128"
-"InstallLocation"="C:\\Program Files (x86)\\Common Files\\Adobe\\ARM\\1.0\\"
-"InstallSource"="C:\\Program Files (x86)\\Common Files\\Adobe\\ARM\\1.0\\Cache\\"
+"HelpTelephone"="
+			"
+"InstallDate"="20250314"
+"InstallLocation"="C:\\Program Files\\Adobe\\Acrobat DC\\"
+"InstallSource"="C:\\Program Files\\Common Files\\Adobe\\Acrobat\\Setup\\{AC76BA86-1033-1033-7760-BC15014EA700}\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
   00,65,00,20,00,2f,00,49,00,7b,00,41,00,43,00,37,00,36,00,42,00,41,00,38,00,\
-  36,00,2d,00,30,00,38,00,30,00,34,00,2d,00,31,00,30,00,33,00,33,00,2d,00,31,\
-  00,39,00,35,00,39,00,2d,00,30,00,31,00,38,00,32,00,34,00,34,00,36,00,30,00,\
-  31,00,31,00,30,00,38,00,7d,00,00,00
-"Publisher"="Adobe Systems Incorporated"
-"Readme"=hex(2):52,00,65,00,61,00,64,00,6d,00,65,00,2e,00,68,00,74,00,6d,00,00,\
-  00
-"Size"=""
-"EstimatedSize"=dword:0000080c
-"SystemComponent"=dword:00000001
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,41,00,43,00,37,00,36,00,42,00,41,00,38,\
-  00,36,00,2d,00,30,00,38,00,30,00,34,00,2d,00,31,00,30,00,33,00,33,00,2d,00,\
-  31,00,39,00,35,00,39,00,2d,00,30,00,31,00,38,00,32,00,34,00,34,00,36,00,30,\
-  00,31,00,31,00,30,00,38,00,7d,00,00,00
-"URLInfoAbout"="http://www.adobe.com"
-"URLUpdateInfo"="http://www.adobe.com/products/acrobat/readstep.html"
-"VersionMajor"=dword:00000001
-"VersionMinor"=dword:00000008
-"WindowsInstaller"=dword:00000001
-"Version"=dword:01080000
-"Language"=dword:00000409
-"DisplayName"="Adobe Refresh Manager"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{B175520C-86A2-35A7-8619-86DC379688B9}]
-"AuthorizedCDFPrefix"=""
-"Comments"="Caution. Removing this product might prevent some applications from running."
-"Contact"=""
-"DisplayVersion"="11.0.61030"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,67,00,6f,00,2e,00,\
-  6d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,63,00,6f,00,6d,\
-  00,2f,00,66,00,77,00,6c,00,69,00,6e,00,6b,00,2f,00,3f,00,4c,00,69,00,6e,00,\
-  6b,00,49,00,64,00,3d,00,31,00,33,00,33,00,34,00,30,00,35,00,00,00
-"HelpTelephone"=""
-"InstallDate"="20180425"
-"InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\Package Cache\\{B175520C-86A2-35A7-8619-86DC379688B9}v11.0.61030\\packages\\vcRuntimeAdditional_x86\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,42,00,31,00,37,00,35,00,35,00,32,00,30,00,\
-  43,00,2d,00,38,00,36,00,41,00,32,00,2d,00,33,00,35,00,41,00,37,00,2d,00,38,\
-  00,36,00,31,00,39,00,2d,00,38,00,36,00,44,00,43,00,33,00,37,00,39,00,36,00,\
-  38,00,38,00,42,00,39,00,7d,00,00,00
-"NoModify"=dword:00000001
-"Publisher"="Microsoft Corporation"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:000026ac
-"SystemComponent"=dword:00000001
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,42,00,31,00,37,00,35,00,35,00,32,00,30,\
-  00,43,00,2d,00,38,00,36,00,41,00,32,00,2d,00,33,00,35,00,41,00,37,00,2d,00,\
-  38,00,36,00,31,00,39,00,2d,00,38,00,36,00,44,00,43,00,33,00,37,00,39,00,36,\
-  00,38,00,38,00,42,00,39,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:0000000b
-"VersionMinor"=dword:00000000
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0b00ee66
-"Language"=dword:00000409
-"DisplayName"="Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.61030"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{B4F0E794-11F5-4971-85EC-6D7F2E4DAC68}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="4.4.3"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20200821"
-"InstallLocation"=""
-"InstallSource"="D:\\Apps\\DownloadNavigator\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,42,00,34,00,46,00,30,00,45,00,37,00,39,00,\
-  34,00,2d,00,31,00,31,00,46,00,35,00,2d,00,34,00,39,00,37,00,31,00,2d,00,38,\
-  00,35,00,45,00,43,00,2d,00,36,00,44,00,37,00,46,00,32,00,45,00,34,00,44,00,\
-  41,00,43,00,36,00,38,00,7d,00,00,00
-"NoModify"=dword:00000001
-"Publisher"="SEIKO EPSON CORPORATION"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:000027b9
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,42,00,34,00,46,00,30,00,45,00,37,00,39,\
-  00,34,00,2d,00,31,00,31,00,46,00,35,00,2d,00,34,00,39,00,37,00,31,00,2d,00,\
-  38,00,35,00,45,00,43,00,2d,00,36,00,44,00,37,00,46,00,32,00,45,00,34,00,44,\
-  00,41,00,43,00,36,00,38,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000004
-"VersionMinor"=dword:00000004
-"WindowsInstaller"=dword:00000001
-"Version"=dword:04040003
-"Language"=dword:00000409
-"DisplayName"="Epson Software Updater"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{BD95A8CD-1D9F-35AD-981A-3E7925026EBB}]
-"AuthorizedCDFPrefix"=""
-"Comments"="Caution. Removing this product might prevent some applications from running."
-"Contact"=""
-"DisplayVersion"="11.0.61030"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,67,00,6f,00,2e,00,\
-  6d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,63,00,6f,00,6d,\
-  00,2f,00,66,00,77,00,6c,00,69,00,6e,00,6b,00,2f,00,3f,00,4c,00,69,00,6e,00,\
-  6b,00,49,00,64,00,3d,00,31,00,33,00,33,00,34,00,30,00,35,00,00,00
-"HelpTelephone"=""
-"InstallDate"="20180425"
-"InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\Package Cache\\{BD95A8CD-1D9F-35AD-981A-3E7925026EBB}v11.0.61030\\packages\\vcRuntimeMinimum_x86\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,42,00,44,00,39,00,35,00,41,00,38,00,43,00,\
-  44,00,2d,00,31,00,44,00,39,00,46,00,2d,00,33,00,35,00,41,00,44,00,2d,00,39,\
-  00,38,00,31,00,41,00,2d,00,33,00,45,00,37,00,39,00,32,00,35,00,30,00,32,00,\
-  36,00,45,00,42,00,42,00,7d,00,00,00
-"NoModify"=dword:00000001
-"Publisher"="Microsoft Corporation"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:000006ec
-"SystemComponent"=dword:00000001
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,42,00,44,00,39,00,35,00,41,00,38,00,43,\
-  00,44,00,2d,00,31,00,44,00,39,00,46,00,2d,00,33,00,35,00,41,00,44,00,2d,00,\
-  39,00,38,00,31,00,41,00,2d,00,33,00,45,00,37,00,39,00,32,00,35,00,30,00,32,\
-  00,36,00,45,00,42,00,42,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:0000000b
-"VersionMinor"=dword:00000000
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0b00ee66
-"Language"=dword:00000409
-"DisplayName"="Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.61030"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{BED0B8A2-2986-49F8-90D6-FA008D37A3D2}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="6.7.3902"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20191002"
-"InstallLocation"=""
-"InstallSource"="C:\\Users\\Ian\\Desktop\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,42,00,45,00,44,00,30,00,42,00,38,00,41,00,\
-  32,00,2d,00,32,00,39,00,38,00,36,00,2d,00,34,00,39,00,46,00,38,00,2d,00,39,\
-  00,30,00,44,00,36,00,2d,00,46,00,41,00,30,00,30,00,38,00,44,00,33,00,37,00,\
-  41,00,33,00,44,00,32,00,7d,00,00,00
-"Publisher"="Trend Micro Inc."
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:0000223b
-"SystemComponent"=dword:00000001
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,42,00,45,00,44,00,30,00,42,00,38,00,41,\
-  00,32,00,2d,00,32,00,39,00,38,00,36,00,2d,00,34,00,39,00,46,00,38,00,2d,00,\
-  39,00,30,00,44,00,36,00,2d,00,46,00,41,00,30,00,30,00,38,00,44,00,33,00,37,\
-  00,41,00,33,00,44,00,32,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000006
-"VersionMinor"=dword:00000006
-"WindowsInstaller"=dword:00000001
-"Version"=dword:060609b3
-"Language"=dword:00000409
-"DisplayName"="Trend Micro Security Agent"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{C2A61D74-BB65-42AD-B81F-AC25E1F7DE02}]
-"AuthorizedCDFPrefix"=""
-"Comments"="GoTo O
+  36,00,2d,00,31,00,30,00,33,00,33,00,2d,00,31,00,30,00,33,00,33,00,2d,00,37,\
+  00,37,00,36,00,30,00,2d,00,42,00,43,00,31,00,35,00,30,00,31,00,34,00,45,00,\
+  41,00,37,00,30,00,30,00,7d,00,00,00
+"NoRepair"=dword:00000001
+"Publisher"="Adobe"
+"Readme"=hex(2):43,00,3a,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,20,\
+  00,46,00,69,00,6c,00,65,00,73,00,5c,00,41,00,64,00
