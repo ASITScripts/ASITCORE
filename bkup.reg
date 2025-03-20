@@ -4,18 +4,18 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\AddressBook]
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Cisco AnyConnect Secure Mobility Client]
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Cisco Secure Client - AnyConnect VPN]
 "Language"=dword:00000409
-"DisplayName"="Cisco AnyConnect Secure Mobility Client "
+"DisplayName"="Cisco Secure Client - AnyConnect VPN "
+"Brand"="Cisco"
 "NoRepair"=dword:00000001
+"DisplayVersion"="5.1.6.103"
+"Comments"="A SmartNET contract is required for support - Cisco Secure Client - AnyConnect VPN."
+"DisplayIcon"="C:\\Program Files (x86)\\Cisco\\Cisco Secure Client\\InstallHelper.exe"
 "HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,77,00,77,00,77,00,\
   2e,00,63,00,69,00,73,00,63,00,6f,00,2e,00,63,00,6f,00,6d,00,2f,00,54,00,41,\
   00,43,00,2f,00,00,00
 "HelpTelephone"="(800) 553-2447"
-"Brand"="Cisco"
-"DisplayVersion"="4.10.05085"
-"Comments"="A SmartNET contract is required for support - Cisco AnyConnect Secure Mobility Client."
-"DisplayIcon"="C:\\Program Files (x86)\\Cisco\\Cisco AnyConnect Secure Mobility Client\\InstallHelper.exe"
 "EstimatedSize"=dword:00001770
 "NoModify"=dword:00000001
 "Publisher"="Cisco Systems, Inc."
@@ -23,11 +23,9 @@ Windows Registry Editor Version 5.00
 "UninstallString"=hex(2):43,00,3a,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,\
   6d,00,20,00,46,00,69,00,6c,00,65,00,73,00,20,00,28,00,78,00,38,00,36,00,29,\
   00,5c,00,43,00,69,00,73,00,63,00,6f,00,5c,00,43,00,69,00,73,00,63,00,6f,00,\
-  20,00,41,00,6e,00,79,00,43,00,6f,00,6e,00,6e,00,65,00,63,00,74,00,20,00,53,\
-  00,65,00,63,00,75,00,72,00,65,00,20,00,4d,00,6f,00,62,00,69,00,6c,00,69,00,\
-  74,00,79,00,20,00,43,00,6c,00,69,00,65,00,6e,00,74,00,5c,00,55,00,6e,00,69,\
-  00,6e,00,73,00,74,00,61,00,6c,00,6c,00,2e,00,65,00,78,00,65,00,20,00,2d,00,\
-  72,00,65,00,6d,00,6f,00,76,00,65,00,00,00
+  20,00,53,00,65,00,63,00,75,00,72,00,65,00,20,00,43,00,6c,00,69,00,65,00,6e,\
+  00,74,00,5c,00,55,00,6e,00,69,00,6e,00,73,00,74,00,61,00,6c,00,6c,00,2e,00,\
+  65,00,78,00,65,00,20,00,2d,00,72,00,65,00,6d,00,6f,00,76,00,65,00,00,00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Connection Manager]
 "SystemComponent"=dword:00000001
@@ -37,18 +35,6 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\DXM_Runtime]
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Fontcore]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\HostedAgent]
-"DisplayIcon"="C:\\Program Files (x86)\\Trend Micro\\Client Server Security Agent\\PCCNtMon.exe"
-"InstallLocation"="C:\\Program Files (x86)\\Trend Micro\\Client Server Security Agent"
-"VersionMinor"=dword:00000000
-"VersionMajor"=dword:00000001
-"DisplayVersion"="6.7.3902"
-"Publisher"="Trend Micro Inc."
-"UninstallString"="msiexec /x {BED0B8A2-2986-49F8-90D6-FA008D37A3D2} /qf /l+* \"C:\\windows\\temp\\wofie_uninstall.log\""
-"DisplayName"="Trend Micro Security Agent"
-"NoModify"=dword:00000001
-"EstimatedSize"=dword:0001c564
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\IE40]
 
@@ -69,7 +55,7 @@ Windows Registry Editor Version 5.00
 "DisplayIcon"="C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\134.0.3124.72\\msedge.exe,0"
 "NoRepair"=dword:00000001
 "Publisher"="Microsoft Corporation"
-"InstallDate"="20250318"
+"InstallDate"="20250317"
 "VersionMajor"=dword:00000c34
 "VersionMinor"=dword:00000048
 
@@ -79,20 +65,20 @@ Windows Registry Editor Version 5.00
 "NoRemove"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView]
+"DisplayName"="Microsoft Edge WebView2 Runtime"
 "DisplayVersion"="134.0.3124.72"
 "Version"="134.0.3124.72"
 "NoRemove"=dword:00000001
+"UninstallString"="\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\134.0.3124.72\\Installer\\setup.exe\" --uninstall --msedgewebview --system-level --verbose-logging"
 "InstallLocation"="C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application"
+"SystemComponent"=dword:00000001
 "DisplayIcon"="C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\134.0.3124.72\\msedgewebview2.exe,0"
 "NoRepair"=dword:00000001
 "Publisher"="Microsoft Corporation"
-"InstallDate"="20250318"
+"InstallDate"="20250319"
 "VersionMajor"=dword:00000c34
 "VersionMinor"=dword:00000048
 "ModifyPath"="\"C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe\" /install appguid={F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}&appname=Microsoft%20Edge%20WebView&needsadmin=true&repairtype=windowsonlinerepair /installsource windows"
-"DisplayName"="Microsoft Edge WebView2 Runtime"
-"UninstallString"="\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\134.0.3124.72\\Installer\\setup.exe\" --uninstall --msedgewebview --system-level --verbose-logging"
-"SystemComponent"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\MobileOptionPack]
 
@@ -103,60 +89,8 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\SchedulingAgent]
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\TeamViewer]
-"DisplayName"="TeamViewer Host"
-"DisplayIcon"="C:\\Program Files (x86)\\TeamViewer\\TeamViewer.exe"
-"Publisher"="TeamViewer"
-"HelpLink"="https://www.teamviewer.com"
-"UninstallString"="\"C:\\Program Files (x86)\\TeamViewer\\uninstall.exe\""
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"VersionMajor"=dword:0000000f
-"VersionMinor"=dword:0000003f
-"InstallLocation"="C:\\Program Files (x86)\\TeamViewer"
-"DisplayVersion"="15.63.5"
-
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\WIC]
 "NoRemove"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{07AD1142-2132-4BAC-9680-EDB89C85BDBA}]
-"SystemComponent"=dword:00000001
-"ParentKeyName"="Cisco AnyConnect Secure Mobility Client"
-"AuthorizedCDFPrefix"=""
-"Comments"="A SmartNET contract is required for support - Cisco AnyConnect Secure Mobility Client."
-"Contact"=""
-"DisplayVersion"="4.10.05085"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,77,00,77,00,77,00,\
-  2e,00,63,00,69,00,73,00,63,00,6f,00,2e,00,63,00,6f,00,6d,00,2f,00,54,00,41,\
-  00,43,00,2f,00,00,00
-"HelpTelephone"="(800) 553-2447"
-"InstallDate"="20241119"
-"InstallLocation"="C:\\Program Files (x86)\\Cisco\\Cisco AnyConnect Secure Mobility Client\\"
-"InstallSource"="\\\\2k12v-dc01\\Workstations\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,30,00,37,00,41,00,44,00,31,00,31,00,34,00,\
-  32,00,2d,00,32,00,31,00,33,00,32,00,2d,00,34,00,42,00,41,00,43,00,2d,00,39,\
-  00,36,00,38,00,30,00,2d,00,45,00,44,00,42,00,38,00,39,00,43,00,38,00,35,00,\
-  42,00,44,00,42,00,41,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="Cisco Systems, Inc."
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00006aa4
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,30,00,37,00,41,00,44,00,31,00,31,00,34,\
-  00,32,00,2d,00,32,00,31,00,33,00,32,00,2d,00,34,00,42,00,41,00,43,00,2d,00,\
-  39,00,36,00,38,00,30,00,2d,00,45,00,44,00,42,00,38,00,39,00,43,00,38,00,35,\
-  00,42,00,44,00,42,00,41,00,7d,00,00,00
-"URLInfoAbout"="http://www.cisco.com"
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000004
-"VersionMinor"=dword:0000000a
-"WindowsInstaller"=dword:00000001
-"Version"=dword:040a13dd
-"Language"=dword:00000409
-"DisplayName"="Cisco AnyConnect Secure Mobility Client"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{0C3457A0-3DCE-4A33-BEF0-9B528C557771}]
 "AuthorizedCDFPrefix"=""
@@ -165,7 +99,7 @@ Windows Registry Editor Version 5.00
 "DisplayVersion"="14.40.33810"
 "HelpLink"=""
 "HelpTelephone"=""
-"InstallDate"="20241125"
+"InstallDate"="20250115"
 "InstallLocation"=""
 "InstallSource"="C:\\ProgramData\\Package Cache\\{0C3457A0-3DCE-4A33-BEF0-9B528C557771}v14.40.33810\\packages\\vcRuntimeMinimum_x86\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
@@ -176,7 +110,7 @@ Windows Registry Editor Version 5.00
 "Publisher"="Microsoft Corporation"
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:000001e8
+"EstimatedSize"=dword:000007a4
 "SystemComponent"=dword:00000001
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
   78,00,65,00,20,00,2f,00,49,00,7b,00,30,00,43,00,33,00,34,00,35,00,37,00,41,\
@@ -192,26 +126,61 @@ Windows Registry Editor Version 5.00
 "Language"=dword:00000409
 "DisplayName"="Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.40.33810"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{18F39771-F9D8-4CFD-9654-F6C67C8AD9F4}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{0E29D397-D1A3-4D89-BB5E-AA110A6674B2}]
 "AuthorizedCDFPrefix"=""
-"Comments"="Version: 3.1.2.2578"
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="2.1.4.0"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20250129"
+"InstallLocation"=""
+"InstallSource"="R:\\ASPL Software\\Avaya\\Avaya Soft Phone\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,30,00,45,00,32,00,39,00,44,00,33,00,39,00,\
+  37,00,2d,00,44,00,31,00,41,00,33,00,2d,00,34,00,44,00,38,00,39,00,2d,00,42,\
+  00,42,00,35,00,45,00,2d,00,41,00,41,00,31,00,31,00,30,00,41,00,36,00,36,00,\
+  37,00,34,00,42,00,32,00,7d,00,00,00
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"Publisher"="Avaya"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:0001fe1d
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,30,00,45,00,32,00,39,00,44,00,33,00,39,\
+  00,37,00,2d,00,44,00,31,00,41,00,33,00,2d,00,34,00,44,00,38,00,39,00,2d,00,\
+  42,00,42,00,35,00,45,00,2d,00,41,00,41,00,31,00,31,00,30,00,41,00,36,00,36,\
+  00,37,00,34,00,42,00,32,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000002
+"VersionMinor"=dword:00000001
+"WindowsInstaller"=dword:00000001
+"Version"=dword:02010004
+"Language"=dword:00000409
+"DisplayName"="Avaya Communicator 2.1.4.0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{18f39771-f9d8-4cfd-9654-f6c67c8ad9f4}]
+"AuthorizedCDFPrefix"=""
+"Comments"="Version: 3.0.8.2446"
 "Contact"=""
 "DisplayVersion"="3.2.4"
 "HelpLink"=""
 "HelpTelephone"=""
-"InstallDate"="20241119"
+"InstallDate"="20250110"
 "InstallLocation"="C:\\Program Files (x86)\\"
-"InstallSource"="\\\\2k12V-DC01\\NETLOGON\\"
+"InstallSource"="C:\\ASITScripts\\RMM\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,31,00,38,00,46,00,33,00,39,00,37,00,37,00,\
-  31,00,2d,00,46,00,39,00,44,00,38,00,2d,00,34,00,43,00,46,00,44,00,2d,00,39,\
-  00,36,00,35,00,34,00,2d,00,46,00,36,00,43,00,36,00,37,00,43,00,38,00,41,00,\
-  44,00,39,00,46,00,34,00,7d,00,00,00
+  00,65,00,20,00,2f,00,49,00,7b,00,31,00,38,00,66,00,33,00,39,00,37,00,37,00,\
+  31,00,2d,00,66,00,39,00,64,00,38,00,2d,00,34,00,63,00,66,00,64,00,2d,00,39,\
+  00,36,00,35,00,34,00,2d,00,66,00,36,00,63,00,36,00,37,00,63,00,38,00,61,00,\
+  64,00,39,00,66,00,34,00,7d,00,00,00
 "Publisher"=hex(2):49,00,54,00,53,00,75,00,70,00,70,00,6f,00,72,00,74,00,32,00,\
   34,00,37,00,00,00
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:0000e196
+"EstimatedSize"=dword:0000e0da
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
   78,00,65,00,20,00,2f,00,58,00,7b,00,31,00,38,00,66,00,33,00,39,00,37,00,37,\
   00,31,00,2d,00,66,00,39,00,64,00,38,00,2d,00,34,00,63,00,66,00,64,00,2d,00,\
@@ -220,46 +189,12 @@ Windows Registry Editor Version 5.00
 "URLInfoAbout"="https://www.ConnectWise.com "
 "URLUpdateInfo"=""
 "VersionMajor"=dword:00000003
-"VersionMinor"=dword:00000001
+"VersionMinor"=dword:00000000
 "WindowsInstaller"=dword:00000001
-"Version"=dword:03010002
+"Version"=dword:03000008
 "Language"=dword:00000409
 "DisplayName"="ITSPlatform"
 "SystemComponent"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{19F557DE-662A-4FEA-B635-1CACD56CC483}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="1.1.30.38"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20241011"
-"InstallLocation"="C:\\Program Files (x86)\\HP\\HP Notifications\\"
-"InstallSource"="C:\\ProgramData\\Hewlett-Packard\\MsiCache\\HPNotifications\\{CD641A2A-E8B5-4848-BF5A-C98E73BC70C8}\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,31,00,39,00,46,00,35,00,35,00,37,00,44,00,\
-  45,00,2d,00,36,00,36,00,32,00,41,00,2d,00,34,00,46,00,45,00,41,00,2d,00,42,\
-  00,36,00,33,00,35,00,2d,00,31,00,43,00,41,00,43,00,44,00,35,00,36,00,43,00,\
-  43,00,34,00,38,00,33,00,7d,00,00,00
-"NoModify"=dword:00000001
-"Publisher"="HP"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00004851
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,31,00,39,00,46,00,35,00,35,00,37,00,44,\
-  00,45,00,2d,00,36,00,36,00,32,00,41,00,2d,00,34,00,46,00,45,00,41,00,2d,00,\
-  42,00,36,00,33,00,35,00,2d,00,31,00,43,00,41,00,43,00,44,00,35,00,36,00,43,\
-  00,43,00,34,00,38,00,33,00,7d,00,00,00
-"URLInfoAbout"="http://www.HP.com"
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000001
-"VersionMinor"=dword:00000001
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0101001e
-"Language"=dword:00000000
-"DisplayName"="HP Notifications"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{47109d57-d746-4f8b-9618-ed6a17cc922b}]
 "BundleCachePath"="C:\\ProgramData\\Package Cache\\{47109d57-d746-4f8b-9618-ed6a17cc922b}\\VC_redist.x86.exe"
@@ -311,6 +246,33 @@ Windows Registry Editor Version 5.00
 "Resume"=dword:00000003
 "Installed"=dword:00000001
 
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{5cb4ce05-0f3a-4ab9-9bc6-e3f6ded083d1}]
+"BundleCachePath"="C:\\ProgramData\\Package Cache\\{5cb4ce05-0f3a-4ab9-9bc6-e3f6ded083d1}\\Pleasant KeePass Client.exe"
+"BundleUpgradeCode"=hex(7):7b,00,30,00,43,00,35,00,31,00,42,00,38,00,45,00,36,\
+  00,2d,00,43,00,35,00,30,00,44,00,2d,00,34,00,34,00,38,00,41,00,2d,00,42,00,\
+  31,00,35,00,38,00,2d,00,44,00,31,00,31,00,44,00,38,00,35,00,36,00,41,00,44,\
+  00,31,00,44,00,33,00,7d,00,00,00,00,00
+"BundleAddonCode"=hex(7):
+"BundleDetectCode"=hex(7):
+"BundlePatchCode"=hex(7):
+"BundleVersion"="7.11.43.0"
+"VersionMajor"=dword:00000007
+"VersionMinor"=dword:0000000b
+"BundleProviderKey"="{5cb4ce05-0f3a-4ab9-9bc6-e3f6ded083d1}"
+"BundleTag"=""
+"EngineVersion"="3.11.1.2318"
+"DisplayIcon"="C:\\ProgramData\\Package Cache\\{5cb4ce05-0f3a-4ab9-9bc6-e3f6ded083d1}\\Pleasant KeePass Client.exe,0"
+"DisplayName"="KeePass for Pleasant Password Server"
+"DisplayVersion"="7.11.43"
+"Publisher"="Pleasant Solutions Inc."
+"ModifyPath"="\"C:\\ProgramData\\Package Cache\\{5cb4ce05-0f3a-4ab9-9bc6-e3f6ded083d1}\\Pleasant KeePass Client.exe\" /modify"
+"NoElevateOnModify"=dword:00000001
+"QuietUninstallString"="\"C:\\ProgramData\\Package Cache\\{5cb4ce05-0f3a-4ab9-9bc6-e3f6ded083d1}\\Pleasant KeePass Client.exe\" /uninstall /quiet"
+"UninstallString"="\"C:\\ProgramData\\Package Cache\\{5cb4ce05-0f3a-4ab9-9bc6-e3f6ded083d1}\\Pleasant KeePass Client.exe\"  /uninstall"
+"EstimatedSize"=dword:001647a3
+"Resume"=dword:00000003
+"Installed"=dword:00000001
+
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{5EA6C998-D5AC-4ED9-89C3-9F25B17CCD3D}]
 "AuthorizedCDFPrefix"=""
 "Comments"=""
@@ -318,7 +280,7 @@ Windows Registry Editor Version 5.00
 "DisplayVersion"="14.40.33810"
 "HelpLink"=""
 "HelpTelephone"=""
-"InstallDate"="20241125"
+"InstallDate"="20250115"
 "InstallLocation"=""
 "InstallSource"="C:\\ProgramData\\Package Cache\\{5EA6C998-D5AC-4ED9-89C3-9F25B17CCD3D}v14.40.33810\\packages\\vcRuntimeAdditional_x86\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
@@ -380,62 +342,40 @@ Windows Registry Editor Version 5.00
 "Language"=dword:00000409
 "DisplayName"="ScreenConnect Client (385a4ea3ca5447c4)"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{6468C4A5-E47E-405F-B675-A70A70983EA6}]
-"ModifyPath"="\"C:\\Program Files (x86)\\InstallShield Installation Information\\{6468C4A5-E47E-405F-B675-A70A70983EA6}\\setup.exe\" -runfromtemp -l0x0409 "
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"UninstallString"="\"C:\\Program Files (x86)\\InstallShield Installation Information\\{6468C4A5-E47E-405F-B675-A70A70983EA6}\\setup.exe\" -runfromtemp -l0x0409  -removeonly"
-"LogFile"="C:\\Program Files (x86)\\InstallShield Installation Information\\{6468C4A5-E47E-405F-B675-A70A70983EA6}\\setup.ilg"
-"InstallLocation"="C:\\Program Files (x86)\\HP Inc\\HP Connection Optimizer"
-"ProductGuid"="{6468C4A5-E47E-405F-B675-A70A70983EA6}"
-"InstallSource"="c:\\swsetup\\APP\\Applications\\HP\\HPConnect_RRRPB2\\2.0.20.0\\src\\"
-"DisplayName"="HP Connection Optimizer"
-"Publisher"="HP Inc"
-"URLInfoAbout"="http://www.HPInc.com"
-"DisplayIcon"="C:\\Program Files\\HPCommRecovery\\HPCommRecovery.exe,0"
-"InstallDate"="20241011"
-"Language"=dword:00000409
-"DisplayVersion"="2.0.20.0"
-"Version"=dword:02000014
-"VersionMajor"=dword:00000002
-"VersionMinor"=dword:00000000
-"LogMode"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{9566EBBB-E7BC-49F0-A01F-0CB65A33F59E}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{9FDEB44F-8A30-4448-89DB-1BEB51F0C9F2}]
 "AuthorizedCDFPrefix"=""
 "Comments"=""
 "Contact"=""
-"DisplayVersion"="1.5.2.2"
+"DisplayVersion"="7.11.43"
 "HelpLink"=""
 "HelpTelephone"=""
-"InstallDate"="20250102"
-"InstallLocation"="C:\\Program Files (x86)\\HP\\HP System Default Settings\\"
-"InstallSource"="C:\\windows\\TEMP\\{DCF33C98-A697-4A87-9900-07CAA54E5BEE}\\"
+"InstallDate"="20250110"
+"InstallLocation"=""
+"InstallSource"="C:\\ProgramData\\Package Cache\\{9FDEB44F-8A30-4448-89DB-1BEB51F0C9F2}v7.11.43\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,39,00,35,00,36,00,36,00,45,00,42,00,42,00,\
-  42,00,2d,00,45,00,37,00,42,00,43,00,2d,00,34,00,39,00,46,00,30,00,2d,00,41,\
-  00,30,00,31,00,46,00,2d,00,30,00,43,00,42,00,36,00,35,00,41,00,33,00,33,00,\
-  46,00,35,00,39,00,45,00,7d,00,00,00
+  00,65,00,20,00,2f,00,58,00,7b,00,39,00,46,00,44,00,45,00,42,00,34,00,34,00,\
+  46,00,2d,00,38,00,41,00,33,00,30,00,2d,00,34,00,34,00,34,00,38,00,2d,00,38,\
+  00,39,00,44,00,42,00,2d,00,31,00,42,00,45,00,42,00,35,00,31,00,46,00,30,00,\
+  43,00,39,00,46,00,32,00,7d,00,00,00
 "NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="HP Inc."
+"Publisher"="Pleasant Solutions Inc."
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:00000e40
+"EstimatedSize"=dword:000cfaf8
 "SystemComponent"=dword:00000001
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,39,00,35,00,36,00,36,00,45,00,42,00,42,\
-  00,42,00,2d,00,45,00,37,00,42,00,43,00,2d,00,34,00,39,00,46,00,30,00,2d,00,\
-  41,00,30,00,31,00,46,00,2d,00,30,00,43,00,42,00,36,00,35,00,41,00,33,00,33,\
-  00,46,00,35,00,39,00,45,00,7d,00,00,00
-"URLInfoAbout"="http://www.HPINC.com"
+  78,00,65,00,20,00,2f,00,58,00,7b,00,39,00,46,00,44,00,45,00,42,00,34,00,34,\
+  00,46,00,2d,00,38,00,41,00,33,00,30,00,2d,00,34,00,34,00,34,00,38,00,2d,00,\
+  38,00,39,00,44,00,42,00,2d,00,31,00,42,00,45,00,42,00,35,00,31,00,46,00,30,\
+  00,43,00,39,00,46,00,32,00,7d,00,00,00
+"URLInfoAbout"=""
 "URLUpdateInfo"=""
-"VersionMajor"=dword:00000001
-"VersionMinor"=dword:00000005
+"VersionMajor"=dword:00000007
+"VersionMinor"=dword:0000000b
 "WindowsInstaller"=dword:00000001
-"Version"=dword:01050002
-"Language"=dword:00000000
-"DisplayName"="HP System Default Settings"
+"Version"=dword:070b002b
+"Language"=dword:00000409
+"DisplayName"="KeePass for Pleasant Password Server"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{AC76BA86-0804-1033-1959-018244601108}]
 "AuthorizedCDFPrefix"=""
@@ -447,7 +387,7 @@ Windows Registry Editor Version 5.00
   00,70,00,70,00,6f,00,72,00,74,00,2f,00,6d,00,61,00,69,00,6e,00,2e,00,68,00,\
   74,00,6d,00,6c,00,00,00
 "HelpTelephone"=""
-"InstallDate"="20250127"
+"InstallDate"="20250126"
 "InstallLocation"="C:\\Program Files (x86)\\Common Files\\Adobe\\ARM\\1.0\\"
 "InstallSource"="C:\\Program Files (x86)\\Common Files\\Adobe\\ARM\\1.0\\Cache\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
@@ -486,7 +426,7 @@ Windows Registry Editor Version 5.00
   00,70,00,70,00,6f,00,72,00,74,00,2f,00,6d,00,61,00,69,00,6e,00,2e,00,68,00,\
   74,00,6d,00,6c,00,00,00
 "HelpTelephone"=""
-"InstallDate"="20250316"
+"InstallDate"="20250314"
 "InstallLocation"="C:\\Program Files (x86)\\Adobe\\Acrobat Reader DC\\"
 "InstallSource"="C:\\Program Files (x86)\\Common Files\\Adobe\\Acrobat\\Setup\\{AC76BA86-7AD7-1033-7B44-AC0F074E4100}\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
@@ -502,7 +442,7 @@ Windows Registry Editor Version 5.00
   00,20,00,52,00,65,00,61,00,64,00,65,00,72,00,20,00,44,00,43,00,5c,00,52,00,\
   65,00,61,00,64,00,6d,00,65,00,2e,00,68,00,74,00,6d,00,00,00
 "Size"=""
-"EstimatedSize"=dword:000c10f2
+"EstimatedSize"=dword:00073e3a
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
   78,00,65,00,20,00,2f,00,49,00,7b,00,41,00,43,00,37,00,36,00,42,00,41,00,38,\
   00,36,00,2d,00,37,00,41,00,44,00,37,00,2d,00,31,00,30,00,33,00,33,00,2d,00,\
@@ -517,70 +457,142 @@ Windows Registry Editor Version 5.00
 "Language"=dword:00000409
 "DisplayName"="Adobe Acrobat Reader"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{BED0B8A2-2986-49F8-90D6-FA008D37A3D2}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{C17F6DEF-D34C-4B75-97E1-D81062408B4A}]
 "AuthorizedCDFPrefix"=""
 "Comments"=""
 "Contact"=""
-"DisplayVersion"="6.7.3902"
+"DisplayVersion"="2.0.2"
 "HelpLink"=""
 "HelpTelephone"=""
-"InstallDate"="20241119"
-"InstallLocation"=""
-"InstallSource"="\\\\2k12v-dc01\\Workstations\\"
+"InstallDate"="20250117"
+"InstallLocation"="C:\\Program Files (x86)\\Microsoft\\Microsoft Search in Bing\\"
+"InstallSource"="C:\\ProgramData\\Microsoft\\DefaultPackMSI\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,42,00,45,00,44,00,30,00,42,00,38,00,41,00,\
-  32,00,2d,00,32,00,39,00,38,00,36,00,2d,00,34,00,39,00,46,00,38,00,2d,00,39,\
-  00,30,00,44,00,36,00,2d,00,46,00,41,00,30,00,30,00,38,00,44,00,33,00,37,00,\
-  41,00,33,00,44,00,32,00,7d,00,00,00
-"Publisher"="Trend Micro Inc."
+  00,65,00,20,00,2f,00,49,00,7b,00,43,00,31,00,37,00,46,00,36,00,44,00,45,00,\
+  46,00,2d,00,44,00,33,00,34,00,43,00,2d,00,34,00,42,00,37,00,35,00,2d,00,39,\
+  00,37,00,45,00,31,00,2d,00,44,00,38,00,31,00,30,00,36,00,32,00,34,00,30,00,\
+  38,00,42,00,34,00,41,00,7d,00,00,00
+"Publisher"="Microsoft Corporation"
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:0000223b
-"SystemComponent"=dword:00000001
+"EstimatedSize"=dword:000009ee
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,42,00,45,00,44,00,30,00,42,00,38,00,41,\
-  00,32,00,2d,00,32,00,39,00,38,00,36,00,2d,00,34,00,39,00,46,00,38,00,2d,00,\
-  39,00,30,00,44,00,36,00,2d,00,46,00,41,00,30,00,30,00,38,00,44,00,33,00,37,\
-  00,41,00,33,00,44,00,32,00,7d,00,00,00
+  78,00,65,00,20,00,2f,00,49,00,7b,00,43,00,31,00,37,00,46,00,36,00,44,00,45,\
+  00,46,00,2d,00,44,00,33,00,34,00,43,00,2d,00,34,00,42,00,37,00,35,00,2d,00,\
+  39,00,37,00,45,00,31,00,2d,00,44,00,38,00,31,00,30,00,36,00,32,00,34,00,30,\
+  00,38,00,42,00,34,00,41,00,7d,00,00,00
 "URLInfoAbout"=""
 "URLUpdateInfo"=""
-"VersionMajor"=dword:00000006
-"VersionMinor"=dword:00000006
+"VersionMajor"=dword:00000002
+"VersionMinor"=dword:00000000
 "WindowsInstaller"=dword:00000001
-"Version"=dword:060609b3
+"Version"=dword:02000002
 "Language"=dword:00000409
-"DisplayName"="Trend Micro Security Agent"
+"DisplayName"="Microsoft Search in Bing"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{E62BD969-711A-4534-BE3F-F60BFBACFB64}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{C44BB545-91B5-499B-AC1D-FEF757695BF6}]
 "AuthorizedCDFPrefix"=""
 "Comments"=""
 "Contact"=""
-"DisplayVersion"="1.4.0.6062"
+"DisplayVersion"="1.3.1.6008"
 "HelpLink"=""
 "HelpTelephone"=""
-"InstallDate"="20241011"
+"InstallDate"="20240531"
 "InstallLocation"=""
-"InstallSource"="c:\\swsetup\\APP\\Applications\\Poly\\PolyLens_447JB2\\1.4.0\\src\\"
+"InstallSource"="c:\\SWsetup\\APP\\Applications\\Poly\\PolyLens_447JB2\\1.3.1\\src\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,45,00,36,00,32,00,42,00,44,00,39,00,36,00,\
-  39,00,2d,00,37,00,31,00,31,00,41,00,2d,00,34,00,35,00,33,00,34,00,2d,00,42,\
-  00,45,00,33,00,46,00,2d,00,46,00,36,00,30,00,42,00,46,00,42,00,41,00,43,00,\
-  46,00,42,00,36,00,34,00,7d,00,00,00
+  00,65,00,20,00,2f,00,49,00,7b,00,43,00,34,00,34,00,42,00,42,00,35,00,34,00,\
+  35,00,2d,00,39,00,31,00,42,00,35,00,2d,00,34,00,39,00,39,00,42,00,2d,00,41,\
+  00,43,00,31,00,44,00,2d,00,46,00,45,00,46,00,37,00,35,00,37,00,36,00,39,00,\
+  35,00,42,00,46,00,36,00,7d,00,00,00
 "Publisher"="Poly, Inc."
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:00062e32
+"EstimatedSize"=dword:00062d1a
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,45,00,36,00,32,00,42,00,44,00,39,00,36,\
-  00,39,00,2d,00,37,00,31,00,31,00,41,00,2d,00,34,00,35,00,33,00,34,00,2d,00,\
-  42,00,45,00,33,00,46,00,2d,00,46,00,36,00,30,00,42,00,46,00,42,00,41,00,43,\
-  00,46,00,42,00,36,00,34,00,7d,00,00,00
+  78,00,65,00,20,00,2f,00,49,00,7b,00,43,00,34,00,34,00,42,00,42,00,35,00,34,\
+  00,35,00,2d,00,39,00,31,00,42,00,35,00,2d,00,34,00,39,00,39,00,42,00,2d,00,\
+  41,00,43,00,31,00,44,00,2d,00,46,00,45,00,46,00,37,00,35,00,37,00,36,00,39,\
+  00,35,00,42,00,46,00,36,00,7d,00,00,00
 "URLInfoAbout"=""
 "URLUpdateInfo"=""
 "VersionMajor"=dword:00000001
-"VersionMinor"=dword:00000004
+"VersionMinor"=dword:00000003
 "WindowsInstaller"=dword:00000001
-"Version"=dword:01040000
+"Version"=dword:01030001
 "Language"=dword:00000409
 "DisplayName"="Poly Lens"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{CFB51224-438D-48BC-BE42-1F8B53730609}]
+"SystemComponent"=dword:00000001
+"ParentKeyName"="Cisco Secure Client - AnyConnect VPN"
+"AuthorizedCDFPrefix"=""
+"Comments"="A SmartNET contract is required for support - Cisco Secure Client - AnyConnect VPN."
+"Contact"=""
+"DisplayVersion"="5.1.6.103"
+"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,77,00,77,00,77,00,\
+  2e,00,63,00,69,00,73,00,63,00,6f,00,2e,00,63,00,6f,00,6d,00,2f,00,54,00,41,\
+  00,43,00,2f,00,00,00
+"HelpTelephone"="(800) 553-2447"
+"InstallDate"="20250129"
+"InstallLocation"="C:\\Program Files (x86)\\Cisco\\Cisco Secure Client\\"
+"InstallSource"="R:\\ASPL Software\\Cisco\\AnyConnect V2\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,58,00,7b,00,43,00,46,00,42,00,35,00,31,00,32,00,32,00,\
+  34,00,2d,00,34,00,33,00,38,00,44,00,2d,00,34,00,38,00,42,00,43,00,2d,00,42,\
+  00,45,00,34,00,32,00,2d,00,31,00,46,00,38,00,42,00,35,00,33,00,37,00,33,00,\
+  30,00,36,00,30,00,39,00,7d,00,00,00
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"Publisher"="Cisco Systems, Inc."
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:0000a1d9
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,58,00,7b,00,43,00,46,00,42,00,35,00,31,00,32,00,32,\
+  00,34,00,2d,00,34,00,33,00,38,00,44,00,2d,00,34,00,38,00,42,00,43,00,2d,00,\
+  42,00,45,00,34,00,32,00,2d,00,31,00,46,00,38,00,42,00,35,00,33,00,37,00,33,\
+  00,30,00,36,00,30,00,39,00,7d,00,00,00
+"URLInfoAbout"="http://www.cisco.com"
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000005
+"VersionMinor"=dword:00000001
+"WindowsInstaller"=dword:00000001
+"Version"=dword:05010006
+"Language"=dword:00000409
+"DisplayName"="Cisco Secure Client - AnyConnect VPN"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{D066B018-448B-40C5-9034-259BBCC49351}]
+"AuthorizedCDFPrefix"=""
+"Comments"=""
+"Contact"=""
+"DisplayVersion"="4.6.2.0"
+"HelpLink"=""
+"HelpTelephone"=""
+"InstallDate"="20250117"
+"InstallLocation"=""
+"InstallSource"="C:\\Program Files\\Microsoft Office\\root\\integration\\Addons\\"
+"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
+  00,65,00,20,00,2f,00,49,00,7b,00,44,00,30,00,36,00,36,00,42,00,30,00,31,00,\
+  38,00,2d,00,34,00,34,00,38,00,42,00,2d,00,34,00,30,00,43,00,35,00,2d,00,39,\
+  00,30,00,33,00,34,00,2d,00,32,00,35,00,39,00,42,00,42,00,43,00,43,00,34,00,\
+  39,00,33,00,35,00,31,00,7d,00,00,00
+"Publisher"="Microsoft"
+"Readme"=""
+"Size"=""
+"EstimatedSize"=dword:00000bd4
+"SystemComponent"=dword:00000001
+"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
+  78,00,65,00,20,00,2f,00,49,00,7b,00,44,00,30,00,36,00,36,00,42,00,30,00,31,\
+  00,38,00,2d,00,34,00,34,00,38,00,42,00,2d,00,34,00,30,00,43,00,35,00,2d,00,\
+  39,00,30,00,33,00,34,00,2d,00,32,00,35,00,39,00,42,00,42,00,43,00,43,00,34,\
+  00,39,00,33,00,35,00,31,00,7d,00,00,00
+"URLInfoAbout"=""
+"URLUpdateInfo"=""
+"VersionMajor"=dword:00000004
+"VersionMinor"=dword:00000006
+"WindowsInstaller"=dword:00000001
+"Version"=dword:04060002
+"Language"=dword:00000409
+"DisplayName"="DefaultPackMSI"
 
