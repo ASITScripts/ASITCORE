@@ -2,28 +2,6 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall]
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\7CE847DC1507A6B63BC163D4A889106A1D73FACC]
-"UninstallString"="C:\\PROGRA~1\\DIFX\\B60D1297D6D5E54C\\dpinst.exe /u C:\\windows\\system32\\DRVSTORE\\brcow_4_4__F5CEA21F8B661ABCC5AA2898F2F5654171353AB5\\brcow_4_4_23_316.inf"
-"DisplayName"="Windows Driver Package - HP Inc. BrCow_4_4_23_316 ActivityMonitor  (01/31/2025 4.4.23.316)"
-"DisplayIcon"=hex(2):43,00,3a,00,5c,00,50,00,52,00,4f,00,47,00,52,00,41,00,7e,\
-  00,31,00,5c,00,44,00,49,00,46,00,58,00,5c,00,42,00,36,00,30,00,44,00,31,00,\
-  32,00,39,00,37,00,44,00,36,00,44,00,35,00,45,00,35,00,34,00,43,00,5c,00,64,\
-  00,70,00,69,00,6e,00,73,00,74,00,2e,00,65,00,78,00,65,00,2c,00,30,00,00,00
-"DisplayVersion"="01/31/2025 4.4.23.316"
-"Publisher"="HP Inc."
-"SystemComponent"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\93EA6AB48B9A12602FE961185A40ACA4B0D358B7]
-"UninstallString"="C:\\PROGRA~1\\DIFX\\B60D1297D6D5E54C\\dpinst.exe /u C:\\windows\\system32\\DRVSTORE\\brfilter_4_780814F6B1BF2CF337360815DEF45DBB5E8E9731\\brfilter_4_4_23_316.inf"
-"DisplayName"="Windows Driver Package - HP Inc. BrFilter_4_4_23_316 ActivityMonitor  (01/31/2025 4.4.23.316)"
-"DisplayIcon"=hex(2):43,00,3a,00,5c,00,50,00,52,00,4f,00,47,00,52,00,41,00,7e,\
-  00,31,00,5c,00,44,00,49,00,46,00,58,00,5c,00,42,00,36,00,30,00,44,00,31,00,\
-  32,00,39,00,37,00,44,00,36,00,44,00,35,00,45,00,35,00,34,00,43,00,5c,00,64,\
-  00,70,00,69,00,6e,00,73,00,74,00,2e,00,65,00,78,00,65,00,2c,00,30,00,00,00
-"DisplayVersion"="01/31/2025 4.4.23.316"
-"Publisher"="HP Inc."
-"SystemComponent"=dword:00000001
-
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\AddressBook]
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Connection Manager]
@@ -33,32 +11,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\DXM_Runtime]
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\FB93285F183DE6985F684AEE5F637905935D05BF]
-"UninstallString"="C:\\PROGRA~1\\DIFX\\B60D1297D6D5E54C\\dpinst.exe /u C:\\windows\\system32\\DRVSTORE\\sselam_4_4_EF4F2EF76B82DC883C478996F85B1B21D0E9F0D5\\sselam_4_4_19_828.inf"
-"DisplayName"="Windows Driver Package - HP Inc. sselam_4_4_19_828 AntiVirus  (08/09/2024 4.4.19.828)"
-"DisplayIcon"=hex(2):43,00,3a,00,5c,00,50,00,52,00,4f,00,47,00,52,00,41,00,7e,\
-  00,31,00,5c,00,44,00,49,00,46,00,58,00,5c,00,42,00,36,00,30,00,44,00,31,00,\
-  32,00,39,00,37,00,44,00,36,00,44,00,35,00,45,00,35,00,34,00,43,00,5c,00,64,\
-  00,70,00,69,00,6e,00,73,00,74,00,2e,00,65,00,78,00,65,00,2c,00,30,00,00,00
-"DisplayVersion"="08/09/2024 4.4.19.828"
-"Publisher"="HP Inc."
-"SystemComponent"=dword:00000001
-
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Fontcore]
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\HP_Documentation]
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"UninstallString"=hex(2):43,00,4d,00,44,00,20,00,2f,00,43,00,20,00,22,00,43,00,\
-  3a,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,20,00,46,00,69,00,6c,\
-  00,65,00,73,00,5c,00,48,00,50,00,5c,00,44,00,6f,00,63,00,75,00,6d,00,65,00,\
-  6e,00,74,00,61,00,74,00,69,00,6f,00,6e,00,5c,00,44,00,6f,00,63,00,5f,00,55,\
-  00,6e,00,69,00,6e,00,73,00,74,00,61,00,6c,00,6c,00,2e,00,63,00,6d,00,64,00,\
-  22,00,00,00
-"DisplayName"="HP Documentation"
-"Publisher"="HP Inc."
-"DisplayVersion"="1.0.0.1"
-"DisplayIcon"="C:\\Program Files\\HP\\Documentation\\elements\\hp.ico"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\IE40]
 
@@ -69,6 +22,31 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\IEData]
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\MobileOptionPack]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Mozilla Firefox 136.0.1 (x64 en-US)]
+"Comments"="Mozilla Firefox 136.0.1 (x64 en-US)"
+"DisplayIcon"="C:\\Program Files\\Mozilla Firefox\\firefox.exe,0"
+"DisplayName"="Mozilla Firefox (x64 en-US)"
+"DisplayVersion"="136.0.1"
+"HelpLink"="https://support.mozilla.org"
+"InstallLocation"="C:\\Program Files\\Mozilla Firefox"
+"Publisher"="Mozilla"
+"UninstallString"="\"C:\\Program Files\\Mozilla Firefox\\uninstall\\helper.exe\""
+"URLUpdateInfo"="https://www.mozilla.org/firefox/136.0.1/releasenotes"
+"URLInfoAbout"="https://www.mozilla.org"
+"NoModify"=dword:00000001
+"NoRepair"=dword:00000001
+"EstimatedSize"=dword:0006b95f
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\MozillaMaintenanceService]
+"DisplayName"="Mozilla Maintenance Service"
+"UninstallString"="\"C:\\Program Files (x86)\\Mozilla Maintenance Service\\uninstall.exe\""
+"DisplayIcon"="C:\\Program Files (x86)\\Mozilla Maintenance Service\\Uninstall.exe,0"
+"DisplayVersion"="136.0.1"
+"Publisher"="Mozilla"
+"Comments"="Mozilla Maintenance Service"
+"NoModify"=dword:00000001
+"EstimatedSize"=dword:000002a0
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\MPlayer2]
 
@@ -89,18 +67,30 @@ Windows Registry Editor Version 5.00
   00,73,00,74,00,73,00,63,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,00,75,00,\
   6e,00,69,00,6e,00,73,00,74,00,61,00,6c,00,6c,00,00,00
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\O365HomePremRetail - en-us]
-"UninstallString"="\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" scenario=install scenariosubtype=ARP sourcetype=None productstoremove=O365HomePremRetail.16_en-us_x-none culture=en-us version.16=16.0"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\O365ProPlusRetail - en-us]
+"UninstallString"="\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" scenario=install scenariosubtype=ARP sourcetype=None productstoremove=O365ProPlusRetail.16_en-us_x-none culture=en-us version.16=16.0"
 "ModifyPath"="\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" scenario=repair platform=x64 culture=en-us"
 "NoRepair"=dword:00000000
 "NoRemove"=dword:00000000
 "NoModify"=dword:00000000
 "DisplayIcon"="C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe"
-"DisplayName"="Microsoft 365 - en-us"
-"DisplayVersion"="16.0.18227.20046"
+"DisplayName"="Microsoft 365 Apps for enterprise - en-us"
+"DisplayVersion"="16.0.18227.20162"
 "Publisher"="Microsoft Corporation"
 "InstallLocation"="C:\\Program Files\\Microsoft Office"
 "ClickToRunComponent"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\OneDriveSetup.exe]
+"DisplayName"="Microsoft OneDrive"
+"DisplayIcon"="C:\\Program Files\\Microsoft OneDrive\\25.031.0217.0003\\OneDriveSetup.exe,-101"
+"DisplayVersion"="25.031.0217.0003"
+"HelpLink"="https://go.microsoft.com/fwlink/?LinkID=215117"
+"Publisher"="Microsoft Corporation"
+"UninstallString"="\"C:\\Program Files\\Microsoft OneDrive\\25.031.0217.0003\\OneDriveSetup.exe\"  /uninstall  /allusers "
+"UrlUpdateInfo"="https://go.microsoft.com/fwlink/?LinkID=223554"
+"EstimatedSize"=dword:00061be0
+"NoRepair"=dword:00000001
+"NoModify"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\OneNoteFreeRetail - en-us]
 "UninstallString"="\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" scenario=install scenariosubtype=ARP sourcetype=None productstoremove=OneNoteFreeRetail.16_en-us_x-none culture=en-us version.16=16.0"
@@ -110,20 +100,7 @@ Windows Registry Editor Version 5.00
 "NoModify"=dword:00000000
 "DisplayIcon"="C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe"
 "DisplayName"="Microsoft OneNote - en-us"
-"DisplayVersion"="16.0.18227.20046"
-"Publisher"="Microsoft Corporation"
-"InstallLocation"="C:\\Program Files\\Microsoft Office"
-"ClickToRunComponent"=dword:00000001
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\OutlookRetail - en-us]
-"UninstallString"="\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" scenario=install scenariosubtype=ARP sourcetype=None productstoremove=OutlookRetail.16_en-us_x-none culture=en-us version.16=16.0"
-"ModifyPath"="\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" scenario=repair platform=x64 culture=en-us"
-"NoRepair"=dword:00000000
-"NoRemove"=dword:00000000
-"NoModify"=dword:00000000
-"DisplayIcon"="C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe"
-"DisplayName"="Microsoft Outlook 2016 - en-us"
-"DisplayVersion"="16.0.18227.20046"
+"DisplayVersion"="16.0.18227.20162"
 "Publisher"="Microsoft Corporation"
 "InstallLocation"="C:\\Program Files\\Microsoft Office"
 "ClickToRunComponent"=dword:00000001
@@ -133,146 +110,109 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\WIC]
 "NoRemove"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{2086BEEB-1F4B-4A5C-9FDE-DABD8960E2C7}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{176D3460-8338-41B3-BA0B-DAFE63C29575}]
 "AuthorizedCDFPrefix"=""
 "Comments"=""
 "Contact"=""
-"DisplayVersion"="11.1.3.817"
+"DisplayVersion"="0.87.1"
 "HelpLink"=""
 "HelpTelephone"=""
-"InstallDate"="20250220"
-"InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\HP\\Security Update Service\\Temp\\4VAIN2C1\\"
+"InstallDate"="20250125"
+"InstallLocation"="C:\\Users\\rdavis\\AppData\\Local\\PowerToys\\"
+"InstallSource"="C:\\Users\\rdavis\\AppData\\Local\\Package Cache\\{176D3460-8338-41B3-BA0B-DAFE63C29575}v0.87.1\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,32,00,30,00,38,00,36,00,42,00,45,00,45,00,\
-  42,00,2d,00,31,00,46,00,34,00,42,00,2d,00,34,00,41,00,35,00,43,00,2d,00,39,\
-  00,46,00,44,00,45,00,2d,00,44,00,41,00,42,00,44,00,38,00,39,00,36,00,30,00,\
-  45,00,32,00,43,00,37,00,7d,00,00,00
+  00,65,00,20,00,2f,00,58,00,7b,00,31,00,37,00,36,00,44,00,33,00,34,00,36,00,\
+  30,00,2d,00,38,00,33,00,33,00,38,00,2d,00,34,00,31,00,42,00,33,00,2d,00,42,\
+  00,41,00,30,00,42,00,2d,00,44,00,41,00,46,00,45,00,36,00,33,00,43,00,32,00,\
+  39,00,35,00,37,00,35,00,7d,00,00,00
 "NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="HP Inc."
+"Publisher"="Microsoft Corporation"
 "Readme"=""
 "Size"=""
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,32,00,30,00,38,00,36,00,42,00,45,00,45,\
-  00,42,00,2d,00,31,00,46,00,34,00,42,00,2d,00,34,00,41,00,35,00,43,00,2d,00,\
-  39,00,46,00,44,00,45,00,2d,00,44,00,41,00,42,00,44,00,38,00,39,00,36,00,30,\
-  00,45,00,32,00,43,00,37,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:0000000b
-"VersionMinor"=dword:00000001
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0b010003
-"Language"=dword:00000409
-"DisplayName"="HP Wolf Security - Console"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{387845A8-02D1-4A17-A609-4CDD3A25C284}]
-"AuthorizedCDFPrefix"=""
-"Comments"="HP Wolf Security Application Support for Chrome 132.0.6834.210"
-"Contact"="HP Inc."
-"DisplayVersion"="4.4.23.324"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,73,00,3a,00,2f,00,2f,00,77,00,77,00,\
-  77,00,2e,00,68,00,70,00,2e,00,63,00,6f,00,6d,00,2f,00,73,00,75,00,70,00,70,\
-  00,6f,00,72,00,74,00,00,00
-"HelpTelephone"=""
-"InstallDate"="20250318"
-"InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\HP\\Security Update Service\\Temp\\OPHFAKFT\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,33,00,38,00,37,00,38,00,34,00,35,00,41,00,\
-  38,00,2d,00,30,00,32,00,44,00,31,00,2d,00,34,00,41,00,31,00,37,00,2d,00,41,\
-  00,36,00,30,00,39,00,2d,00,34,00,43,00,44,00,44,00,33,00,41,00,32,00,35,00,\
-  43,00,32,00,38,00,34,00,7d,00,00,00
-"Publisher"="HP Inc."
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00066498
+"EstimatedSize"=dword:000b04d2
 "SystemComponent"=dword:00000001
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,33,00,38,00,37,00,38,00,34,00,35,00,41,\
-  00,38,00,2d,00,30,00,32,00,44,00,31,00,2d,00,34,00,41,00,31,00,37,00,2d,00,\
-  41,00,36,00,30,00,39,00,2d,00,34,00,43,00,44,00,44,00,33,00,41,00,32,00,35,\
-  00,43,00,32,00,38,00,34,00,7d,00,00,00
-"URLInfoAbout"="https://www.hp.com"
+  78,00,65,00,20,00,2f,00,58,00,7b,00,31,00,37,00,36,00,44,00,33,00,34,00,36,\
+  00,30,00,2d,00,38,00,33,00,33,00,38,00,2d,00,34,00,31,00,42,00,33,00,2d,00,\
+  42,00,41,00,30,00,42,00,2d,00,44,00,41,00,46,00,45,00,36,00,33,00,43,00,32,\
+  00,39,00,35,00,37,00,35,00,7d,00,00,00
+"URLInfoAbout"=""
 "URLUpdateInfo"=""
-"VersionMajor"=dword:00000004
-"VersionMinor"=dword:00000004
+"VersionMajor"=dword:00000000
+"VersionMinor"=dword:00000057
 "WindowsInstaller"=dword:00000001
-"Version"=dword:04040017
+"Version"=dword:00570001
 "Language"=dword:00000409
-"DisplayName"="HP Wolf Security Application Support for Chrome 132.0.6834.210"
+"DisplayName"="PowerToys (Preview)"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{3A089261-A5F9-4312-ABF0-9564F47A5AB8}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{3D57F0B3-5C71-3C2C-8795-2A150BB58C33}]
 "AuthorizedCDFPrefix"=""
 "Comments"=""
 "Contact"=""
-"DisplayVersion"="5.0.5.81"
+"DisplayVersion"="134.0.6998.117"
 "HelpLink"=""
 "HelpTelephone"=""
-"InstallDate"="20241220"
+"InstallDate"="20250307"
 "InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\HP\\Security Update Service\\Temp\\IMT4R16L\\"
+"InstallSource"="C:\\Program Files (x86)\\ITSPlatform\\agentcore\\download\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,33,00,41,00,30,00,38,00,39,00,32,00,36,00,\
-  31,00,2d,00,41,00,35,00,46,00,39,00,2d,00,34,00,33,00,31,00,32,00,2d,00,41,\
-  00,42,00,46,00,30,00,2d,00,39,00,35,00,36,00,34,00,46,00,34,00,37,00,41,00,\
-  35,00,41,00,42,00,38,00,7d,00,00,00
+  00,65,00,20,00,2f,00,58,00,7b,00,33,00,44,00,35,00,37,00,46,00,30,00,42,00,\
+  33,00,2d,00,35,00,43,00,37,00,31,00,2d,00,33,00,43,00,32,00,43,00,2d,00,38,\
+  00,37,00,39,00,35,00,2d,00,32,00,41,00,31,00,35,00,30,00,42,00,42,00,35,00,\
+  38,00,43,00,33,00,33,00,7d,00,00,00
 "NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="HP Inc."
+"Publisher"="Google LLC"
 "Readme"=""
 "Size"=""
+"EstimatedSize"=dword:0001f649
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,33,00,41,00,30,00,38,00,39,00,32,00,36,\
-  00,31,00,2d,00,41,00,35,00,46,00,39,00,2d,00,34,00,33,00,31,00,32,00,2d,00,\
-  41,00,42,00,46,00,30,00,2d,00,39,00,35,00,36,00,34,00,46,00,34,00,37,00,41,\
-  00,35,00,41,00,42,00,38,00,7d,00,00,00
+  78,00,65,00,20,00,2f,00,58,00,7b,00,33,00,44,00,35,00,37,00,46,00,30,00,42,\
+  00,33,00,2d,00,35,00,43,00,37,00,31,00,2d,00,33,00,43,00,32,00,43,00,2d,00,\
+  38,00,37,00,39,00,35,00,2d,00,32,00,41,00,31,00,35,00,30,00,42,00,42,00,35,\
+  00,38,00,43,00,33,00,33,00,7d,00,00,00
 "URLInfoAbout"=""
 "URLUpdateInfo"=""
-"VersionMajor"=dword:00000005
-"VersionMinor"=dword:00000000
+"VersionMajor"=dword:00000046
+"VersionMinor"=dword:000000d5
 "WindowsInstaller"=dword:00000001
-"Version"=dword:05000005
+"Version"=dword:46d58024
 "Language"=dword:00000409
-"DisplayName"="HP Sure Run Module"
+"DisplayName"="Google Chrome"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{3E8B9FC0-E009-11EF-8765-000C29910851}]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{401EFEC4-0F63-49EE-82D3-49FD74098E55}]
 "AuthorizedCDFPrefix"=""
-"Comments"="HP Wolf Security"
-"Contact"="HP Inc."
-"DisplayVersion"="4.4.23.316"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,73,00,3a,00,2f,00,2f,00,77,00,77,00,\
-  77,00,2e,00,68,00,70,00,2e,00,63,00,6f,00,6d,00,2f,00,73,00,75,00,70,00,70,\
-  00,6f,00,72,00,74,00,00,00
-"HelpTelephone"=""
-"InstallDate"="20250220"
+"Comments"="ConnectWise Manage Client 64-bit"
+"Contact"="ConnectWise"
+"DisplayVersion"="22.2.2"
+"HelpLink"=hex(2):68,00,74,00,74,00,70,00,3a,00,2f,00,2f,00,77,00,77,00,77,00,\
+  2e,00,63,00,6f,00,6e,00,6e,00,65,00,63,00,74,00,77,00,69,00,73,00,65,00,2e,\
+  00,63,00,6f,00,6d,00,2f,00,69,00,6e,00,73,00,74,00,61,00,6c,00,6c,00,00,00
+"HelpTelephone"="813-463-4715"
+"InstallDate"="20250110"
 "InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\HP\\Security Update Service\\Temp\\PUY88FCU\\"
+"InstallSource"="R:\\ASPL Software\\Connectwise Client\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,33,00,45,00,38,00,42,00,39,00,46,00,43,00,\
-  30,00,2d,00,45,00,30,00,30,00,39,00,2d,00,31,00,31,00,45,00,46,00,2d,00,38,\
-  00,37,00,36,00,35,00,2d,00,30,00,30,00,30,00,43,00,32,00,39,00,39,00,31,00,\
-  30,00,38,00,35,00,31,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="HP Inc."
+  00,65,00,20,00,2f,00,49,00,7b,00,34,00,30,00,31,00,45,00,46,00,45,00,43,00,\
+  34,00,2d,00,30,00,46,00,36,00,33,00,2d,00,34,00,39,00,45,00,45,00,2d,00,38,\
+  00,32,00,44,00,33,00,2d,00,34,00,39,00,46,00,44,00,37,00,34,00,30,00,39,00,\
+  38,00,45,00,35,00,35,00,7d,00,00,00
+"Publisher"="ConnectWise"
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:000dac20
+"EstimatedSize"=dword:00000e80
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,33,00,45,00,38,00,42,00,39,00,46,00,43,\
-  00,30,00,2d,00,45,00,30,00,30,00,39,00,2d,00,31,00,31,00,45,00,46,00,2d,00,\
-  38,00,37,00,36,00,35,00,2d,00,30,00,30,00,30,00,43,00,32,00,39,00,39,00,31,\
-  00,30,00,38,00,35,00,31,00,7d,00,00,00
-"URLInfoAbout"="https://www.hp.com"
+  78,00,65,00,20,00,2f,00,49,00,7b,00,34,00,30,00,31,00,45,00,46,00,45,00,43,\
+  00,34,00,2d,00,30,00,46,00,36,00,33,00,2d,00,34,00,39,00,45,00,45,00,2d,00,\
+  38,00,32,00,44,00,33,00,2d,00,34,00,39,00,46,00,44,00,37,00,34,00,30,00,39,\
+  00,38,00,45,00,35,00,35,00,7d,00,00,00
+"URLInfoAbout"="http://www.connectwise.com/support"
 "URLUpdateInfo"=""
-"VersionMajor"=dword:00000004
-"VersionMinor"=dword:00000004
+"VersionMajor"=dword:00000016
+"VersionMinor"=dword:00000002
 "WindowsInstaller"=dword:00000001
-"Version"=dword:04040017
+"Version"=dword:16020002
 "Language"=dword:00000409
-"DisplayName"="HP Wolf Security"
+"DisplayName"="ConnectWise Manage Client 64-bit"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{59CED48F-EBFE-480C-8A38-FC079C2BEC0F}]
 "AuthorizedCDFPrefix"=""
@@ -281,7 +221,7 @@ Windows Registry Editor Version 5.00
 "DisplayVersion"="14.40.33810"
 "HelpLink"=""
 "HelpTelephone"=""
-"InstallDate"="20241125"
+"InstallDate"="20250110"
 "InstallLocation"=""
 "InstallSource"="C:\\ProgramData\\Package Cache\\{59CED48F-EBFE-480C-8A38-FC079C2BEC0F}v14.40.33810\\packages\\vcRuntimeAdditional_amd64\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
@@ -308,84 +248,14 @@ Windows Registry Editor Version 5.00
 "Language"=dword:00000409
 "DisplayName"="Microsoft Visual C++ 2022 X64 Additional Runtime - 14.40.33810"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{7DC79887-72FA-4688-BBB9-2968BA80F61B}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="10.1.26.255"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20250220"
-"InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\HP\\Security Update Service\\Temp\\299OUEO4\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,37,00,44,00,43,00,37,00,39,00,38,00,38,00,\
-  37,00,2d,00,37,00,32,00,46,00,41,00,2d,00,34,00,36,00,38,00,38,00,2d,00,42,\
-  00,42,00,42,00,39,00,2d,00,32,00,39,00,36,00,38,00,42,00,41,00,38,00,30,00,\
-  46,00,36,00,31,00,42,00,7d,00,00,00
-"NoModify"=dword:00000001
-"NoRepair"=dword:00000001
-"Publisher"="HP Inc."
-"Readme"=""
-"Size"=""
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,37,00,44,00,43,00,37,00,39,00,38,00,38,\
-  00,37,00,2d,00,37,00,32,00,46,00,41,00,2d,00,34,00,36,00,38,00,38,00,2d,00,\
-  42,00,42,00,42,00,39,00,2d,00,32,00,39,00,36,00,38,00,42,00,41,00,38,00,30,\
-  00,46,00,36,00,31,00,42,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:0000000a
-"VersionMinor"=dword:00000001
-"WindowsInstaller"=dword:00000001
-"Version"=dword:0a01001a
-"Language"=dword:00000409
-"DisplayName"="HP Sure Recover"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{894CA93E-47E9-4DE6-B6D4-A3A8AFD97DBB}]
-"AuthorizedCDFPrefix"=""
-"Comments"="HP Wolf Security Application Support for Chrome 132.0.6834.111"
-"Contact"="HP Inc."
-"DisplayVersion"="4.4.23.315"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,73,00,3a,00,2f,00,2f,00,77,00,77,00,\
-  77,00,2e,00,68,00,70,00,2e,00,63,00,6f,00,6d,00,2f,00,73,00,75,00,70,00,70,\
-  00,6f,00,72,00,74,00,00,00
-"HelpTelephone"=""
-"InstallDate"="20250220"
-"InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\HP\\Security Update Service\\Temp\\EJF1SM79\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,38,00,39,00,34,00,43,00,41,00,39,00,33,00,\
-  45,00,2d,00,34,00,37,00,45,00,39,00,2d,00,34,00,44,00,45,00,36,00,2d,00,42,\
-  00,36,00,44,00,34,00,2d,00,41,00,33,00,41,00,38,00,41,00,46,00,44,00,39,00,\
-  37,00,44,00,42,00,42,00,7d,00,00,00
-"Publisher"="HP Inc."
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:00066984
-"SystemComponent"=dword:00000001
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,38,00,39,00,34,00,43,00,41,00,39,00,33,\
-  00,45,00,2d,00,34,00,37,00,45,00,39,00,2d,00,34,00,44,00,45,00,36,00,2d,00,\
-  42,00,36,00,44,00,34,00,2d,00,41,00,33,00,41,00,38,00,41,00,46,00,44,00,39,\
-  00,37,00,44,00,42,00,42,00,7d,00,00,00
-"URLInfoAbout"="https://www.hp.com"
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000004
-"VersionMinor"=dword:00000004
-"WindowsInstaller"=dword:00000001
-"Version"=dword:04040017
-"Language"=dword:00000409
-"DisplayName"="HP Wolf Security Application Support for Chrome 132.0.6834.111"
-
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{90160000-007E-0000-1000-0000000FF1CE}]
 "AuthorizedCDFPrefix"=""
 "Comments"=""
 "Contact"=""
-"DisplayVersion"="16.0.18227.20046"
+"DisplayVersion"="16.0.18227.20162"
 "HelpLink"=""
 "HelpTelephone"=""
-"InstallDate"="20241119"
+"InstallDate"="20250117"
 "InstallLocation"=""
 "InstallSource"="c:\\program files\\microsoft office\\root\\integration\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
@@ -416,12 +286,12 @@ Windows Registry Editor Version 5.00
 "AuthorizedCDFPrefix"=""
 "Comments"=""
 "Contact"=""
-"DisplayVersion"="16.0.18129.20100"
+"DisplayVersion"="16.0.18227.20082"
 "HelpLink"=""
 "HelpTelephone"=""
-"InstallDate"="20241119"
+"InstallDate"="20250110"
 "InstallLocation"=""
-"InstallSource"="C:\\Program Files\\Microsoft Office\\root\\Integration\\"
+"InstallSource"="c:\\program files\\microsoft office\\root\\integration\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
   00,65,00,20,00,2f,00,58,00,7b,00,39,00,30,00,31,00,36,00,30,00,30,00,30,00,\
   30,00,2d,00,30,00,30,00,38,00,43,00,2d,00,30,00,30,00,30,00,30,00,2d,00,31,\
@@ -431,7 +301,7 @@ Windows Registry Editor Version 5.00
 "Publisher"="Microsoft Corporation"
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:00007db0
+"EstimatedSize"=dword:00008868
 "SystemComponent"=dword:00000001
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
   78,00,65,00,20,00,2f,00,58,00,7b,00,39,00,30,00,31,00,36,00,30,00,30,00,30,\
@@ -443,7 +313,7 @@ Windows Registry Editor Version 5.00
 "VersionMajor"=dword:00000010
 "VersionMinor"=dword:00000000
 "WindowsInstaller"=dword:00000001
-"Version"=dword:100046d1
+"Version"=dword:10004733
 "Language"=dword:00000000
 "DisplayName"="Office 16 Click-to-Run Extensibility Component"
 
@@ -454,7 +324,7 @@ Windows Registry Editor Version 5.00
 "DisplayVersion"="1.24.31301"
 "HelpLink"=""
 "HelpTelephone"=""
-"InstallDate"="20250129"
+"InstallDate"="20250117"
 "InstallLocation"=""
 "InstallSource"="C:\\Program Files\\WindowsApps\\MSTeams_24335.208.3315.1951_x64__8wekyb3d8bbwe\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
@@ -487,7 +357,7 @@ Windows Registry Editor Version 5.00
 "DisplayVersion"="14.40.33810"
 "HelpLink"=""
 "HelpTelephone"=""
-"InstallDate"="20241125"
+"InstallDate"="20250110"
 "InstallLocation"=""
 "InstallSource"="C:\\ProgramData\\Package Cache\\{B8B3BB4A-A10D-4F51-91B7-A64FFAC31EA7}v14.40.33810\\packages\\vcRuntimeMinimum_amd64\\"
 "ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
@@ -498,7 +368,7 @@ Windows Registry Editor Version 5.00
 "Publisher"="Microsoft Corporation"
 "Readme"=""
 "Size"=""
-"EstimatedSize"=dword:00000230
+"EstimatedSize"=dword:0000094c
 "SystemComponent"=dword:00000001
 "UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
   78,00,65,00,20,00,2f,00,49,00,7b,00,42,00,38,00,42,00,33,00,42,00,42,00,34,\
@@ -514,111 +384,6 @@ Windows Registry Editor Version 5.00
 "Language"=dword:00000409
 "DisplayName"="Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.40.33810"
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{DD40697F-D918-4DD6-BF4B-5276FBA604C5}]
-"AuthorizedCDFPrefix"=""
-"Comments"=""
-"Contact"=""
-"DisplayVersion"="1.0.1.12564"
-"HelpLink"=""
-"HelpTelephone"=""
-"InstallDate"="20241011"
-"InstallLocation"=""
-"InstallSource"="c:\\swsetup\\APP\\Applications\\HP\\PolyCamer_66PHB2\\0.0.7.0\\src\\Packagefiles\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,44,00,44,00,34,00,30,00,36,00,39,00,37,00,\
-  46,00,2d,00,44,00,39,00,31,00,38,00,2d,00,34,00,44,00,44,00,36,00,2d,00,42,\
-  00,46,00,34,00,42,00,2d,00,35,00,32,00,37,00,36,00,46,00,42,00,41,00,36,00,\
-  30,00,34,00,43,00,35,00,7d,00,00,00
-"NoModify"=dword:00000001
-"Publisher"="HP"
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:000011ad
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,44,00,44,00,34,00,30,00,36,00,39,00,37,\
-  00,46,00,2d,00,44,00,39,00,31,00,38,00,2d,00,34,00,44,00,44,00,36,00,2d,00,\
-  42,00,46,00,34,00,42,00,2d,00,35,00,32,00,37,00,36,00,46,00,42,00,41,00,36,\
-  00,30,00,34,00,43,00,35,00,7d,00,00,00
-"URLInfoAbout"=""
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000001
-"VersionMinor"=dword:00000000
-"WindowsInstaller"=dword:00000001
-"Version"=dword:01000001
-"Language"=dword:00000409
-"DisplayName"="Poly Camera Pro Compatibility Add-on"
-
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{E5FB98E0-0784-44F0-8CEC-95CD4690C43F}]
 "DisplayVersion"="255.255.65535.0"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{EA79B146-BCB3-4053-B48F-B3F2D1469304}]
-"AuthorizedCDFPrefix"=""
-"Comments"="HP Security Update Service"
-"Contact"="HP"
-"DisplayVersion"="4.4.23.316"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,73,00,3a,00,2f,00,2f,00,77,00,77,00,\
-  77,00,2e,00,62,00,72,00,6f,00,6d,00,69,00,75,00,6d,00,2e,00,63,00,6f,00,6d,\
-  00,00,00
-"HelpTelephone"=""
-"InstallDate"="20250219"
-"InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\HP\\Security Update Service\\Temp\\RQ8VG4J2\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,58,00,7b,00,45,00,41,00,37,00,39,00,42,00,31,00,34,00,\
-  36,00,2d,00,42,00,43,00,42,00,33,00,2d,00,34,00,30,00,35,00,33,00,2d,00,42,\
-  00,34,00,38,00,46,00,2d,00,42,00,33,00,46,00,32,00,44,00,31,00,34,00,36,00,\
-  39,00,33,00,30,00,34,00,7d,00,00,00
-"NoModify"=dword:00000001
-"Publisher"="HP Inc."
-"Readme"=""
-"Size"=""
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,58,00,7b,00,45,00,41,00,37,00,39,00,42,00,31,00,34,\
-  00,36,00,2d,00,42,00,43,00,42,00,33,00,2d,00,34,00,30,00,35,00,33,00,2d,00,\
-  42,00,34,00,38,00,46,00,2d,00,42,00,33,00,46,00,32,00,44,00,31,00,34,00,36,\
-  00,39,00,33,00,30,00,34,00,7d,00,00,00
-"URLInfoAbout"="https://www.bromium.com"
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000004
-"VersionMinor"=dword:00000004
-"WindowsInstaller"=dword:00000001
-"Version"=dword:04040017
-"Language"=dword:00000409
-"DisplayName"="HP Security Update Service"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{EBC0BF6A-54F4-4201-8DC6-7E22B17BE6A6}]
-"AuthorizedCDFPrefix"=""
-"Comments"="HP Wolf Security Application Support for Sure Sense"
-"Contact"="HP Inc."
-"DisplayVersion"="4.4.23.316"
-"HelpLink"=hex(2):68,00,74,00,74,00,70,00,73,00,3a,00,2f,00,2f,00,77,00,77,00,\
-  77,00,2e,00,68,00,70,00,2e,00,63,00,6f,00,6d,00,2f,00,73,00,75,00,70,00,70,\
-  00,6f,00,72,00,74,00,00,00
-"HelpTelephone"=""
-"InstallDate"="20250220"
-"InstallLocation"=""
-"InstallSource"="C:\\ProgramData\\HP\\Security Update Service\\Temp\\O2RJI2G2\\"
-"ModifyPath"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,78,\
-  00,65,00,20,00,2f,00,49,00,7b,00,45,00,42,00,43,00,30,00,42,00,46,00,36,00,\
-  41,00,2d,00,35,00,34,00,46,00,34,00,2d,00,34,00,32,00,30,00,31,00,2d,00,38,\
-  00,44,00,43,00,36,00,2d,00,37,00,45,00,32,00,32,00,42,00,31,00,37,00,42,00,\
-  45,00,36,00,41,00,36,00,7d,00,00,00
-"Publisher"="HP Inc."
-"Readme"=""
-"Size"=""
-"EstimatedSize"=dword:000274cd
-"SystemComponent"=dword:00000001
-"UninstallString"=hex(2):4d,00,73,00,69,00,45,00,78,00,65,00,63,00,2e,00,65,00,\
-  78,00,65,00,20,00,2f,00,49,00,7b,00,45,00,42,00,43,00,30,00,42,00,46,00,36,\
-  00,41,00,2d,00,35,00,34,00,46,00,34,00,2d,00,34,00,32,00,30,00,31,00,2d,00,\
-  38,00,44,00,43,00,36,00,2d,00,37,00,45,00,32,00,32,00,42,00,31,00,37,00,42,\
-  00,45,00,36,00,41,00,36,00,7d,00,00,00
-"URLInfoAbout"="https://www.hp.com"
-"URLUpdateInfo"=""
-"VersionMajor"=dword:00000004
-"VersionMinor"=dword:00000004
-"WindowsInstaller"=dword:00000001
-"Version"=dword:04040017
-"Language"=dword:00000409
-"DisplayName"="HP Wolf Security Application Support for Sure Sense"
 
