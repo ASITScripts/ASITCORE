@@ -1945,6 +1945,7 @@ if ($null -eq $chromeInstalled) {
     Write-Host -ForegroundColor Red "[$Time] Chrome is not installed."
     Write-Host -ForegroundColor Green "[$Time] Downloading Chrome..."
     
+    $ProgressPreference = 'SilentlyContinue'
     Invoke-WebRequest -Uri $chromeUri -OutFile $chromeInstaller
 
     Write-Host -ForegroundColor Green "[$Time] Installing Chrome..."
@@ -1968,6 +1969,7 @@ if ($null -eq $adobeInstalled) {
     Write-Host -ForegroundColor Green "[$Time] Downloading Adobe Reader..."
 
     # Download the installer
+    $ProgressPreference = 'SilentlyContinue'
     Invoke-WebRequest -Uri $adobeUri -OutFile $adobeInstaller
 
     Write-Host -ForegroundColor Green "[$Time] Installing Adobe Reader..."
@@ -1983,67 +1985,95 @@ if ($null -eq $adobeInstalled) {
 # Cleanup Installers
 Remove-Item -Force $chromeInstaller, $adobeInstaller -ErrorAction SilentlyContinue
 
-# Function to check if Microsoft Teams is installed
-function Is-TeamsInstalled {
-    $teamsPath = "$env:LOCALAPPDATA\Microsoft\Teams\current\Teams.exe"
-    if (Test-Path $teamsPath) {
-        Write-Host "Microsoft Teams is already installed."
-        return $true
-    }
-    return $false
+# Microsoft Teams Installation for Work and School
+$teamsUri = "https://go.microsoft.com/fwlink/?linkid=2281613&clcid=0xc09&culture=en-au&country=au"
+$teamsInstaller = "$env:USERPROFILE\Desktop\Teams_installer.exe"
+
+# Check for Microsoft Teams installation
+$teamsInstalled = Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Teams" -ErrorAction SilentlyContinue
+
+if ($null -eq $teamsInstalled) {
+    # If Microsoft Teams is not installed, proceed with installation
+    Write-Host -ForegroundColor Red "[$(Get-Date -Format 'HH:mm:ss')] Microsoft Teams is not installed."
+    Write-Host -ForegroundColor Green "[$(Get-Date -Format 'HH:mm:ss')] Downloading Microsoft Teams..."
+
+    # Download the installer
+    $ProgressPreference = 'SilentlyContinue'
+    Invoke-WebRequest -Uri $teamsUri -OutFile $teamsInstaller
+
+    Write-Host -ForegroundColor Green "[$(Get-Date -Format 'HH:mm:ss')] Installing Microsoft Teams..."
+    # Install Microsoft Teams silently
+    Start-Process -FilePath $teamsInstaller -ArgumentList "/silent" -Wait
+
+    Write-Host -ForegroundColor Green "[$(Get-Date -Format 'HH:mm:ss')] Microsoft Teams installation completed."
+
+    # Delete the installer
+    Remove-Item -Path $teamsInstaller -Force
+    Write-Host -ForegroundColor Yellow "[$(Get-Date -Format 'HH:mm:ss')] Installer deleted."
+} else {
+    # If Microsoft Teams is already installed, skip installation
+    Write-Host -ForegroundColor Green "[$(Get-Date -Format 'HH:mm:ss')] Microsoft Teams is already installed. Skipping installation."
 }
 
-# Check if Teams is already installed
-if (Is-TeamsInstalled) {
-    Write-Host "Skipping installation."
-    exit 0
+# Citrix Workspace Installation
+$citrixUri = "https://downloads.citrix.com/23218/CitrixWorkspaceFullInstaller.exe?__gda__=exp=1743391929~acl=/*~hmac=bde456b458115156aaa0cbc7d5eda43edfb2f6d2c8514ef799de17e5ffbed4e7"
+$citrixInstaller = "$env:USERPROFILE\Desktop\CitrixWorkspaceApp.exe"
+
+# Check for Citrix Workspace installation
+$citrixInstalled = Get-ItemProperty "HKLM:\SOFTWARE\Citrix\Install" -ErrorAction SilentlyContinue
+
+if ($null -eq $citrixInstalled) {
+    # If Citrix Workspace is not installed, proceed with installation
+    Write-Host -ForegroundColor Red "[ $(Get-Date -Format "HH:mm:ss") ] Citrix Workspace is not installed."
+    Write-Host -ForegroundColor Green "[ $(Get-Date -Format "HH:mm:ss") ] Downloading Citrix Workspace..."
+
+    # Download the installer
+    $ProgressPreference = 'SilentlyContinue'
+    Invoke-WebRequest -Uri $citrixUri -OutFile $citrixInstaller
+
+    Write-Host -ForegroundColor Green "[ $(Get-Date -Format "HH:mm:ss") ] Installing Citrix Workspace..."
+    # Install Citrix Workspace silently
+    Start-Process -FilePath $citrixInstaller -ArgumentList "/silent /noreboot" -Wait
+
+    Write-Host -ForegroundColor Green "[ $(Get-Date -Format "HH:mm:ss") ] Citrix Workspace installation completed."
+
+    # Delete the installer
+    Remove-Item -Path $citrixInstaller -Force
+    Write-Host -ForegroundColor Yellow "[ $(Get-Date -Format "HH:mm:ss") ] Installer deleted."
+} else {
+    # If Citrix Workspace is already installed, skip installation
+    Write-Host -ForegroundColor Green "[ $(Get-Date -Format "HH:mm:ss") ] Citrix Workspace is already installed. Skipping installation."
 }
 
-# Define download URL and installer path
-$teamsUrl = "https://aka.ms/TeamsSetup"
-$installerPath = "$env:TEMP\TeamsSetup.exe"
+# Zoom Installation
+$zoomUri = "https://zoom.us/client/latest/ZoomInstaller.exe"
+$zoomInstaller = "$env:USERPROFILE\Desktop\ZoomInstaller.exe"
 
-# Download Microsoft Teams installer
-Write-Host "Downloading Microsoft Teams..."
-Invoke-WebRequest -Uri $teamsUrl -OutFile $installerPath
+# Check for Zoom installation
+$zoomInstalled = Get-ItemProperty "HKLM:\SOFTWARE\ZoomUMX" -ErrorAction SilentlyContinue
 
-# Install Microsoft Teams silently
-Write-Host "Installing Microsoft Teams..."
-Start-Process -FilePath $installerPath -ArgumentList "-s" -NoNewWindow -Wait
+if ($null -eq $zoomInstalled) {
+    # If Zoom is not installed, proceed with installation
+    Write-Host -ForegroundColor Red "[$(Get-Date -Format 'HH:mm:ss')] Zoom is not installed."
+    Write-Host -ForegroundColor Green "[$(Get-Date -Format 'HH:mm:ss')] Downloading Zoom..."
 
-Write-Host "Microsoft Teams installation complete!"
+    # Download the installer
+    $ProgressPreference = 'SilentlyContinue'
+    Invoke-WebRequest -Uri $zoomUri -OutFile $zoomInstaller
 
-# Function to check if Citrix Workspace is installed
-function Is-CitrixInstalled {
-    $citrixPath = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*"
-    $citrixCheck = Get-ItemProperty -Path $citrixPath | Where-Object { $_.DisplayName -match "Citrix Workspace" }
-    
-    if ($citrixCheck) {
-        Write-Host "Citrix Workspace is already installed. Version: $($citrixCheck.DisplayVersion)"
-        return $true
-    }
-    return $false
+    Write-Host -ForegroundColor Green "[$(Get-Date -Format 'HH:mm:ss')] Installing Zoom..."
+    # Install Zoom silently
+    Start-Process -FilePath $zoomInstaller -ArgumentList "/silent" -Wait
+
+    Write-Host -ForegroundColor Green "[$(Get-Date -Format 'HH:mm:ss')] Zoom installation completed."
+
+    # Delete the installer
+    Remove-Item -Path $zoomInstaller -Force
+    Write-Host -ForegroundColor Yellow "[$(Get-Date -Format 'HH:mm:ss')] Installer deleted."
+} else {
+    # If Zoom is already installed, skip installation
+    Write-Host -ForegroundColor Green "[$(Get-Date -Format 'HH:mm:ss')] Zoom is already installed. Skipping installation."
 }
-
-# Check if Citrix Workspace is already installed
-if (Is-CitrixInstalled) {
-    Write-Host "Skipping installation."
-    exit 0
-}
-
-# Define download URL and installer path
-$citrixUrl = "https://www.citrix.com/downloads/workspace-app/windows/workspace-app-for-windows-latest.html"
-$installerPath = "$env:TEMP\CitrixWorkspace.exe"
-
-# Download Citrix Workspace installer
-Write-Host "Downloading Citrix Workspace..."
-Invoke-WebRequest -Uri "https://downloadplugins.citrix.com/WorkspaceApp/CitrixWorkspaceApp.exe" -OutFile $installerPath
-
-# Install Citrix Workspace silently
-Write-Host "Installing Citrix Workspace..."
-Start-Process -FilePath $installerPath -ArgumentList "/silent /noreboot" -NoNewWindow -Wait
-
-Write-Host "Citrix Workspace installation complete!"
 
 Write-Host "Main Pre-installation completed, now starting Windows updates..."
 
