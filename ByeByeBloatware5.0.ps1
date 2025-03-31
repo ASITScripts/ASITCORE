@@ -2007,6 +2007,8 @@ if ($null -eq $teamsInstalled) {
 
     Write-Host -ForegroundColor Green "[$(Get-Date -Format 'HH:mm:ss')] Microsoft Teams installation completed."
 
+    Start-Sleep -Seconds 30
+
     # Delete the installer
     Remove-Item -Path $teamsInstaller -Force
     Write-Host -ForegroundColor Yellow "[$(Get-Date -Format 'HH:mm:ss')] Installer deleted."
@@ -2033,7 +2035,9 @@ if ($null -eq $citrixInstalled) {
 
     Write-Host -ForegroundColor Green "[ $(Get-Date -Format "HH:mm:ss") ] Installing Citrix Workspace..."
     # Install Citrix Workspace silently
-    Start-Process -FilePath $citrixInstaller -ArgumentList "/silent /noreboot" -Wait
+    Start-Process -FilePath $citrixInstaller -ArgumentList "/silent /noreboot"
+
+    Start-Sleep -s 60
 
     Write-Host -ForegroundColor Green "[ $(Get-Date -Format "HH:mm:ss") ] Citrix Workspace installation completed."
 
