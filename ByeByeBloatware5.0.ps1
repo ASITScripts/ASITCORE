@@ -165,83 +165,66 @@ Else {
 }
  
 # Do not edit anything above unless needed to for some reason - just keeps it neat by placing all the script stuff in one folder
-function Get-MenuChoice
-    {
+function Get-MenuChoice {
     #region Comment Based Help [CBH]
- 
     <#
     .SYNOPSIS
         Display a text menu & returns a valid response.
     #>
- 
     #endregion
- 
+
     #region Parameters
-    # For some unknown reason, parameter help comments will not work without a CBH.
     [CmdletBinding()]
-    Param
-        (
-        # Required string or string array of menu item[s] to display.
-        [Parameter(
-            Mandatory,
-            Position = 0
-            )]
+    Param(
+        [Parameter(Mandatory, Position = 0)]
         [ValidateNotNullOrEmpty()]
-        [string[]]
-        $MenuItems,
- 
-        # Optional menu title.
-        [Parameter(
-            Position = 1
-            )]
-        [string]
-        $MenuTitle = '',
- 
-        # Optional user prompt.
-        [Parameter(
-            Position = 2
-            )]
-        [string]
-        $MenuPrompt = 'Please enter a choice from the above items '
-        )
+        [string[]]$MenuItems,
+
+        [Parameter(Position = 1)]
+        [string]$MenuTitle = '',
+
+        [Parameter(Position = 2)]
+        [string]$MenuPrompt = 'Please enter a choice from the above items '
+    )
     #endregion
- 
+
     #region Init variables
     $ValidMenuChoices = $MenuItems | ForEach-Object { $_ -replace '(\d+).*', '$1' }
     $Frequency = 1000
     $Duration = 100
     $MenuChoice = ''
     #endregion
- 
-    while ($MenuChoice -notin $ValidMenuChoices)
-        {
+
+    while ($true) {
         Clear-Host
-        if (-not [string]::IsNullOrEmpty($MenuTitle))
-            {
+        if (-not [string]::IsNullOrEmpty($MenuTitle)) {
             $MenuTitle | Out-Host
-            }
+        }
         $MenuItems | Out-Host
         Write-host ''
         $MenuChoice = (Read-Host $MenuPrompt)
-        if ($MenuChoice -notin $ValidMenuChoices)
-            {
+
+        # If user types 0, exit
+        if ($MenuChoice -eq "0") {
+            return "0"
+        }
+
+        # Check if the input is valid (it should match one of the available options)
+        if ($MenuChoice -in $ValidMenuChoices) {
+            return $MenuChoice  # Valid selection
+        } else {
+            Write-Host "Invalid selection. Please choose a valid option." -ForegroundColor Red
             # The bell char doesn't work in the ISE and [console]:: items
             #    don't work in non-interactive sessions.
-            if ($Host.Name -match 'ISE')
-                {
+            if ($Host.Name -match 'ISE') {
                 [console]::Beep($Frequency, $Duration)
-                }
-                else
-                {
-                Write-Host [char]7
-                }
+            } else {
+                Write-Host [char]7  # Bell character for non-ISE environments
             }
         }
- 
-    return $MenuChoice
- 
-    } # end function Get-MenuChoice
- 
+    }
+}
+
 $TopMenu = (
 	'1 - AMCL',
 	'2 - AQUACORP ADELAIDE' ,
@@ -421,7 +404,7 @@ switch ($Choice)
 if ($Selection -match "NORMM")
 {
     # Download the installer from the ScreenConnect website. Be sure to check if link is up to date - Not sure if ScreenConnect changes links or not
-        Write-Output -ForegroundColor Green "Installing SC client"
+       Write-Host "Installing SC client" -ForegroundColor Green
         $source = "https://github.com/ASITScripts/ASITCORE/raw/main/ScreenConnect.ClientSetup%20(2).msi"
         $destination = "$ScreenConnectFolder\ScreenConnect.ClientSetup.msi"
         Invoke-WebRequest $source -OutFile $destination
@@ -435,7 +418,7 @@ else {
         $destination = "$RMM\$Selection"
         Invoke-WebRequest $source -OutFile $destination
         Start-Process -FilePath "$destination" -ArgumentList "/quiet" -Wait
-        Write-Output -ForegroundColor Green "[$Time]`t" + "RMM Installation completed, please allow a few minutes for it to appear on RMM"
+        Write-Host "[$Time]`tRMM Installation completed, please allow a few minutes for it to appear on RMM" -ForegroundColor Green
 }
 
 #Create Folder
@@ -471,129 +454,154 @@ switch ($locale) {
     }
 }
 
-#Changes the power plan
+# Set High Performance Power Plan
 powercfg.exe -SETACTIVE 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c
-Powercfg /Change monitor-timeout-ac 60
-Powercfg /Change monitor-timeout-dc 30
-Powercfg /Change standby-timeout-ac 0
-Powercfg /Change standby-timeout-dc 60
+
+# Adjust Power Settings
+powercfg /X monitor-timeout-ac 60
+powercfg /X monitor-timeout-dc 30
+powercfg /X standby-timeout-ac 0
+powercfg /X standby-timeout-dc 60
 powercfg /SETDCVALUEINDEX SCHEME_CURRENT 238C9FA8-0AAD-41ED-83F4-97BE242C8F20 7bc4a2f9-d8fc-4469-b07b-33eb785aaca0 0
 powercfg /SETACVALUEINDEX SCHEME_CURRENT 238C9FA8-0AAD-41ED-83F4-97BE242C8F20 7bc4a2f9-d8fc-4469-b07b-33eb785aaca0 0
-Write-Host -ForegroundColor Green ("[$Time]`t" + 'Powerplan adjusted')
 
-#Add VPN Registry fixes
-New-ItemProperty  -path "HKLM:\SYSTEM\CurrentControlSet\Services\PolicyAgent" -name "AssumeUDPEncapsulationContextOnSendRule" -value "2"  -PropertyType "Dword"
-New-ItemProperty  -path "HKLM:\SYSTEM\CurrentControlSet\Services\RasMan\Parameters" -name "ProhibitIpSec" -value "0"  -PropertyType "Dword"
-Write-Host -ForegroundColor Green ("[$Time]`t" + 'VPN Regfix added')
+Write-Host -ForegroundColor Green ("[$Time]`t Power plan adjusted")
+
+# Add VPN Registry Fixes
+New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\PolicyAgent" -Name "AssumeUDPEncapsulationContextOnSendRule" -Value 2 -PropertyType Dword -Force
+New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\RasMan\Parameters" -Name "ProhibitIpSec" -Value 0 -PropertyType Dword -Force
+
+Write-Host -ForegroundColor Green ("[$Time]`t VPN Regfix added")
 
 ############################################################################################################
 #                                        Remove AppX Packages                                              #
-#                                                                                                          #
 ############################################################################################################
 
-    #Removes AppxPackages
-    $WhitelistedApps = 'Microsoft.WindowsNotepad|Microsoft.CompanyPortal|Microsoft.ScreenSketch|Microsoft.Paint3D|Microsoft.WindowsCalculator|Microsoft.WindowsStore|Microsoft.Windows.Photos|CanonicalGroupLimited.UbuntuonWindows|`
-    |Microsoft.MicrosoftStickyNotes|Microsoft.MSPaint|Microsoft.WindowsCamera|.NET|Framework|AD2F1837.HPAutoLockAndAwake`
-    Microsoft.HEIFImageExtension|Microsoft.ScreenSketch|Microsoft.StorePurchaseApp|Microsoft.VP9VideoExtensions|Microsoft.WebMediaExtensions|Microsoft.WebpImageExtension|Microsoft.DesktopAppInstaller|WindSynthBerry|MIDIBerry|Slack'
-    #NonRemovable Apps that where getting attempted and the system would reject the uninstall, speeds up debloat and prevents 'initalizing' overlay when removing apps
-    $NonRemovable = '1527c705-839a-4832-9118-54d4Bd6a0c89|c5e2524a-ea46-4f67-841f-6a9465d9d515|E2A4F912-2574-4A75-9BB0-0D023378592B|F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE|InputApp|Microsoft.AAD.BrokerPlugin|Microsoft.AccountsControl|`
-    Microsoft.BioEnrollment|Microsoft.CredDialogHost|Microsoft.ECApp|Microsoft.LockApp|Microsoft.MicrosoftEdgeDevToolsClient|Microsoft.MicrosoftEdge|Microsoft.PPIProjection|Microsoft.Win32WebViewHost|Microsoft.Windows.Apprep.ChxApp|`
-    Microsoft.Windows.AssignedAccessLockApp|Microsoft.Windows.CapturePicker|Microsoft.Windows.CloudExperienceHost|Microsoft.Windows.ContentDeliveryManager|Microsoft.Windows.Cortana|Microsoft.Windows.NarratorQuickStart|`
-    Microsoft.Windows.ParentalControls|Microsoft.Windows.PeopleExperienceHost|Microsoft.Windows.PinningConfirmationDialog|Microsoft.Windows.SecHealthUI|Microsoft.Windows.SecureAssessmentBrowser|Microsoft.Windows.ShellExperienceHost|`
-    Microsoft.Windows.XGpuEjectDialog|Microsoft.XboxGameCallableUI|Windows.CBSPreview|windows.immersivecontrolpanel|Windows.PrintDialog|Microsoft.XboxGameCallableUI|Microsoft.VCLibs.140.00|Microsoft.Services.Store.Engagement|Microsoft.UI.Xaml.2.0|*Nvidia*'
-    Get-AppxPackage -AllUsers | Where-Object {$_.Name -NotMatch $WhitelistedApps -and $_.Name -NotMatch $NonRemovable} | Remove-AppxPackage
-    Get-AppxPackage -allusers | Where-Object {$_.Name -NotMatch $WhitelistedApps -and $_.Name -NotMatch $NonRemovable} | Remove-AppxPackage
-    Get-AppxProvisionedPackage -Online | Where-Object {$_.PackageName -NotMatch $WhitelistedApps -and $_.PackageName -NotMatch $NonRemovable} | Remove-AppxProvisionedPackage -Online
+# Define a whitelist of apps that should NOT be removed
+$WhitelistedApps = 'Microsoft.WindowsNotepad|Microsoft.CompanyPortal|Microsoft.ScreenSketch|Microsoft.WindowsSnippingTool|Microsoft.Paint3D|Microsoft.WindowsCalculator|Microsoft.WindowsStore|Microsoft.Windows.Photos|CanonicalGroupLimited.UbuntuonWindows|Microsoft.MicrosoftStickyNotes|Microsoft.MSPaint|Microsoft.WindowsCamera|.NET|Framework|AD2F1837.HPAutoLockAndAwake|Microsoft.HEIFImageExtension|Microsoft.StorePurchaseApp|Microsoft.VP9VideoExtensions|Microsoft.WebMediaExtensions|Microsoft.WebpImageExtension|Microsoft.DesktopAppInstaller|WindSynthBerry|MIDIBerry|Slack'
 
+# Define non-removable system apps that should never be removed
+$NonRemovable = '1527c705-839a-4832-9118-54d4Bd6a0c89|c5e2524a-ea46-4f67-841f-6a9465d9d515|E2A4F912-2574-4A75-9BB0-0D023378592B|F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE|InputApp|Microsoft.AAD.BrokerPlugin|Microsoft.AccountsControl|Microsoft.BioEnrollment|Microsoft.CredDialogHost|Microsoft.ECApp|Microsoft.LockApp|Microsoft.MicrosoftEdgeDevToolsClient|Microsoft.MicrosoftEdge|Microsoft.PPIProjection|Microsoft.Win32WebViewHost|Microsoft.Windows.Apprep.ChxApp|Microsoft.Windows.AssignedAccessLockApp|Microsoft.Windows.CapturePicker|Microsoft.Windows.CloudExperienceHost|Microsoft.Windows.ContentDeliveryManager|Microsoft.Windows.Cortana|Microsoft.Windows.NarratorQuickStart|Microsoft.Windows.ParentalControls|Microsoft.Windows.PeopleExperienceHost|Microsoft.Windows.PinningConfirmationDialog|Microsoft.Windows.SecHealthUI|Microsoft.Windows.SecureAssessmentBrowser|Microsoft.Windows.ShellExperienceHost|Microsoft.Windows.XGpuEjectDialog|Microsoft.XboxGameCallableUI|Windows.CBSPreview|windows.immersivecontrolpanel|Windows.PrintDialog|Microsoft.XboxGameCallableUI|Microsoft.VCLibs.140.00|Microsoft.Services.Store.Engagement|Microsoft.UI.Xaml.2.0|*Nvidia*'
 
-##Remove bloat
-    $Bloatware = @(
+# Preview apps that will be removed BEFORE executing removal
+$AppsToRemove = Get-AppxPackage -AllUsers | Where-Object {$_.Name -NotMatch $WhitelistedApps -and $_.Name -NotMatch $NonRemovable}
+if ($AppsToRemove) {
+    Write-Host "The following apps will be removed:" -ForegroundColor Yellow
+    $AppsToRemove | Select Name | Format-Table -AutoSize
+    Write-Host "`nProceeding with removal..." -ForegroundColor Red
+} else {
+    Write-Host "No apps matched for removal." -ForegroundColor Green
+}
 
-        #Unnecessary Windows 10/11 AppX Apps
-        "Microsoft.549981C3F5F10"
-        "Microsoft.BingNews"
-        "Microsoft.GetHelp"
-        "Microsoft.Getstarted"
-        "Microsoft.Messaging"
-        "Microsoft.Microsoft3DViewer"
-        "Microsoft.MicrosoftOfficeHub"
-        "Microsoft.MicrosoftSolitaireCollection"
-        "Microsoft.NetworkSpeedTest"
-        "Microsoft.MixedReality.Portal"
-        "Microsoft.News"
-        "Microsoft.Office.Lens"
-        "Microsoft.Office.OneNote"
-        "Microsoft.Office.Sway"
-        "Microsoft.OneConnect"
-        "Microsoft.People"
-        "Microsoft.Print3D"
-        "Microsoft.RemoteDesktop"
-        "Microsoft.SkypeApp"
-        "Microsoft.StorePurchaseApp"
-        "Microsoft.Office.Todo.List"
-        "Microsoft.Whiteboard"
-        "Microsoft.WindowsAlarms"
-        #"Microsoft.WindowsCamera"
-        "microsoft.windowscommunicationsapps"
-        "Microsoft.WindowsFeedbackHub"
-        "Microsoft.WindowsMaps"
-        "Microsoft.WindowsSoundRecorder"
-        "Microsoft.Xbox.TCUI"
-        "Microsoft.XboxApp"
-        "Microsoft.XboxGameOverlay"
-        "Microsoft.XboxIdentityProvider"
-        "Microsoft.XboxSpeechToTextOverlay"
-        "Microsoft.ZuneMusic"
-        "Microsoft.ZuneVideo"
-        "MicrosoftTeams"
-        "Microsoft.YourPhone"
-        "Microsoft.XboxGamingOverlay_5.721.10202.0_neutral_~_8wekyb3d8bbwe"
-        "Microsoft.GamingApp"
-        "Microsoft.Todos"
-        "Microsoft.PowerAutomateDesktop"
-        "SpotifyAB.SpotifyMusic"
-        "Disney.37853FC22B2CE"
-        "*EclipseManager*"
-        "*ActiproSoftwareLLC*"
-        "*AdobeSystemsIncorporated.AdobePhotoshopExpress*"
-        "*Duolingo-LearnLanguagesforFree*"
-        "*PandoraMediaInc*"
-        "*CandyCrush*"
-        "*BubbleWitch3Saga*"
-        "*Wunderlist*"
-        "*Flipboard*"
-        "*Twitter*"
-        "*Facebook*"
-        "*Spotify*"
-        "*Minecraft*"
-        "*Royal Revolt*"
-        "*Sway*"
-        "*Speed Test*"
-        "*Dolby*"
-        "*Office*"
-        "*Disney*"
-        "clipchamp.clipchamp"
-        "*gaming*"
-        "MicrosoftCorporationII.MicrosoftFamily"
-        "C27EB4BA.DropboxOEM"
-        "*DevHome*"
-        #Optional: Typically not removed but you can if you need to for some reason
-        #"*Microsoft.Advertising.Xaml_10.1712.5.0_x64__8wekyb3d8bbwe*"
-        #"*Microsoft.Advertising.Xaml_10.1712.5.0_x86__8wekyb3d8bbwe*"
-        #"*Microsoft.BingWeather*"
-        #"*Microsoft.MSPaint*"
-        #"*Microsoft.MicrosoftStickyNotes*"
-        #"*Microsoft.Windows.Photos*"
-        #"*Microsoft.WindowsCalculator*"
-        #"*Microsoft.WindowsStore*"
+Start-Sleep -Seconds 15
 
-    )
-    foreach ($Bloat in $Bloatware) {
-        
-        Get-AppxPackage -allusers -Name $Bloat| Remove-AppxPackage -AllUsers
-        Get-AppxProvisionedPackage -Online | Where-Object DisplayName -like $Bloat | Remove-AppxProvisionedPackage -Online
-        Write-Host "Trying to remove $Bloat."
-    }
+# Remove unwanted AppxPackages
+$AppsToRemove | Remove-AppxPackage
+
+# Remove provisioned packages (for new user profiles)
+$AppsToRemoveProvisioned = Get-AppxProvisionedPackage -Online | Where-Object {$_.PackageName -NotMatch $WhitelistedApps -and $_.PackageName -NotMatch $NonRemovable}
+if ($AppsToRemoveProvisioned) {
+    Write-Host "Removing provisioned packages..." -ForegroundColor Red
+    $AppsToRemoveProvisioned | Remove-AppxProvisionedPackage -Online
+} else {
+    Write-Host "No provisioned packages matched for removal." -ForegroundColor Green
+}
+
+############################################################################################################
+#                                        Remove Bloatware                                                  #
+############################################################################################################
+
+# Define bloatware list (apps that are typically unnecessary)
+$Bloatware = @(
+    "Microsoft.549981C3F5F10"
+    "Microsoft.BingNews"
+    "Microsoft.GetHelp"
+    "Microsoft.Getstarted"
+    "Microsoft.Messaging"
+    "Microsoft.Microsoft3DViewer"
+    "Microsoft.MicrosoftOfficeHub"
+    "Microsoft.MicrosoftSolitaireCollection"
+    "Microsoft.NetworkSpeedTest"
+    "Microsoft.MixedReality.Portal"
+    "Microsoft.News"
+    "Microsoft.Office.Lens"
+    "Microsoft.Office.OneNote"
+    "Microsoft.Office.Sway"
+    "Microsoft.OneConnect"
+    "Microsoft.People"
+    "Microsoft.Print3D"
+    "Microsoft.RemoteDesktop"
+    "Microsoft.SkypeApp"
+    "Microsoft.StorePurchaseApp"
+    "Microsoft.Office.Todo.List"
+    "Microsoft.Whiteboard"
+    "Microsoft.WindowsAlarms"
+    # "Microsoft.WindowsCamera"   # Uncomment to remove Camera
+    "microsoft.windowscommunicationsapps"
+    "Microsoft.WindowsFeedbackHub"
+    "Microsoft.WindowsMaps"
+    "Microsoft.WindowsSoundRecorder"
+    "Microsoft.Xbox.TCUI"
+    "Microsoft.XboxApp"
+    "Microsoft.XboxGameOverlay"
+    "Microsoft.XboxIdentityProvider"
+    "Microsoft.XboxSpeechToTextOverlay"
+    "Microsoft.ZuneMusic"
+    "Microsoft.ZuneVideo"
+    "MicrosoftTeams"
+    "Microsoft.YourPhone"
+    "Microsoft.XboxGamingOverlay_5.721.10202.0_neutral_~_8wekyb3d8bbwe"
+    "Microsoft.GamingApp"
+    "Microsoft.Todos"
+    "Microsoft.PowerAutomateDesktop"
+    "SpotifyAB.SpotifyMusic"
+    "Disney.37853FC22B2CE"
+    "*EclipseManager*"
+    "*ActiproSoftwareLLC*"
+    "*AdobeSystemsIncorporated.AdobePhotoshopExpress*"
+    "*Duolingo-LearnLanguagesforFree*"
+    "*PandoraMediaInc*"
+    "*CandyCrush*"
+    "*BubbleWitch3Saga*"
+    "*Wunderlist*"
+    "*Flipboard*"
+    "*Twitter*"
+    "*Facebook*"
+    "*Spotify*"
+    "*Minecraft*"
+    "*Royal Revolt*"
+    "*Sway*"
+    "*Speed Test*"
+    "*Dolby*"
+    "*Office*"
+    "*Disney*"
+    "clipchamp.clipchamp"
+    "*gaming*"
+    "MicrosoftCorporationII.MicrosoftFamily"
+    "C27EB4BA.DropboxOEM"
+    "*DevHome*"
+)
+
+# Preview bloatware removal before execution
+Write-Host "Checking for installed bloatware..." -ForegroundColor Yellow
+$BloatwareFound = Get-AppxPackage -AllUsers | Where-Object { $_.Name -like ($Bloatware -join "|") }
+
+if ($BloatwareFound) {
+    Write-Host "The following bloatware apps will be removed:" -ForegroundColor Red
+    $BloatwareFound | Select Name | Format-Table -AutoSize
+    Write-Host "`nProceeding with bloatware removal..." -ForegroundColor Red
+} else {
+    Write-Host "No bloatware found for removal." -ForegroundColor Green
+}
+
+# Remove bloatware
+foreach ($Bloat in $Bloatware) {
+    Get-AppxPackage -AllUsers -Name $Bloat | Remove-AppxPackage -AllUsers
+    Get-AppxProvisionedPackage -Online | Where-Object DisplayName -like $Bloat | Remove-AppxProvisionedPackage -Online
+    Write-Host "Trying to remove $Bloat." -ForegroundColor Cyan
+}
+
+Write-Host "App removal process complete." -ForegroundColor Green
 
 ############################################################################################################
 #                                        Remove Registry Keys                                              #
@@ -1495,7 +1503,79 @@ Invoke-WebRequest -uri "https://raw.githubusercontent.com/ASITScripts/ASITCORE/P
 Write-Host "Removed HP bloat"
 }
 
-
+#Double Check if Wolf Security is ACTUALLY deleted;
+Write-Host "Searching for HP Wolf Security-related applications..." -ForegroundColor Cyan
+ 
+# List of HP Security products to search for
+$hpApps = @("HP Wolf Security", "HP Wolf Security - Console", "HP Security Update Service")
+ 
+# Extract GUIDs of installed HP Security applications
+$guidList = @()
+foreach ($app in $hpApps) {
+    $product = Get-WmiObject -Query "SELECT * FROM Win32_Product WHERE Name LIKE '%$app%'" -ErrorAction SilentlyContinue
+    if ($product) {
+        Write-Host "Found: $app - GUID: $($product.IdentifyingNumber)" -ForegroundColor Green
+        $guidList += $product.IdentifyingNumber
+    }
+}
+ 
+# Uninstall each application using its GUID
+if ($guidList.Count -gt 0) {
+    Write-Host "Uninstalling HP Wolf Security components..." -ForegroundColor Yellow
+    foreach ($guid in $guidList) {
+        Start-Process -FilePath "msiexec.exe" -ArgumentList "/x $guid /qn /norestart" -Wait
+        Write-Host "Uninstalled: $guid" -ForegroundColor Green
+    }
+} else {
+    Write-Host "No HP Wolf Security applications found. Continuing" -ForegroundColor Red
+}
+ 
+# Stop and disable any remaining HP security services
+Write-Host "Stopping HP Wolf Security services..." -ForegroundColor Cyan
+$hpServices = @("HPWolfSecurityService", "HPWolfPlatformService", "HPSecurityUpdateService", "HPSureClickService", "HPSureSenseService")
+ 
+foreach ($service in $hpServices) {
+    $svc = Get-Service -Name $service -ErrorAction SilentlyContinue
+    if ($svc) {
+        Stop-Service -Name $service -Force -ErrorAction SilentlyContinue
+        Start-Sleep -Seconds 1 # Adding a short delay for the service to stop
+ 
+        # Confirm the service has stopped before disabling it
+        $svc = Get-Service -Name $service
+        if ($svc.Status -eq 'Stopped') {
+            Set-Service -Name $service -StartupType Disabled
+            Write-Host "Stopped and disabled: $service" -ForegroundColor Green
+        } else {
+            Write-Host "Could not stop service: $service" -ForegroundColor Yellow
+        }
+    }
+}
+ 
+# Kill any running HP Wolf Security processes
+Write-Host "Killing HP Wolf Security processes..." -ForegroundColor Cyan
+$hpProcesses = @("HPWolfSecurityService", "HPWolfPlatformService", "HPSecurityUpdateService", "HPSureClick", "HPSureSense")
+foreach ($process in $hpProcesses) {
+    Get-Process -Name $process -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
+    Write-Host "Process terminated: $process" -ForegroundColor Green
+}
+ 
+# Delete HP Wolf Security files and folders
+Write-Host "Deleting remaining files and folders..." -ForegroundColor Cyan
+$hpPaths = @(
+    "C:\Program Files\HP\HP Wolf Security",
+    "C:\Program Files (x86)\HP\HP Wolf Security",
+    "C:\ProgramData\HP\HP Wolf Security",
+    "C:\Users\*\AppData\Local\HP\HP Wolf Security"
+)
+ 
+foreach ($path in $hpPaths) {
+    if (Test-Path $path) {
+        Remove-Item -Path $path -Recurse -Force -ErrorAction SilentlyContinue
+        Write-Host "Removed: $path" -ForegroundColor Green
+    }
+}
+ 
+Write-Host "HP Wolf Security removal complete!" -ForegroundColor Magenta
 
 if ($manufacturer -like "*Dell*") {
     Write-Host "Dell detected"
@@ -1848,153 +1928,122 @@ write-host "McAfee Removal Tool has been run"
 
 }
 
-
-# Look for anything else - COMMENT THIS ENTIRE SECTION IF YOU ARE RUNNING THIS ON A PRE EXISTING DEVICE #
-# IF YOU DON'T IT WILL REMOVE EVERYTHING THE USER INSTALLED #
-
-# Look for anything else - COMMENT THIS ENTIRE SECTION IF YOU ARE RUNNING THIS ON A PRE EXISTING DEVICE #
-# IF YOU DON'T IT WILL REMOVE EVERYTHING THE USER INSTALLED #
-
-# Look for anything else - COMMENT THIS ENTIRE SECTION IF YOU ARE RUNNING THIS ON A PRE EXISTING DEVICE #
-# IF YOU DON'T IT WILL REMOVE EVERYTHING THE USER INSTALLED #
-
-if ($intunecomplete -eq 0 -and $nonAdminLoggedOn) {
-
-
-##Apps to ignore - NOTE: Chrome has an unusual uninstall so sort on it's own
-$whitelistapps = @(
-    "Microsoft Update Health Tools"
-    "Microsoft Intune Management Extension"
-    "Microsoft Edge"
-    "Microsoft Edge Update"
-    "Microsoft Edge WebView2 Runtime"
-    "Google Chrome"
-    "Microsoft Teams"
-    "Teams Machine-Wide Installer"
-    "Microsoft OneDrive"
-    "@C:\WINDOWS\System32\mstsc.exe,-4000"
-)
-
-$InstalledSoftware = Get-ChildItem "HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall"
-foreach($obj in $InstalledSoftware){
-    $name = $obj.GetValue('DisplayName')
-    if ($null -eq $name) {
-        $name = $obj.GetValue('DisplayName_Localized')
-    }
-     if (($whitelistapps -notcontains $name) -and ($null -ne $obj.GetValue('UninstallString'))) {
-        $uninstallcommand = $obj.GetValue('UninstallString')
-        write-host "Uninstalling $name"
-        if ($uninstallcommand -like "*msiexec*") {
-        $splitcommand = $uninstallcommand.Split("{")
-        $msicode = $splitcommand[1]
-        $uninstallapp = "msiexec.exe /X {$msicode /qn"
-        start-process "cmd.exe" -ArgumentList "/c $uninstallapp"
-        }
-        else {
-        $splitcommand = $uninstallcommand.Split("{")
-        
-        $uninstallapp = "$uninstallcommand /S"
-        start-process "cmd.exe" -ArgumentList "/c $uninstallapp"
-        }
-     }
-
-     }
-
-
-$InstalledSoftware32 = Get-ChildItem "HKLM:\Software\WOW6432NODE\Microsoft\Windows\CurrentVersion\Uninstall"
-foreach($obj32 in $InstalledSoftware32){
-     $name32 = $obj32.GetValue('DisplayName')
-     if (($whitelistapps -notcontains $name32) -and ($null -ne $obj32.GetValue('UninstallString'))) {
-        $uninstallcommand32 = $obj.GetValue('UninstallString')
-        write-host "Uninstalling $name"
-                if ($uninstallcommand32 -like "*msiexec*") {
-        $splitcommand = $uninstallcommand32.Split("{")
-        $msicode = $splitcommand[1]
-        $uninstallapp = "msiexec.exe /X {$msicode /qn"
-        start-process "cmd.exe" -ArgumentList "/c $uninstallapp"
-        }
-        else {
-        $splitcommand = $uninstallcommand32.Split("{")
-        
-        $uninstallapp = "$uninstallcommand /S"
-        start-process "cmd.exe" -ArgumentList "/c $uninstallapp"
-        }
-    }
-}
-
-# COMMENT THIS ENTIRE SECTION ABOVE IF YOU ARE RUNNING THIS ON A PRE EXISTING DEVICE #
-# IF YOU DON'T IT WILL REMOVE EVERYTHING THE USER INSTALLED #
-
-# COMMENT THIS ENTIRE SECTION ABOVE IF YOU ARE RUNNING THIS ON A PRE EXISTING DEVICE #
-# IF YOU DON'T IT WILL REMOVE EVERYTHING THE USER INSTALLED #
-
-# COMMENT THIS ENTIRE SECTION ABOVE IF YOU ARE RUNNING THIS ON A PRE EXISTING DEVICE #
-# IF YOU DON'T IT WILL REMOVE EVERYTHING THE USER INSTALLED #
-
-}
-
 Write-Host -ForegroundColor Green ("[$Time]`t" + "Bloatware removal completed... Now starting application installations")
 
 Start-Sleep -s 5
 
-#Google Chrome download starts here
+# App installation
 
 $DesktopPath = [Environment]::GetFolderPath("Desktop")
-$chromeuri = "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
 
-$chromeInstalled = (Get-Item (Get-ItemProperty 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\chrome.exe').'(Default)').VersionInfo
+# Chrome Installation
+$chromeUri = "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
+$chromeInstaller = "$DesktopPath\googlechromestandaloneenterprise64.msi"
+$chromeInstalled = Get-ItemProperty 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\chrome.exe' -ErrorAction SilentlyContinue
 
-if ($null -eq $chromeInstalled.FileName) {
-    Write-Host -ForegroundColor Red ("[$Time]`t" + 'Chrome is not installed.')
-    Write-Host -ForegroundColor Green "Starting Chrome installation"
+if ($null -eq $chromeInstalled) {
+    Write-Host -ForegroundColor Red "[$Time] Chrome is not installed."
+    Write-Host -ForegroundColor Green "[$Time] Downloading Chrome..."
+    
+    Invoke-WebRequest -Uri $chromeUri -OutFile $chromeInstaller
 
-    $outFile = "$DesktopPath\googlechromestandaloneenterprise64.msi"
-    
-    Start-BitsTransfer -Source $chromeuri -Destination $outFile
-    
-    Start-Process -FilePath $outFile -Args "/qn" -Wait
-    
-    Write-Host -ForegroundColor Green "Completed Google Chrome installation"
+    Write-Host -ForegroundColor Green "[$Time] Installing Chrome..."
+    Start-Process -FilePath $chromeInstaller -ArgumentList "/qn" -Wait
+
+    Write-Host -ForegroundColor Green "[$Time] Google Chrome installation completed."
+} else {
+    Write-Host -ForegroundColor Green "[$Time] Chrome is already installed."
 }
 
-else {
-    Write-Host -ForegroundColor Green ("[$Time]`t" + 'Chrome is already installed.')
+# Adobe Reader Installation
+$adobeUri = "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2200120117/AcroRdrDC2200120117_en_US.exe"
+$adobeInstaller = "$DesktopPath\AcroRdrDC2200120117_en_US.exe"
+
+# Check for Adobe reader
+$adobeInstalled = Get-ItemProperty "HKLM:\SOFTWARE\Classes\CLSID\{CA8A9780-280D-11CF-A24D-444553540000}" -ErrorAction SilentlyContinue
+
+if ($null -eq $adobeInstalled) {
+    # If Adobe Reader DC is not installed, proceed with installation
+    Write-Host -ForegroundColor Red "[$Time] Adobe Acrobat Reader DC is not installed."
+    Write-Host -ForegroundColor Green "[$Time] Downloading Adobe Reader..."
+
+    # Download the installer
+    Invoke-WebRequest -Uri $adobeUri -OutFile $adobeInstaller
+
+    Write-Host -ForegroundColor Green "[$Time] Installing Adobe Reader..."
+    # Install Adobe Reader silently
+    Start-Process -FilePath $adobeInstaller -ArgumentList "/sAll /rs /rps /msi /norestart /quiet EULA_ACCEPT=YES" -Wait
+
+    Write-Host -ForegroundColor Green "[$Time] Adobe Acrobat Reader DC installation completed."
+} else {
+    # If Adobe Acrobat Reader DC is already installed, skip installation
+    Write-Host -ForegroundColor Green "[$Time] Adobe Acrobat Reader DC is already installed. Skipping installation."
 }
 
-#Adobe installation starts here
+# Cleanup Installers
+Remove-Item -Force $chromeInstaller, $adobeInstaller -ErrorAction SilentlyContinue
 
-$DesktopPath = [Environment]::GetFolderPath("Desktop")
-$adobeuri = "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2200120117/AcroRdrDC2200120117_en_US.exe"
+# Function to check if Microsoft Teams is installed
+function Is-TeamsInstalled {
+    $teamsPath = "$env:LOCALAPPDATA\Microsoft\Teams\current\Teams.exe"
+    if (Test-Path $teamsPath) {
+        Write-Host "Microsoft Teams is already installed."
+        return $true
+    }
+    return $false
+}
 
-$adobeInstalled = Get-ItemProperty "HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*" | Where-Object {$_.DisplayName -like "Adobe Acrobat Reader DC*"}
+# Check if Teams is already installed
+if (Is-TeamsInstalled) {
+    Write-Host "Skipping installation."
+    exit 0
+}
 
-if ($null -eq $adobeInstalled.FileName) {
-    Write-Host -ForegroundColor Red ("[$Time]`t" + 'Adobe PDF Reader is not installed.')
-    Write-Host -ForegroundColor Green ("[$Time]`t" + "Starting Adobe installation")
+# Define download URL and installer path
+$teamsUrl = "https://aka.ms/TeamsSetup"
+$installerPath = "$env:TEMP\TeamsSetup.exe"
 
-    $outFile = "$DesktopPath\AcroRdrDC2200120117_en_US.exe"
+# Download Microsoft Teams installer
+Write-Host "Downloading Microsoft Teams..."
+Invoke-WebRequest -Uri $teamsUrl -OutFile $installerPath
+
+# Install Microsoft Teams silently
+Write-Host "Installing Microsoft Teams..."
+Start-Process -FilePath $installerPath -ArgumentList "-s" -NoNewWindow -Wait
+
+Write-Host "Microsoft Teams installation complete!"
+
+# Function to check if Citrix Workspace is installed
+function Is-CitrixInstalled {
+    $citrixPath = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*"
+    $citrixCheck = Get-ItemProperty -Path $citrixPath | Where-Object { $_.DisplayName -match "Citrix Workspace" }
     
-    Start-BitsTransfer -Source $adobeuri -Destination $outFile
-    
-    Start-Process -FilePath "$DesktopPath\AcroRdrDC2200120117_en_US.exe" -ArgumentList "/sAll /rs /rps /msi /norestart /quiet EULA_ACCEPT=YES" -Wait
-    
-    Write-Host -ForegroundColor Green ("[$Time]`t" + "Completed Adobe installation")
+    if ($citrixCheck) {
+        Write-Host "Citrix Workspace is already installed. Version: $($citrixCheck.DisplayVersion)"
+        return $true
+    }
+    return $false
 }
 
-else {
-    Write-Host -ForegroundColor Green ("[$Time]`t" + 'Adobe PDF Reader is already installed.')
+# Check if Citrix Workspace is already installed
+if (Is-CitrixInstalled) {
+    Write-Host "Skipping installation."
+    exit 0
 }
 
-#This will remove the installer afterwards
+# Define download URL and installer path
+$citrixUrl = "https://www.citrix.com/downloads/workspace-app/windows/workspace-app-for-windows-latest.html"
+$installerPath = "$env:TEMP\CitrixWorkspace.exe"
 
-try {
-    Remove-Item -Force $DesktopPath\googlechromestandaloneenterprise64.msi
-    Remove-Item -Force $DesktopPath\AcroRdrDC2200120117_en_US.exe
-}
-catch [System.SystemException]
-{
-    Write-Warning -Message "Installer does not exist, skipping..."
-}
+# Download Citrix Workspace installer
+Write-Host "Downloading Citrix Workspace..."
+Invoke-WebRequest -Uri "https://downloadplugins.citrix.com/WorkspaceApp/CitrixWorkspaceApp.exe" -OutFile $installerPath
+
+# Install Citrix Workspace silently
+Write-Host "Installing Citrix Workspace..."
+Start-Process -FilePath $installerPath -ArgumentList "/silent /noreboot" -NoNewWindow -Wait
+
+Write-Host "Citrix Workspace installation complete!"
 
 Write-Host "Main Pre-installation completed, now starting Windows updates..."
 
@@ -2003,43 +2052,42 @@ Start-sleep -s 5
 #Restarts device after windows updates are installed
 #This section will run Windows Updates and install them
 try {
-    # Check if PSWindowsUpdate module is installed, if not, install it
-    if (-not (Get-Module -ListAvailable -Name PSWindowsUpdate)) {
-        Write-Host "Installing PSWindowsUpdate module..."
-        
-        # Ensure NuGet provider is installed and trusted
-        if (-not (Get-PackageProvider -Name NuGet -ErrorAction SilentlyContinue)) {
-            Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
-        }
-        
-        # Set the PSGallery repository to trusted to avoid prompts
-        Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
-        
-        # Install PSWindowsUpdate module
-        Install-Module -Name PSWindowsUpdate -Confirm:$False -Force
-    } else {
-        Write-Host "PSWindowsUpdate module already installed."
+    $Time = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+
+    # Ensure NuGet provider is installed (required for PSWindowsUpdate)
+    if (-not (Get-PackageProvider -ListAvailable | Where-Object { $_.Name -eq "NuGet" })) {
+        Write-Host ("[$Time] Installing NuGet provider...")
+        Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force -ErrorAction SilentlyContinue
     }
 
-    # Import the PSWindowsUpdate module if not already imported
-    Import-Module PSWindowsUpdate -ErrorAction Stop
+    # Trust PSGallery to prevent prompts
+    Set-PSRepository -Name PSGallery -InstallationPolicy Trusted -ErrorAction SilentlyContinue
 
-    # Run Windows update check and install updates automatically
-    Write-Host "Checking for and installing Windows updates..."
-    Get-WindowsUpdate -Install -AcceptAll -AutoReboot -ErrorAction Stop
+    # Install or update PSWindowsUpdate module silently
+    if (-not (Get-Module -ListAvailable -Name PSWindowsUpdate)) {
+        Write-Host ("[$Time] Installing PSWindowsUpdate module...")
+        Install-Module -Name PSWindowsUpdate -Force -Confirm:$False -ErrorAction SilentlyContinue
+    }
 
-    # Automatically reboot the system if necessary
+    # Import module (force reload to ensure latest version)
+    Import-Module PSWindowsUpdate -Force -ErrorAction SilentlyContinue
+
+    # Run Windows Update silently (accept all updates)
+    Write-Host ("[$Time] Checking for and installing Windows updates...")
+    Get-WindowsUpdate -Install -AcceptAll -AutoReboot -IgnoreReboot -ErrorAction SilentlyContinue
+
+    # Check if a reboot is required
     if (Get-WindowsUpdateRebootStatus) {
-        Write-Host "Rebooting system as updates require it..."
+        Write-Host ("[$Time] System needs to reboot, restarting now...")
         Restart-Computer -Force
     } else {
-        Write-Host "No reboot required."
+        Write-Host ("[$Time] No reboot required. Windows updates completed successfully.")
     }
 }
 catch {
-    Write-Warning "Some updates failed to install. Please manually check for updates after restarting."
+    Write-Warning ("[$Time] An error occurred during the update process. Please check Windows Update manually if needed.")
 }
 
-Remove-Item $script:MyInvocation.MyCommand.Path -Force
-
 Stop-Transcript
+
+Remove-Item $script:MyInvocation.MyCommand.Path -Force
