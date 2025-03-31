@@ -2018,7 +2018,7 @@ if ($null -eq $teamsInstalled) {
 }
 
 # Citrix Workspace Installation
-$citrixUri = "https://downloads.citrix.com/23218/CitrixWorkspaceFullInstaller.exe?__gda__=exp=1743391929~acl=/*~hmac=bde456b458115156aaa0cbc7d5eda43edfb2f6d2c8514ef799de17e5ffbed4e7"
+$citrixUri = "https://downloadplugins.citrix.com/Windows/CitrixWorkspaceApp.exe"
 $citrixInstaller = "$env:USERPROFILE\Desktop\CitrixWorkspaceApp.exe"
 
 # Check for Citrix Workspace installation
