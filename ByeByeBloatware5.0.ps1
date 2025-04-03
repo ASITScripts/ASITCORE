@@ -2017,68 +2017,6 @@ if ($null -eq $teamsInstalled) {
     Write-Host -ForegroundColor Green "[$(Get-Date -Format 'HH:mm:ss')] Microsoft Teams is already installed. Skipping installation."
 }
 
-# Citrix Workspace Installation
-$citrixUri = "https://downloadplugins.citrix.com/Windows/CitrixWorkspaceApp.exe"
-$citrixInstaller = "$env:USERPROFILE\Desktop\CitrixWorkspaceApp.exe"
-
-# Check for Citrix Workspace installation
-$citrixInstalled = Get-ItemProperty "HKLM:\SOFTWARE\Citrix\Install" -ErrorAction SilentlyContinue
-
-if ($null -eq $citrixInstalled) {
-    # If Citrix Workspace is not installed, proceed with installation
-    Write-Host -ForegroundColor Red "[ $(Get-Date -Format "HH:mm:ss") ] Citrix Workspace is not installed."
-    Write-Host -ForegroundColor Green "[ $(Get-Date -Format "HH:mm:ss") ] Downloading Citrix Workspace..."
-
-    # Download the installer
-    $ProgressPreference = 'SilentlyContinue'
-    Invoke-WebRequest -Uri $citrixUri -OutFile $citrixInstaller
-
-    Write-Host -ForegroundColor Green "[ $(Get-Date -Format "HH:mm:ss") ] Installing Citrix Workspace..."
-    # Install Citrix Workspace silently
-    Start-Process -FilePath $citrixInstaller -ArgumentList "/silent /noreboot"
-
-    Start-Sleep -s 60
-
-    Write-Host -ForegroundColor Green "[ $(Get-Date -Format "HH:mm:ss") ] Citrix Workspace installation completed."
-
-    # Delete the installer
-    Remove-Item -Path $citrixInstaller -Force
-    Write-Host -ForegroundColor Yellow "[ $(Get-Date -Format "HH:mm:ss") ] Installer deleted."
-} else {
-    # If Citrix Workspace is already installed, skip installation
-    Write-Host -ForegroundColor Green "[ $(Get-Date -Format "HH:mm:ss") ] Citrix Workspace is already installed. Skipping installation."
-}
-
-# Zoom Installation
-$zoomUri = "https://zoom.us/client/latest/ZoomInstaller.exe"
-$zoomInstaller = "$env:USERPROFILE\Desktop\ZoomInstaller.exe"
-
-# Check for Zoom installation
-$zoomInstalled = Get-ItemProperty "HKLM:\SOFTWARE\ZoomUMX" -ErrorAction SilentlyContinue
-
-if ($null -eq $zoomInstalled) {
-    # If Zoom is not installed, proceed with installation
-    Write-Host -ForegroundColor Red "[$(Get-Date -Format 'HH:mm:ss')] Zoom is not installed."
-    Write-Host -ForegroundColor Green "[$(Get-Date -Format 'HH:mm:ss')] Downloading Zoom..."
-
-    # Download the installer
-    $ProgressPreference = 'SilentlyContinue'
-    Invoke-WebRequest -Uri $zoomUri -OutFile $zoomInstaller
-
-    Write-Host -ForegroundColor Green "[$(Get-Date -Format 'HH:mm:ss')] Installing Zoom..."
-    # Install Zoom silently
-    Start-Process -FilePath $zoomInstaller -ArgumentList "/silent" -Wait
-
-    Write-Host -ForegroundColor Green "[$(Get-Date -Format 'HH:mm:ss')] Zoom installation completed."
-
-    # Delete the installer
-    Remove-Item -Path $zoomInstaller -Force
-    Write-Host -ForegroundColor Yellow "[$(Get-Date -Format 'HH:mm:ss')] Installer deleted."
-} else {
-    # If Zoom is already installed, skip installation
-    Write-Host -ForegroundColor Green "[$(Get-Date -Format 'HH:mm:ss')] Zoom is already installed. Skipping installation."
-}
-
 Write-Host "Main Pre-installation completed, now starting Windows updates..."
 
 Start-sleep -s 5
