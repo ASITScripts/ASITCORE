@@ -134,7 +134,7 @@ $VINCENTCHRISPSHEPPARTON = "Shepparton (Vincent Chrisp)_Windows_OS_ITSPlatform_T
 $WINENET = "Main (WineNet)_Windows_OS_ITSPlatform_TKNd35f7dd1-1e89-4463-a5b4-e77ace0bf093.msi"
 $YARRAYERRING = "Main (YarraYering)_Windows_OS_ITSPlatform_TKN07149f93-a1ef-4087-924c-a5d09b907c36.msi"
 $YMBF = "Main (YMBF)_Windows_OS_ITSPlatform_TKNdaa1ef84-79b1-4c6a-8f6f-3d84a7897906.msi"
-$TAILORFRESH = "Main-Tailored_Fresh_Windows_OS_ITSPlatform_TKN0a45ee3f-b570-48b2-892d-bfea887e39b4.msi"
+$TAILOREDFRESH = "Main-Tailored_Fresh_Windows_OS_ITSPlatform_TKN0a45ee3f-b570-48b2-892d-bfea887e39b4.msi"
 
 # Add new sites above
 # no errors throughout
@@ -398,6 +398,7 @@ switch ($Choice)
  	'79' {$Selection = $LINCOLN}
   	'80' {$Selection = $CASTELLOOLIVETREE}
    	'81' {$Selection = $CASTELLODERRIMUT}
+    	'82' {$Selection = $TAILOREDFRESH}
 	'0' {$Selection = "NORMM"}
     }
 
