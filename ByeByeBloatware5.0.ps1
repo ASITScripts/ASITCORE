@@ -480,14 +480,80 @@ Write-Host -ForegroundColor Green ("[$Time]`t VPN Regfix added")
 #                                        Remove AppX Packages                                              #
 ############################################################################################################
 
-# Define a whitelist of apps that should NOT be removed
-$WhitelistedApps = 'Microsoft.WindowsNotepad|Microsoft.CompanyPortal|Microsoft.ScreenSketch|Microsoft.WindowsSnippingTool|Microsoft.Paint3D|Microsoft.WindowsCalculator|Microsoft.WindowsStore|Microsoft.Windows.Photos|CanonicalGroupLimited.UbuntuonWindows|Microsoft.MicrosoftStickyNotes|Microsoft.MSPaint|Microsoft.WindowsCamera|.NET|Framework|AD2F1837.HPAutoLockAndAwake|Microsoft.HEIFImageExtension|Microsoft.StorePurchaseApp|Microsoft.VP9VideoExtensions|Microsoft.WebMediaExtensions|Microsoft.WebpImageExtension|Microsoft.DesktopAppInstaller|WindSynthBerry|MIDIBerry|Slack'
+# Convert whitelist to array
+$WhitelistedApps = @(
+    'Microsoft.WindowsNotepad',
+    'Microsoft.CompanyPortal',
+    'Microsoft.ScreenSketch',
+    'Microsoft.WindowsSnippingTool',
+    'Microsoft.Paint3D',
+    'Microsoft.WindowsCalculator',
+    'Microsoft.WindowsStore',
+    'Microsoft.Windows.Photos',
+    'CanonicalGroupLimited.UbuntuonWindows',
+    'Microsoft.MicrosoftStickyNotes',
+    'Microsoft.MSPaint',
+    'Microsoft.WindowsCamera',
+    '.NET',
+    'Framework',
+    'AD2F1837.HPAutoLockAndAwake',
+    'Microsoft.HEIFImageExtension',
+    'Microsoft.StorePurchaseApp',
+    'Microsoft.VP9VideoExtensions',
+    'Microsoft.WebMediaExtensions',
+    'Microsoft.WebpImageExtension',
+    'Microsoft.DesktopAppInstaller',
+    'WindSynthBerry',
+    'MIDIBerry',
+    'Slack'
+)
 
-# Define non-removable system apps that should never be removed
-$NonRemovable = '1527c705-839a-4832-9118-54d4Bd6a0c89|c5e2524a-ea46-4f67-841f-6a9465d9d515|E2A4F912-2574-4A75-9BB0-0D023378592B|F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE|InputApp|Microsoft.AAD.BrokerPlugin|Microsoft.AccountsControl|Microsoft.BioEnrollment|Microsoft.CredDialogHost|Microsoft.ECApp|Microsoft.LockApp|Microsoft.MicrosoftEdgeDevToolsClient|Microsoft.MicrosoftEdge|Microsoft.PPIProjection|Microsoft.Win32WebViewHost|Microsoft.Windows.Apprep.ChxApp|Microsoft.Windows.AssignedAccessLockApp|Microsoft.Windows.CapturePicker|Microsoft.Windows.CloudExperienceHost|Microsoft.Windows.ContentDeliveryManager|Microsoft.Windows.Cortana|Microsoft.Windows.NarratorQuickStart|Microsoft.Windows.ParentalControls|Microsoft.Windows.PeopleExperienceHost|Microsoft.Windows.PinningConfirmationDialog|Microsoft.Windows.SecHealthUI|Microsoft.Windows.SecureAssessmentBrowser|Microsoft.Windows.ShellExperienceHost|Microsoft.Windows.XGpuEjectDialog|Microsoft.XboxGameCallableUI|Windows.CBSPreview|windows.immersivecontrolpanel|Windows.PrintDialog|Microsoft.XboxGameCallableUI|Microsoft.VCLibs.140.00|Microsoft.Services.Store.Engagement|Microsoft.UI.Xaml.2.0|*Nvidia*'
+$NonRemovable = @(
+    '1527c705-839a-4832-9118-54d4Bd6a0c89',
+    'c5e2524a-ea46-4f67-841f-6a9465d9d515',
+    'E2A4F912-2574-4A75-9BB0-0D023378592B',
+    'F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE',
+    'InputApp',
+    'Microsoft.AAD.BrokerPlugin',
+    'Microsoft.AccountsControl',
+    'Microsoft.BioEnrollment',
+    'Microsoft.CredDialogHost',
+    'Microsoft.ECApp',
+    'Microsoft.LockApp',
+    'Microsoft.MicrosoftEdgeDevToolsClient',
+    'Microsoft.MicrosoftEdge',
+    'Microsoft.PPIProjection',
+    'Microsoft.Win32WebViewHost',
+    'Microsoft.Windows.Apprep.ChxApp',
+    'Microsoft.Windows.AssignedAccessLockApp',
+    'Microsoft.Windows.CapturePicker',
+    'Microsoft.Windows.CloudExperienceHost',
+    'Microsoft.Windows.ContentDeliveryManager',
+    'Microsoft.Windows.Cortana',
+    'Microsoft.Windows.NarratorQuickStart',
+    'Microsoft.Windows.ParentalControls',
+    'Microsoft.Windows.PeopleExperienceHost',
+    'Microsoft.Windows.PinningConfirmationDialog',
+    'Microsoft.Windows.SecHealthUI',
+    'Microsoft.Windows.SecureAssessmentBrowser',
+    'Microsoft.Windows.ShellExperienceHost',
+    'Microsoft.Windows.XGpuEjectDialog',
+    'Microsoft.XboxGameCallableUI',
+    'Windows.CBSPreview',
+    'windows.immersivecontrolpanel',
+    'Windows.PrintDialog',
+    'Microsoft.XboxGameCallableUI',
+    'Microsoft.VCLibs.140.00',
+    'Microsoft.Services.Store.Engagement',
+    'Microsoft.UI.Xaml.2.0'
+)
 
-# Preview apps that will be removed BEFORE executing removal
-$AppsToRemove = Get-AppxPackage -AllUsers | Where-Object {$_.Name -NotMatch $WhitelistedApps -and $_.Name -NotMatch $NonRemovable}
+# Get apps to remove by exact match
+$AppsToRemove = Get-AppxPackage -AllUsers | Where-Object {
+    ($_.Name -notin $WhitelistedApps) -and ($_.Name -notin $NonRemovable)
+}
+
+# Preview before removing
 if ($AppsToRemove) {
     Write-Host "The following apps will be removed:" -ForegroundColor Yellow
     $AppsToRemove | Select Name | Format-Table -AutoSize
@@ -498,14 +564,16 @@ if ($AppsToRemove) {
 
 Start-Sleep -Seconds 15
 
-# Remove unwanted AppxPackages
+# Remove AppxPackages
 $AppsToRemove | Remove-AppxPackage
 
-# Remove provisioned packages (for new user profiles)
-$AppsToRemoveProvisioned = Get-AppxProvisionedPackage -Online | Where-Object {$_.PackageName -NotMatch $WhitelistedApps -and $_.PackageName -NotMatch $NonRemovable}
-if ($AppsToRemoveProvisioned) {
+# Provisioned packages (same logic)
+$ProvisionedToRemove = Get-AppxProvisionedPackage -Online | Where-Object {
+    ($_.PackageName -notin $WhitelistedApps) -and ($_.PackageName -notin $NonRemovable)
+}
+if ($ProvisionedToRemove) {
     Write-Host "Removing provisioned packages..." -ForegroundColor Red
-    $AppsToRemoveProvisioned | Remove-AppxProvisionedPackage -Online
+    $ProvisionedToRemove | Remove-AppxProvisionedPackage -Online
 } else {
     Write-Host "No provisioned packages matched for removal." -ForegroundColor Green
 }
