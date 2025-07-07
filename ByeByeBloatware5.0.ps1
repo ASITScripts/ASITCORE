@@ -477,202 +477,170 @@ New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\RasMan\Parameter
 Write-Host -ForegroundColor Green ("[$Time]`t VPN Regfix added")
 
 ############################################################################################################
-#                                        Remove AppX Packages                                              #
+#                               Safe AppX and Bloatware Removal Script                                     #
 ############################################################################################################
 
-# Convert whitelist to array
-$WhitelistedApps = @(
-    'Microsoft.WindowsNotepad',
-    'Microsoft.CompanyPortal',
-    'Microsoft.ScreenSketch',
-    'Microsoft.WindowsSnippingTool',
-    'Microsoft.Paint3D',
-    'Microsoft.WindowsCalculator',
-    'Microsoft.WindowsStore',
-    'Microsoft.Windows.Photos',
-    'CanonicalGroupLimited.UbuntuonWindows',
-    'Microsoft.MicrosoftStickyNotes',
-    'Microsoft.MSPaint',
-    'Microsoft.WindowsCamera',
-    '.NET',
-    'Framework',
-    'AD2F1837.HPAutoLockAndAwake',
-    'Microsoft.HEIFImageExtension',
-    'Microsoft.StorePurchaseApp',
-    'Microsoft.VP9VideoExtensions',
-    'Microsoft.WebMediaExtensions',
-    'Microsoft.WebpImageExtension',
-    'Microsoft.DesktopAppInstaller',
-    'WindSynthBerry',
-    'MIDIBerry',
-    'Slack'
-)
-
+# STRONGLY WHITELISTED CORE SHELL/LOGIN/UI COMPONENTS (do NOT remove these)
 $NonRemovable = @(
-    '1527c705-839a-4832-9118-54d4Bd6a0c89',
-    'c5e2524a-ea46-4f67-841f-6a9465d9d515',
-    'E2A4F912-2574-4A75-9BB0-0D023378592B',
-    'F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE',
-    'InputApp',
-    'Microsoft.AAD.BrokerPlugin',
-    'Microsoft.AccountsControl',
-    'Microsoft.BioEnrollment',
-    'Microsoft.CredDialogHost',
-    'Microsoft.ECApp',
-    'Microsoft.LockApp',
-    'Microsoft.MicrosoftEdgeDevToolsClient',
-    'Microsoft.MicrosoftEdge',
-    'Microsoft.PPIProjection',
-    'Microsoft.Win32WebViewHost',
-    'Microsoft.Windows.Apprep.ChxApp',
-    'Microsoft.Windows.AssignedAccessLockApp',
-    'Microsoft.Windows.CapturePicker',
-    'Microsoft.Windows.CloudExperienceHost',
-    'Microsoft.Windows.ContentDeliveryManager',
-    'Microsoft.Windows.Cortana',
-    'Microsoft.Windows.NarratorQuickStart',
-    'Microsoft.Windows.ParentalControls',
-    'Microsoft.Windows.PeopleExperienceHost',
-    'Microsoft.Windows.PinningConfirmationDialog',
-    'Microsoft.Windows.SecHealthUI',
-    'Microsoft.Windows.SecureAssessmentBrowser',
-    'Microsoft.Windows.ShellExperienceHost',
-    'Microsoft.Windows.XGpuEjectDialog',
-    'Microsoft.XboxGameCallableUI',
-    'Windows.CBSPreview',
-    'windows.immersivecontrolpanel',
-    'Windows.PrintDialog',
-    'Microsoft.XboxGameCallableUI',
-    'Microsoft.VCLibs.140.00',
-    'Microsoft.Services.Store.Engagement',
-    'Microsoft.UI.Xaml.2.0'
+    "Microsoft.Windows.ShellExperienceHost",
+    "Microsoft.Windows.StartMenuExperienceHost",
+    "Microsoft.Windows.CloudExperienceHost",
+    "Microsoft.Windows.Cortana",
+    "Microsoft.Windows.PeopleExperienceHost",
+    "Microsoft.AAD.BrokerPlugin",
+    "Microsoft.AccountsControl",
+    "Microsoft.LockApp",
+    "Microsoft.Windows.XGpuEjectDialog",
+    "windows.immersivecontrolpanel",
+    "Windows.PrintDialog",
+    "Microsoft.Win32WebViewHost",
+    "Microsoft.ECApp",
+    "Microsoft.Windows.Apprep.ChxApp",
+    "Microsoft.PPIProjection",
+    "Microsoft.XboxGameCallableUI",
+    "Microsoft.Windows.SecHealthUI",
+    "Microsoft.Windows.NarratorQuickStart",
+    "Microsoft.Windows.ParentalControls",
+    "Microsoft.Windows.ContentDeliveryManager",
+    "Microsoft.Windows.AssignedAccessLockApp",
+    "Microsoft.Windows.CapturePicker",
+    "Microsoft.Windows.PinningConfirmationDialog",
+    "Microsoft.VCLibs.140.00",
+    "Microsoft.UI.Xaml.2.0",
+    "Microsoft.Services.Store.Engagement"
 )
 
-# Get apps to remove by exact match
-$AppsToRemove = Get-AppxPackage -AllUsers | Where-Object {
-    ($_.Name -notin $WhitelistedApps) -and ($_.Name -notin $NonRemovable)
+# AppX apps you want to explicitly keep
+$WhitelistedApps = @(
+    "Microsoft.WindowsNotepad",
+    "Microsoft.CompanyPortal",
+    "Microsoft.ScreenSketch",
+    "Microsoft.WindowsSnippingTool",
+    "Microsoft.Paint3D",
+    "Microsoft.WindowsCalculator",
+    "Microsoft.WindowsStore",
+    "Microsoft.Windows.Photos",
+    "CanonicalGroupLimited.UbuntuonWindows",
+    "Microsoft.MicrosoftStickyNotes",
+    "Microsoft.MSPaint",
+    "Microsoft.WindowsCamera",
+    ".NET", "Framework",
+    "Microsoft.StorePurchaseApp",
+    "Microsoft.HEIFImageExtension",
+    "Microsoft.VP9VideoExtensions",
+    "Microsoft.WebMediaExtensions",
+    "Microsoft.WebpImageExtension",
+    "Microsoft.DesktopAppInstaller",
+    "Slack",
+    "WindSynthBerry",
+    "MIDIBerry"
+)
+
+############################################################################################################
+#                                         REMOVE APPX PACKAGES                                             #
+############################################################################################################
+
+$AllAppx = Get-AppxPackage -AllUsers
+$AppsToRemove = $AllAppx | Where-Object {
+    ($WhitelistedApps -notcontains $_.Name) -and
+    ($NonRemovable -notcontains $_.Name)
 }
 
-# Preview before removing
 if ($AppsToRemove) {
-    Write-Host "The following apps will be removed:" -ForegroundColor Yellow
-    $AppsToRemove | Select Name | Format-Table -AutoSize
-    Write-Host "`nProceeding with removal..." -ForegroundColor Red
+    Write-Host "`n=== The following AppX packages will be removed ===`n" -ForegroundColor Yellow
+    $AppsToRemove | Select Name, PackageFullName | Format-Table -AutoSize
+
+    Start-Sleep -Seconds 10
+    Write-Host "`nStarting AppX package removal..." -ForegroundColor Red
+
+    foreach ($App in $AppsToRemove) {
+        try {
+            Remove-AppxPackage -Package $App.PackageFullName -ErrorAction Stop
+            Write-Host "Removed: $($App.Name)" -ForegroundColor Cyan
+        } catch {
+            Write-Warning "Failed to remove $($App.Name): $_"
+        }
+    }
 } else {
-    Write-Host "No apps matched for removal." -ForegroundColor Green
+    Write-Host "No AppX packages matched for removal." -ForegroundColor Green
 }
 
-Start-Sleep -Seconds 15
-
-# Remove AppxPackages
-$AppsToRemove | Remove-AppxPackage
-
-# Provisioned packages (same logic)
-$ProvisionedToRemove = Get-AppxProvisionedPackage -Online | Where-Object {
-    ($_.PackageName -notin $WhitelistedApps) -and ($_.PackageName -notin $NonRemovable)
+# Remove provisioned AppX packages (affects new users)
+$Provisioned = Get-AppxProvisionedPackage -Online
+$ProvisionedToRemove = $Provisioned | Where-Object {
+    ($WhitelistedApps -notcontains $_.DisplayName) -and
+    ($NonRemovable -notcontains $_.DisplayName)
 }
+
 if ($ProvisionedToRemove) {
-    Write-Host "Removing provisioned packages..." -ForegroundColor Red
-    $ProvisionedToRemove | Remove-AppxProvisionedPackage -Online
+    Write-Host "`nRemoving provisioned packages..." -ForegroundColor Yellow
+    foreach ($Pkg in $ProvisionedToRemove) {
+        try {
+            Remove-AppxProvisionedPackage -Online -PackageName $Pkg.PackageName -ErrorAction Stop
+            Write-Host "Removed provisioned: $($Pkg.DisplayName)" -ForegroundColor Cyan
+        } catch {
+            Write-Warning "Failed to remove provisioned $($Pkg.DisplayName): $_"
+        }
+    }
 } else {
     Write-Host "No provisioned packages matched for removal." -ForegroundColor Green
 }
 
 ############################################################################################################
-#                                        Remove Bloatware                                                  #
+#                                         REMOVE BLOATWARE                                                 #
 ############################################################################################################
 
-# Define bloatware list (apps that are typically unnecessary)
+# Define a list of common bloatware
 $Bloatware = @(
-    "Microsoft.549981C3F5F10"
-    "Microsoft.BingNews"
-    "Microsoft.GetHelp"
-    "Microsoft.Getstarted"
-    "Microsoft.Messaging"
-    "Microsoft.Microsoft3DViewer"
-    "Microsoft.MicrosoftOfficeHub"
-    "Microsoft.MicrosoftSolitaireCollection"
-    "Microsoft.NetworkSpeedTest"
-    "Microsoft.MixedReality.Portal"
-    "Microsoft.News"
-    "Microsoft.Office.Lens"
-    "Microsoft.Office.OneNote"
-    "Microsoft.Office.Sway"
-    "Microsoft.OneConnect"
-    "Microsoft.People"
-    #"Microsoft.Print3D"
-    #"Microsoft.RemoteDesktop"
-    "Microsoft.SkypeApp"
-    #"Microsoft.StorePurchaseApp"
-    #"Microsoft.Office.Todo.List"
-    "Microsoft.Whiteboard"
-    "Microsoft.WindowsAlarms"
-    # "Microsoft.WindowsCamera"   # Uncomment to remove Camera
-    "microsoft.windowscommunicationsapps"
-    "Microsoft.WindowsFeedbackHub"
-    #"Microsoft.WindowsMaps"
-    #"Microsoft.WindowsSoundRecorder"
-    #"Microsoft.Xbox.TCUI"
-    #"Microsoft.XboxApp"
-    #"Microsoft.XboxGameOverlay"
-    #"Microsoft.XboxIdentityProvider"
-    #"Microsoft.XboxSpeechToTextOverlay"
-    "Microsoft.ZuneMusic"
-    "Microsoft.ZuneVideo"
-    "MicrosoftTeams"
-    #"Microsoft.YourPhone"
-    "Microsoft.XboxGamingOverlay_5.721.10202.0_neutral_~_8wekyb3d8bbwe"
-    "Microsoft.GamingApp"
-    "Microsoft.Todos"
-    #"Microsoft.PowerAutomateDesktop"
-    "SpotifyAB.SpotifyMusic"
-    "Disney.37853FC22B2CE"
-    "*EclipseManager*"
-    "*ActiproSoftwareLLC*"
-    "*AdobeSystemsIncorporated.AdobePhotoshopExpress*"
-    "*Duolingo-LearnLanguagesforFree*"
-    "*PandoraMediaInc*"
-    "*CandyCrush*"
-    "*BubbleWitch3Saga*"
-    "*Wunderlist*"
-    "*Flipboard*"
-    "*Twitter*"
-    "*Facebook*"
-    "*Spotify*"
-    "*Minecraft*"
-    "*Royal Revolt*"
-    "*Sway*"
-    "*Speed Test*"
-    "*Dolby*"
-    "*Office*"
-    "*Disney*"
-    "clipchamp.clipchamp"
-    "*gaming*"
-    "MicrosoftCorporationII.MicrosoftFamily"
-    "C27EB4BA.DropboxOEM"
-    "*DevHome*"
+    "Microsoft.549981C3F5F10", "Microsoft.BingNews", "Microsoft.GetHelp", "Microsoft.Getstarted",
+    "Microsoft.Messaging", "Microsoft.Microsoft3DViewer", "Microsoft.MicrosoftOfficeHub",
+    "Microsoft.MicrosoftSolitaireCollection", "Microsoft.NetworkSpeedTest", "Microsoft.MixedReality.Portal",
+    "Microsoft.News", "Microsoft.Office.Lens", "Microsoft.Office.OneNote", "Microsoft.Office.Sway",
+    "Microsoft.OneConnect", "Microsoft.People", "Microsoft.SkypeApp", "Microsoft.Whiteboard",
+    "Microsoft.WindowsAlarms", "microsoft.windowscommunicationsapps", "Microsoft.WindowsFeedbackHub",
+    "Microsoft.ZuneMusic", "Microsoft.ZuneVideo", "MicrosoftTeams", "Microsoft.GamingApp", "Microsoft.Todos",
+    "SpotifyAB.SpotifyMusic", "Disney.37853FC22B2CE", "clipchamp.clipchamp", "MicrosoftCorporationII.MicrosoftFamily",
+    "C27EB4BA.DropboxOEM", "*CandyCrush*", "*Twitter*", "*Facebook*", "*Minecraft*", "*DevHome*", "*Disney*",
+    "*Flipboard*", "*Duolingo*", "*Adobe*", "*BubbleWitch*", "*PandoraMediaInc*", "*EclipseManager*"
 )
 
-# Preview bloatware removal before execution
-Write-Host "Checking for installed bloatware..." -ForegroundColor Yellow
-$BloatwareFound = Get-AppxPackage -AllUsers | Where-Object { $_.Name -like ($Bloatware -join "|") }
+# Build regex and find installed bloatware
+$BloatwareRegex = ($Bloatware -join "|").Replace("*", ".*")
+$BloatwareFound = $AllAppx | Where-Object { $_.Name -match $BloatwareRegex }
 
 if ($BloatwareFound) {
-    Write-Host "The following bloatware apps will be removed:" -ForegroundColor Red
+    Write-Host "`n=== The following bloatware apps will be removed ===`n" -ForegroundColor Yellow
     $BloatwareFound | Select Name | Format-Table -AutoSize
-    Write-Host "`nProceeding with bloatware removal..." -ForegroundColor Red
 } else {
-    Write-Host "No bloatware found for removal." -ForegroundColor Green
+    Write-Host "No bloatware matched for removal." -ForegroundColor Green
 }
 
-# Remove bloatware
-foreach ($Bloat in $Bloatware) {
-    Get-AppxPackage -AllUsers -Name $Bloat | Remove-AppxPackage -AllUsers
-    Get-AppxProvisionedPackage -Online | Where-Object DisplayName -like $Bloat | Remove-AppxProvisionedPackage -Online
-    Write-Host "Trying to remove $Bloat." -ForegroundColor Cyan
+# Perform removal
+foreach ($AppName in $Bloatware) {
+    try {
+        Get-AppxPackage -AllUsers -Name $AppName | ForEach-Object {
+            try {
+                Remove-AppxPackage -Package $_.PackageFullName -ErrorAction Stop
+                Write-Host "Removed bloatware: $($_.Name)" -ForegroundColor Cyan
+            } catch {
+                Write-Warning "Failed to remove $($_.Name): $_"
+            }
+        }
+
+        Get-AppxProvisionedPackage -Online | Where-Object { $_.DisplayName -like $AppName } | ForEach-Object {
+            try {
+                Remove-AppxProvisionedPackage -Online -PackageName $_.PackageName -ErrorAction Stop
+                Write-Host "Removed provisioned bloatware: $($_.DisplayName)" -ForegroundColor Cyan
+            } catch {
+                Write-Warning "Failed to remove provisioned $($_.DisplayName): $_"
+            }
+        }
+    } catch {
+        Write-Warning "Error during bloatware removal for: $AppName"
+    }
 }
 
-Write-Host "App removal process complete." -ForegroundColor Green
+Write-Host "`nApp removal process complete. Reboot is recommended." -ForegroundColor Green
 
 ############################################################################################################
 #                                        Remove Registry Keys                                              #
