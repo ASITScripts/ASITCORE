@@ -477,10 +477,8 @@ New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\RasMan\Parameter
 Write-Host -ForegroundColor Green ("[$Time]`t VPN Regfix added")
 
 ############################################################################################################
-#                           Safe AppX and Bloatware Removal Script (Dry-Run Enabled)                      #
+#                           Safe AppX and Bloatware Removal Script (Execution Enabled)                    #
 ############################################################################################################
-
-$DryRun = $true  # Set to $false to enable actual removal
 
 # Updated NonRemovable: Critical components that should never be removed
 $NonRemovable = @(
@@ -586,20 +584,16 @@ $AppsToRemove = $AllAppx | Where-Object {
 }
 
 if ($AppsToRemove) {
-    Write-Host "\n=== The following AppX packages would be removed ===\n" -ForegroundColor Yellow
+    Write-Host "\n=== The following AppX packages will be removed ===\n" -ForegroundColor Yellow
     $AppsToRemove | Select Name, PackageFullName | Format-Table -AutoSize
 
-    if (-not $DryRun) {
-        foreach ($App in $AppsToRemove) {
-            try {
-                Remove-AppxPackage -Package $App.PackageFullName -ErrorAction Stop
-                Write-Host "Removed: $($App.Name)" -ForegroundColor Cyan
-            } catch {
-                Write-Warning "Failed to remove $($App.Name): $_"
-            }
+    foreach ($App in $AppsToRemove) {
+        try {
+            Remove-AppxPackage -Package $App.PackageFullName -ErrorAction Stop
+            Write-Host "Removed: $($App.Name)" -ForegroundColor Cyan
+        } catch {
+            Write-Warning "Failed to remove $($App.Name): $_"
         }
-    } else {
-        Write-Host "Dry-run mode: No AppX packages were removed." -ForegroundColor Green
     }
 } else {
     Write-Host "No AppX packages matched for removal." -ForegroundColor Green
@@ -613,20 +607,16 @@ $ProvisionedToRemove = $Provisioned | Where-Object {
 }
 
 if ($ProvisionedToRemove) {
-    Write-Host "\n=== The following provisioned packages would be removed ===\n" -ForegroundColor Yellow
+    Write-Host "\n=== The following provisioned packages will be removed ===\n" -ForegroundColor Yellow
     $ProvisionedToRemove | Select DisplayName, PackageName | Format-Table -AutoSize
 
-    if (-not $DryRun) {
-        foreach ($Pkg in $ProvisionedToRemove) {
-            try {
-                Remove-AppxProvisionedPackage -Online -PackageName $Pkg.PackageName -ErrorAction Stop
-                Write-Host "Removed provisioned: $($Pkg.DisplayName)" -ForegroundColor Cyan
-            } catch {
-                Write-Warning "Failed to remove provisioned $($Pkg.DisplayName): $_"
-            }
+    foreach ($Pkg in $ProvisionedToRemove) {
+        try {
+            Remove-AppxProvisionedPackage -Online -PackageName $Pkg.PackageName -ErrorAction Stop
+            Write-Host "Removed provisioned: $($Pkg.DisplayName)" -ForegroundColor Cyan
+        } catch {
+            Write-Warning "Failed to remove provisioned $($Pkg.DisplayName): $_"
         }
-    } else {
-        Write-Host "Dry-run mode: No provisioned packages were removed." -ForegroundColor Green
     }
 } else {
     Write-Host "No provisioned packages matched for removal." -ForegroundColor Green
