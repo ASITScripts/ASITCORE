@@ -477,20 +477,20 @@ New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\RasMan\Parameter
 Write-Host -ForegroundColor Green ("[$Time]`t VPN Regfix added")
 
 ############################################################################################################
-#                               Safe AppX and Bloatware Removal Script                                     #
+#                           Safe AppX and Bloatware Removal Script (Dry-Run Enabled)                      #
 ############################################################################################################
 
-# STRONGLY WHITELISTED CORE SHELL/LOGIN/UI COMPONENTS (do NOT remove these)
+$DryRun = $true  # Set to $false to enable actual removal
+
+# Updated NonRemovable: Critical components that should never be removed
 $NonRemovable = @(
     "Microsoft.Windows.ShellExperienceHost",
     "Microsoft.Windows.StartMenuExperienceHost",
     "Microsoft.Windows.CloudExperienceHost",
-    "Microsoft.Windows.Cortana",
     "Microsoft.Windows.PeopleExperienceHost",
     "Microsoft.AAD.BrokerPlugin",
     "Microsoft.AccountsControl",
     "Microsoft.LockApp",
-    "Microsoft.Windows.XGpuEjectDialog",
     "windows.immersivecontrolpanel",
     "Windows.PrintDialog",
     "Microsoft.Win32WebViewHost",
@@ -507,10 +507,34 @@ $NonRemovable = @(
     "Microsoft.Windows.PinningConfirmationDialog",
     "Microsoft.VCLibs.140.00",
     "Microsoft.UI.Xaml.2.0",
-    "Microsoft.Services.Store.Engagement"
+    "Microsoft.Services.Store.Engagement",
+    "1527c705-839a-4832-9118-54d4Bd6a0c89",
+    "c5e2524a-ea46-4f67-841f-6a9465d9d515",
+    "E2A4F912-2574-4A75-9BB0-0D023378592B",
+    "F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE",
+    "Microsoft.UI.Xaml.CBS",
+    "Microsoft.WindowsAppRuntime.CBS",
+    "Microsoft.WindowsAppRuntime.CBS.1",
+    "Microsoft.Windows.OOBENetworkCaptivePortal",
+    "Microsoft.Windows.OOBENetworkConnectionFlow",
+    "Microsoft.Windows.SecureAssessmentBrowser",
+    "Microsoft.Windows.PrintQueueActionCenter",
+    "Microsoft.Windows.Client.CBS",
+    "Microsoft.Windows.Client.Core",
+    "Microsoft.Windows.Client.CoreAI",
+    "Microsoft.Windows.Client.FileExp",
+    "Microsoft.Windows.Client.OOBE",
+    "Microsoft.Windows.Client.Photon",
+    "Microsoft.Windows.CBSPreview",
+    "Microsoft.CredDialogHost",
+    "Microsoft.BioEnrollment",
+    "Microsoft.AsyncTextService",
+    "Microsoft.MicrosoftEdgeDevToolsClient",
+    "Microsoft.Windows.AugLoop.CBS",
+    "Microsoft.HEVCVideoExtension"
 )
 
-# AppX apps you want to explicitly keep
+# Whitelisted apps to keep
 $WhitelistedApps = @(
     "Microsoft.WindowsNotepad",
     "Microsoft.CompanyPortal",
@@ -524,7 +548,6 @@ $WhitelistedApps = @(
     "Microsoft.MicrosoftStickyNotes",
     "Microsoft.MSPaint",
     "Microsoft.WindowsCamera",
-    ".NET", "Framework",
     "Microsoft.StorePurchaseApp",
     "Microsoft.HEIFImageExtension",
     "Microsoft.VP9VideoExtensions",
@@ -533,39 +556,56 @@ $WhitelistedApps = @(
     "Microsoft.DesktopAppInstaller",
     "Slack",
     "WindSynthBerry",
-    "MIDIBerry"
+    "MIDIBerry",
+
+    # Additional whitelist for developers, standard users, and IT admins
+    "Microsoft.HEIFImageExtension",
+    "Microsoft.RawImageExtension",
+    "Microsoft.ScreenSketch",
+    "Microsoft.WindowsSnippingTool",
+    "Microsoft.Windows.Clipboard",
+    "Microsoft.DesktopAppInstaller",
+    "Microsoft.Windows.DevHome",
+    "Microsoft.Windows.SecureAssessmentBrowser",
+    "Microsoft.WindowsTerminal",
+    "Microsoft.PowerAutomateDesktop",
+    "MicrosoftCorporationII.QuickAssist",
+    "Microsoft.WindowsAlarms",
+    "Microsoft.WindowsFeedbackHub",
+    "Microsoft.MicrosoftStickyNotes",
+    "Microsoft.XboxIdentityProvider"
 )
 
-############################################################################################################
-#                                         REMOVE APPX PACKAGES                                             #
-############################################################################################################
-
+# Gather all installed packages
 $AllAppx = Get-AppxPackage -AllUsers
+
+# Filter apps to remove
 $AppsToRemove = $AllAppx | Where-Object {
     ($WhitelistedApps -notcontains $_.Name) -and
     ($NonRemovable -notcontains $_.Name)
 }
 
 if ($AppsToRemove) {
-    Write-Host "`n=== The following AppX packages will be removed ===`n" -ForegroundColor Yellow
+    Write-Host "\n=== The following AppX packages would be removed ===\n" -ForegroundColor Yellow
     $AppsToRemove | Select Name, PackageFullName | Format-Table -AutoSize
 
-    Start-Sleep -Seconds 10
-    Write-Host "`nStarting AppX package removal..." -ForegroundColor Red
-
-    foreach ($App in $AppsToRemove) {
-        try {
-            Remove-AppxPackage -Package $App.PackageFullName -ErrorAction Stop
-            Write-Host "Removed: $($App.Name)" -ForegroundColor Cyan
-        } catch {
-            Write-Warning "Failed to remove $($App.Name): $_"
+    if (-not $DryRun) {
+        foreach ($App in $AppsToRemove) {
+            try {
+                Remove-AppxPackage -Package $App.PackageFullName -ErrorAction Stop
+                Write-Host "Removed: $($App.Name)" -ForegroundColor Cyan
+            } catch {
+                Write-Warning "Failed to remove $($App.Name): $_"
+            }
         }
+    } else {
+        Write-Host "Dry-run mode: No AppX packages were removed." -ForegroundColor Green
     }
 } else {
     Write-Host "No AppX packages matched for removal." -ForegroundColor Green
 }
 
-# Remove provisioned AppX packages (affects new users)
+# Repeat for provisioned packages
 $Provisioned = Get-AppxProvisionedPackage -Online
 $ProvisionedToRemove = $Provisioned | Where-Object {
     ($WhitelistedApps -notcontains $_.DisplayName) -and
@@ -573,14 +613,20 @@ $ProvisionedToRemove = $Provisioned | Where-Object {
 }
 
 if ($ProvisionedToRemove) {
-    Write-Host "`nRemoving provisioned packages..." -ForegroundColor Yellow
-    foreach ($Pkg in $ProvisionedToRemove) {
-        try {
-            Remove-AppxProvisionedPackage -Online -PackageName $Pkg.PackageName -ErrorAction Stop
-            Write-Host "Removed provisioned: $($Pkg.DisplayName)" -ForegroundColor Cyan
-        } catch {
-            Write-Warning "Failed to remove provisioned $($Pkg.DisplayName): $_"
+    Write-Host "\n=== The following provisioned packages would be removed ===\n" -ForegroundColor Yellow
+    $ProvisionedToRemove | Select DisplayName, PackageName | Format-Table -AutoSize
+
+    if (-not $DryRun) {
+        foreach ($Pkg in $ProvisionedToRemove) {
+            try {
+                Remove-AppxProvisionedPackage -Online -PackageName $Pkg.PackageName -ErrorAction Stop
+                Write-Host "Removed provisioned: $($Pkg.DisplayName)" -ForegroundColor Cyan
+            } catch {
+                Write-Warning "Failed to remove provisioned $($Pkg.DisplayName): $_"
+            }
         }
+    } else {
+        Write-Host "Dry-run mode: No provisioned packages were removed." -ForegroundColor Green
     }
 } else {
     Write-Host "No provisioned packages matched for removal." -ForegroundColor Green
