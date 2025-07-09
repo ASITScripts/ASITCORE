@@ -582,7 +582,17 @@ $WhitelistedApps = @(
     "AppUp.IntelManagementandSecurityStatus",
     "Microsoft.WindowsSoundRecorder",
     "Microsoft.MicrosoftEdge.Stable",
-    "Microsoft.MSPaint"
+    "Microsoft.MSPaint",
+    "Microsoft.Todos",
+    "Microsoft.YourPhone",
+    "Microsoft.WindowsMaps",
+    "Microsoft.RemoteDesktop",
+    "Microsoft.PowerToys",
+    "Microsoft.Xbox.TCUI",
+    "Microsoft.XboxApp",
+    "Microsoft.XboxGameOverlay",
+    "Microsoft.XboxGamingOverlay",
+    "Microsoft.XboxSpeechToTextOverlay"
 )
 
 # Gather all installed packages
