@@ -513,6 +513,7 @@ $NonRemovable = @(
     "Microsoft.UI.Xaml.CBS",
     "Microsoft.WindowsAppRuntime.CBS",
     "Microsoft.WindowsAppRuntime.CBS.1",
+    "Microsoft.WindowsAppRuntime.CBS.1.6",
     "Microsoft.Windows.OOBENetworkCaptivePortal",
     "Microsoft.Windows.OOBENetworkConnectionFlow",
     "Microsoft.Windows.SecureAssessmentBrowser",
@@ -529,7 +530,11 @@ $NonRemovable = @(
     "Microsoft.AsyncTextService",
     "Microsoft.MicrosoftEdgeDevToolsClient",
     "Microsoft.Windows.AugLoop.CBS",
-    "Microsoft.HEVCVideoExtension"
+    "Microsoft.HEVCVideoExtension",
+    "Microsoft.NET.Native.Framework.2.1",
+    "Microsoft.NET.Native.Framework.2.2",
+    "Microsoft.NET.Native.Runtime.2.1",
+    "Microsoft.NET.Native.Runtime.2.2"
 )
 
 # Whitelisted apps to keep
@@ -571,7 +576,13 @@ $WhitelistedApps = @(
     "Microsoft.WindowsAlarms",
     "Microsoft.WindowsFeedbackHub",
     "Microsoft.MicrosoftStickyNotes",
-    "Microsoft.XboxIdentityProvider"
+    "Microsoft.XboxIdentityProvider",
+
+    # Additional user-requested whitelist entries
+    "AppUp.IntelManagementandSecurityStatus",
+    "Microsoft.WindowsSoundRecorder",
+    "Microsoft.MicrosoftEdge.Stable",
+    "Microsoft.MSPaint"
 )
 
 # Gather all installed packages
