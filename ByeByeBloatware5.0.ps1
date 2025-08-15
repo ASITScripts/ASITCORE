@@ -419,7 +419,7 @@ switch ($Choice)
  	'79' {$Selection = $LINCOLN}
   	'80' {$Selection = $CASTELLOOLIVETREE}
    	'81' {$Selection = $CASTELLODERRIMUT}
-    	'82' {$Selection = $TAILOREDFRESH}
+    '82' {$Selection = $TAILOREDFRESH}
 	'0' {$Selection = "NORMM"}
     }
 
@@ -2180,4 +2180,5 @@ catch {
 Stop-Transcript
 
 Remove-Item $script:MyInvocation.MyCommand.Path -Force
+
 
