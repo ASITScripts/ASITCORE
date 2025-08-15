@@ -164,7 +164,28 @@ Else {
     New-Item -Path "$RMM" -ItemType Directory
     Write-Output "The folder $RMM was successfully created."
 }
- 
+
+#Remove non AU Keyboards
+
+try {
+    # Get current list
+    $currentList = Get-WinUserLanguageList
+
+    # Add en-AU if missing
+    if ($currentList.LanguageTag -notcontains 'en-AU') {
+        $currentList.Add((New-WinUserLanguageList -Language 'en-AU')[0])
+    }
+
+    # Keep only en-AU
+    $newList = New-WinUserLanguageList -Language 'en-AU'
+    Set-WinUserLanguageList -LanguageList $newList -Force
+
+    Write-Host "Input language set to English (Australia)"
+}
+catch {
+    Write-Warning "Failed to set input language: $($_.Exception.Message)"
+}
+
 # Do not edit anything above unless needed to for some reason - just keeps it neat by placing all the script stuff in one folder
 function Get-MenuChoice {
     #region Comment Based Help [CBH]
