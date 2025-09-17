@@ -2051,6 +2051,11 @@ Start-Sleep -s 5
 
 # App installation
 
+# Photos
+winget install --id 9WZDNCRFJBH4 -e  # Microsoft Photos
+# Paint
+winget install --id 9PCFS5B6T72H -e  # Microsoft Paint
+
 $DesktopPath = [Environment]::GetFolderPath("Desktop")
 
 # Chrome Installation
@@ -2180,6 +2185,7 @@ catch {
 Stop-Transcript
 
 Remove-Item $script:MyInvocation.MyCommand.Path -Force
+
 
 
 
