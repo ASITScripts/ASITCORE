@@ -248,90 +248,89 @@ function Get-MenuChoice {
 }
 
 $TopMenu = (
-    '1 - AMCL',
-    '2 - AQUACORP ADELAIDE',
-    '3 - AQUACORP BRISBANE',
-    '4 - ASIT',
-    '5 - BARCRUSHER',
-    '6 - BATMANS',
-    '7 - BEAUMARIS',
-    '8 - BENT AND COUGLE',
-    '9 - BK TAYLOR',
-    '10 - CAMVEX',
-    '11 - CASTELLO CARDINIA',
-    '12 - CASTELLO CROYDON',
-    '13 - CASTELLO DERRIMUT',
-    '14 - CASTELLO FORESTER',
-    '15 - CASTELLO GISBOURNE',
-    '16 - CASTELLO HEADOFFICE',
-    '17 - CASTELLO LONGBEACH',
-    '18 - CASTELLO OLIVE TREE',
-    '19 - CASTELLO PAKENHAM',
-    '20 - CDIT',
-    '21 - CHALMERS',
-    '22 - CONSTRUCTION ZONE',
-    '23 - CREATIVE UNIVERSE',
-    '24 - CRIBPOINT',
-    '25 - DESTINATION PHILLIP ISLAND',
-    '26 - DIAGNOSTICARE',
-    '27 - DIAM',
-    '28 - DVR',
-    '29 - EASYLIFE',
-    '30 - ETU',
-    '31 - FINWELL',
-    '32 - GARAGE BEVERAGES',
-    '33 - GBLA',
-    '34 - HAAG',
-    '35 - HGC',
-    '36 - JAM WESTEND',
-    '37 - JBP',
-    '38 - KEATING',
-    '39 - LEITZ MELBOURNE',
-    '40 - LEXLAB',
-    '41 - LINCOLN PEARCE',
-    '42 - MEDIA REPUBLIC',
-    '43 - NEWCO',
-    '44 - NEXUS',
-    '45 - OPG HONG KONG',
-    '46 - OPG MELBOURNE',
-    '47 - OPG PHILLIPINES',
-    '48 - OPG SYDNEY',
-    '49 - POINTON PARTNERS',
-    '50 - PTA',
-    '51 - PUBCO BACCHUSMARSH',
-    '52 - PUBCO BAYNBRIDGE',
-    '53 - PUBCO BROWNS',
-    '54 - PUBCO CROWN',
-    '55 - PUBCO DUKE',
-    '56 - PUBCO HEADOFFICE',
-    '57 - PUBCO JUNCTION',
-    '58 - PUBCO KNOX',
-    '59 - PUBCO LYGON',
-    '60 - PUBCO MACS WARRNAMBOOL',
-    '61 - PUBCO MORNINGTON',
-    '62 - PUBCO NEPEAN',
-    '63 - PUBCO POWELL',
-    '64 - PUBCO TEMPLESTOWE',
-    '65 - QUAIL',
-    '66 - RACE COURSE',
-    '67 - ROSEBUD HOTEL',
-    '68 - ROSSTOWN HOTEL',
-    '69 - SIW',
-    '70 - SLEEP SERVICES',
-    '71 - TAILORED FRESH',
-    '72 - TFB BERLIN',
-    '73 - TFB MELBOURNE',
-    '74 - TPC',
-    '75 - TRADEFLEX',
-    '76 - TRINITY',
-    '77 - VICMESH',
-    '78 - VINCENT CHRISP',
-    '79 - VINCENTCHRISP SHEPPARTON',
-    '80 - WINENET',
-    '81 - YARRA YERRING',
-    '82 - YMBF',
-    '0 - No RMM Client required'
-)
+	'1 - AMCL',
+	'2 - AQUACORP ADELAIDE' ,
+	'3 - AQUACORP BRISBANE' ,
+	'4 - ASIT',
+	'5 - BARCRUSHER',
+	'6 - BATMANS',
+	'7 - BEAUMARIS',
+	'8 - BENT AND COUGLE',
+	'9 - BK TAYLOR',
+	'10 - CAMVEX',
+	'11 - CASTELLO CARDINIA',
+	'12 - CASTELLO CROYDON',
+	'13 - CASTELLO FORESTER',
+	'14 - CASTELLO GISBOURNE',
+	'15 - CASTELLO HEADOFFICE',
+	'16 - CASTELLO LONGBEACH',
+	'17 - CASTELLO PAKENHAM',
+	'18 - CDIT',
+	'19 - CHALMERS',
+	'20 - CONSTRUCTION ZONE',
+	'21 - CREATIVE UNIVERSE',
+	'22 - CRIBPOINT',
+	'23 - DESTINATION PHILLIP ISLAND',
+	'24 - DIAGNOSTICARE',
+	'25 - DIAM',
+	'26 - DVR',
+	'27 - EASYLIFE',
+	'28 - ETU',
+	'29 - FINWELL',
+	'30 - GARAGE BEVERAGES',
+	'31 - GBLA',
+	'32 - HAAG',
+	'33 - HGC',
+	'34 - JAM WESTEND',
+	'35 - JBP',
+	'36 - KEATING',
+	'37 - LEITZ MELBOURNE',
+	'38 - MEDIA REPUBLIC',
+	'39 - NEWCO',
+	'40 - NEXUS',
+	'41 - OPG HONG KONG',
+	'42 - OPG MELBOURNE',
+	'43 - OPG PHILLIPINES',
+	'44 - OPG SYDNEY',
+	'45 - POINTON PARTNERS',
+	'46 - PTA',
+	'47 - PUBCO BACCHUSMARSH',
+	'48 - PUBCO BAYNBRIDGE',
+	'49 - PUBCO BROWNS',
+	'50 - PUBCO CROWN',
+	'51 - PUBCO DUKE',
+	'52 - PUBCO HEADOFFICE',
+	'53 - PUBCO JUNCTION',
+	'54 - PUBCO KNOX',
+	'55 - PUBCO LYGON',
+	'56 - PUBCO MORNINGTON',
+	'57 - PUBCO NEPEAN',
+	'58 - PUBCO POWELL',
+	'59 - PUBCO TEMPLESTOWE',
+	'60 - QUAIL',
+	'61 - RACE COURSE',
+	'62 - ROSEBUD HOTEL',
+	'63 - ROSSTOWN HOTEL',
+	'64 - SIW',
+	'65 - SLEEP SERVICES',
+	'66 - TFB BERLIN',
+	'67 - TFB MELBOURNE',
+	'68 - TPC',
+	'69 - TRADEFLEX',
+	'70 - TRINITY',
+	'71 - VICMESH',
+	'72 - VINCENT CHRISP',
+	'73 - VINCENTCHRISP SHEPPARTON',
+	'74 - WINENET',
+	'75 - YARRA YERRING',
+	'76 - YMBF',
+	'77 - PUBCO MACS WARRNAMBOOL',
+	'78 - LEXLAB',
+ 	'79 - LINCOLN PEARCE',
+  	'80 - CASTELLO OLIVE TREE',
+   	'81 - CASTELLO DERRIMUT',
+    '82 - TAILORED FRESH',
+	'0 - No RMM Client required')
 
 # $Choice = Get-MenuChoice $TopMenu
 $Choice = Get-MenuChoice -MenuItems $TopMenu -MenuTitle 'Which client / site is this device for?' -MenuPrompt 'Please select a site for RMM installation / SC client installation'
@@ -339,89 +338,89 @@ $Choice = Get-MenuChoice -MenuItems $TopMenu -MenuTitle 'Which client / site is 
 Write-Output ''
 switch ($Choice)
     {
-    '1'  {$Selection = $AMCL}
-    '2'  {$Selection = $AQUACORPADELAIDE}
-    '3'  {$Selection = $AQUACORPBRISBANE}
-    '4'  {$Selection = $ASIT}
-    '5'  {$Selection = $BARCRUSHER}
-    '6'  {$Selection = $BATMANS}
-    '7'  {$Selection = $BEAUMARIS}
-    '8'  {$Selection = $BENTANDCOUGLE}
-    '9'  {$Selection = $BKTAYLOR}
-    '10' {$Selection = $CAMVEX}
-    '11' {$Selection = $CASTELLOCARDINIA}
-    '12' {$Selection = $CASTELLOCROYDON}
-    '13' {$Selection = $CASTELLODERRIMUT}
-    '14' {$Selection = $CASTELLOFORESTER}
-    '15' {$Selection = $CASTELLOGISBOURNE}
-    '16' {$Selection = $CASTELLOHEADOFFICE}
-    '17' {$Selection = $CASTELLOLONGBEACH}
-    '18' {$Selection = $CASTELLOOLIVETREE}
-    '19' {$Selection = $CASTELLOPAKENHAM}
-    '20' {$Selection = $CDIT}
-    '21' {$Selection = $CHALMERS}
-    '22' {$Selection = $CONSTRUCTIONZONE}
-    '23' {$Selection = $CREATIVEUNIVERSE}
-    '24' {$Selection = $CRIBPOINT}
-    '25' {$Selection = $DESTINATIONPHILLIPISLAND}
-    '26' {$Selection = $DIAGNOSTICARE}
-    '27' {$Selection = $DIAM}
-    '28' {$Selection = $DVR}
-    '29' {$Selection = $EASYLIFE}
-    '30' {$Selection = $ETU}
-    '31' {$Selection = $FINWELL}
-    '32' {$Selection = $GARAGEBEVERAGES}
-    '33' {$Selection = $GBLA}
-    '34' {$Selection = $HAAG}
-    '35' {$Selection = $HGC}
-    '36' {$Selection = $JAMWESTEND}
-    '37' {$Selection = $JBP}
-    '38' {$Selection = $KEATING}
-    '39' {$Selection = $LEITZMELBOURNE}
-    '40' {$Selection = $LEXLAB}
-    '41' {$Selection = $LINCOLN}
-    '42' {$Selection = $MEDIAREPUBLIC}
-    '43' {$Selection = $NEWCO}
-    '44' {$Selection = $NEXUS}
-    '45' {$Selection = $OPGHONGKONG}
-    '46' {$Selection = $OPGMELBOURNE}
-    '47' {$Selection = $OPGPH}
-    '48' {$Selection = $OPGSYDNEY}
-    '49' {$Selection = $POINTONPARTNERS}
-    '50' {$Selection = $PTA}
-    '51' {$Selection = $PUBCOBACCHUSMARSH}
-    '52' {$Selection = $PUBCOBAYNBRIDGE}
-    '53' {$Selection = $PUBCOBROWNS}
-    '54' {$Selection = $PUBCOCROWN}
-    '55' {$Selection = $PUBCODUKE}
-    '56' {$Selection = $PUBCOHEADOFFICE}
-    '57' {$Selection = $PUBCOJUNCTION}
-    '58' {$Selection = $PUBCOKNOX}
-    '59' {$Selection = $PUBCOLYGON}
-    '60' {$Selection = $PUBCOMACS}
-    '61' {$Selection = $PUBCOMORNINGTON}
-    '62' {$Selection = $PUBCONEPEAN}
-    '63' {$Selection = $PUBCOPOWELL}
-    '64' {$Selection = $PUBCOTEMPLESTOWE}
-    '65' {$Selection = $QUAIL}
-    '66' {$Selection = $RACECOURSE}
-    '67' {$Selection = $ROSEBUDHOTEL}
-    '68' {$Selection = $ROSSTOWNHOTEL}
-    '69' {$Selection = $SIW}
-    '70' {$Selection = $SLEEPSERVICES}
-    '71' {$Selection = $TAILOREDFRESH}
-    '72' {$Selection = $TFBBERLIN}
-    '73' {$Selection = $TFBMELBOURNE}
-    '74' {$Selection = $TPC}
-    '75' {$Selection = $TRADEFLEX}
-    '76' {$Selection = $TRINITY}
-    '77' {$Selection = $VICMESH}
-    '78' {$Selection = $VINCENTCHRISP}
-    '79' {$Selection = $VINCENTCHRISPSHEPPARTON}
-    '80' {$Selection = $WINENET}
-    '81' {$Selection = $YARRAYERRING}
-    '82' {$Selection = $YMBF}
-    '0'  {$Selection = "NORMM"}
+	'1' {$Selection = $AMCL}
+	'2' {$Selection = $AQUACORPADELAIDE}
+	'3' {$Selection = $AQUACORPBRISBANE}
+	'4' {$Selection = $ASIT}
+	'5' {$Selection = $BARCRUSHER}
+	'6' {$Selection = $BATMANS}
+	'7' {$Selection = $BEAUMARIS}
+	'8' {$Selection = $BENTANDCOUGLE}
+	'9' {$Selection = $BKTAYLOR}
+	'10' {$Selection = $CAMVEX}
+	'11' {$Selection = $CASTELLOCARDINIA}
+	'12' {$Selection = $CASTELLOCROYDON}
+	'13' {$Selection = $CASTELLOFORESTER}
+	'14' {$Selection = $CASTELLOGISBOURNE}
+	'15' {$Selection = $CASTELLOHEADOFFICE}
+	'16' {$Selection = $CASTELLOLONGBEACH}
+	'17' {$Selection = $CASTELLOPAKENHAM}
+	'18' {$Selection = $CDIT}
+	'19' {$Selection = $CHALMERS}
+	'20' {$Selection = $CONSTRUCTIONZONE}
+	'21' {$Selection = $CREATIVEUNIVERSE}
+	'22' {$Selection = $CRIBPOINT}
+	'23' {$Selection = $DESTINATIONPHILLIPISLAND}
+	'24' {$Selection = $DIAGNOSTICARE}
+	'25' {$Selection = $DIAM}
+	'26' {$Selection = $DVR}
+	'27' {$Selection = $EASYLIFE}
+	'28' {$Selection = $ETU}
+	'29' {$Selection = $FINWELL}
+	'30' {$Selection = $GARAGEBEVERAGES}
+	'31' {$Selection = $GBLA}
+	'32' {$Selection = $HAAG}
+	'33' {$Selection = $HGC}
+	'34' {$Selection = $JAMWESTEND}
+	'35' {$Selection = $JBP}
+	'36' {$Selection = $KEATING}
+	'37' {$Selection = $LEITZMELBOURNE}
+	'38' {$Selection = $MEDIAREPUBLIC}
+	'39' {$Selection = $NEWCO}
+	'40' {$Selection = $NEXUS}
+	'41' {$Selection = $OPGHONGKONG}
+	'42' {$Selection = $OPGMELBOURNE}
+	'43' {$Selection = $OPGPH}
+	'44' {$Selection = $OPGSYDNEY}
+	'45' {$Selection = $POINTONPARTNERS}
+	'46' {$Selection = $PTA}
+	'47' {$Selection = $PUBCOBACCHUSMARSH}
+	'48' {$Selection = $PUBCOBAYNBRIDGE}
+	'49' {$Selection = $PUBCOBROWNS}
+	'50' {$Selection = $PUBCOCROWN}
+	'51' {$Selection = $PUBCODUKE}
+	'52' {$Selection = $PUBCOHEADOFFICE}
+	'53' {$Selection = $PUBCOJUNCTION}
+	'54' {$Selection = $PUBCOKNOX}
+	'55' {$Selection = $PUBCOLYGON}
+	'56' {$Selection = $PUBCOMORNINGTON}
+	'57' {$Selection = $PUBCONEPEAN}
+	'58' {$Selection = $PUBCOPOWELL}
+	'59' {$Selection = $PUBCOTEMPLESTOWE}
+	'60' {$Selection = $QUAIL}
+	'61' {$Selection = $RACECOURSE}
+	'62' {$Selection = $ROSEBUDHOTEL}
+	'63' {$Selection = $ROSSTOWNHOTEL}
+	'64' {$Selection = $SIW}
+	'65' {$Selection = $SLEEPSERVICES}
+	'66' {$Selection = $TFBBERLIN}
+	'67' {$Selection = $TFBMELBOURNE}
+	'68' {$Selection = $TPC}
+	'69' {$Selection = $TRADEFLEX}
+	'70' {$Selection = $TRINITY}
+	'71' {$Selection = $VICMESH}
+	'72' {$Selection = $VINCENTCHRISP}
+	'73' {$Selection = $VINCENTCHRISPSHEPPARTON}
+	'74' {$Selection = $WINENET}
+	'75' {$Selection = $YARRAYERRING}
+	'76' {$Selection = $YMBF}
+	'77' {$Selection = $PUBCOMACS}
+	'78' {$Selection = $LEXLAB}
+ 	'79' {$Selection = $LINCOLN}
+  	'80' {$Selection = $CASTELLOOLIVETREE}
+   	'81' {$Selection = $CASTELLODERRIMUT}
+    '82' {$Selection = $TAILOREDFRESH}
+	'0' {$Selection = "NORMM"}
     }
 
 # End selection
@@ -569,10 +568,9 @@ $WhitelistedApps = @(
     "Microsoft.WindowsCalculator",
     "Microsoft.WindowsStore",
     "Microsoft.Windows.Photos",
-    "Microsoft.Photos",
     "CanonicalGroupLimited.UbuntuonWindows",
     "Microsoft.MicrosoftStickyNotes",
-    "Microsoft.Paint",
+    "Microsoft.MSPaint",
     "Microsoft.WindowsCamera",
     "Microsoft.StorePurchaseApp",
     "Microsoft.HEIFImageExtension",
@@ -583,6 +581,8 @@ $WhitelistedApps = @(
     "Slack",
     "WindSynthBerry",
     "MIDIBerry",
+
+    # Additional whitelist for developers, standard users, and IT admins
     "Microsoft.HEIFImageExtension",
     "Microsoft.RawImageExtension",
     "Microsoft.ScreenSketch",
@@ -598,6 +598,8 @@ $WhitelistedApps = @(
     "Microsoft.WindowsFeedbackHub",
     "Microsoft.MicrosoftStickyNotes",
     "Microsoft.XboxIdentityProvider",
+
+    # Additional user-requested whitelist entries
     "AppUp.IntelManagementandSecurityStatus",
     "Microsoft.WindowsSoundRecorder",
     "Microsoft.MicrosoftEdge.Stable",
@@ -677,8 +679,7 @@ $Bloatware = @(
     "Microsoft.ZuneMusic", "Microsoft.ZuneVideo", "MicrosoftTeams", "Microsoft.GamingApp", "Microsoft.Todos",
     "SpotifyAB.SpotifyMusic", "Disney.37853FC22B2CE", "clipchamp.clipchamp", "MicrosoftCorporationII.MicrosoftFamily",
     "C27EB4BA.DropboxOEM", "*CandyCrush*", "*Twitter*", "*Facebook*", "*Minecraft*", "*DevHome*", "*Disney*",
-    "*Flipboard*", "*Duolingo*", "*Adobe*", "*BubbleWitch*", "*PandoraMediaInc*", "*EclipseManager*", "Microsoft.OutlookForWindows",
-    "*OutlookForWindows*"
+    "*Flipboard*", "*Duolingo*", "*Adobe*", "*BubbleWitch*", "*PandoraMediaInc*", "*EclipseManager*"
 )
 
 # Build regex and find installed bloatware
@@ -717,7 +718,7 @@ foreach ($AppName in $Bloatware) {
     }
 }
 
-Write-Host "`nApp removal process complete." -ForegroundColor Green
+Write-Host "`nApp removal process complete. Reboot is recommended." -ForegroundColor Green
 
 ############################################################################################################
 #                                        Remove Registry Keys                                              #
@@ -778,6 +779,16 @@ $UserSIDs = Get-ChildItem "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Pr
     }
     If (Test-Path $Advertising) {
         Set-ItemProperty $Advertising Enabled -Value 0 
+    }
+            
+    #Stops Cortana from being used as part of your Windows Search Function
+    Write-Host "Stopping Cortana from being used as part of your Windows Search Function"
+    $Search = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\Windows Search"
+    If (!(Test-Path $Search)) {
+        New-Item $Search
+    }
+    If (Test-Path $Search) {
+        Set-ItemProperty $Search AllowCortana -Value 0 
     }
 
     #Disables Web Search in Start Menu
@@ -896,6 +907,38 @@ $UserSIDs = Get-ChildItem "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Pr
         Set-ItemProperty $Live  NoTileApplicationNotification -Value 1 
     }
         
+    #Turns off Data Collection via the AllowTelemtry key by changing it to 0
+    # This is needed for Intune reporting to work, uncomment if using via other method
+    #Write-Host "Turning off Data Collection"
+    #$DataCollection1 = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\DataCollection"
+    #$DataCollection2 = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\DataCollection"
+    #$DataCollection3 = "HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Policies\DataCollection"    
+    #If (Test-Path $DataCollection1) {
+    #    Set-ItemProperty $DataCollection1  AllowTelemetry -Value 0 
+    #}
+    #If (Test-Path $DataCollection2) {
+    #    Set-ItemProperty $DataCollection2  AllowTelemetry -Value 0 
+    #}
+    #If (Test-Path $DataCollection3) {
+    #    Set-ItemProperty $DataCollection3  AllowTelemetry -Value 0 
+    #}
+    
+
+###Enable location tracking for "find my device", uncomment if you don't need it
+
+    #Disabling Location Tracking
+    #Write-Host "Disabling Location Tracking"
+    #$SensorState = "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Sensor\Overrides\{BFA794E4-F964-4FDB-90F6-51056BFE4B44}"
+    #$LocationConfig = "HKLM:\SYSTEM\CurrentControlSet\Services\lfsvc\Service\Configuration"
+    #If (!(Test-Path $SensorState)) {
+    #    New-Item $SensorState
+    #}
+    #Set-ItemProperty $SensorState SensorPermissionState -Value 0 
+    #If (!(Test-Path $LocationConfig)) {
+    #    New-Item $LocationConfig
+    #}
+    #Set-ItemProperty $LocationConfig Status -Value 0 
+        
     #Disables People icon on Taskbar
     Write-Host "Disabling People icon on Taskbar"
     $People = 'HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People'
@@ -910,6 +953,45 @@ $UserSIDs = Get-ChildItem "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Pr
             Set-ItemProperty $People -Name PeopleBand -Value 0
         }
     }
+
+    Write-Host "Disabling Cortana"
+    $Cortana1 = "HKCU:\SOFTWARE\Microsoft\Personalization\Settings"
+    $Cortana2 = "HKCU:\SOFTWARE\Microsoft\InputPersonalization"
+    $Cortana3 = "HKCU:\SOFTWARE\Microsoft\InputPersonalization\TrainedDataStore"
+    If (!(Test-Path $Cortana1)) {
+        New-Item $Cortana1
+    }
+    Set-ItemProperty $Cortana1 AcceptedPrivacyPolicy -Value 0 
+    If (!(Test-Path $Cortana2)) {
+        New-Item $Cortana2
+    }
+    Set-ItemProperty $Cortana2 RestrictImplicitTextCollection -Value 1 
+    Set-ItemProperty $Cortana2 RestrictImplicitInkCollection -Value 1 
+    If (!(Test-Path $Cortana3)) {
+        New-Item $Cortana3
+    }
+    Set-ItemProperty $Cortana3 HarvestContacts -Value 0
+
+    ##Loop through users and do the same
+    foreach ($sid in $UserSIDs) {
+        $Cortana1 = "Registry::HKU\$sid\SOFTWARE\Microsoft\Personalization\Settings"
+        $Cortana2 = "Registry::HKU\$sid\SOFTWARE\Microsoft\InputPersonalization"
+        $Cortana3 = "Registry::HKU\$sid\SOFTWARE\Microsoft\InputPersonalization\TrainedDataStore"
+        If (!(Test-Path $Cortana1)) {
+            New-Item $Cortana1
+        }
+        Set-ItemProperty $Cortana1 AcceptedPrivacyPolicy -Value 0 
+        If (!(Test-Path $Cortana2)) {
+            New-Item $Cortana2
+        }
+        Set-ItemProperty $Cortana2 RestrictImplicitTextCollection -Value 1 
+        Set-ItemProperty $Cortana2 RestrictImplicitInkCollection -Value 1 
+        If (!(Test-Path $Cortana3)) {
+            New-Item $Cortana3
+        }
+        Set-ItemProperty $Cortana3 HarvestContacts -Value 0
+    }
+
 
     #Removes 3D Objects from the 'My Computer' submenu in explorer
     Write-Host "Removing 3D Objects from explorer 'My Computer' submenu"
@@ -937,7 +1019,9 @@ else {
     New-ItemProperty -Path $registryPath -Name $name -Value $value -PropertyType DWORD -Force | Out-Null
 }
 
-
+##Kill Cortana again
+Get-AppxPackage - allusers Microsoft.549981C3F5F10 | Remove AppxPackage
+    
 ############################################################################################################
 #                                        Remove Scheduled Tasks                                            #
 #                                                                                                          #
@@ -1003,6 +1087,16 @@ else {
 ############################################################################################################
     #Windows 11 Customisations
     write-host "Removing Windows 11 Customisations"
+    #Remove XBox Game Bar
+    
+    Get-AppxPackage -allusers Microsoft.XboxGamingOverlay | Remove-AppxPackage
+    write-host "Removed Xbox Gaming Overlay"
+    Get-AppxPackage -allusers Microsoft.XboxGameCallableUI | Remove-AppxPackage
+    write-host "Removed Xbox Game Callable UI"
+
+    #Remove Cortana
+    Get-AppxPackage -allusers Microsoft.549981C3F5F10 | Remove-AppxPackage
+    write-host "Removed Cortana"
 
     #Remove GetStarted
     Get-AppxPackage -allusers *getstarted* | Remove-AppxPackage
@@ -1068,6 +1162,104 @@ write-host "Removed"
 }
 
 ############################################################################################################
+#                                           Windows CoPilot                                                #
+#                                                                                                          #
+############################################################################################################
+$version = Get-WMIObject win32_operatingsystem | Select-Object Caption
+if ($version.Caption -like "*Windows 11*") {
+    write-host "Removing Windows Copilot"
+# Define the registry key and value
+$registryPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsCopilot"
+$propertyName = "TurnOffWindowsCopilot"
+$propertyValue = 1
+
+# Check if the registry key exists
+if (!(Test-Path $registryPath)) {
+    # If the registry key doesn't exist, create it
+    New-Item -Path $registryPath -Force | Out-Null
+}
+
+# Get the property value
+$currentValue = Get-ItemProperty -Path $registryPath -Name $propertyName -ErrorAction SilentlyContinue
+
+# Check if the property exists and if its value is different from the desired value
+if ($null -eq $currentValue -or $currentValue.$propertyName -ne $propertyValue) {
+    # If the property doesn't exist or its value is different, set the property value
+    Set-ItemProperty -Path $registryPath -Name $propertyName -Value $propertyValue
+}
+
+
+##Grab the default user as well
+$registryPath = "HKEY_USERS\.DEFAULT\Software\Policies\Microsoft\Windows\WindowsCopilot"
+$propertyName = "TurnOffWindowsCopilot"
+$propertyValue = 1
+
+# Check if the registry key exists
+if (!(Test-Path $registryPath)) {
+    # If the registry key doesn't exist, create it
+    New-Item -Path $registryPath -Force | Out-Null
+}
+
+# Get the property value
+$currentValue = Get-ItemProperty -Path $registryPath -Name $propertyName -ErrorAction SilentlyContinue
+
+# Check if the property exists and if its value is different from the desired value
+if ($null -eq $currentValue -or $currentValue.$propertyName -ne $propertyValue) {
+    # If the property doesn't exist or its value is different, set the property value
+    Set-ItemProperty -Path $registryPath -Name $propertyName -Value $propertyValue
+}
+
+
+##Load the default hive from c:\users\Default\NTUSER.dat
+reg load HKU\temphive "c:\users\default\ntuser.dat"
+$registryPath = "registry::hku\temphive\Software\Policies\Microsoft\Windows\WindowsCopilot"
+$propertyName = "TurnOffWindowsCopilot"
+$propertyValue = 1
+
+# Check if the registry key exists
+if (!(Test-Path $registryPath)) {
+    # If the registry key doesn't exist, create it
+    [Microsoft.Win32.RegistryKey]$HKUCoPilot = [Microsoft.Win32.Registry]::Users.CreateSubKey("temphive\Software\Policies\Microsoft\Windows\WindowsCopilot", [Microsoft.Win32.RegistryKeyPermissionCheck]::ReadWriteSubTree)
+    $HKUCoPilot.SetValue("TurnOffWindowsCopilot", 0x1, [Microsoft.Win32.RegistryValueKind]::DWord)
+}
+
+        
+
+
+
+    $HKUCoPilot.Flush()
+    $HKUCoPilot.Close()
+[gc]::Collect()
+[gc]::WaitForPendingFinalizers()
+reg unload HKU\temphive
+
+
+write-host "Removed"
+
+
+foreach ($sid in $UserSIDs) {
+    $registryPath = "Registry::HKU\$sid\SOFTWARE\Policies\Microsoft\Windows\WindowsCopilot"
+    $propertyName = "TurnOffWindowsCopilot"
+    $propertyValue = 1
+    
+    # Check if the registry key exists
+    if (!(Test-Path $registryPath)) {
+        # If the registry key doesn't exist, create it
+        New-Item -Path $registryPath -Force | Out-Null
+    }
+    
+    # Get the property value
+    $currentValue = Get-ItemProperty -Path $registryPath -Name $propertyName -ErrorAction SilentlyContinue
+    
+    # Check if the property exists and if its value is different from the desired value
+    if ($null -eq $currentValue -or $currentValue.$propertyName -ne $propertyValue) {
+        # If the property doesn't exist or its value is different, set the property value
+        Set-ItemProperty -Path $registryPath -Name $propertyName -Value $propertyValue
+    }
+}
+}
+
+############################################################################################################
 #                                             Clear Start Menu                                             #
 #                                                                                                          #
 ############################################################################################################
@@ -1129,10 +1321,57 @@ $blankjson = @'
 $blankjson | Out-File "C:\Users\Default\AppData\Local\Microsoft\Windows\Shell\LayoutModification.xml" -Encoding utf8 -Force
 }
 
+
+############################################################################################################
+#                                              Remove Xbox Gaming                                          #
+#                                                                                                          #
+############################################################################################################
+
+New-ItemProperty -Path "HKLM:\System\CurrentControlSet\Services\xbgm" -Name "Start" -PropertyType DWORD -Value 4 -Force
+Set-Service -Name XblAuthManager -StartupType Disabled
+Set-Service -Name XblGameSave -StartupType Disabled
+Set-Service -Name XboxGipSvc -StartupType Disabled
+Set-Service -Name XboxNetApiSvc -StartupType Disabled
+$task = Get-ScheduledTask -TaskName "Microsoft\XblGameSave\XblGameSaveTask" -ErrorAction SilentlyContinue
+if ($null -ne $task) {
+Set-ScheduledTask -TaskPath $task.TaskPath -Enabled $false
+}
+
+##Check if GamePresenceWriter.exe exists
+if (Test-Path "$env:WinDir\System32\GameBarPresenceWriter.exe") {
+    write-host "GamePresenceWriter.exe exists"
+    C:\Windows\Temp\SetACL.exe -on  "$env:WinDir\System32\GameBarPresenceWriter.exe" -ot file -actn setowner -ownr "n:$everyone"
+C:\Windows\Temp\SetACL.exe -on  "$env:WinDir\System32\GameBarPresenceWriter.exe" -ot file -actn ace -ace "n:$everyone;p:full"
+
+#Take-Ownership -Path "$env:WinDir\System32\GameBarPresenceWriter.exe"
+$NewAcl = Get-Acl -Path "$env:WinDir\System32\GameBarPresenceWriter.exe"
+# Set properties
+$identity = "$builtin\Administrators"
+$fileSystemRights = "FullControl"
+$type = "Allow"
+# Create new rule
+$fileSystemAccessRuleArgumentList = $identity, $fileSystemRights, $type
+$fileSystemAccessRule = New-Object -TypeName System.Security.AccessControl.FileSystemAccessRule -ArgumentList $fileSystemAccessRuleArgumentList
+# Apply new rule
+$NewAcl.SetAccessRule($fileSystemAccessRule)
+Set-Acl -Path "$env:WinDir\System32\GameBarPresenceWriter.exe" -AclObject $NewAcl
+Stop-Process -Name "GameBarPresenceWriter.exe" -Force
+Remove-Item "$env:WinDir\System32\GameBarPresenceWriter.exe" -Force -Confirm:$false
+
+}
+else {
+    write-host "GamePresenceWriter.exe does not exist"
+}
+
+New-ItemProperty -Path "HKLM:\Software\Policies\Microsoft\Windows\GameDVR" -Name "AllowgameDVR" -PropertyType DWORD -Value 0 -Force
+New-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" -Name "SettingsPageVisibility" -PropertyType String -Value "hide:gaming-gamebar;gaming-gamedvr;gaming-broadcasting;gaming-gamemode;gaming-xboxnetworking" -Force
+Remove-Item C:\Windows\Temp\SetACL.exe -recurse
+
 ############################################################################################################
 #                                       Grab all Uninstall Strings                                         #
 #                                                                                                          #
 ############################################################################################################
+
 
 write-host "Checking 32-bit System Registry"
 ##Search for 32-bit versions and list them
@@ -1270,179 +1509,118 @@ $allstring += New-Object -TypeName PSObject -Property @{
 #                                        Remove Manufacturer Bloat                                         #
 #                                                                                                          #
 ############################################################################################################
-# -------- HP removal (enforced) --------
-Write-Host "Detecting Manufacturer"
+##Check Manufacturer
+write-host "Detecting Manufacturer"
 $details = Get-CimInstance -ClassName Win32_ComputerSystem
 $manufacturer = $details.Manufacturer
 
 if ($manufacturer -like "*HP*") {
-    Write-Host "HP detected — enforcing removal of specified HP components"
+    Write-Host "HP detected"
+    #Remove HP bloat
 
-    # Prefix for HP Store apps (Appx)
-    $HPIdentifier = 'AD2F1837'
 
-    # =============== HP Store apps to REMOVE ===============
-    $HPRemoveAppx = @(
-        'AD2F1837.HPQuickDrop',
-        'AD2F1837.HPPrivacySettings',
-        'AD2F1837.HPPowerManager',
-        'AD2F1837.HPSystemDefaultSettings',
-        'AD2F1837.HPDocumentation',
-        'AD2F1837.HPSureRun',
-        'AD2F1837.HPSureRecover'
-    )
+##HP Specific
+$UninstallPrograms = @(
+    "HP Client Security Manager"
+    "HP Notifications"
+    "HP Security Update Service"
+    "HP System Default Settings"
+    "HP Wolf Security"
+    "HP Wolf Security Application Support for Sure Sense"
+    "HP Wolf Security Application Support for Windows"
+    "AD2F1837.HPPCHardwareDiagnosticsWindows"
+    "AD2F1837.HPPowerManager"
+    "AD2F1837.HPPrivacySettings"
+    "AD2F1837.HPQuickDrop"
+    "AD2F1837.HPSupportAssistant"
+    "AD2F1837.HPSystemInformation"
+    "AD2F1837.myHP"
+    "RealtekSemiconductorCorp.HPAudioControl",
+    "HP Sure Recover",
+    "HP Sure Run Module"
+    "RealtekSemiconductorCorp.HPAudioControl_2.39.280.0_x64__dt26b99r8h8gj"
+)
 
-    # =============== HP programs to REMOVE ===============
-    $HPRemovePrograms = @(
-        'HP Client Security Manager',
-        'HP Notifications',
-        'HP Security Update Service',
-        'HP Wolf Security',
-        'HP Wolf Security - Console',
-        'HP Wolf Security Application Support for Sure Sense',
-        'HP Wolf Security Application Support for Windows',
-        'HP Sure Click',
-        'HP Sure Sense',
-        'HP Connection Optimizer',
-        'HP Sure Run',
-        'HP Sure Recover'
-    )
+$HPidentifier = "AD2F1837"
 
-    # =============== HP programs to KEEP ===============
-    $HPKeepPrograms = @(
-        'HP Support Assistant',
-        'HP PC Hardware Diagnostics Windows',
-        'HP System Information',
-        'HP Hotkey Support',
-        'HP Performance Advisor',
-        'HP Thunderbolt Secure Connect',
-        'HP Audio Control', 'Realtek Audio Console'
-    )
+$InstalledPackages = Get-AppxPackage -AllUsers | Where-Object {(($UninstallPackages -contains $_.Name) -or ($_.Name -match "^$HPidentifier"))-and ($_.Name -NotMatch $WhitelistedApps)}
 
-    function Test-InExactCI { param([string]$Name, [string[]]$List)
-        return $List -and ($List | Where-Object { $_ -and ($_ -eq $Name) } | Measure-Object).Count -gt 0
+$ProvisionedPackages = Get-AppxProvisionedPackage -Online | Where-Object {(($UninstallPackages -contains $_.Name) -or ($_.Name -match "^$HPidentifier"))-and ($_.Name -NotMatch $WhitelistedApps)}
+
+$InstalledPrograms = $allstring | Where-Object {$UninstallPrograms -contains $_.Name}
+
+# Remove provisioned packages first
+ForEach ($ProvPackage in $ProvisionedPackages) {
+
+    Write-Host -Object "Attempting to remove provisioned package: [$($ProvPackage.DisplayName)]..."
+
+    Try {
+        $Null = Remove-AppxProvisionedPackage -PackageName $ProvPackage.PackageName -Online -ErrorAction Stop
+        Write-Host -Object "Successfully removed provisioned package: [$($ProvPackage.DisplayName)]"
     }
-
-    # =============== Appx: Installed for existing users ===============
-    $InstalledAppx = Get-AppxPackage -AllUsers | Where-Object {
-        # Those not in the list shall be PURGED
-        ($_.Name -like "$HPIdentifier.*") -and
-        (Test-InExactCI $_.Name $HPRemoveAppx) -and
-        -not (Test-InExactCI $_.Name $WhitelistedApps)
-    }
-
-    if ($InstalledAppx) {
-        Write-Host "`n[HP] Removing installed Appx packages:" -ForegroundColor Yellow
-        $InstalledAppx | Select Name, PackageFullName | Format-Table -AutoSize
-        foreach ($pkg in $InstalledAppx) {
-            try {
-                Remove-AppxPackage -Package $pkg.PackageFullName -AllUsers -ErrorAction Stop
-                Write-Host "Removed Appx: $($pkg.Name)" -ForegroundColor Cyan
-            } catch { Write-Warning "Failed to remove Appx $($pkg.Name): $_" }
-        }
-    } else {
-        Write-Host "[HP] No installed HP Appx packages matched for removal." -ForegroundColor DarkGray
-    }
-
-    # =============== Appx: Provisioned for new users ===============
-    $ProvAppx = Get-AppxProvisionedPackage -Online | Where-Object {
-        # Note: provisioned uses DisplayName
-        ($_.DisplayName -like "$HPIdentifier.*") -and
-        (Test-InExactCI $_.DisplayName $HPRemoveAppx) -and
-        -not (Test-InExactCI $_.DisplayName $WhitelistedApps)
-    }
-
-    if ($ProvAppx) {
-        Write-Host "`n[HP] Deprovisioning Appx packages for new users:" -ForegroundColor Yellow
-        $ProvAppx | Select DisplayName, PackageName | Format-Table -AutoSize
-        foreach ($p in $ProvAppx) {
-            try {
-                Remove-AppxProvisionedPackage -Online -PackageName $p.PackageName -ErrorAction Stop
-                Write-Host "Deprovisioned: $($p.DisplayName)" -ForegroundColor Cyan
-            } catch { Write-Warning "Failed to deprovision $($p.DisplayName): $_" }
-        }
-    } else {
-        Write-Host "[HP] No provisioned HP Appx packages matched for removal." -ForegroundColor DarkGray
-    }
-
-    # =============== Classic installers (MSI/EXE) ===============
-    # Requires $allstring from your earlier discovery step:
-    #   $allstring | Select Name, String  (String = uninstall command)
-    $HPPrograms = $allstring |
-        Where-Object { $_.Name -and $_.String } |
-        Where-Object {
-            (Test-InExactCI $_.Name $HPRemovePrograms) -and
-            -not (Test-InExactCI $_.Name $HPKeepPrograms)
-        } |
-        Sort-Object Name -Unique
-
-    if ($HPPrograms) {
-        Write-Host "`n[HP] Uninstalling classic programs:" -ForegroundColor Yellow
-        $HPPrograms | Format-Table Name, String -AutoSize
-
-        foreach ($item in $HPPrograms) {
-            try {
-                $cmd = $item.String
-                if ($cmd -match '^(?i)msiexec(\.exe)?\b') {
-                    # Strip leading msiexec and run silently
-                    $args = $cmd -replace '^(?i)msiexec(\.exe)?\s*',''
-                    if ($args -notmatch '(?i)\s/q(|n)\b') { $args += ' /qn' }
-                    if ($args -notmatch '(?i)\s/norestart\b') { $args += ' /norestart' }
-                    Start-Process msiexec.exe -ArgumentList $args -Wait -NoNewWindow
-                } else {
-                    # Split exe + args
-                    $m = [regex]::Match($cmd,'^"?(?<exe>[^"\s]+|"[^"]+")\s*(?<args>.*)$')
-                    $exe = $m.Groups['exe'].Value.Trim('"')
-                    $args = $m.Groups['args'].Value
-                    Start-Process $exe -ArgumentList $args -Wait -NoNewWindow
-                }
-                Write-Host "Uninstalled: $($item.Name)" -ForegroundColor Cyan
-            } catch { Write-Warning "Failed to uninstall $($item.Name): $_" }
-        }
-    } else {
-        Write-Host "[HP] No classic programs matched for removal." -ForegroundColor DarkGray
-    }
-
-    # =============== Sure Run / Sure Recover cleanup (services & leftovers) ===============
-    $hpServices = @(
-        'HPSureRunService','HPSureRunServiceHost','HPSureRecover',
-        'HPSecurityUpdateService','HPWolfSecurityService','HPWolfPlatformService',
-        'HPSureClickService','HPSureSenseService'
-    )
-    foreach ($svcName in $hpServices) {
-        $svc = Get-Service -Name $svcName -ErrorAction SilentlyContinue
-        if ($svc) {
-            try {
-                Stop-Service $svcName -Force -ErrorAction SilentlyContinue
-                Start-Sleep -Seconds 1
-                $svc.Refresh()
-                if ($svc.Status -eq 'Stopped') {
-                    Set-Service $svcName -StartupType Disabled
-                    Write-Host "Stopped & disabled: $svcName" -ForegroundColor DarkCyan
-                }
-            } catch {}
-        }
-    }
-
-    # Common install paths to purge
-    $hpPaths = @(
-        "C:\Program Files\HP\HP Sure Run",
-        "C:\Program Files\HP\HP Sure Recover",
-        "C:\Program Files (x86)\HP\HP Sure Run",
-        "C:\Program Files (x86)\HP\HP Sure Recover",
-        "C:\ProgramData\HP\HP Sure Run",
-        "C:\ProgramData\HP\HP Sure Recover"
-    )
-    foreach ($p in $hpPaths) {
-        if (Test-Path $p) {
-            try { Remove-Item -Path $p -Recurse -Force -ErrorAction SilentlyContinue; Write-Host "Removed: $p" -ForegroundColor DarkCyan } catch {}
-        }
-    }
-
-    Write-Host "`nHP component removal complete." -ForegroundColor Green
+    Catch {Write-Warning -Message "Failed to remove provisioned package: [$($ProvPackage.DisplayName)]"}
 }
 
-# Double Check if Wolf Security is ACTUALLY deleted;
+# Remove appx packages
+ForEach ($AppxPackage in $InstalledPackages) {
+                                            
+    Write-Host -Object "Attempting to remove Appx package: [$($AppxPackage.Name)]..."
+
+    Try {
+        $Null = Remove-AppxPackage -Package $AppxPackage.PackageFullName -AllUsers -ErrorAction Stop
+        Write-Host -Object "Successfully removed Appx package: [$($AppxPackage.Name)]"
+    }
+    Catch {Write-Warning -Message "Failed to remove Appx package: [$($AppxPackage.Name)]"}
+}
+
+# Remove installed programs
+$InstalledPrograms | ForEach-Object {
+
+    Write-Host -Object "Attempting to uninstall: [$($_.Name)]..."
+    $uninstallcommand = $_.String
+
+    Try {
+        if ($uninstallcommand -match "^msiexec*") {
+            #Remove msiexec as we need to split for the uninstall
+            $uninstallcommand = $uninstallcommand -replace "msiexec.exe", ""
+            #Uninstall with string2 params
+            Start-Process 'msiexec.exe' -ArgumentList $uninstallcommand -NoNewWindow -Wait
+            }
+            else {
+            #Exe installer, run straight path
+            $string2 = $uninstallcommand
+            start-process $string2
+            }
+        #$A = Start-Process -FilePath $uninstallcommand -Wait -passthru -NoNewWindow;$a.ExitCode
+        #$Null = $_ | Uninstall-Package -AllVersions -Force -ErrorAction Stop
+        Write-Host -Object "Successfully uninstalled: [$($_.Name)]"
+    }
+    Catch {Write-Warning -Message "Failed to uninstall: [$($_.Name)]"}
+
+
+}
+
+##Belt and braces, remove via CIM too
+foreach ($program in $UninstallPrograms) {
+Get-CimInstance -Classname Win32_Product | Where-Object Name -Match $program | Invoke-CimMethod -MethodName UnInstall
+}
+
+
+#Remove HP Documentation if it exists
+if (test-path -Path "C:\Program Files\HP\Documentation\Doc_uninstall.cmd") {
+$A = Start-Process -FilePath "C:\Program Files\HP\Documentation\Doc_uninstall.cmd" -Wait -passthru -NoNewWindow
+}
+
+##Remove HP Connect Optimizer if setup.exe exists
+if (test-path -Path 'C:\Program Files (x86)\InstallShield Installation Information\{6468C4A5-E47E-405F-B675-A70A70983EA6}\setup.exe') {
+Invoke-WebRequest -uri "https://raw.githubusercontent.com/ASITScripts/ASITCORE/Pre-InstallREQs/HPConnOpt.iss" -outfile "C:\Windows\Temp\HPConnOpt.iss"
+
+&'C:\Program Files (x86)\InstallShield Installation Information\{6468C4A5-E47E-405F-B675-A70A70983EA6}\setup.exe' @('-s', '-f1C:\Windows\Temp\HPConnOpt.iss')
+}
+Write-Host "Removed HP bloat"
+}
+
+#Double Check if Wolf Security is ACTUALLY deleted;
 Write-Host "Searching for HP Wolf Security-related applications..." -ForegroundColor Cyan
  
 # List of HP Security products to search for
@@ -1515,8 +1693,6 @@ foreach ($path in $hpPaths) {
 }
  
 Write-Host "HP Wolf Security removal complete!" -ForegroundColor Magenta
-
-# =============== END HP removal ===============
 
 if ($manufacturer -like "*Dell*") {
     Write-Host "Dell detected"
@@ -1623,6 +1799,8 @@ foreach ($program in $UninstallPrograms) {
 
 if ($manufacturer -like "Lenovo") {
     Write-Host "Lenovo detected"
+
+    #Remove HP bloat
 
 ##Lenovo Specific
     # Function to uninstall applications with .exe uninstall strings
@@ -1845,8 +2023,7 @@ foreach($obj32 in $InstalledSoftware32){
 
 if ($mcafeeinstalled -eq "true") {
     Write-Host "McAfee detected"
-
-# Remove McAfee bloat
+    #Remove McAfee bloat
 # McAfee
 ##### Download McAfee Consumer Product Removal Tool #####
 write-host "Downloading McAfee Removal Tool"
@@ -1873,11 +2050,6 @@ Write-Host -ForegroundColor Green ("[$Time]`t" + "Bloatware removal completed...
 Start-Sleep -s 5
 
 # App installation
-
-# Photos
-winget install --id 9WZDNCRFJBH4 -e  # Microsoft Photos
-# Paint
-winget install --id 9PCFS5B6T72H -e  # Microsoft Paint
 
 $DesktopPath = [Environment]::GetFolderPath("Desktop")
 
@@ -2008,3 +2180,6 @@ catch {
 Stop-Transcript
 
 Remove-Item $script:MyInvocation.MyCommand.Path -Force
+
+
+
