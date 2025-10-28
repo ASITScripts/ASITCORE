@@ -1098,7 +1098,7 @@ if ($manufacturer -like "*HP*") {
                 $svc.Refresh()
                 if ($svc.Status -eq 'Stopped') {
                     Set-Service $svcName -StartupType Disabled
-                    Write-Host "Stopped & disabled: $svcName" -ForegroundColor DarkCyan
+                    Write-Host "Stopped and disabled: $svcName" -ForegroundColor DarkCyan
                 }
             } catch {}
         }
