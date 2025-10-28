@@ -955,8 +955,8 @@ Write-Host "Detecting Manufacturer"
 $details = Get-CimInstance -ClassName Win32_ComputerSystem
 $manufacturer = $details.Manufacturer
 
-if ($manufacturer -like "*HP*") {
-    Write-Host "HP detected — enforcing removal of specified HP components"
+if ($manufacturer -like '*HP*') {
+    Write-Host "HP Detected"
 
     # Prefix for HP Store apps (Appx)
     $HPIdentifier = 'AD2F1837'
