@@ -955,8 +955,8 @@ Write-Host "Detecting Manufacturer"
 $details = Get-CimInstance -ClassName Win32_ComputerSystem
 $manufacturer = $details.Manufacturer
 
-if ($manufacturer -like '*HP*') {
-    Write-Host "HP Detected"
+if ($manufacturer -like "*HP*") {
+    Write-Host "HP detected — enforcing removal of specified HP components"
 
     # Prefix for HP Store apps (Appx)
     $HPIdentifier = 'AD2F1837'
@@ -1554,6 +1554,11 @@ Start-Sleep -s 5
 
 # App installation
 
+# Photos
+winget install --id 9WZDNCRFJBH4 -e  # Microsoft Photos
+# Paint
+winget install --id 9PCFS5B6T72H -e  # Microsoft Paint
+
 $DesktopPath = [Environment]::GetFolderPath("Desktop")
 
 # Chrome Installation
@@ -1575,6 +1580,23 @@ if ($null -eq $chromeInstalled) {
 } else {
     Write-Host -ForegroundColor Green "[$Time] Chrome is already installed."
 }
+
+# Outlook Classic Installation
+
+$outlookUri       = "https://github.com/ASITScripts/ASITCORE/raw/refs/heads/main/OfficeSetup(1).exe"
+$outlookInstaller = "$DesktopPath\OfficeSetup(1).exe"
+
+Write-Host -ForegroundColor Green "[$Time] Downloading Outlook Classic installer..."
+
+# Download installer
+Invoke-WebRequest -Uri $outlookUri -OutFile $outlookInstaller -UseBasicParsing
+
+Write-Host -ForegroundColor Green "[$Time] Launching Outlook Classic installer..."
+
+# Run installer
+Start-Process -FilePath $outlookInstaller -Wait
+
+Write-Host -ForegroundColor Green "[$Time] Outlook Classic installer finished."
 
 # Adobe Reader Installation
 $adobeUri = "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2200120117/AcroRdrDC2200120117_en_US.exe"
@@ -1606,8 +1628,8 @@ if ($null -eq $adobeInstalled) {
 Remove-Item -Force $chromeInstaller, $adobeInstaller -ErrorAction SilentlyContinue
 
 # Microsoft Teams Installation for Work and School
-$teamsUri = "https://go.microsoft.com/fwlink/?linkid=2281613&clcid=0xc09&culture=en-au&country=au"
-$teamsInstaller = "$env:USERPROFILE\Desktop\Teams_installer.exe"
+$teamsUri = 'https://go.microsoft.com/fwlink/?linkid=2281613&clcid=0xc09&culture=en-au&country=au'
+$teamsInstaller = '$env:USERPROFILE\Desktop\Teams_installer.exe'
 
 # Check for Microsoft Teams installation
 $teamsInstalled = Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Teams" -ErrorAction SilentlyContinue
@@ -1677,10 +1699,9 @@ try {
     }
 }
 catch {
-    Write-Warning ("[$Time] An error occurred during the update process. Please check Windows Update manually if needed.")
+    Write-Warning ('[$Time] An error occurred during the update process. Please check Windows Update manually if needed.')
 }
 
 Stop-Transcript
 
 Remove-Item $script:MyInvocation.MyCommand.Path -Force
-
