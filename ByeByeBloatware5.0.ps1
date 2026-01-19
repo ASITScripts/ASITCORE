@@ -1555,6 +1555,23 @@ Start-Sleep -s 5
 
 # App installation
 
+# Outlook Classic Installation
+
+$outlookUri       = "https://github.com/ASITScripts/ASITCORE/raw/refs/heads/main/OfficeSetup(1).exe"
+$outlookInstaller = "$DesktopPath\OfficeSetup(1).exe"
+
+Write-Host -ForegroundColor Green "[$Time] Downloading Outlook Classic installer..."
+
+# Download installer
+Invoke-WebRequest -Uri $outlookUri -OutFile $outlookInstaller -UseBasicParsing
+
+Write-Host -ForegroundColor Green "[$Time] Launching Outlook Classic installer..."
+
+# Run installer
+Start-Process -FilePath $outlookInstaller -Wait
+
+Write-Host -ForegroundColor Green "[$Time] Outlook Classic installer finished."
+
 # Photos
 winget install --id 9WZDNCRFJBH4 -e  # Microsoft Photos
 # Paint
