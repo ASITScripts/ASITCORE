@@ -12,7 +12,8 @@ $ASITScripts = "C:\ASITScripts"
 ##Elevate if needed
 
 If (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]'Administrator')) {
-    Write-Host -ForegroundColor Red ("[$Time]`t" + "You didn't run this script as an Administrator. This script will self elevate to run as an Administrator and continue.")
+    Write-Host -ForegroundColor Red ("[$Time]`tYou didn't run this script as an Administrator.")
+    Write-Host -ForegroundColor Red ("[$Time]`tThis script will self elevate to run as an Administrator and continue.")
     Start-Sleep 1
     Write-Host -ForegroundColor Green ("[$Time]`t" + "                                               3")
     Start-Sleep 1
@@ -955,8 +956,8 @@ Write-Host "Detecting Manufacturer"
 $details = Get-CimInstance -ClassName Win32_ComputerSystem
 $manufacturer = $details.Manufacturer
 
-if ($manufacturer -like "*HP*") {
-    Write-Host "HP detected — enforcing removal of specified HP components"
+if ($manufacturer -like '*HP*') {
+    Write-Host "HP Detected"
 
     # Prefix for HP Store apps (Appx)
     $HPIdentifier = 'AD2F1837'
@@ -1581,23 +1582,6 @@ if ($null -eq $chromeInstalled) {
     Write-Host -ForegroundColor Green "[$Time] Chrome is already installed."
 }
 
-# Outlook Classic Installation
-
-$outlookUri       = "https://github.com/ASITScripts/ASITCORE/raw/refs/heads/main/OfficeSetup(1).exe"
-$outlookInstaller = "$DesktopPath\OfficeSetup(1).exe"
-
-Write-Host -ForegroundColor Green "[$Time] Downloading Outlook Classic installer..."
-
-# Download installer
-Invoke-WebRequest -Uri $outlookUri -OutFile $outlookInstaller -UseBasicParsing
-
-Write-Host -ForegroundColor Green "[$Time] Launching Outlook Classic installer..."
-
-# Run installer
-Start-Process -FilePath $outlookInstaller -Wait
-
-Write-Host -ForegroundColor Green "[$Time] Outlook Classic installer finished."
-
 # Adobe Reader Installation
 $adobeUri = "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2200120117/AcroRdrDC2200120117_en_US.exe"
 $adobeInstaller = "$DesktopPath\AcroRdrDC2200120117_en_US.exe"
@@ -1628,8 +1612,8 @@ if ($null -eq $adobeInstalled) {
 Remove-Item -Force $chromeInstaller, $adobeInstaller -ErrorAction SilentlyContinue
 
 # Microsoft Teams Installation for Work and School
-$teamsUri = 'https://go.microsoft.com/fwlink/?linkid=2281613&clcid=0xc09&culture=en-au&country=au'
-$teamsInstaller = '$env:USERPROFILE\Desktop\Teams_installer.exe'
+$teamsUri = "https://go.microsoft.com/fwlink/?linkid=2281613&clcid=0xc09&culture=en-au&country=au"
+$teamsInstaller = "$env:USERPROFILE\Desktop\Teams_installer.exe"
 
 # Check for Microsoft Teams installation
 $teamsInstalled = Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Teams" -ErrorAction SilentlyContinue
@@ -1699,7 +1683,7 @@ try {
     }
 }
 catch {
-    Write-Warning ('[$Time] An error occurred during the update process. Please check Windows Update manually if needed.')
+    Write-Warning ("[$Time] An error occurred during the update process. Please check Windows Update manually if needed.")
 }
 
 Stop-Transcript
