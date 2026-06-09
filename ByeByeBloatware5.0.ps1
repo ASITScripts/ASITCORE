@@ -332,7 +332,7 @@ $TopMenu = (
     '80 - WINENET',
     '81 - YARRA YERRING',
     '82 - YMBF',
-    '83 - James Nicolaou Real Estate'
+    '83 - James Nicolaou Real Estate',
     '0 - No RMM Client required'
 )
 
