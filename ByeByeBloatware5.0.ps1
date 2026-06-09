@@ -136,6 +136,7 @@ $WINENET = "Main (WineNet)_Windows_OS_ITSPlatform_TKNd35f7dd1-1e89-4463-a5b4-e77
 $YARRAYERRING = "Main (YarraYering)_Windows_OS_ITSPlatform_TKN07149f93-a1ef-4087-924c-a5d09b907c36.msi"
 $YMBF = "Main (YMBF)_Windows_OS_ITSPlatform_TKNdaa1ef84-79b1-4c6a-8f6f-3d84a7897906.msi"
 $TAILOREDFRESH = "Main-Tailored_Fresh_Windows_OS_ITSPlatform_TKN0a45ee3f-b570-48b2-892d-bfea887e39b4.msi"
+$JAMES = "Port_Melbourne_Office-James_Nicolaou_Real_Estate_Windows_OS_ITSPlatform_TKNce106eda-96f1-4ba4-be36-572f2e69dec9.msi"
 
 # Add new sites above
 # no errors throughout
@@ -331,6 +332,7 @@ $TopMenu = (
     '80 - WINENET',
     '81 - YARRA YERRING',
     '82 - YMBF',
+    '83 - James Nicolaou Real Estate'
     '0 - No RMM Client required'
 )
 
@@ -422,6 +424,7 @@ switch ($Choice)
     '80' {$Selection = $WINENET}
     '81' {$Selection = $YARRAYERRING}
     '82' {$Selection = $YMBF}
+    '83' {$Selection = $JAMES}
     '0'  {$Selection = "NORMM"}
     }
 
